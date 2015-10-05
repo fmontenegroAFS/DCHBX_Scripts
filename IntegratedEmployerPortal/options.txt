@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\francis.montenegro\Documents\VuGen\Scripts\IntegratedEmployerPortal_V1_FM_09082015
+-IC:\Users\francis.montenegro\Documents\GitHub\DCHBX_Perf_Scripts\IntegratedEmployerPortal
 -IC:\Program Files (x86)\HP\LoadRunner\include
--ec:\users\francis.montenegro\documents\vugen\scripts\integratedemployerportal_v1_fm_09082015\\logfile.log
-c:\users\francis.montenegro\documents\vugen\scripts\integratedemployerportal_v1_fm_09082015\\combined_IntegratedEmployerPortal_V1_FM_09082015.c
-c:\users\francis.montenegro\documents\vugen\scripts\integratedemployerportal_v1_fm_09082015\\pre_cci.c
+-ec:\users\francis.montenegro\documents\github\dchbx_perf_scripts\integratedemployerportal\\logfile.log
+c:\users\francis.montenegro\documents\github\dchbx_perf_scripts\integratedemployerportal\\combined_IntegratedEmployerPortal.c
+c:\users\francis.montenegro\documents\github\dchbx_perf_scripts\integratedemployerportal\\pre_cci.c

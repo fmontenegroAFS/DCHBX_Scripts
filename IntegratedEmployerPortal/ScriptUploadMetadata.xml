@@ -42,7 +42,13 @@
     <FileEntry Name="UserTasks.xml" Filter="2" />
     <FileEntry Name="Watches.xml" Filter="2" />
     <FileEntry Name="randomname.h" Filter="2" />
+    <FileEntry Name="combined_IntegratedEmployerPortal.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="DfeConfig\" Filter="2" />
+    <FileEntry Name="1515931999.idx" Filter="1" />
+    <FileEntry Name="2570465909.idx" Filter="1" />
+    <FileEntry Name="3791465444.idx" Filter="1" />
+    <FileEntry Name="5427149444.idx" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
     <FileEntry Name="debug.prm.bak" Filter="1" />
     <FileEntry Name="EnrollAppEmployer_4SIMON_V1.prm.bak" Filter="1" />
@@ -59,11 +65,15 @@
     <FileEntry Name="EnrollAppEmployer_V7_HT_08272015.prm.bak" Filter="1" />
     <FileEntry Name="HarishEmployer.prm.bak" Filter="1" />
     <FileEntry Name="HTTP.dat" Filter="1" />
+    <FileEntry Name="IntegratedEmployerPortal.c.pickle" Filter="1" />
+    <FileEntry Name="IntegratedEmployerPortal.ci" Filter="1" />
+    <FileEntry Name="IntegratedEmployerPortal.prm.bak" Filter="1" />
     <FileEntry Name="IntegratedEmployerPortal.sdf" Filter="1" />
     <FileEntry Name="IntegratedEmployerPortal_V1_FM_09082015.prm.bak" Filter="1" />
     <FileEntry Name="IntegratedURL.dat" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
     <FileEntry Name="mdrv0FS.787.log" Filter="1" />
     <FileEntry Name="mdrv0Ga.171.log" Filter="1" />
     <FileEntry Name="mdrv0jV.549.log" Filter="1" />
@@ -436,7 +446,6 @@
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserName" Filter="1" />
-    <FileEntry Name="{EmpFileName}" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>

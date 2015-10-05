@@ -42,5 +42,15 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# LoadRunner
+# ==========================
+
 # Result Files
 result1/
+
+# Log Files
+*.log
+
+# Snapshots
+t*.html
+t*.inf

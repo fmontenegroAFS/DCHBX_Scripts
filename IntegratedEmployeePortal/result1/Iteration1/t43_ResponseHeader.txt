@@ -1,14 +1,14 @@
 HTTP/1.1 204 No Content
 Cache-Control: no-cache
-Date: Fri, 25 Sep 2015 13:46:22 GMT
+Date: Mon, 05 Oct 2015 19:53:04 GMT
 Server: nginx/1.8.0
 Set-Cookie: request_method=DELETE; path=/
-Set-Cookie: _session_id=SOrhu74nlflLatAEk9NshddkznQ; path=/; HttpOnly
+Set-Cookie: _session_id=jEyxn0MH5uNzM0B94WX_Int7pow; path=/; HttpOnly
 Status: 204 No Content
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Request-Id: fba6dee1-de38-4073-8e39-6488e35c597d
-X-Runtime: 0.021805
+X-Request-Id: 6fdef6f4-7146-4976-877f-41e90db90c53
+X-Runtime: 0.016960
 X-XSS-Protection: 1; mode=block
 Connection: keep-alive
 

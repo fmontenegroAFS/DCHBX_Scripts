@@ -7,4 +7,4 @@ FileName1=t38.html
 RequestHeaderFile=t38_RequestHeader.txt
 ResponseHeaderFile=t38_ResponseHeader.txt
 RequestBodyFile=t38_RequestBody.txt
-URL1=http://enroll-preprod.dchbx.org/insured/group_selections/new?consumer_role_id=560d703269702d7a43465700&enrollment_kind=sep&person_id=560d703269702d7a433c5700
+URL1=http://enroll-preprod.dchbx.org/insured/group_selections/new?consumer_role_id=5612d01c69702d0efd0a0000&employee_role_id=None&enrollment_kind=sep&person_id=5612d01c69702d0efd000000

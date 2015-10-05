@@ -1,3 +1,0 @@
-"utf8=%C3%A2%C5%93%E2%80%9C&authenticity_token=qftikIJoBrTCiGHiFDKAJNgy70aq%2BCy9vmlqQKOE8zNCw7"
-"foNaaw%2BBEB%2FaBTPGi4yfpU52m6JHB%2FTJB9tsJpmg%3D%3D&user%5Bemail%5D=BIZ-FM59986836192%40test."
-"com&user%5Bpassword%5D=Abcd%21234&user%5Bremember_me%5D=0&commit=Sign+in"

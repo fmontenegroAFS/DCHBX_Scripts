@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\francis.montenegro\Documents\VuGen\Scripts\IntegratedIndividualAssisted_V4_FM_10012015
+-IC:\Users\francis.montenegro\Documents\GitHub\DCHBX_Perf_Scripts\IntegratedIndividualAssisted
 -IC:\Program Files (x86)\HP\LoadRunner\include
--ec:\users\francis.montenegro\documents\vugen\scripts\integratedindividualassisted_v4_fm_10012015\\logfile.log
-c:\users\francis.montenegro\documents\vugen\scripts\integratedindividualassisted_v4_fm_10012015\\combined_IntegratedIndividualAssisted_V4_FM_10012015.c
-c:\users\francis.montenegro\documents\vugen\scripts\integratedindividualassisted_v4_fm_10012015\\pre_cci.c
+-ec:\users\francis.montenegro\documents\github\dchbx_perf_scripts\integratedindividualassisted\\logfile.log
+c:\users\francis.montenegro\documents\github\dchbx_perf_scripts\integratedindividualassisted\\combined_IntegratedIndividualAssisted.c
+c:\users\francis.montenegro\documents\github\dchbx_perf_scripts\integratedindividualassisted\\pre_cci.c

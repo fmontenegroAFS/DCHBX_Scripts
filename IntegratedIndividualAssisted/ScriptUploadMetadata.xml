@@ -37,10 +37,20 @@
     <FileEntry Name="ReplaySummaryReport.xml" Filter="2" />
     <FileEntry Name="UserTasks.xml" Filter="2" />
     <FileEntry Name="p_Webapp_URL.dat" Filter="2" />
+    <FileEntry Name="combined_IntegratedIndividualAssisted.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="DfeConfig\" Filter="2" />
+    <FileEntry Name="10431708644.idx" Filter="1" />
+    <FileEntry Name="25067106044.idx" Filter="1" />
+    <FileEntry Name="26789028944.idx" Filter="1" />
+    <FileEntry Name="6674396944.idx" Filter="1" />
+    <FileEntry Name="8401223944.idx" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
     <FileEntry Name="IntegratedCreatedUser_Assisted_V1_HarishT.prm.bak" Filter="1" />
     <FileEntry Name="IntegratedCreatedUser_Assisted_V1_JT.prm.bak" Filter="1" />
+    <FileEntry Name="IntegratedIndividualAssisted.c.pickle" Filter="1" />
+    <FileEntry Name="IntegratedIndividualAssisted.ci" Filter="1" />
+    <FileEntry Name="IntegratedIndividualAssisted.prm.bak" Filter="1" />
     <FileEntry Name="IntegratedIndividualAssisted.sdf" Filter="1" />
     <FileEntry Name="IntegratedIndividualAssisted_V4_FM_10012015.prm.bak" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />

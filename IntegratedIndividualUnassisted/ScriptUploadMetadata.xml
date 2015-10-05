@@ -42,10 +42,15 @@
     <FileEntry Name="CompilerLogMetadata.xml" Filter="2" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="2" />
     <FileEntry Name="UserTasks.xml" Filter="2" />
+    <FileEntry Name="combined_IntegratedIndividualUnassisted.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="Applicants.dat" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
     <FileEntry Name="data.zip" Filter="1" />
     <FileEntry Name="IntegratedIndividualAssisted_V1_FM_09082015.prm.bak" Filter="1" />
+    <FileEntry Name="IntegratedIndividualUnassisted.c.pickle" Filter="1" />
+    <FileEntry Name="IntegratedIndividualUnassisted.ci" Filter="1" />
+    <FileEntry Name="IntegratedIndividualUnassisted.prm.bak" Filter="1" />
     <FileEntry Name="IntegratedIndividualUnassisted.sdf" Filter="1" />
     <FileEntry Name="IntegratedIndividualUnassisted_V1_FM_09112015.prm.bak" Filter="1" />
     <FileEntry Name="IntegratedIndividualUnassisted_V3_FM_09242015.prm.bak" Filter="1" />

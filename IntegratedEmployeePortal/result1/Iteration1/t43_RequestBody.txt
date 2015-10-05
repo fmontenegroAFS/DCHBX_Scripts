@@ -1,2 +1,2 @@
-"_method=delete&authenticity_token=JjGk3Py9IVhV8D%2BS9h%2BFFz%2F%2FNf6cvrpO2jNAR%2B8aRwVcS627aK"
-"2NwY%2BQfJfUHl1s8NbbXkKCOK9RQKzs9VQwrQ%3D%3D"
+"_method=delete&authenticity_token=HG04FvDdkVfoUqUWXS8KVt5mKO8QV2W6pB9ENnj8F6FX2Yiavb2BvSGuvcVS"
+"AW%2F5e29ddgwN3Cj9%2F58yknAcHQ%3D%3D"
