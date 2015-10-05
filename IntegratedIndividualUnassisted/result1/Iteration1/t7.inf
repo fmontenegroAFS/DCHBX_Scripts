@@ -1,0 +1,10 @@
+[t7]
+SnapshotXmlFile=snapshot_6.xml
+ContentType=text/html
+StepName=Submit Data: users
+Total=1
+FileName1=t7.html
+RequestHeaderFile=t7_RequestHeader.txt
+ResponseHeaderFile=t7_ResponseHeader.txt
+RequestBodyFile=t7_RequestBody.txt
+URL1=http://enroll-preprod.dchbx.org/insured/consumer_role/search?uqhp=true

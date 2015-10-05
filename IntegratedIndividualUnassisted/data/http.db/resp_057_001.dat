@@ -1,0 +1,516 @@
+74a5
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://preprod.dchealthlink.com/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="/node/2259" />
+<link rel="canonical" href="/individuals" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+
+    <title>PREPROD[a] - Individual &amp; Family | DC Health Link</title>
+    <!-- server status:  -->
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800,400,700,300" rel="stylesheet" type="text/css">
+
+<style>
+@import url("https://preprod.dchealthlink.com/sites/all/modules/calendar/css/calendar_multiday.css?nuobvv");
+@import url("https://preprod.dchealthlink.com/sites/all/modules/date/date_api/date.css?nuobvv");
+@import url("https://preprod.dchealthlink.com/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?nuobvv");
+@import url("https://preprod.dchealthlink.com/sites/all/modules/fences/field.css?nuobvv");
+@import url("https://preprod.dchealthlink.com/sites/all/modules/extlink/extlink.css?nuobvv");
+@import url("https://preprod.dchealthlink.com/sites/all/modules/views/css/views.css?nuobvv");
+</style>
+<style>
+@import url("https://preprod.dchealthlink.com/sites/all/themes/dchl/css/bootstrap-theme.min.css?nuobvv");
+@import url("https://preprod.dchealthlink.com/sites/all/themes/dchl/css/bootstrap.min.css?nuobvv");
+@import url("https://preprod.dchealthlink.com/sites/all/themes/dchl/css/bootstrap-theme.xtras.css?nuobvv");
+@import url("https://preprod.dchealthlink.com/sites/all/themes/dchl/css/shared.css?nuobvv");
+@import url("https://preprod.dchealthlink.com/sites/all/modules/ctools/css/ctools.css?nuobvv");
+@import url("https://preprod.dchealthlink.com/sites/all/modules/custom/dchl_google_translate/dchl_google_translate.css?nuobvv");
+@import url("https://preprod.dchealthlink.com/sites/all/themes/dchl/css/v2_3up_landing.css?nuobvv");
+</style>
+
+    <script src="/sites/all/themes/dchl/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-2259 node-type-v2-3up-landing i18n-en enrollment_open" >
+
+<div id="skipmenu">
+    <a href="#skip" class="skippy" title="Skip Navigation">Skip Navigation</a>
+    <a href="/accessibility" class="skippy" title="Accessibility">Accessibility</a>
+    <a name="top"></a>
+</div>
+
+<!-- FIXME: $page_top not used? -->
+<!-- /$page_top -->
+
+<!-- page--v2_3up_landing.tpl.php -->
+
+<!-- header.tpl.php -->
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="row">
+
+            <div class="header_customer_service_top row-padding-top-5 row-padding-bottom-5">
+                <div class="call_phone_top">Call Customer Service : (855) 532-5465 <img src="/sites/all/themes/dchl/img/icon/phone-sm-blue.png"></div>
+            </div>
+            <div class="navbar-header header_left">
+                <div class="header_logo">
+                    <a class="logo pull-left" href="/" 
+                        title="DC Health Link Home">
+                        <img src="/sites/all/themes/dchl/img/logo.png" 
+                            alt="DC Health Link Home" />
+                    </a>
+                </div>
+
+                <div class="header_customer_service">
+                    <div class="call">Call Customer Service</div>
+
+                    <div class="phone">
+(855) 532-LINK (5465)                        <img src="/sites/all/themes/dchl/img/icon/phone-sm-blue.png">
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div id="navbar" class="navbar-collapse collapse header_right">
+                <div class="navbar_topnav">
+  <div class="region region-nav-top">
+    <section id="block-menu-block-2" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-2 menu-name-menu-nav-top parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li  class="first leaf menu-mlid-1779"><a href="/" title="">Home</a></li>
+<li  class="leaf menu-mlid-1780"><a href="/" id="google_translate">Translate</a></li>
+<li  class="expanded menu-mlid-1941 dropdown"><a href="/brokers" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Brokers <span class="caret"></span></a><ul class="dropdown-menu"><li  class="first expanded menu-mlid-1787 dropdown-submenu"><a href="#" class="nolink" clickable="false">Overview <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first last leaf menu-mlid-1892"><a href="/node/64" title="">Training Requirements</a></li>
+</ul></li>
+<li  class="expanded menu-mlid-1894 dropdown-submenu"><a href="#" class="nolink" clickable="false">Client Resources <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1895"><a href="/smallbusiness/employer-coverage-deadlines" title="">Deadlines for Employer-Sponsored Coverage </a></li>
+<li  class="leaf menu-mlid-1896"><a href="/businesschecklist" title="">Small Business Checklist</a></li>
+<li  class="last leaf menu-mlid-1897"><a href="/checklist" title="">Individual &amp; Family Checklist</a></li>
+</ul></li>
+<li  class="leaf menu-mlid-1898"><a href="/broker-tools">Broker Resources</a></li>
+<li  class="leaf menu-mlid-1899"><a href="/FAQs?field_multi_category_faq_tid=1">FAQs</a></li>
+<li  class="leaf menu-mlid-1901"><a href="/find-expert">Find a Trained Expert</a></li>
+<li  class="last leaf menu-mlid-1942"><a href="/brokers">Register</a></li>
+</ul></li>
+<li  class="expanded menu-mlid-1782 dropdown"><a href="/welcome" class="dropdown-toggle" data-toggle="dropdown" data-target="#">About Us <span class="caret"></span></a><ul class="dropdown-menu"><li  class="first expanded menu-mlid-1903 dropdown-submenu"><a href="/welcome" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Overview <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1904"><a href="/team" title="">Our Team</a></li>
+<li  class="last leaf menu-mlid-1905"><a href="/fraud-alert" title="">Consumer Alert – Fight Fraud</a></li>
+</ul></li>
+<li  class="expanded menu-mlid-1906 dropdown-submenu"><a href="#" class="nolink" clickable="false">Newsroom <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1938"><a href="/news" title="News Releases">News</a></li>
+<li  class="leaf menu-mlid-1908"><a href="/events" title="">Events</a></li>
+<li  class="leaf menu-mlid-1907"><a href="http://hbx.dc.gov/events" title="">Meetings</a></li>
+<li  class="leaf menu-mlid-1909"><a href="/videos" title="">Videos</a></li>
+<li  class="leaf menu-mlid-1910"><a href="/my-cover-story" title="">Success Stories</a></li>
+<li  class="last leaf menu-mlid-1911"><a href="/request-speaker" title="">Request a Speaker</a></li>
+</ul></li>
+<li  class="last expanded menu-mlid-1912 dropdown-submenu"><a href="#" class="nolink" clickable="false">Mobile Apps <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1913"><a href="/mobile" title="">Small Business App</a></li>
+<li  class="last leaf menu-mlid-1914"><a href="/mobile" title="">Individual &amp; Family App</a></li>
+</ul></li>
+</ul></li>
+<li  class="leaf menu-mlid-1691"><a href="/forms">Forms</a></li>
+<li  class="leaf menu-mlid-1783"><a href="/contact">Help</a></li>
+<li  class="last leaf menu-mlid-877"><a href="/search/node" title="Search">Search</a></li>
+</ul></div>
+  
+</section> <!-- /.block -->
+  </div>
+                </div>
+
+                <div class="navbar_botnav">
+  <div class="region region-nav-main">
+    <section id="block-menu-block-1" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-1 menu-name-menu-main-menu-2015 parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li  class="first expanded active-trail active menu-mlid-1844 dropdown active"><a href="/individuals" title="" class="active-trail dropdown-toggle active" data-toggle="dropdown" data-target="#">Individual & Family <span class="caret"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1849"><a href="/individuals/overview" title="">Overview</a></li>
+<li  class="expanded menu-mlid-1850 dropdown-submenu"><a href="#" class="nolink" clickable="false">Financial Assistance Resources <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1851"><a href="/individuals/calculator" title="">Financial Assistance Calculator</a></li>
+<li  class="last leaf menu-mlid-1940"><a href="/individuals/reduce-your-premiums" title="">Reduce Your Premiums</a></li>
+</ul></li>
+<li  class="expanded menu-mlid-1853 dropdown-submenu"><a href="#" class="nolink" clickable="false">Plan Resources <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1855"><a href="https://dc.checkbookhealth.org/dc/" title="">Doctor Directory</a></li>
+<li  class="last leaf menu-mlid-1856"><a href="/carriers">Carriers</a></li>
+</ul></li>
+<li  class="expanded menu-mlid-1857 dropdown-submenu"><a href="#" class="nolink" clickable="false">Medicaid Resources <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1858"><a href="/individuals/medicaid" title="">Medicaid Overview </a></li>
+<li  class="last leaf menu-mlid-1859"><a href="/individuals/renew-my-medicaid" title="">Renew Medicaid</a></li>
+</ul></li>
+<li  class="leaf menu-mlid-1860"><a href="/individuals/life-changes" title="">Life Changes </a></li>
+<li  class="expanded menu-mlid-1863 dropdown-submenu"><a href="#" class="nolink" clickable="false">Tax Resources <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1864"><a href="/individuals/2014taxinfo" title="">2015 Tax Information</a></li>
+<li  class="last leaf menu-mlid-1865"><a href="/individuals/avoidtaxpenalty" title="">Avoid the Tax Penalty</a></li>
+</ul></li>
+<li  class="expanded menu-mlid-1866 dropdown-submenu"><a href="#" class="nolink" clickable="false">Get Help <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1867"><a href="/FAQs?field_multi_category_faq_tid=2" title="">FAQs</a></li>
+<li  class="leaf menu-mlid-1868"><a href="/find-expert" title="">Get Expert Help</a></li>
+<li  class="leaf menu-mlid-1869"><a href="/enrollmentcenters" title="">Enrollment Centers</a></li>
+<li  class="last leaf menu-mlid-1870"><a href="/forms">Guides and Resource</a></li>
+</ul></li>
+<li  class="last leaf menu-mlid-1871"><a href="/create-account" title="">Apply Now</a></li>
+</ul></li>
+<li  class="expanded menu-mlid-1845 dropdown"><a href="/smallbusiness" title="" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Small Business <span class="caret"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1861"><a href="/smallbusiness/overview" title="">Overview</a></li>
+<li  class="expanded menu-mlid-1872 dropdown-submenu"><a href="#" class="nolink" clickable="false">Small Business Resources <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1873"><a href="/smallbusiness/eligibility-calculator" title="">Eligibility Calculator</a></li>
+<li  class="leaf menu-mlid-1874"><a href="/smallbusiness/ballpark-calculator" title="">Business Ballpark Cost Estimator</a></li>
+<li  class="leaf menu-mlid-1875"><a href="/smallbusiness/employer-coverage-deadlines" title="">Deadlines for Employer-Sponsored Coverage</a></li>
+<li  class="leaf menu-mlid-1876"><a href="/smallbusiness/tax-credit-calculator">Tax Credit Calculator</a></li>
+<li  class="leaf menu-mlid-1877"><a href="/forms">Guides and Resource</a></li>
+<li  class="last leaf menu-mlid-1878"><a href="/find-expert" title="">Get Expert Help</a></li>
+</ul></li>
+<li  class="expanded menu-mlid-1879 dropdown-submenu"><a href="#" class="nolink" clickable="false">Plan Resources <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1880"><a href="/shop-plans" title="">Browse Plans</a></li>
+<li  class="last leaf menu-mlid-1881"><a href="/carriers">Carriers</a></li>
+</ul></li>
+<li  class="expanded menu-mlid-1882 dropdown-submenu"><a href="#" class="nolink" clickable="false">Get Help <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1883"><a href="/FAQs?field_multi_category_faq_tid=4" title="">FAQs</a></li>
+<li  class="leaf menu-mlid-1884"><a href="/enrollmentcenters" title="">Enrollment Centers</a></li>
+<li  class="last leaf menu-mlid-1885"><a href="/find-expert" title="">Get Expert Help</a></li>
+</ul></li>
+<li  class="last leaf menu-mlid-1886"><a href="/create-account" title="">Apply Now </a></li>
+</ul></li>
+<li  class="expanded menu-mlid-1846 dropdown"><a href="/employees" title="" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Employee <span class="caret"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1862"><a href="/employees" title="">Overview</a></li>
+<li  class="expanded menu-mlid-1887 dropdown-submenu"><a href="#" class="nolink" clickable="false">Get Help  <span class="caret-right"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1888"><a href="/FAQs?field_multi_category_faq_tid=3" title="">FAQs</a></li>
+<li  class="leaf menu-mlid-1889"><a href="/find-expert" title="">Get Expert Help</a></li>
+<li  class="last leaf menu-mlid-1890"><a href="/forms">Guides and Resource</a></li>
+</ul></li>
+<li  class="last leaf menu-mlid-1891"><a href="/enroll-now" title="">Enroll Now</a></li>
+</ul></li>
+<li  class="leaf menu-mlid-1847"><a href="/login-sso" title="">Login</a></li>
+<li  class="last leaf menu-mlid-1848"><a href="/create-account" title="">Create Account</a></li>
+</ul></div>
+  
+</section> <!-- /.block -->
+  </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+
+
+<div id="blue_sub_header">
+    <div class="container">
+        <div class="row">
+            <h1>Individual and Family Health Insurance</h1>
+        </div>
+    </div>
+</div>
+<!-- /header.tpl.php -->
+
+
+<a name="skip"  tabindex="-1"></a>
+
+
+
+
+
+
+
+<section id="inner_body">
+    <div class="container">
+        <div class="row">
+
+
+<!-- node -->
+<article id="node-2259" class="node node-v2-3up-landing full clearfix" about="/individuals" typeof="sioc:Item foaf:Document">
+
+
+  <header>
+            <span property="dc:title" content="Individual &amp; Family" class="rdf-meta element-hidden"></span>
+      </header>
+
+  
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+                <img src="/sites/all/themes/dchl/img/stock/landing-personal.jpg" class="heading_img" /><div class="inner_content">
+                <div class="faux_table">
+                    <h1>Signing up for health insurance is an easy 
+                        <span class="if_open">three</span><span class="if_closed">four</span>-step process</h1>
+
+                    <div class="green_steps individual">
+                        <div class="step step_1 if_closed table_cell">
+                            <div class="top">
+                                <div class="label_top">Step 1</div>
+                                <div class="label_bot faux_table_cell">Can you get coverage now?</div>
+                            </div>
+
+                            <div class="bar on"></div>
+
+                            <p>
+                            See if you qualify for health insurance now. 
+                            <a href="">Apply anytime for Medicaid or the Children's 
+                            Health Insurance Program (CHIP)</a>.
+                            </p>
+                        </div>
+
+                        <div class="step step_2">
+                            <div class="top">
+                                <div class="label_top">Step 
+                                    <span class="if_open">1</span>
+                                    <span class="if_closed">2</span></div>
+                                <div class="label_bot faux_table_cell">Tell us about yourself</div>
+                            </div>
+
+                            <div class="bar on"></div>
+
+                            <p>
+                            Who needs coverage? You? You and your family? 
+                            After you tell us, find out if you qualify for tax credit 
+                            savings in less than 5 minutes.
+                        </p></div>
+
+                        <div class="step step_3">
+                            <div class="top">
+                                <div class="label_top">Step  
+                                    <span class="if_open">2</span>
+                                    <span class="if_closed">3</span></div>
+                                <div class="label_bot faux_table_cell">Compare plans and choose</div>
+                            </div>
+
+                            <div class="bar on"></div>
+
+                            <p>
+                            Find a quality, affordable healthcare plan that's right for you, 
+                            or for you and your family. There are many choices to meet your 
+                            needs and budget.
+                        </p></div>
+
+                        <div class="step step_4">
+                            <div class="top">
+                                <div class="label_top">Step  
+                                    <span class="if_open">3</span>
+                                    <span class="if_closed">4</span></div>
+                                <div class="label_bot faux_table_cell">Enroll</div>
+                            </div>
+
+                            <div class="bar on"></div>
+
+                            <p>
+                            Once you choose a plan, quickly create an account and enroll. If 
+                            you qualify for tax credit savings, create an account and complete 
+                            your application.
+                        </p></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="button_bar">
+                <a class="btn btn-red if_open inline_block no_extlink" href="/browse-plans">Continue</a>
+                <a class="btn btn-red if_closed inline_block" href="/individuals/coverage-now">Continue</a>
+
+                <div class="checkbook">
+                    <div class="">
+                    Get help choosing the best plan for you.
+                    </div>
+
+                    <img src="/sites/all/themes/dchl/img/logo/checkbook.png" /></div>
+            </div>  </div>
+
+      <footer>
+            
+    </footer>
+  
+  
+</article> <!-- /.node -->
+
+        </div>
+    </div>
+</section>
+
+<section id="under_body">
+    <div class="container">
+
+  <div class="region region-v2-3up-mid-links">
+    <section id="block-block-89" class="block block-block block-individual-mid-links clearfix">
+
+      
+           <div class="row mid_links">
+           <div class="child_click item about_aca">
+                <a href="">About the Affordable Care Act (ACA)</a>
+            </div>
+            <div class="child_click item changes">
+                <a href="foo">Important changes in your life?</a>
+            </div>
+            <div class="child_click item pro_help">
+                <a href="">Get help from a professional</a>
+            </div>
+            <div class="child_click item aca_tax">
+                <a href="">How ACA affects your tax filings</a>
+            </div>
+        </div>
+  
+</section> <!-- /.block -->
+  </div>
+
+    </div>
+</section>
+
+
+
+<!-- footer.tpl.php -->
+<footer>
+    <div id="row_one">
+        <div class="container">
+            <div class="row text-align-center">
+                <!-- Quick Links -->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h3>Quick Links</h3>
+
+                      <div class="region region-footer-social">
+    <section id="block-menu-block-3" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-3 menu-name-menu-quick-links parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li  class="first leaf active-trail active menu-mlid-1789 active"><a href="/individuals" title="" class="active-trail active">Individual &amp; Family</a></li>
+<li  class="leaf menu-mlid-1790"><a href="/smallbusiness" title="">Small Business Owners</a></li>
+<li  class="leaf menu-mlid-1791"><a href="/employees" title="">Employees</a></li>
+<li  class="leaf menu-mlid-1943"><a href="/brokers">Brokers</a></li>
+<li  class="leaf menu-mlid-1944"><a href="/assisters">Assisters</a></li>
+<li  class="leaf menu-mlid-1792"><a href="/plan-info">Plan Info</a></li>
+<li  class="leaf menu-mlid-1795"><a href="/about">About Us</a></li>
+<li  class="last leaf menu-mlid-1796"><a href="/media">For the Media</a></li>
+</ul></div>
+  
+</section> <!-- /.block -->
+  </div>
+
+                </div>
+                <!-- Get Help -->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h3>Get Help</h3>
+
+                    <p class="get-help-phone">
+(855) 532-LINK (5465)<span>Monday-Friday 8:00 am - 5:30 pm EST</span>
+                    </p>
+
+                      <div class="region region-footer-help-links">
+    <section id="block-menu-block-13" class="block block-menu-block clearfix">
+
+        <h2 class="block-title">Get Help</h2>
+    
+  <div class="menu-block-wrapper menu-block-13 menu-name-menu-get-help parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li  class="first leaf menu-mlid-1799"><a href="/" title="">Email Us</a></li>
+<li  class="leaf menu-mlid-1800"><a href="/enrollmentcenters" title="">Enrollment Centers</a></li>
+<li  class="leaf menu-mlid-1801"><a href="/find-expert" title="">Find a Broker</a></li>
+<li  class="leaf menu-mlid-1802"><a href="/Frequently-Asked-Questions" title="">FAQs</a></li>
+<li  class="last leaf menu-mlid-1803"><a href="/" title="">Glossary</a></li>
+</ul></div>
+  
+</section> <!-- /.block -->
+  </div>
+
+                </div>
+                <!-- Follow Us -->
+                <div class="col-md-6 col-sm-12 followus-xs-sm">
+                    <h3>Follow Us</h3>
+
+                      <div class="region region-footer-links-2">
+    <section id="block-block-44" class="block block-block clearfix">
+
+      
+  <div class="social-footer-widgets-tweets">
+    <!--<h4 class="social-footer-widgets-title">TWEETS</h4>-->
+    <div class="clearfix">
+        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/DCHealthLink" data-widget-id="387997017365946369" width="100%" height="300" data-chrome="nofooter noheader noborders noscrollbar transparent" data-tweet-limit="1" aria-polite="polite">Tweets by @DCHealthLink</a>
+        <script>
+<!--//--><![CDATA[// ><!--
+
+            !function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) {
+                    js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+                } 
+            } (document, "script", "twitter-wjs");
+        
+//--><!]]>
+</script></div>
+</div>
+
+<div class="social-footer-widgets-follow-us">
+    <!--<h4 class="social-footer-widgets-title">FOLLOW US</h4>-->
+    <div class="social-footer-widgets-follow-us-link">
+        <a href="https://www.facebook.com/pages/DC-Health-Benefit-Exchange/254860577970621" target="_blank" title="click to visit us on facebook">
+            <img src="/sites/all/themes/dchl/img/logo/facebook.png" alt="Facebook" /></a>
+        <a href="https://twitter.com/DCHealthLink" target="_blank" title="click to visit us on twitter">
+            <img src="/sites/all/themes/dchl/img/logo/twitter.png" alt="Twitter" /></a>
+        <a href="http://www.youtube.com/channel/UCb0vgdZ2ZuGK1xFjauVkMsg" target="_blank" title="click to visit us on youtube">
+            <img src="/sites/all/themes/dchl/img/logo/youtube.png" alt="Youtube" /></a>
+    </div>
+</div>
+  
+</section> <!-- /.block -->
+  </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="row_two">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 copyright text-align-center">
+                    Copyright &copy; 2013-2015 DC Health Link. All
+                    rights reserved.
+                </div>
+
+                <div class="col-sm-12 col-md-6 bottom_nav text-align-center">
+
+                      <div class="region region-footer-bottom-links">
+    <section id="block-menu-block-5" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-5 menu-name-menu-footer-bottom-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li  class="first leaf menu-mlid-1351"><a href="/accessibility" title="Accessibility">Accessibility</a></li>
+<li  class="leaf menu-mlid-1475"><a href="/best-viewed" title="Best Viewed">Best Viewed</a></li>
+<li  class="leaf menu-mlid-888"><a href="/privacy" title="Privacy &amp; Security">Privacy &amp; Security</a></li>
+<li  class="last leaf menu-mlid-889"><a href="/terms" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+</ul></div>
+  
+</section> <!-- /.block -->
+  </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /footer.tpl.php -->
+
+
+
+<script src="https://preprod.dchealthlink.com/sites/all/themes/dchl/js/bootstrap.min.js?nuobvv"></script>
+<script src="https://preprod.dchealthlink.com/sites/all/themes/dchl/js/shared.js?nuobvv"></script>
+<script src="/misc/jquery.once.js?nuobvv"></script>
+<script src="/misc/drupal.js?nuobvv"></script>
+<script src="/sites/all/modules/extlink/extlink.js?nuobvv"></script>
+<script src="https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuobvv"></script>
+<script>var DCHL_GT_LANG = 'am,en,es';</script>
+<script src="https://preprod.dchealthlink.com/sites/all/modules/custom/dchl_google_translate/dchl_google_translate.js?nuobvv"></script>
+<script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&amp;nuobvv"></script>
+<script src="https://preprod.dchealthlink.com/sites/all/modules/google_analytics/googleanalytics.js?nuobvv"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"dchl","theme_token":"qTeGuMJ2qGJ28lvkSbTuC-M5nBgC2vsB1k1gSOrjvyg","js":{"0":1,"sites\/all\/themes\/dchl\/js\/bootstrap.min.js":1,"sites\/all\/themes\/dchl\/js\/shared.js":1,"\/misc\/jquery.once.js":1,"\/misc\/drupal.js":1,"\/sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/themes\/dchl\/js\/SCRATCH.js":1,"1":1,"sites\/all\/modules\/custom\/dchl_google_translate\/dchl_google_translate.js":1,"\/\/translate.google.com\/translate_a\/element.js?cb=googleTranslateElementInit":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1},"css":{"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/themes\/dchl\/css\/bootstrap-theme.min.css":1,"sites\/all\/themes\/dchl\/css\/bootstrap.min.css":1,"sites\/all\/themes\/dchl\/css\/bootstrap-theme.xtras.css":1,"sites\/all\/themes\/dchl\/css\/shared.css":1,"sites\/all\/themes\/dchl\/css\/SCRATCH.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/custom\/dchl_google_translate\/dchl_google_translate.css":1,"sites\/all\/themes\/dchl\/css\/v2_3up_landing.css":1}},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":".no_extlink","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. Test, test, test.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});</script>
+
+
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-44439809-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+
+</body>
+</html>
+
+0
+

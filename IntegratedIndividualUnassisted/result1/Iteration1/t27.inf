@@ -1,0 +1,10 @@
+[t27]
+SnapshotXmlFile=snapshot_8.xml
+ContentType=text/html
+StepName=Submit Data: consumer_role
+Total=1
+FileName1=t27.html
+RequestHeaderFile=t27_RequestHeader.txt
+ResponseHeaderFile=t27_ResponseHeader.txt
+RequestBodyFile=t27_RequestBody.txt
+URL1=http://enroll-preprod.dchbx.org/insured/consumer_role/560d703269702d7a43465700/edit

@@ -1,0 +1,33 @@
+/*
+ * Licensed Materials - Property of IBM
+ * 
+ * Copyright IBM Corporation 2012. All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or disclosure 
+ * restricted by GSA ADP Schedule Contract with IBM Corp.
+ */
+hcr.eventHandler.initService(EligibilityCalculator={
+
+    init: function() {
+	},
+	
+	calculate:function() {
+		
+		var adults = dojo.byId('eligibility-calculator-adults').value;
+		var children = dojo.byId('eligibility-calculator-children').value;
+		var income = dojo.byId('eligibility-calculator-income').value;
+		
+		EligibilityCalculator.calculateAffordability(adults, children, income);
+	},
+	
+	calculateAffordability:function(adults, children, income) {
+		
+		var resultPane = dijit.byId('eligibility-calculator-result');
+		
+		var url = 'HealthCare_actionAffordabilityCalculatorResultPage.do?';
+		
+		resultPane.setHref(url + 'adults=' + adults + '&children=' 
+			+ children + '&income=' + income);
+	}
+		
+});

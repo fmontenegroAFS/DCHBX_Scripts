@@ -1,0 +1,11 @@
+GET /employers/employer_profiles/new HTTP/1.1
+Host: enroll_uat.dchbx.org
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html, application/xhtml+xml, application/xml
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-XHR-Referer: http://enroll_uat.dchbx.org/
+Referer: http://enroll_uat.dchbx.org/
+Cookie: AWSELB=6D2D4FC502CCAC03723C58EA8D775E64A466F6F60FCC4C5E0357B3719D86167B8DEBFACEA6818ABE584A2080F4CB9E59DC38536649C73C2879BEDFE23901AC4842A37FB0E9; _session_id=_cBJ1i2htTNsRdcdWnpdEXcqUSY
+Connection: keep-alive
+

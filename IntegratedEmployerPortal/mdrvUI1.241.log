@@ -1,0 +1,375 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/icon/bluenav-news.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo/partners-dc-chamber-of-commerce.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo/partners-greatwashington.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo/partners-nahu.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Error -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27778]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo/partners-dc-chamber-of-commerce.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo/partners-greatwashington.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo/partners-nahu.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo/partners-ramw.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Error -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27778]
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Downloading resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/stock/home-page-layout.jpg" (specified by argument number 33)  	[MsgId: MMSG-26577]
+IntegratedLandingPage.c(13): Downloading resource "https://preprod.dchealthlink.com/sites/all/modules/extlink/extlink.png" (specified by argument number 36)  	[MsgId: MMSG-26577]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/icon/phone-sm-blue.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Error -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27778]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+IntegratedLandingPage.c(9): web_reg_find started  	[MsgId: MMSG-26355]
+IntegratedLandingPage.c(9): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+IntegratedLandingPage.c(11): Notify: Transaction "INTEG_EMPLYR_0000_1_Integrated_Landing_Page" started.	[MsgId: MMSG-16999]
+IntegratedLandingPage.c(13): web_url("{IntegratedURL}") started  	[MsgId: MMSG-26355]
+IntegratedLandingPage.c(13): Notify: Parameter Substitution: parameter "IntegratedURL" =  "https://preprod.dchealthlink.com/"	[MsgId: MMSG-13992]
+IntegratedLandingPage.c(13): Notify: Parameter Substitution: parameter "IntegratedURL" =  "https://preprod.dchealthlink.com/"	[MsgId: MMSG-13992]
+IntegratedLandingPage.c(13): Notify: Parameter Substitution: parameter "IntegratedURL" =  "https://preprod.dchealthlink.com/"	[MsgId: MMSG-13992]
+IntegratedLandingPage.c(13): Error -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MERR-27778]
+IntegratedLandingPage.c(13): Error -27789: Server "preprod.dchealthlink.com" has shut down the connection prematurely  	[MsgId: MERR-27789]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -26200: At least one of the resources specified by EXTRARES has not been downloaded due to the above error(s)  	[MsgId: MWAR-26200]
+IntegratedLandingPage.c(13): Error -26366: "Text=What kind of health insurance do you need?" not found for web_reg_find  	[MsgId: MERR-26366]
+IntegratedLandingPage.c(13): Error -26374: The above "not found" error(s) may be explained by header and body byte counts being 635 and 0, respectively.  	[MsgId: MERR-26374]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Notify: Transaction "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/icon/close-button-white.png" will be skipped - could not calculate the transaction time (duration=0.2572, think_time=0.0000, wasted_time=1.0730).	[MsgId: MMSG-16889]
+IntegratedLandingPage.c(13): Notify: Transaction "https://fonts.googleapis.com/css?family=Open+Sans:600,800,400,700,300" will be skipped - could not calculate the transaction time (duration=0.3891, think_time=0.0000, wasted_time=1.0730).	[MsgId: MMSG-16889]
+IntegratedLandingPage.c(13): Notify: Transaction "https://preprod.dchealthlink.com/sites/all/modules/calendar/css/calendar_multiday.css?nu66an" will be skipped - could not calculate the transaction time (duration=0.4498, think_time=0.0000, wasted_time=1.0731).	[MsgId: MMSG-16889]
+IntegratedLandingPage.c(13): Notify: Transaction "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/jquery-1.11.2.min.js" will be skipped - could not calculate the transaction time (duration=0.7593, think_time=0.0000, wasted_time=1.0732).	[MsgId: MMSG-16889]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/modules/custom/dchl_google_translate/dchl_google_translate.js?nuuek7" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Found resource "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&nuuek7" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10053] Software caused connection abort  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27789: Server "preprod.dchealthlink.com" has shut down the connection prematurely  	[MsgId: MWAR-27789]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&nuuek7" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/modules/custom/dchl_google_translate/dchl_google_translate.js?nuuek7" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Found resource "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&nuuek7" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27794: Failed to connect to server "preprod.dchealthlink.com:443": [10060] Connection timed out  	[MsgId: MWAR-27794]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&nuuek7" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning: Closing connection [4] after waiting 2s for body for 404 response for URL "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MMSG-26000]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27774: Server "translate.google.com" shut connection during attempt to negotiate SSL session  	[MsgId: MWAR-27774]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&nuuek7" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo/partners-greatwashington.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo/partners-nahu.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27726: Step download timeout (120 seconds) has expired, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27726]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&nuuek7" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&nuuek7" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27794: Failed to connect to server "preprod.dchealthlink.com:443": [10060] Connection timed out  	[MsgId: MWAR-27794]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&nuuek7" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo/partners-greatwashington.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo/partners-nahu.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27726: Step download timeout (120 seconds) has expired, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27726]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo/partners-nahu.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo/partners-ramw.png" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27726: Step download timeout (120 seconds) has expired, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27726]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27789: Server "preprod.dchealthlink.com" has shut down the connection prematurely  	[MsgId: MWAR-27789]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]connect to host "preprod.dchealthlink.com" failed: [10053] Software caused connection abort  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Aborting pending download of URL="https://preprod.dchealthlink.com/sites/all/themes/dchl/js/jquery-1.11.2.min.js" (RelFrameId=, Internal ID=3)  	[MsgId: MMSG-27654]
+IntegratedLandingPage.c(13): Error -26366: "Text=What kind of health insurance do you need?" not found for web_reg_find, Snapshot Info [MSH 1 1]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27794: Failed to connect to server "preprod.dchealthlink.com:443": [10060] Connection timed out  	[MsgId: MWAR-27794]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&nuuek7" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Found resource "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&nuuek7" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -27778: [GENERAL_MSG_CAT_SSL_ERROR]read to host "preprod.dchealthlink.com" failed: [10054] Connection reset by peer  	[MsgId: MWAR-27778]
+IntegratedLandingPage.c(13): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/SCRATCH.js?nuuek7"  	[MsgId: MWAR-26627]
+IntegratedLandingPage.c(13): Error -27725: Step download timeout (120 seconds) has expired when downloading resource(s). Set the "Step Timeout caused by resources is a warning" Run-Time Setting to Yes/No to have this message as a warning/error, respectively, Snapshot Info [MSH 1 1]  	[MsgId: MERR-27725]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployerCreateProfile.c(8): web_submit_data("employer_profiles") started  	[MsgId: MMSG-26355]
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "HTTP" =  "http"	[MsgId: MMSG-13992]
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"	[MsgId: MMSG-13992]
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "HTTP" =  "http"	[MsgId: MMSG-13992]
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"	[MsgId: MMSG-13992]
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "AUTH_TOKEN_2" =  "cfxAvpkJq+jWeekfeL65bY7gZnSfLb5HUKB/D2Ixy5Mu+cJ0GocasdEAgi3TQa8Y34sWwUL4m9LGQNZcJvTxwA=="	[MsgId: MMSG-13992]
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "430583209"	[MsgId: MMSG-13992]
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "430583209"	[MsgId: MMSG-13992]
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "LegalName" =  "xvoxfq"	[MsgId: MMSG-13992]
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "430583209"	[MsgId: MMSG-13992]
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "430583209"	[MsgId: MMSG-13992]
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "430583209"	[MsgId: MMSG-13992]
+EmployerCreateProfile.c(8): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://enroll-preprod.dchbx.org/employers/employer_profiles", Snapshot Info [MSH 1 8]  	[MsgId: MERR-26612]
+EmployerCreateProfile.c(8): Error -26377: No match found for the requested parameter "EMPLOYER_ID". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size, Snapshot Info [MSH 1 8]  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

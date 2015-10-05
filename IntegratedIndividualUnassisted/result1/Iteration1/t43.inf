@@ -1,0 +1,10 @@
+[t43]
+SnapshotXmlFile=snapshot_15.xml
+ContentType=text/html
+StepName=Submit Data: thankyou
+Total=1
+FileName1=t43.html
+RequestHeaderFile=t43_RequestHeader.txt
+ResponseHeaderFile=t43_ResponseHeader.txt
+RequestBodyFile=t43_RequestBody.txt
+URL1=http://enroll-preprod.dchbx.org/insured/plan_shoppings/560d708969702d7a69e95800/thankyou?change_plan=&coverage_kind=health&enrollment_kind=sep&market_kind=individual&plan_id=5453a543791e4bcd3300002f

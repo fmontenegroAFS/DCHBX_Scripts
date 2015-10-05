@@ -1,0 +1,25 @@
+/*
+ * Licensed Materials - Property of IBM
+ * 
+ * Copyright IBM Corporation 2012. All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or disclosure 
+ * restricted by GSA ADP Schedule Contract with IBM Corp.
+ */
+dojo.provide("hcr.HCRCommons");
+
+dojo.declare("HCRCommons", null, {
+
+  addJavascript : function(jsname) {
+  
+  	var path = '../CDEJ/jscript/';
+  	
+    var head = document.getElementsByTagName('head')[0];
+    
+    var s = document.createElement('script');
+    s.setAttribute('type', 'text/javascript');
+    s.setAttribute('src', path + jsname);
+    
+    head.appendChild(s);
+  }
+}); 

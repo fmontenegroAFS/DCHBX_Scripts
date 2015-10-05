@@ -1,0 +1,10 @@
+[t33]
+SnapshotXmlFile=snapshot_11.xml
+ContentType=text/html
+StepName=Submit Data: interactive_identity_verifications
+Total=1
+FileName1=t33.html
+RequestHeaderFile=t33_RequestHeader.txt
+ResponseHeaderFile=t33_ResponseHeader.txt
+RequestBodyFile=t33_RequestBody.txt
+URL1=http://enroll-preprod.dchbx.org/insured/family_members?consumer_role_id=560d703269702d7a43465700

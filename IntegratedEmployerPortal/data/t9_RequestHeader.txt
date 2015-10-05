@@ -1,0 +1,12 @@
+POST /users/sign_out HTTP/1.1
+Host: 10.83.84.161
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://10.83.84.161/employers/employer_profiles/55ba29d24842583b6fe80400
+Cookie: _session_id=rdAW4xkM6icM751uyBxFNbqti2I
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 134
+

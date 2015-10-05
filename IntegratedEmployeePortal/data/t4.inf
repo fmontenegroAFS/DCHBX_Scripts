@@ -1,0 +1,13 @@
+[t4]
+FileName1=t4.htm
+URL1=http://enroll_uat.dchbx.org/consumer/employee/welcome
+Total=2
+RequestHeaderFile=t4_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t4_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_4.xml
+FileName2=t4_icon-individual-6f790bd56bddf0e9ed6481789a8abbc8.png
+URL2=http://enroll_uat.dchbx.org/assets/icons/icon-individual-6f790bd56bddf0e9ed6481789a8abbc8.png
+[ProtocolInfo]
+ProtocolId=QTWeb

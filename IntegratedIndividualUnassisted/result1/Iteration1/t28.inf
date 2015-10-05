@@ -1,0 +1,10 @@
+[t28]
+SnapshotXmlFile=snapshot_9.xml
+ContentType=text/html
+StepName=Submit Data: 560d703269702d7a43465700
+Total=1
+FileName1=t28.html
+RequestHeaderFile=t28_RequestHeader.txt
+ResponseHeaderFile=t28_ResponseHeader.txt
+RequestBodyFile=t28_RequestBody.txt
+URL1=http://enroll-preprod.dchbx.org/insured/consumer_role/ridp_agreement

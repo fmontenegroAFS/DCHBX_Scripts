@@ -1,0 +1,10 @@
+[t32]
+SnapshotXmlFile=snapshot_10.xml
+ContentType=text/html
+StepName=Link: Continue_3
+Total=1
+FileName1=t32.html
+RequestHeaderFile=t32_RequestHeader.txt
+ResponseHeaderFile=t32_ResponseHeader.txt
+RequestBodyFile=t32_RequestBody.txt
+URL1=http://enroll-preprod.dchbx.org/insured/interactive_identity_verifications/new

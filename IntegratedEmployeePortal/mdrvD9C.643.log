@@ -1,0 +1,1140 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.4121 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4213-45-8960@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4213-45-8960@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.4204 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 2 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4784-18-9702@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4784-18-9702@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3789 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 136 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4210-14-1705@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4210-14-1705@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3134 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 3 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4857-53-6853@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4857-53-6853@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3285 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 271 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4979-59-3461@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4979-59-3461@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2907 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 137 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4253-81-5473@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4253-81-5473@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3448 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 4 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4405-50-6891@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4405-50-6891@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3547 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 272 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4209-44-1505@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4209-44-1505@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.4180 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 138 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4805-51-6553@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4805-51-6553@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3695 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 406 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4831-59-1179@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4831-59-1179@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3756 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 5 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4217-46-7251@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4217-46-7251@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3404 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 273 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4989-63-3976@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4989-63-3976@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2708 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 139 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4665-34-3985@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4665-34-3985@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3081 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 407 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4694-25-7661@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4694-25-7661@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3421 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 6 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4648-43-2017@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4648-43-2017@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3668 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 541 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4683-43-8018@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4683-43-8018@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2791 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 140 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4253-81-5473@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4253-81-5473@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3006 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 7 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4313-37-7606@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4313-37-7606@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3465 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 408 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4247-25-9929@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4247-25-9929@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3955 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 542 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4303-87-1620@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4303-87-1620@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2925 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 676 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4214-96-3001@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4214-96-3001@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3785 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 409 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4978-39-4155@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4978-39-4155@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3007 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 543 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4818-59-6783@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4818-59-6783@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2749 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 8 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4406-51-6696@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4406-51-6696@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3142 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 677 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4257-88-4969@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4257-88-4969@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2891 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 811 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4783-94-2113@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4783-94-2113@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.5537 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 544 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4303-87-1620@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4303-87-1620@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.9653 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 678 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4724-74-6615@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4724-74-6615@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3536 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 9 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4667-13-1386@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4667-13-1386@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2957 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 812 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4337-85-1858@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4337-85-1858@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3525 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 946 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4357-89-2165@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4357-89-2165@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3012 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 10 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4951-36-9524@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4951-36-9524@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2755 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 813 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4752-52-4970@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4752-52-4970@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2851 Wasted Time: 0.0002).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 947 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4755-45-4959@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4755-45-4959@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2300 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1081 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4672-32-4279@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4672-32-4279@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3213 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 814 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4783-94-2113@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4783-94-2113@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 11.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2854 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 11 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4441-25-9180@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4441-25-9180@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3000 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 948 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4121-13-7920@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4121-13-7920@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2929 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1082 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4416-48-4610@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4416-48-4610@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 12.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2771 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 12 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4821-83-9136@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4821-83-9136@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3048 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1216 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4247-37-5211@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4247-37-5211@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2409 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1217 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4191-84-4616@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4191-84-4616@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2935 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1351 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4793-14-4465@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4793-14-4465@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3231 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1218 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4549-72-8872@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4549-72-8872@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2950 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1352 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4865-75-1837@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4865-75-1837@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3077 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 142 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4665-34-3985@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4665-34-3985@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2770 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1353 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4669-34-8014@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4669-34-8014@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2509 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1486 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4719-92-3683@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4719-92-3683@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2697 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1487 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4594-41-9314@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4594-41-9314@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.4596 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1354 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4241-20-7351@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4241-20-7351@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3447 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1621 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4754-81-8432@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4754-81-8432@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3157 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1355 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4793-14-4465@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4793-14-4465@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3070 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1756 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4244-18-2445@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4244-18-2445@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(102):       <!-- This file lives in public/500.html -->\n
+EmployeeBeginCoverage.c(102):       <div class="dialog">\n
+EmployeeBeginCoverage.c(102):         <div>\n
+EmployeeBeginCoverage.c(102):           <h1>We're sorry, but something went wrong.</h1>\n
+EmployeeBeginCoverage.c(102):         </div>\n
+EmployeeBeginCoverage.c(102):         <p>If you are the application owner check the logs for more information.</p>\n
+EmployeeBeginCoverage.c(102):       </div>\n
+EmployeeBeginCoverage.c(102):     </body>\n
+EmployeeBeginCoverage.c(102):     </html>\n
+EmployeeBeginCoverage.c(102): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://enroll_uat.dchbx.org/consumer/employee/55da45f069702d4d9aad2700/edit", Snapshot Info [MSH 3 19]  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2481 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1356 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4581-63-6070@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4581-63-6070@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2633 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1757 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4355-39-2277@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4355-39-2277@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3019 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1891 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4422-47-6576@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4422-47-6576@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.4181 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1357 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4793-14-4465@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4793-14-4465@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.4354 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1358 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4965-89-2941@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4965-89-2941@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2646 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 2026 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4569-73-3820@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4569-73-3820@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3104 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1359 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4253-90-8693@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4253-90-8693@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3494 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 2027 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4212-41-9340@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4212-41-9340@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2778 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 2161 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4352-93-2065@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4352-93-2065@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2890 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1360 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4346-34-1951@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4346-34-1951@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 11.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.5338 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1361 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4793-14-4465@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4793-14-4465@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3606 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 2296 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4203-26-4546@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4203-26-4546@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3084 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 144 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4343-53-3924@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4343-53-3924@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 1.0831 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1220 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4549-72-8872@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4549-72-8872@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3618 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1221 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4667-32-8131@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4667-32-8131@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(102):       <!-- This file lives in public/500.html -->\n
+EmployeeBeginCoverage.c(102):       <div class="dialog">\n
+EmployeeBeginCoverage.c(102):         <div>\n
+EmployeeBeginCoverage.c(102):           <h1>We're sorry, but something went wrong.</h1>\n
+EmployeeBeginCoverage.c(102):         </div>\n
+EmployeeBeginCoverage.c(102):         <p>If you are the application owner check the logs for more information.</p>\n
+EmployeeBeginCoverage.c(102):       </div>\n
+EmployeeBeginCoverage.c(102):     </body>\n
+EmployeeBeginCoverage.c(102):     </html>\n
+EmployeeBeginCoverage.c(102): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://enroll_uat.dchbx.org/consumer/employee/55da466169702d774dd02400/edit", Snapshot Info [MSH 1 19]  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(102):       <!-- This file lives in public/500.html -->\n
+EmployeeBeginCoverage.c(102):       <div class="dialog">\n
+EmployeeBeginCoverage.c(102):         <div>\n
+EmployeeBeginCoverage.c(102):           <h1>We're sorry, but something went wrong.</h1>\n
+EmployeeBeginCoverage.c(102):         </div>\n
+EmployeeBeginCoverage.c(102):         <p>If you are the application owner check the logs for more information.</p>\n
+EmployeeBeginCoverage.c(102):       </div>\n
+EmployeeBeginCoverage.c(102):     </body>\n
+EmployeeBeginCoverage.c(102):     </html>\n
+EmployeeBeginCoverage.c(102): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://enroll_uat.dchbx.org/consumer/employee/55da467569702d4dcc3d2400/edit", Snapshot Info [MSH 1 19]  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 15.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(102):       <!-- This file lives in public/500.html -->\n
+EmployeeBeginCoverage.c(102):       <div class="dialog">\n
+EmployeeBeginCoverage.c(102):         <div>\n
+EmployeeBeginCoverage.c(102):           <h1>We're sorry, but something went wrong.</h1>\n
+EmployeeBeginCoverage.c(102):         </div>\n
+EmployeeBeginCoverage.c(102):         <p>If you are the application owner check the logs for more information.</p>\n
+EmployeeBeginCoverage.c(102):       </div>\n
+EmployeeBeginCoverage.c(102):     </body>\n
+EmployeeBeginCoverage.c(102):     </html>\n
+EmployeeBeginCoverage.c(102): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://enroll_uat.dchbx.org/consumer/employee/55da468269702d4d7eb82500/edit", Snapshot Info [MSH 15 19]  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.4049 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 2029 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4212-41-9340@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4212-41-9340@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 16.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(102):       <!-- This file lives in public/500.html -->\n
+EmployeeBeginCoverage.c(102):       <div class="dialog">\n
+EmployeeBeginCoverage.c(102):         <div>\n
+EmployeeBeginCoverage.c(102):           <h1>We're sorry, but something went wrong.</h1>\n
+EmployeeBeginCoverage.c(102):         </div>\n
+EmployeeBeginCoverage.c(102):         <p>If you are the application owner check the logs for more information.</p>\n
+EmployeeBeginCoverage.c(102):       </div>\n
+EmployeeBeginCoverage.c(102):     </body>\n
+EmployeeBeginCoverage.c(102):     </html>\n
+EmployeeBeginCoverage.c(102): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://enroll_uat.dchbx.org/consumer/employee/55da468169702d7752ad2600/edit", Snapshot Info [MSH 16 19]  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2780 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 2432 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4808-51-8668@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4808-51-8668@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2951 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1491 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4231-74-4194@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4231-74-4194@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.5422 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 2702 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4429-85-5817@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4429-85-5817@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(102):       <!-- This file lives in public/500.html -->\n
+EmployeeBeginCoverage.c(102):       <div class="dialog">\n
+EmployeeBeginCoverage.c(102):         <div>\n
+EmployeeBeginCoverage.c(102):           <h1>We're sorry, but something went wrong.</h1>\n
+EmployeeBeginCoverage.c(102):         </div>\n
+EmployeeBeginCoverage.c(102):         <p>If you are the application owner check the logs for more information.</p>\n
+EmployeeBeginCoverage.c(102):       </div>\n
+EmployeeBeginCoverage.c(102):     </body>\n
+EmployeeBeginCoverage.c(102):     </html>\n
+EmployeeBeginCoverage.c(102): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://enroll_uat.dchbx.org/consumer/employee/55da46b069702d4d70e32600/edit", Snapshot Info [MSH 8 19]  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.6135 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 2703 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4424-34-4821@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4424-34-4821@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 11.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(102):       <!-- This file lives in public/500.html -->\n
+EmployeeBeginCoverage.c(102):       <div class="dialog">\n
+EmployeeBeginCoverage.c(102):         <div>\n
+EmployeeBeginCoverage.c(102):           <h1>We're sorry, but something went wrong.</h1>\n
+EmployeeBeginCoverage.c(102):         </div>\n
+EmployeeBeginCoverage.c(102):         <p>If you are the application owner check the logs for more information.</p>\n
+EmployeeBeginCoverage.c(102):       </div>\n
+EmployeeBeginCoverage.c(102):     </body>\n
+EmployeeBeginCoverage.c(102):     </html>\n
+EmployeeBeginCoverage.c(102): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://enroll_uat.dchbx.org/consumer/employee/55da46a669702d774fd62500/edit", Snapshot Info [MSH 11 19]  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3390 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 2704 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4844-51-3161@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4844-51-3161@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.5518 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 2705 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4844-51-3161@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4844-51-3161@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(102):       <!-- This file lives in public/500.html -->\n
+EmployeeBeginCoverage.c(102):       <div class="dialog">\n
+EmployeeBeginCoverage.c(102):         <div>\n
+EmployeeBeginCoverage.c(102):           <h1>We're sorry, but something went wrong.</h1>\n
+EmployeeBeginCoverage.c(102):         </div>\n
+EmployeeBeginCoverage.c(102):         <p>If you are the application owner check the logs for more information.</p>\n
+EmployeeBeginCoverage.c(102):       </div>\n
+EmployeeBeginCoverage.c(102):     </body>\n
+EmployeeBeginCoverage.c(102):     </html>\n
+EmployeeBeginCoverage.c(102): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://enroll_uat.dchbx.org/consumer/employee/55da46c969702d4d73f42500/edit", Snapshot Info [MSH 1 19]  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 10746 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.4323 Wasted Time: 0.0000).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1086 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4854-24-7385@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4854-24-7385@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3259 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 2706 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4844-51-3161@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4844-51-3161@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(102):       <!-- This file lives in public/500.html -->\n
+EmployeeBeginCoverage.c(102):       <div class="dialog">\n
+EmployeeBeginCoverage.c(102):         <div>\n
+EmployeeBeginCoverage.c(102):           <h1>We're sorry, but something went wrong.</h1>\n
+EmployeeBeginCoverage.c(102):         </div>\n
+EmployeeBeginCoverage.c(102):         <p>If you are the application owner check the logs for more information.</p>\n
+EmployeeBeginCoverage.c(102):       </div>\n
+EmployeeBeginCoverage.c(102):     </body>\n
+EmployeeBeginCoverage.c(102):     </html>\n
+EmployeeBeginCoverage.c(102): Error -26612: HTTP Status-Code=500 (Internal Server Error) for "http://enroll_uat.dchbx.org/consumer/employee/55da46c769702d7752b42600/edit", Snapshot Info [MSH 3 19]  	[MsgId: MERR-26612]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(27): Notify: Saving Parameter "AccountCreated = 0".	[MsgId: MMSG-13798]
+EmployeeCreateAccount.c(27): web_submit_data("users") was successful, 21083 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(46): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.6745 Wasted Time: 0.0001).	[MsgId: MMSG-16871]
+EmployeeCreateAccount.c(52): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployeeCreateAccount.c(53): Notify: Next row for parameter EmpWorkEmail = 1760 [table  = EmpWorkEmail].	[MsgId: MMSG-13876]
+EmployeeCreateAccount.c(53): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "BZ4244-18-2445@test.com"	[MsgId: MMSG-13992]
+EmployeeCreateAccount.c(53): Error: Failed to create account for BZ4244-18-2445@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

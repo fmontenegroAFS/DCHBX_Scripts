@@ -1,0 +1,11 @@
+[t30]
+FileName1=t30.htm
+URL1=http://enroll-preprod.dchbx.org/insured/employee_dependents?consumer_role_id=55fc2e4d69702d48735f0400
+Total=1
+RequestHeaderFile=t30_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t30_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_30.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

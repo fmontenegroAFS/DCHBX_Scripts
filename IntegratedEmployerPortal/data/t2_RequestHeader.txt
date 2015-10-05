@@ -1,0 +1,11 @@
+GET /employers/employer_profiles/new HTTP/1.1
+Host: 10.83.84.161
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.0) Gecko/20100101 Firefox/31.0
+Accept: text/html, application/xhtml+xml, application/xml
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-XHR-Referer: https://10.83.84.161/
+Referer: https://10.83.84.161/
+Cookie: _session_id=kkzf3Pjj_SJXEoUG_7w47E_iEuQ
+Connection: keep-alive
+

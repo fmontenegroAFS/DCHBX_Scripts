@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Fri, 02 Oct 2015 14:49:57 GMT
+Server: Oracle-Application-Server-11g
+Cache-Control: no-store
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-OPNET-Transaction-Trace: a2_75706051-6f57-4e8f-95d3-f6bed3a2e163
+X-ORACLE-DMS-ECID: 0058I170ooQAtHLLuQo2yX0002oO0002CU
+X-Powered-By: Servlet/2.5 JSP/2.1
+X-dynaTrace: PT=568699;PA=1379048021;SP=DC HBX;PS=1724996734
+Keep-Alive: timeout=15, max=998
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Content-Language: en
+

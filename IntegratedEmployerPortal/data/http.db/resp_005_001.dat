@@ -1,0 +1,241 @@
+1d42
+//pacfile for 164.82.1.13 from 36914_1624:2_9413
+function FindProxyForURL(url, host)
+{
+    /* Convert the host parameter to lowercase
+       to facilitate case insensitive matching.
+    */
+    host = host.toLowerCase();
+
+    /* Don't proxy local hostnames */
+    if (isPlainHostName(host))
+    {
+        return 'DIRECT';
+    }
+
+    /* always proxy on normal service address/port for the login host */
+    if (shExpMatch(host, '*proxy-login.blackspider.com'))
+    {
+        return 'PROXY webdefence.global.blackspider.com:80';
+    }
+
+    /* Don't proxy local domains */
+    var domain_list = new Array("accenture.sharefile.com/",
+"citizensbank.com ",
+"virus-control.com",
+"pmeimg.com",
+"corp-it-security.com",
+"isexpenses.intranet.dow.com",
+"inside.unilever.com",
+"resourcebooking.unilever.com",
+"accenture.com",
+"liveupdate.symantecliveupdate.com",
+"update.symantec.com",
+"outlook.com",
+"mediaplatform.com",
+"cp162516.edgefcs.net",
+"aac.webex.com",
+"isexpenses.intranet.dow.com",
+"mysite.unilever.com",
+"logmeinrescue-enterprise.com",
+"vip.symantec.com",
+"ag.unitedfiregroup.com",
+"rs.pfizer.com",
+"avanade.com ",
+"181.fm",
+"energy981.com ",
+"bp.com",
+"verisign.com",
+"ws.symantec.com",
+"symcb.com",
+"symcd.com",
+"teamsites.unilever.com",
+"unilever.com");
+    for (d in domain_list)
+    {
+        if ( dnsDomainIs(host, "." + domain_list[d] ) || host == domain_list[d] )
+        {
+            return 'DIRECT';
+        }
+    }
+
+    /* Don't proxy portal addresses */
+    if ((host == 'www.blackspider.com') ||
+dnsDomainIs(host, '.mailcontrol.com') ||
+(host == 'home.webdefence.global.blackspider.com') ||
+(host == 'webdefence.global.blackspider.com') ||
+(host == 'pac.webdefence.global.blackspider.com') ||
+(host == 'pac.hybrid-web.global.blackspider.com') ||
+(host == 'download.global.blackspider.com') ||
+(host == 'mobile.websense.net') ||
+(host == 'mdm.websense.net') ||
+(host == 'admin.websense.net') ||
+(host == 'status.websense.net') ||
+(host == 'epevents.blackspider.com'))
+    {
+        return 'DIRECT';
+    }
+
+    /* Don't proxy Windows Update */
+    if ((host == "download.microsoft.com") ||
+(host == "ntservicepack.microsoft.com") ||
+(host == "cdm.microsoft.com") ||
+(host == "wustat.windows.com") ||
+(host == "windowsupdate.microsoft.com") ||
+(dnsDomainIs(host, ".windowsupdate.microsoft.com")) ||
+(host == "update.microsoft.com") ||
+(dnsDomainIs(host, ".update.microsoft.com")) ||
+(dnsDomainIs(host, ".windowsupdate.com")))
+    {
+        return 'DIRECT';
+    }
+
+    /* Don't proxy redirects to SSO gateway */
+    if (false)
+    {
+        return 'DIRECT';
+    }
+
+    /* Handle SSO redirector requests for roaming users */
+    if (false)
+    {
+        return 'DIRECT';
+    }
+
+    /* Query page should always resolve to the proxy - even if it's treated as a local address */
+    if (isResolvable(host) & !(shExpMatch(url, 'http://query.webdefence.global.blackspider.com/*')))
+    {
+        var hostIP = dnsResolve(host);
+
+        /* Don't proxy non-routable addresses (RFC 3330) */
+        if (isInNet(hostIP, '0.0.0.0', '255.0.0.0') ||
+isInNet(hostIP, '10.0.0.0', '255.0.0.0') ||
+isInNet(hostIP, '127.0.0.0', '255.0.0.0') ||
+isInNet(hostIP, '169.254.0.0', '255.255.0.0') ||
+isInNet(hostIP, '172.16.0.0', '255.240.0.0') ||
+isInNet(hostIP, '192.0.2.0', '255.255.255.0') ||
+isInNet(hostIP, '192.88.99.0', '255.255.255.0') ||
+isInNet(hostIP, '192.168.0.0', '255.255.0.0') ||
+isInNet(hostIP, '198.18.0.0', '255.254.0.0') ||
+isInNet(hostIP, '224.0.0.0', '240.0.0.0') ||
+isInNet(hostIP, '240.0.0.0', '240.0.0.0'))
+        {
+            return 'DIRECT';
+        }
+
+        /* Don't proxy local addresses */
+        if (isInNet(hostIP, "96.232.115.88", "255.255.255.255") ||
+isInNet(hostIP, "199.182.122.252", "255.255.255.255") ||
+isInNet(hostIP, "81.198.191.240", "255.255.255.240") ||
+isInNet(hostIP, "145.42.147.254", "255.255.255.255") ||
+isInNet(hostIP, "210.13.110.48", "255.255.255.240") ||
+isInNet(hostIP, "180.169.71.0", "255.255.255.240") ||
+isInNet(hostIP, "210.13.118.200", "255.255.255.248") ||
+isInNet(hostIP, "30.0.0.0", "255.0.0.0") ||
+isInNet(hostIP, "162.95.224.0", "255.255.240.0") ||
+isInNet(hostIP, "10.230.181.48", "255.255.255.240") ||
+isInNet(hostIP, "144.36.69.128", "255.255.255.240") ||
+isInNet(hostIP, "170.252.40.48", "255.255.255.240") ||
+isInNet(hostIP, "204.29.58.0", "255.255.255.0") ||
+isInNet(hostIP, "22.250.0.0", "255.255.224.0") ||
+isInNet(hostIP, "144.36.0.0", "255.255.0.0") ||
+isInNet(hostIP, "170.248.0.0", "255.255.0.0") ||
+isInNet(hostIP, "170.250.0.0", "255.255.0.0") ||
+isInNet(hostIP, "170.251.0.0", "255.255.0.0") ||
+isInNet(hostIP, "170.252.0.0", "255.255.0.0") ||
+isInNet(hostIP, "199.200.24.0", "255.255.252.0") ||
+isInNet(hostIP, "144.36.116.0", "255.255.255.0") ||
+isInNet(hostIP, "144.36.114.0", "255.255.254.0") ||
+isInNet(hostIP, "72.50.229.22", "255.255.255.255") ||
+isInNet(hostIP, "85.254.1.192", "255.255.255.252") ||
+isInNet(hostIP, "145.42.147.254", "255.255.255.255"))
+        {
+            return 'DIRECT';
+        }
+    }
+/*Begin Custom Function*/
+
+	/*Bypass Accenture Networks*/
+
+	var reqIP = "164.82.1.13";
+
+	if(
+		isInNet (reqIP, '144.36.0.0', 		'255.255.0.0')		||
+		isInNet (reqIP, '170.248.0.0', 		'255.255.0.0')		||
+		isInNet (reqIP, '170.249.0.0',		'255.255.0.0')		||
+		isInNet (reqIP, '170.250.0.0', 		'255.255.0.0')		||
+		isInNet (reqIP, '170.251.0.0', 		'255.255.0.0')		||
+		isInNet (reqIP, '170.252.0.0', 		'255.255.0.0')		||
+		isInNet (reqIP, '180.169.71.0',		'255.255.255.240')	||
+		isInNet (reqIP, '199.72.21.130',	'255.255.255.255')	||
+		isInNet (reqIP, '199.200.24.0', 	'255.255.252.0')	||
+		isInNet (reqIP, '210.13.110.48',	'255.255.255.240')	||
+		isInNet (reqIP,	'210.13.118.200',	'255.255.255.248')	||
+                isInNet (reqIP, '213.234.32.0',     '255.255.252.0')	||
+		isInNet (reqIP,	'65.113.176.2',		'255.255.255.255')	||
+		isInNet (reqIP,	'81.198.191.240',	'255.255.255.240')	||
+                isInNet (reqIP, '199.44.0.66',	'255.255.255.255')	||
+		isInNet (reqIP,	'85.254.1.192',		'255.255.255.252')
+	  ){
+		return 'DIRECT';
+	   }
+
+	/*Proxy HTTP/HTTPS*/
+	var proxy_domain_list = new Array("amazon.com","directv.com","netflix.com");
+
+	for (p in proxy_domain_list)
+    {
+        if ( dnsDomainIs(host, "." + proxy_domain_list[p] ) || host == proxy_domain_list[p] )
+        {
+            if (url.substring(0, 5) == 'http:' || url.substring(0, 6) == 'https:')
+			{
+				return 'PROXY webdefence.global.blackspider.com:80';
+			}
+        }
+    }
+	/*End Proxy HTTP/HTTPS*/
+
+	/*End Bypass*/
+	/*Bypass HTTPS*/
+
+	 if (url.substring(0, 6) == 'https:')
+		{
+			return 'DIRECT';
+		}
+	/*End Bypass*/
+
+	/*BypassFTP*/
+
+	 if (url.substring(0, 4) == 'ftp:')
+		{
+			return 'DIRECT';
+		}
+	/*End Bypass*/
+
+/*End Custom Function*/
+    if (url.substring(0, 6) == 'https:')
+    {
+        var pats = new Array("");
+        for (i in pats)
+        {
+            if (shExpMatch(host, pats[i].toLowerCase()))
+            {
+                // non-SSL-terminate hosts must use the normal address/port
+                return 'PROXY webdefence.global.blackspider.com:80';
+            }
+        }
+    }
+    if (url.substring(0, 5) == 'http:' || url.substring(0, 6) == 'https:')
+    {
+        return 'PROXY webdefence.global.blackspider.com:80';
+    }
+    if (url.substring(0, 4) == 'ftp:')
+    {
+        // ftp must use the normal address/port
+        return 'PROXY webdefence.global.blackspider.com:80';
+    }
+    return 'DIRECT';
+}
+
+0
+

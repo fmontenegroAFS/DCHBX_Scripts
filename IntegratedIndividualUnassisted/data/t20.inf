@@ -1,0 +1,11 @@
+[t20]
+FileName1=t20.htm
+URL1=http://dc.checkbookhealth.org/hie/dc/2016/doctors.cfm?data=eyJGT1JNVkFMVUVTIjp7fSwiVVJMVkFMVUVTIjp7Im5hdGl2ZSI6MCwiaGVhbHRoU3RhdHVzIjoiIiwiaG91c2Vob2xkTnVtYmVyIjoxLCJhZ2UiOjI1LCJwcmVnbmFudCI6MCwibWVkaWNhbEV4cGVuc2UiOiIiLCJmaW5kU3Vic2lkeSI6ZmFsc2UsImluY29tZSI6IiIsImNhbGN1bGF0ZVN1YnNpZHkiOiIifX0=
+Total=1
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t20_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_20.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

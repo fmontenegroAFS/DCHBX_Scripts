@@ -1,0 +1,13 @@
+[t9]
+FileName1=t9.htm
+URL1=https://webpp.dchealthlink.com/oaam_server/loginAuth.do
+Total=2
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=t9_RequestBody.txt
+ResponseHeaderFile=t9_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_9.xml
+FileName2=t9_loader-1.gif
+URL2=https://webpp.dchealthlink.com/oaam_server/dhs/ui/dcas-ui-wrapper-img/loader-1.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

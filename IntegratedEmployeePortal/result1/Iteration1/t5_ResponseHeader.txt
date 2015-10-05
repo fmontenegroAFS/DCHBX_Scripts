@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: text/html; charset=utf-8
+Date: Fri, 25 Sep 2015 13:46:14 GMT
+ETag: W/"4d3d4ebdcef2848838f246497a9d5d46"
+Server: nginx/1.8.0
+Set-Cookie: request_method=; path=/; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000
+Status: 200 OK
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: 0f18d69f-1c3c-49f5-82f2-5f16ef1d965f
+X-Runtime: 0.042004
+X-XSS-Protection: 1; mode=block
+Content-Length: 12249
+Connection: keep-alive
+

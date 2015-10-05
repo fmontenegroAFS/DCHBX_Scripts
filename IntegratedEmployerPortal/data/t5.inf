@@ -1,0 +1,15 @@
+[t5]
+FileName1=t5.htm
+URL1=https://10.83.84.161/employers/employer_profiles/55ba29d24842583b6fe80400
+Total=3
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_5.xml
+FileName2=t5_glyphicons-halflings-regular-d6e0ff593059a0d876be4db9d38ed499.html
+URL2=https://10.83.84.161/assets/glyphicons-halflings-regular-d6e0ff593059a0d876be4db9d38ed499.woff
+FileName3=t5_icon-business-owner-af38059fae9e279fe6258718668d610c.png
+URL3=https://10.83.84.161/assets/icons/icon-business-owner-af38059fae9e279fe6258718668d610c.png
+[ProtocolInfo]
+ProtocolId=QTWeb

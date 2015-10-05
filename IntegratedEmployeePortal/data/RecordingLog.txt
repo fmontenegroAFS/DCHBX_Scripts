@@ -1,0 +1,619 @@
+[API Trapper      (53a4:1af4)] Recording in 32-bit mode: C:\Program Files (x86)\Mozilla Firefox\firefox.exe
+[Network Analyzer (53a4:1af4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (53a4:1af4)] Load Network Traffic Analyzers:
+[Network Analyzer (53a4:1af4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (53a4:1af4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (53a4:1af4)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (53a4:1af4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (53a4:1af4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (53a4:1af4)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (53a4:1af4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (53a4:1af4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (53a4:3760)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:1af4)] Establish Listener @ 127.0.0.1:0
+[Network Analyzer (53a4:1af4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:1af4)] Request Connection: Remote Server @ 127.0.0.1:60665   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (53a4:1af4)] Accept Connection : Service @ 127.0.0.1:60665  ,  Remote Client @ 127.0.0.1:60667
+[Network Analyzer (53a4:3760)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (53a4:3760)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (53a4:3760)] "GET /"   
+[Network Analyzer (53a4:3760)]   (Sid:  4) Client -> Server @ : 294 bytes (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 2945 bytes  (Service=HTTP)
+[Web Request      (53a4:3760)] "GET /assets/application-f46679a55900235b472472ac8659a877.css"   
+[Network Analyzer (53a4:3760)]   (Sid:  4) Client -> Server @ : 539 bytes (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 338 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 10416 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005F - 443  (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 9632 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 13496 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6000 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Web Request      (53a4:3760)] "GET /assets/application-10a76653a35bd217320c84365ffe5bbf.js"   
+[Network Analyzer (53a4:3760)]   (Sid:  5) Client -> Server @ : 523 bytes (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 7008 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 7300 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 352 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 10576 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 10416 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 13888 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 388 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 2920 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 13104 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 14956 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 7104 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 32 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 10416 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 12036 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 8564 bytes  (Service=HTTP)
+[Web Request      (53a4:3760)] "GET /assets/favicon-b5b25fae47915387ed9b52dcd94369f8.ico"   
+[Network Analyzer (53a4:3760)]   (Sid:  7) Client -> Server @ : 541 bytes (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 9344 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 9472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  7) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 10416 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  7) Server -> Client : 2297 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6908 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 4540 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 4716 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 9964 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 12036 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 10416 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 10024 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 10416 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 9472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 6908 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 12944 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 10416 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 12392 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 13888 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 6000 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 4412 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 4448 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 13264 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 10416 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 2987 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (53a4:2d90)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:1714)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:2d90)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (53a4:3760)] "GET /assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png"   
+[Network Analyzer (53a4:3760)]   (Sid:  5) Client -> Server @ : 547 bytes (Service=HTTP)
+[Web Request      (53a4:3760)] "GET /assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png"   
+[Network Analyzer (53a4:3760)]   (Sid:  4) Client -> Server @ : 554 bytes (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 4302 bytes  (Service=HTTP)
+[Web Request      (53a4:3760)] "GET /assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png"   
+[Network Analyzer (53a4:3760)]   (Sid:  7) Client -> Server @ : 553 bytes (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  4) Server -> Client : 1824 bytes  (Service=HTTP)
+[Web Request      (53a4:3760)] "GET /assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png"   
+[Network Analyzer (53a4:3760)]   (Sid:  9) Client -> Server @ : 556 bytes (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  7) Server -> Client : 1770 bytes  (Service=HTTP)
+[Net An. Error    (53a4:1714)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:3760)]   (Sid:  9) Server -> Client : 1629 bytes  (Service=HTTP)
+[Network Analyzer (53a4:53a8)]   (Sid:  6) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 11) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C09:0000:0000:0000:005D - 443  (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 54.230.205.75:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (53a4:52c4)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:52c4)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 16)  PROXIED!
+[Net An. Error    (53a4:5118)]   (Sid: 14) SSL handshake with remote server Failed!
+[Network Analyzer (53a4:4d74)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (53a4:3760)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (53a4:3e94)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:505c)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:4d74)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:26d4)]   (Sid: 17) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:3e94)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:26d4)]   (Sid: 17) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 17) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 19)  PROXIED!
+[Net An. Error    (53a4:505c)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (53a4:3b2c)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (53a4:4f30)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 23)  PROXIED!
+[Net An. Error    (53a4:3b2c)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:4dd0)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:4f30)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:5230)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4788)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:4788)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:5008)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:3760)]   (Sid:  8) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 20) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 21) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 24)  PROXIED!
+[Net An. Error    (53a4:5230)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:5008)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:4dd0)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (53a4:52d8)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:53a8)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 27)  PROXIED!
+[Net An. Error    (53a4:52d8)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (53a4:53a8)]   (Sid: 19) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 23) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 22) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (53a4:2ce8)]   (Sid: 27) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (53a4:37dc)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 31)  PROXIED!
+[Net An. Error    (53a4:2ce8)]   (Sid: 27) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (53a4:1dd0)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:37dc)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 26) Connection Terminated (by Client)
+[Network Analyzer (53a4:377c)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:377c)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 28) Connection Terminated (by Client)
+[Net An. Error    (53a4:1dd0)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (53a4:2210)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:41d4)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:41d4)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 30) Connection Terminated (by Client)
+[Net An. Error    (53a4:2210)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (53a4:4e50)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 32)  PROXIED!
+[Net An. Error    (53a4:4e50)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (53a4:53a8)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (53a4:2fc8)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:3414)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:2fc8)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 32) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 34)  PROXIED!
+[Net An. Error    (53a4:3414)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 33) Connection Terminated (by Client)
+[Network Analyzer (53a4:389c)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 35)  PROXIED!
+[Net An. Error    (53a4:389c)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 34) Connection Terminated (by Client)
+[Network Analyzer (53a4:2b78)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 36)  PROXIED!
+[Net An. Error    (53a4:2b78)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 35) Connection Terminated (by Client)
+[Network Analyzer (53a4:4cf4)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 37)  PROXIED!
+[Network Analyzer (53a4:3bf8)]   (Sid: 37) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:4cf4)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 36) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005E - 443  (Service=)  (Sid= 38)  PROXIED!
+[Net An. Error    (53a4:3bf8)]   (Sid: 37) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 37) Connection Terminated (by Client)
+[Network Analyzer (53a4:3290)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:3290)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 38) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 24) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent Click on Employee Tab [Web Request      (53a4:3760)] "GET /consumer/employee/welcome"   
+[Network Analyzer (53a4:3760)]   (Sid:  5) Client -> Server @ : 585 bytes (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 537 bytes  (Service=HTTP)
+[Web Request      (53a4:3760)] "GET /users/sign_in"   
+[Network Analyzer (53a4:3760)]   (Sid:  5) Client -> Server @ : 573 bytes (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3700 bytes  (Service=HTTP)
+[Web Request      (53a4:3760)] "GET /assets/AvenirLTStd-Light-af804d2ea26c0ab34f6d6f1c148e90b2.woff"   
+[Network Analyzer (53a4:3760)]   (Sid:  5) Client -> Server @ : 644 bytes (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 10416 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3285 bytes  (Service=HTTP)
+[User action                 ] EndTransactionEvent Click on Employee Tab [User action                 ] StartTransactionEvent Click Emp Create Account  [Web Request      (53a4:3760)] "GET /users/sign_up"   
+[Network Analyzer (53a4:3760)]   (Sid:  5) Client -> Server @ : 599 bytes (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Server -> Client : 3769 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[User action                 ] EndTransactionEvent Click Emp Create Account  [User action                 ] StartTransactionEvent Emp Create Account Submit [Network Analyzer (53a4:3760)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (53a4:3760)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (53a4:3760)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer (53a4:3760)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 74.125.21.94:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C06:0000:0000:0000:005B - 443  (Service=)  (Sid= 40)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 54.208.37.57:80   (Service=)  (Sid= 41)  PROXIED!
+[Network Analyzer (53a4:456c)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:456c)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 42)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 43)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:3308)]   (Sid: 40) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:3760)]   (Sid: 39) Connection Terminated (by Client)
+[Web Request      (53a4:3760)] "POST /users"   
+[Network Analyzer (53a4:3760)]   (Sid: 41) Client -> Server @ : 974 bytes (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid= 44)  PROXIED!
+[Net An. Error    (53a4:3308)]   (Sid: 40) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0801:0000:0000:0000:1009 - 443  (Service=)  (Sid= 45)  PROXIED!
+[Network Analyzer (53a4:42dc)]   (Sid: 42) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:5040)]   (Sid: 43) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:3760)]   (Sid: 41) Server -> Client : 673 bytes  (Service=HTTP)
+[Net An. Error    (53a4:42dc)]   (Sid: 42) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:37e0)]   (Sid: 45) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:53a8)]   (Sid: 42) Connection Terminated (by Client)
+[Net An. Error    (53a4:5040)]   (Sid: 43) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:37e0)]   (Sid: 45) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (53a4:3760)] "GET /consumer/employee/welcome"   
+[Network Analyzer (53a4:3760)]   (Sid: 41) Client -> Server @ : 588 bytes (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 46)  PROXIED!
+[Network Analyzer (53a4:3760)]   (Sid: 41) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid: 41) Server -> Client : 4472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:53d8)]   (Sid: 46) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:53d8)]   (Sid: 46) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 46) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 40) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 43) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 45) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005F - 443  (Service=)  (Sid= 47)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C07:0000:0000:0000:005F - 443  (Service=)  (Sid= 48)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 49)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 50)  PROXIED!
+[Network Analyzer (53a4:1d50)]   (Sid: 47) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 51)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 52)  PROXIED!
+[Network Analyzer (53a4:3934)]   (Sid: 48) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 53)  PROXIED!
+[Net An. Error    (53a4:1d50)]   (Sid: 47) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (53a4:3760)] "GET /assets/icons/icon-individual-6f790bd56bddf0e9ed6481789a8abbc8.png"   
+[Network Analyzer (53a4:3760)]   (Sid: 41) Client -> Server @ : 589 bytes (Service=HTTP)
+[Network Analyzer (53a4:4924)]   (Sid: 52) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:3934)]   (Sid: 48) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:1d98)]   (Sid: 53) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:3760)]   (Sid: 41) Server -> Client : 335 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid: 41) Server -> Client : 2392 bytes  (Service=HTTP)
+[Net An. Error    (53a4:4924)]   (Sid: 52) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:235c)]   (Sid: 51) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:1d98)]   (Sid: 53) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53f0)]   (Sid: 50) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:235c)]   (Sid: 51) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:3920)]   (Sid: 49) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:53a8)]   (Sid: 51) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 52) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 54)  PROXIED!
+[Net An. Error    (53a4:53f0)]   (Sid: 50) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:3920)]   (Sid: 49) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:4ce8)]   (Sid: 54) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:53a8)]   (Sid: 47) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 48) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 53) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 49) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 50) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 55)  PROXIED!
+[Net An. Error    (53a4:4ce8)]   (Sid: 54) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:5314)]   (Sid: 55) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:53a8)]   (Sid: 54) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 56)  PROXIED!
+[Net An. Error    (53a4:5314)]   (Sid: 55) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:3760)]   (Sid: 44) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 57)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 58)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 59)  PROXIED!
+[Network Analyzer (53a4:155c)]   (Sid: 56) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 60)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 61)  PROXIED!
+[Net An. Error    (53a4:155c)]   (Sid: 56) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 56) Connection Terminated (by Client)
+[Network Analyzer (53a4:37d8)]   (Sid: 61) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ed0)]   (Sid: 60) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:5098)]   (Sid: 59) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:25d4)]   (Sid: 58) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4c48)]   (Sid: 57) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:53a8)]   (Sid: 55) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 62)  PROXIED!
+[Net An. Error    (53a4:4c48)]   (Sid: 57) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:37d8)]   (Sid: 61) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:4ed0)]   (Sid: 60) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:5098)]   (Sid: 59) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:25d4)]   (Sid: 58) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:36b8)]   (Sid: 62) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:53a8)]   (Sid: 57) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 58) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 59) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 60) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 61) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 63)  PROXIED!
+[Net An. Error    (53a4:36b8)]   (Sid: 62) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:4fb0)]   (Sid: 63) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:53a8)]   (Sid: 62) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 64)  PROXIED!
+[Net An. Error    (53a4:4fb0)]   (Sid: 63) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:3bd4)]   (Sid: 64) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:53a8)]   (Sid: 63) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 65)  PROXIED!
+[Net An. Error    (53a4:3bd4)]   (Sid: 64) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 66)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 67)  PROXIED!
+[Network Analyzer (53a4:41b0)]   (Sid: 65) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 68)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 69)  PROXIED!
+[Network Analyzer (53a4:4868)]   (Sid: 67) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 70)  PROXIED!
+[Net An. Error    (53a4:41b0)]   (Sid: 65) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:351c)]   (Sid: 66) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:4868)]   (Sid: 67) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 67) Connection Terminated (by Client)
+[Network Analyzer (53a4:243c)]   (Sid: 70) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:351c)]   (Sid: 66) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 66) Connection Terminated (by Client)
+[Network Analyzer (53a4:46d8)]   (Sid: 69) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:243c)]   (Sid: 70) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 70) Connection Terminated (by Client)
+[Network Analyzer (53a4:3f0c)]   (Sid: 68) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:3f0c)]   (Sid: 68) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 68) Connection Terminated (by Client)
+[Net An. Error    (53a4:46d8)]   (Sid: 69) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 69) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 71)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 72)  PROXIED!
+[Network Analyzer (53a4:3cd0)]   (Sid: 72) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:33d4)]   (Sid: 71) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:33d4)]   (Sid: 71) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 71) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 64) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 73)  PROXIED!
+[Net An. Error    (53a4:3cd0)]   (Sid: 72) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:3494)]   (Sid: 73) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:53a8)]   (Sid: 65) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 72) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 74)  PROXIED!
+[Net An. Error    (53a4:3494)]   (Sid: 73) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:3034)]   (Sid: 74) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:3034)]   (Sid: 74) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 74) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 75)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 76)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 77)  PROXIED!
+[Network Analyzer (53a4:5178)]   (Sid: 75) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 78)  PROXIED!
+[Network Analyzer (53a4:49f0)]   (Sid: 76) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:49f0)]   (Sid: 76) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 76) Connection Terminated (by Client)
+[Net An. Error    (53a4:5178)]   (Sid: 75) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 75) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 79)  PROXIED!
+[Network Analyzer (53a4:2de4)]   (Sid: 78) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4b60)]   (Sid: 77) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:4b60)]   (Sid: 77) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 77) Connection Terminated (by Client)
+[Net An. Error    (53a4:2de4)]   (Sid: 78) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 78) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 80)  PROXIED!
+[Network Analyzer (53a4:1128)]   (Sid: 79) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:2cd8)]   (Sid: 80) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:1128)]   (Sid: 79) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 79) Connection Terminated (by Client)
+[Net An. Error    (53a4:2cd8)]   (Sid: 80) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 80) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 81)  PROXIED!
+[Network Analyzer (53a4:3910)]   (Sid: 81) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:3910)]   (Sid: 81) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 81) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 73) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent Emp Create Account Submit [User action                 ] StartTransactionEvent BeginCoverage Continue [Web Request      (53a4:3760)] "GET /consumer/employee/search"   
+[Network Analyzer (53a4:3760)]   (Sid: 41) Client -> Server @ : 634 bytes (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid: 41) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid: 41) Server -> Client : 7511 bytes  (Service=HTTP)
+[Web Request      (53a4:3760)] "GET /assets/icons/list-647d16f6cc5752cc205d2c1a2096175a.png"   
+[Network Analyzer (53a4:3760)]   (Sid: 41) Client -> Server @ : 578 bytes (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid= 82)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:3760)]   (Sid: 41) Server -> Client : 1353 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid= 83)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 84)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 85)  PROXIED!
+[Network Analyzer (53a4:4b44)]   (Sid: 84) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:4b44)]   (Sid: 84) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 84) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 86)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 87)  PROXIED!
+[Network Analyzer (53a4:5200)]   (Sid: 85) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 88)  PROXIED!
+[Net An. Error    (53a4:5200)]   (Sid: 85) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 85) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 89)  PROXIED!
+[Network Analyzer (53a4:3674)]   (Sid: 87) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:1dc0)]   (Sid: 86) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:3674)]   (Sid: 87) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:3820)]   (Sid: 89) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:3820)]   (Sid: 89) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:1dc0)]   (Sid: 86) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 86) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 87) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 89) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 90)  PROXIED!
+[Network Analyzer (53a4:3cb0)]   (Sid: 88) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:3cb0)]   (Sid: 88) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 88) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 91)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 92)  PROXIED!
+[Network Analyzer (53a4:1910)]   (Sid: 91) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:5378)]   (Sid: 90) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:1910)]   (Sid: 91) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:5378)]   (Sid: 90) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 90) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 91) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 93)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 94)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C03:0000:0000:0000:005E - 443  (Service=)  (Sid= 95)  PROXIED!
+[Network Analyzer (53a4:3874)]   (Sid: 92) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:3874)]   (Sid: 92) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:538c)]   (Sid: 93) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:136c)]   (Sid: 94) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:538c)]   (Sid: 93) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:136c)]   (Sid: 94) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (53a4:3760)] "GET /assets/icons/check_radio_sheet-acb32d0354c34018182eac641553979c.png"   
+[Network Analyzer (53a4:3760)]   (Sid: 83) Client -> Server @ : 621 bytes (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid: 83) Server -> Client : 1918 bytes  (Service=HTTP)
+[Network Analyzer (53a4:53a8)]   (Sid: 92) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 93) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid: 94) Connection Terminated (by Client)
+[Network Analyzer (53a4:50cc)]   (Sid: 95) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:50cc)]   (Sid: 95) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid: 95) Connection Terminated (by Client)
+[Network Analyzer (53a4:3760)]   (Sid: 82) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent BeginCoverage Continue [User action                 ] StartTransactionEvent Emp Personal Info [Web Request      (53a4:3760)] "GET /assets/jquery-ui/ui-bg_flat_75_ffffff_40x100-d20cf782ea2d212335fa15f2ecb5e412.png"   
+[Network Analyzer (53a4:3760)]   (Sid: 41) Client -> Server @ : 635 bytes (Service=HTTP)
+[Web Request      (53a4:3760)] "GET /assets/jquery-ui/ui-bg_highlight-soft_75_cccccc_1x100-fcf0ee4ce3fcc9eb7d15fc0c2f96b827.png"   
+[Network Analyzer (53a4:3760)]   (Sid: 83) Client -> Server @ : 644 bytes (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:3760)]   (Sid: 41) Server -> Client : 511 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid: 83) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid= 96)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Web Request      (53a4:3760)] "GET /assets/jquery-ui/ui-icons_222222_256x240-c9d45cbe79fa6dab691c8b7438a5c815.png"   
+[Network Analyzer (53a4:3760)]   (Sid: 96) Client -> Server @ : 631 bytes (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid= 97)  PROXIED!
+[Web Request      (53a4:3760)] "GET /assets/jquery-ui/ui-bg_glass_75_e6e6e6_1x400-79e6a336ebef984293eef201f783ce65.png"   
+[Network Analyzer (53a4:3760)]   (Sid: 97) Client -> Server @ : 635 bytes (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:3760)]   (Sid: 96) Server -> Client : 336 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid: 96) Server -> Client : 4369 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid: 97) Server -> Client : 443 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid= 98)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Web Request      (53a4:3760)] "GET /assets/jquery-ui/ui-bg_glass_55_fbf9ee_1x400-b78c474f171fc7320cb93907b8d44b77.png"   
+[Network Analyzer (53a4:3760)]   (Sid: 98) Client -> Server @ : 635 bytes (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid= 99)  PROXIED!
+[Network Analyzer (53a4:3760)]   (Sid: 98) Server -> Client : 333 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid: 98) Server -> Client : 120 bytes  (Service=HTTP)
+[Web Request      (53a4:3760)] "GET /assets/jquery-ui/ui-bg_glass_75_dadada_1x400-5219036e0b535359bab02dc6d9a329c3.png"   
+[Network Analyzer (53a4:3760)]   (Sid: 41) Client -> Server @ : 635 bytes (Service=HTTP)
+[Web Request      (53a4:3760)] "GET /assets/jquery-ui/ui-icons_454545_256x240-98f30197c1a1a6c536387f6581bc50d6.png"   
+[Network Analyzer (53a4:3760)]   (Sid: 96) Client -> Server @ : 631 bytes (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid: 99) Connection Terminated (by Client)
+[Network Analyzer (53a4:3760)]   (Sid: 41) Server -> Client : 444 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid: 96) Server -> Client : 336 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid: 96) Server -> Client : 4369 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2001:4998:0058:2201:0000:0000:0000:1003 - 443  (Service=)  (Sid=100)  PROXIED!
+[Network Analyzer (53a4:3eb4)]   (Sid:100) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-RC4-SHA)
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 93.184.215.191:443   (Service=)  (Sid=101)  PROXIED!
+[Net An. Error    (53a4:3eb4)]   (Sid:100) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 63.245.217.138:443   (Service=)  (Sid=102)  PROXIED!
+[Network Analyzer (53a4:3160)]   (Sid:101) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-RC4-SHA)
+[Net An. Error    (53a4:3160)]   (Sid:101) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 93.184.215.191:443   (Service=)  (Sid=103)  PROXIED!
+[Network Analyzer (53a4:5158)]   (Sid:102) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:51dc)]   (Sid:103) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-RC4-SHA)
+[Net An. Error    (53a4:51dc)]   (Sid:103) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:5158)]   (Sid:102) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid:100) Connection Terminated (by Client)
+[Network Analyzer (53a4:3760)]   (Sid:101) Connection Terminated (by Client)
+[Network Analyzer (53a4:3760)]   (Sid:103) Connection Terminated (by Client)
+[Network Analyzer (53a4:3760)]   (Sid:102) Connection Terminated (by Client)
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 54.208.37.57:80   (Service=)  (Sid=104)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2001:4998:0058:2201:0000:0000:0000:1003 - 443  (Service=)  (Sid=105)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Web Request      (53a4:3760)] "GET /"   
+[Network Analyzer (53a4:3760)]   (Sid:104) Client -> Server @ : 502 bytes (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid=106)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Address lookup for MW79IC5RWSR12Z = 10.0.0.14
+[Network Analyzer (53a4:3760)]   (Sid:104) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (53a4:3760)]   (Sid:104) Server -> Client : 2709 bytes  (Service=HTTP)
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 52.3.206.41:80   (Service=)  (Sid=107)  PROXIED!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C06:0000:0000:0000:005F - 443  (Service=)  (Sid=108)  PROXIED!
+[Network Analyzer (53a4:5140)]   (Sid:105) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-RC4-SHA)
+[Net An. Error    (53a4:5140)]   (Sid:105) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:4ee4)] Request Connection: Remote Server @ 2607:F8B0:4002:0C06:0000:0000:0000:005E - 443  (Service=)  (Sid=109)  PROXIED!
+[Network Analyzer (53a4:5198)]   (Sid:108) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (53a4:5170)]   (Sid:109) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (53a4:5198)]   (Sid:108) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (53a4:5170)]   (Sid:109) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (53a4:53a8)]   (Sid:109) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid:105) Connection Terminated (by Client)
+[Network Analyzer (53a4:53a8)]   (Sid:108) Connection Terminated (by Client)
+[User action                 ] Pausing...  

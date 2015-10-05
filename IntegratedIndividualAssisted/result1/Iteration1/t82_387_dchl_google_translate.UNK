@@ -1,0 +1,76 @@
+/* google translate stuff */
+
+/*
+
+example usage in css...
+
+html.translated-ltr #plans .smaller-translate { 
+    font-size: 11px;
+    background-color: yellow;
+}
+
+html.translated-ltr .skiptranslate {
+    background-color: yellow;
+}
+
+.show-on-translate {
+    display: none;
+}
+
+html.translated-ltr .show-on-translate {
+    display: block;
+    background-color: yellow;
+}
+
+A translated page will have the class "translated-ltr" added to the html tag. Adding 
+the "skiptranslate" class to any element will leave the original text untouched in 
+that element and it's child elements.
+
+*/
+
+function googleTranslateElementInit () {
+    new google.translate.TranslateElement({
+    pageLanguage: 'en',
+    includedLanguages: DCHL_GT_LANG //includedLanguages: 'fr,de,it,es,sr'
+    }, 'google_translate_element');
+}
+
+
+jQuery(document).ready(function ($) {
+    
+    $('body').prepend('<div id="google_translate_box"><div id="google_translate_element"></div></div>');
+    
+    //$('#google_translate').click(function (e) {
+    $(document).on('click', '.google_translate', function (e) {
+        //console.log('click'); // bugger        
+        if (! $(this).hasClass('on')) {
+            $(this).addClass('on');            
+            $('#google_translate_box').css('left', e.pageX - 30 + 'px');
+            $('#google_translate_box').css('top', e.pageY + 10 + 'px');
+            $('#google_translate_box').css('z-index', '9999');
+            $('#google_translate_box').show();
+            //console.log('showing...'); // bugger
+            window.setTimeout(function () {
+                $('#google_translate_box').hide();
+                $(this).removeClass('on');            
+                //console.log('hiding...'); // bugger
+            }, 4000);
+        } 
+        else {
+            $('#google_translate_box').hide();
+            $(this).removeClass('on');            
+        }
+        
+        return false;
+    });
+    
+    $('.goog-te-combo').change(function (e) {
+        $('#google_translate_box').hide();
+        
+        return false;
+    });
+    
+
+});
+
+

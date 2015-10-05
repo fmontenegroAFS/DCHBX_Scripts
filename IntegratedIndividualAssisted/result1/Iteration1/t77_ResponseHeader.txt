@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Date: Fri, 02 Oct 2015 14:51:37 GMT
+Server: Oracle-Application-Server-11g
+Cache-Control: public
+Pragma: public
+Content-Length: 164
+X-OPNET-Transaction-Trace: a2_62a4c4f2-1e11-4a24-9c50-51652f7b961e
+X-Powered-By: Servlet/2.5 JSP/2.1
+Keep-Alive: timeout=15, max=860
+Connection: Keep-Alive
+Content-Type: text/html;charset=UTF-8
+Content-Language: en
+

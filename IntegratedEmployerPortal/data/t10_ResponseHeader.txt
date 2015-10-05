@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Thu, 30 Jul 2015 13:45:57 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+X-XHR-Redirected-To: https://10.83.84.161/users/sign_in
+ETag: W/"1872cf15a17ccd169f3f5f9bc5716afa"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: de2c53c6-9993-4221-8a4d-102ed018b96e
+X-Runtime: 0.026276
+

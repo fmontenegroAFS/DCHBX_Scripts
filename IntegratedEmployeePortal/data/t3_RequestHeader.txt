@@ -1,0 +1,11 @@
+GET /users/sign_up HTTP/1.1
+Host: enroll_uat.dchbx.org
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept: text/html, application/xhtml+xml, application/xml
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-XHR-Referer: http://enroll_uat.dchbx.org/users/sign_in
+Referer: http://enroll_uat.dchbx.org/users/sign_in
+Cookie: _session_id=ECDX4Z4m6Up3T-5jyiDRdxvrjgA; AWSELB=6D2D4FC502CCAC03723C58EA8D775E64A466F6F60FCC4C5E0357B3719D86167B8DEBFACEA6818ABE584A2080F4CB9E59DC38536649E74113729D22EBA3A4E57D8D58EA3276
+Connection: keep-alive
+

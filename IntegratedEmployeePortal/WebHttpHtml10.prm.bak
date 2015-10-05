@@ -1,0 +1,8 @@
+[parameter:host_enroll_uat_dchbx_org]
+ParamName="host_enroll_uat_dchbx_org"
+IsEncrypt="NO"
+CurrentValue="enroll_uat.dchbx.org"
+Type="Custom"
+OriginalValue="enroll_uat.dchbx.org"
+IsServer="YES"
+Prompt=""

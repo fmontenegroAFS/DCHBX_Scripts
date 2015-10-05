@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Fri, 02 Oct 2015 14:49:39 GMT
+Server: Oracle-Application-Server-11g
+Cache-Control: no-store
+Pragma: no-cache
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+X-OPNET-Transaction-Trace: a2_f3723526-a07f-468b-ba65-d4fc4da9b3df
+Set-Cookie: JSESSIONID=3GW7WTZD1Fbz289214n5j5jTVvpmBpFRhhkn3J0tR0QPgpwxCLmD!-288729337!609102821; path=/oaam_server; HttpOnly
+X-ORACLE-DMS-ECID: 0058I15uD00AtHLLuQo2yX0002oO0002Bf
+X-Powered-By: Servlet/2.5 JSP/2.1
+X-dynaTrace: PT=568648;PA=1379048021;SP=DC HBX;PS=1724996734
+Keep-Alive: timeout=15, max=999
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Content-Language: en
+

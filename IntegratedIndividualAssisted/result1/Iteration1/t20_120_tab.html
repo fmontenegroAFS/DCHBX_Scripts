@@ -1,0 +1,152 @@
+//>>built
+define("curam/tab",["curam/define","curam/util","curam/util/ScreenContext"],function(){
+curam.define.singleton("curam.tab",{SECTION_TAB_CONTAINER_ID:"app-sections-container-dc",SMART_PANEL_IFRAME_ID:"curam_tab_SmartPanelIframe",toBeExecutedOnTabClose:[],_mockSelectedTab:null,getSelectedTab:function(_1){
+if(curam.tab._mockSelectedTab){
+return curam.tab._mockSelectedTab;
+}
+if(curam.tab.getTabContainer(_1)){
+return curam.tab.getTabContainer(_1).selectedChildWidget;
+}
+},getTabContainer:function(_2){
+return curam.tab.getTabContainerFromSectionID(_2||curam.tab.getCurrentSectionId());
+},getCurrentSectionId:function(){
+var _3=curam.util.getTopmostWindow().dijit.byId(curam.tab.SECTION_TAB_CONTAINER_ID);
+if(_3){
+var _4=_3.selectedChildWidget.domNode.id;
+return _4.substring(0,_4.length-4);
+}else{
+throw new Error("curam.tab.getCurrentSectionId() - application section tab container"+" not found");
+}
+},getTabContainerFromSectionID:function(_5){
+var _6=dijit.byId(_5+"-stc");
+if(!_6&&window.parent&&window.parent!=window){
+_6=curam.util.getTopmostWindow().dijit.byId(_5+"-stc");
+}
+return _6;
+},getTabWidgetId:function(_7){
+return _7.id;
+},getSelectedTabWidgetId:function(){
+return curam.tab.getTabWidgetId(curam.tab.getSelectedTab());
+},getContainerTab:function(_8){
+var _9=dijit.getEnclosingWidget(_8);
+if(_9&&!_9.tabDescriptor){
+_9=curam.tab.getContainerTab(_9.domNode.parentNode);
+}
+if(!_9||!_9.tabDescriptor){
+throw "Containing tab widget could not be found for node: "+_8;
+}
+return _9;
+},getContentPanelIframe:function(_a){
+var _b=_a?_a:curam.tab.getSelectedTab();
+if(_b){
+var _c=dojo.query("iframe",_b.domNode).filter(function(_d){
+return dojo.attr(_d,"iscpiframe")=="true";
+})[0];
+}
+return _c?_c:null;
+},refreshMainContentPanel:function(_e){
+var _f=curam.tab.getContentPanelIframe(_e);
+_f.contentWindow.curam.util.publishRefreshEvent();
+_f.contentWindow.location.reload(true);
+},getSmartPanelIframe:function(tab){
+var _10=tab?tab:curam.tab.getSelectedTab();
+var _11=dojo.query("iframe",_10.domNode).filter(function(_12){
+return _12.id==curam.tab.SMART_PANEL_IFRAME_ID;
+})[0];
+return _11;
+},unsubscribeOnTabClose:function(_13,_14){
+curam.tab.toBeExecutedOnTabClose.push(function(_15){
+if(_14==_15){
+dojo.unsubscribe(_13);
+return true;
+}
+return false;
+});
+},executeOnTabClose:function(_16,_17){
+curam.tab.toBeExecutedOnTabClose.push(function(_18){
+if(_17==_18){
+_16();
+return true;
+}
+return false;
+});
+},doExecuteOnTabClose:function(_19){
+var _1a=new Array();
+for(var i=0;i<curam.tab.toBeExecutedOnTabClose.length;i++){
+var _1b=curam.tab.toBeExecutedOnTabClose[i];
+if(!_1b(_19)){
+_1a.push(_1b);
+}
+}
+curam.tab.toBeExecutedOnTabClose=_1a;
+},getHandlerForTab:function(_1c,_1d){
+return function(_1e,_1f){
+if(_1f==_1d){
+_1c(_1e,_1d);
+}else{
+}
+};
+},getTabController:function(){
+return curam.util.getTopmostWindow().curam.ui.UIController;
+},initTabLinks:function(_20){
+if(typeof (window.pageContainsClassicIEG)!="undefined"&&window.pageContainsClassicIEG==true){
+return;
+}
+dojo.query("a").forEach(function(_21){
+if(_21.href.indexOf("#")!=0&&_21.href.indexOf("javascript:")!=0&&(_21.href.indexOf("Page.do")>-1||_21.href.indexOf("Frame.do")>-1)){
+if(_21.href.indexOf("&o3ctx")<0&&_21.href.indexOf("?o3ctx")<0){
+var _22=(_21.href.indexOf("?")>-1)?"&":"?";
+_21.href+=_22+jsScreenContext.toRequestString();
+}
+}
+});
+elements=document.forms;
+for(var i=0;i<elements.length;++i){
+elem=elements[i];
+var _23=dojo.byId("o3ctx");
+if(!_23){
+var ctx=new curam.util.ScreenContext();
+ctx.setContextBits("ACTION");
+dojo.create("input",{"type":"hidden","name":"o3ctx","value":ctx.getValue()},elem);
+}
+dojo.create("input",{"type":"hidden","name":"o3prv","value":jsPageID},elem);
+}
+if(elements.length>0){
+curam.util.getTopmostWindow().dojo.publish("curam.fireNextRequest",[]);
+}
+},initContent:function(_24,_25){
+var _26=dojo.byId("content");
+dojo.removeClass(_26,"hidden-panel");
+return;
+},setupSectionSelectionListener:function(){
+dojo.subscribe(curam.tab.SECTION_TAB_CONTAINER_ID+"-selectChild",curam.tab.onSectionSelected);
+},onSectionSelected:function(_27){
+if(_27.curamDefaultPageID){
+var _28;
+if(_27.id.substring(_27.id.length-4,_27.id.length)=="-sbc"){
+var _29=_27.id.substring(0,_27.id.length-4);
+_28=curam.tab.getTabContainer(_29);
+}else{
+_28=_27;
+}
+if(_28&&_28.getChildren().length==0){
+curam.tab.getTabController().handleUIMPageID(_27.curamDefaultPageID,true);
+}
+return true;
+}
+return false;
+},setSectionDefaultPage:function(_2a,_2b){
+var _2c=dijit.byId(_2a);
+if(_2c){
+_2c.curamDefaultPageID=_2b;
+}else{
+throw "curam.tab.setSectionDefaultPage() - cannot find section dijit ID:"+_2a;
+}
+},publishSmartPanelContentReady:function(){
+var _2d="smartpanel.content.loaded";
+var _2e=window.frameElement;
+_2e.setAttribute("_SPContentLoaded","true");
+curam.util.getTopmostWindow().dojo.publish(_2d,[_2e]);
+}});
+return curam.tab;
+});

@@ -1,0 +1,11 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+Set-Cookie: MARBLE=;path=/
+Set-Cookie: MARBLE=9602435385%2E5;expires=Sun, 10-Sep-2045 15:26:32 GMT;path=/
+X-Powered-By: ASP.NET
+Date: Fri, 18 Sep 2015 15:26:32 GMT
+

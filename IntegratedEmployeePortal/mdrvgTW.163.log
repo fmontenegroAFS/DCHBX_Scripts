@@ -1,0 +1,1941 @@
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = mSRXoO0u6jEShIfT0f3ejqYqTi1coXal//CyvcYXM/yaI0NN7E+VwHOYL7jxeF26+ExXTjXgjFxbIrdLhDFXpQ==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = 7Kvbc1M1co6r9igWGE6rxjEWQzYm35AzTJMsFa2ZSq24zzZvqjtuqAVpinzX6poK9QLb/pC5wXL79kVQYRWVZg==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = HFgHZ753Qv5Gu9spxzMxF0pMp3dlC4V0YboMRDMVWrG5UIeNd+iK+Z6HrOp+ethZsriG7ZAhDku7dyU6qVvhSA==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = pAzp+NWxrMS+Kob2ogdKYEOnL1I/sj+p+9pUNsA42Mr8B8Y5Oo5hG8FN6gPaNQ0lFUXJoOE8wa+1jsyVAqbQ5Q==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = K6fBEzg3fkUfqfiKmbDDgPpliUZv+zwqE2jcWivLFgvFdnNX4gxbk4F9BDxbwWCBwHeFyFqNcCDYCtPmw1XkJw==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = KaCH85fqxu+K4s8kkNXf7+t4Al0slZCXvwckCDXbdsBb6SDb1Yc70AwINSraoTEIweFKcZQjLnzX4WHTK2gvVw==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = 4f7+1neg/gI5pR9QTy3WMqffgH4odZMl1BRt9dmqOWof5rtxRs3AIKfweEuOIStUx6WP16NpWWOkchnyHq13gA==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = 5DCWFqFAR/rTooGUJ+5L3nKiW4jOyKiwtWh/z9tZlmQPT9Zg0ZWLfOtWlxOvQ0X0m+D6peEvB3qUD1c4R//lWA==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = Z2By9BST1qghGt4Iat2k05RJLpttG5YqKuLB/NWP9fqj/Am/fMi6hrtBDZSYpQX3p1jksI2NOFvBzLilBEdVQg==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = 4oiibQKeDx6QNvcPKTlcb1lkSjaYfJDXob9IAyvScXmXDsi8LfdmCWOFeFOibVarSN7j/hF/bRc217o+eB2gaQ==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = 1EO39BNAOVz0wxp6fbgixMzKKprh+JqjFilbivsv9g4SezTsJUYSI1E7CvT9fRE6sNAHHfSjpYXK2HNtNpPy4Q==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = FIeA+1TXtejhLZ3PpFu0uM4+aeWByZhg3fezX1NBDLHeIrgq8PAChpQsP9KpIQtv2gHcbMwbKJkHeC2hOU5FZQ==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = C5QJGseHNZ0eymplzS1lqDnvnL6XtJ3imcR0A1QreINydLVhteP//nyBteI3/4ZQb3+mZF7G2JX/UYbOyiMwPw==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = /8DqWB0GS20WvvDW79S0mAClTNEhr9780a2ocqQU+8LJk+MBKAmPcddwDeoCndMU7W0ZLjYOVTrp2Bpz2DPjwQ==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = 8yvhLAgXDkVJVOPqgsR/TOOZs6EIsRpuUDglgUBA2+5WUa4rPNMwYfcaow7j2My1dwhuBkGULULg8Wpz0w1mWQ==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = fkSH01NkW27iU0NHkLtm18UaTIefN20YZ8cTgI4DY4deOEEKNKAQoHIgJjZUtO2LaqXYI9w8wYYyvYBbJTFinA==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = cveWPE/ZFYthJ/CMm17Bwezm9DXUEtZBe9w0e2VbYw1Yz3gC+mW6ivEYYLj16OOZaj7Wpd2nm9mfdb54Y8qvqA==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = rGW0UoPM+JP7ifAhAJ9LzQGSzpy/35kwcrIv9zjTmvNpOv/35Mnsjv9uE3hrdjRhW5od+ARzYYuwpqzep2YfCw==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = vLVM/ZJfgEJQ+7G7nv/9aCv+RAS2vfxwsfBiAyQsGd4eEWNQcyKh/q7lanHFl7X68NWZp38ag4JqUI7R+bXqGQ==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = dK6m7QVg8/mynuyN0obD7CgKRBdnfRd9Ib8TQW8pssn2BDWQK942jfSlgtQzoudJ3rFB+/6BZKUojlU2XTWizA==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 5 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = LydLcheDBnuYmpPb4UeEsnTL4UAtRthFlB29y2fJxnM1zQ99t5r9w8i18KgAPOdBGCobn7LDKyPAOUW6Ssqabg==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = +lBFW0xS3Qv5rDNOUsjzQ8fV4gQcQmwqsjO6DBbOq2dLqbmGHjxCkos2bUwS5txkDtVpgjwVtIB6wZY6yUX9dw==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 5 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = bNvloSDcSaCF+DcQQ2wGvksRXEfyelYiG0RTM9MfZyBgS7eWSJklI6j5lQKnlFkTe2KRYtcfdVhb6f23ZqWMAA==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = tNkK5UXIqB0ZLuTzov40vFbZheJZVSu3AMAAaw30x60tYZ7tQyvmAm8XWhXCXpq/Rnz+ktoe7uWAKSSrQXuKHw==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 5 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = m89roKmpKlBp8wQgc2bbfgAxfEIJBFJwAPblpAH6P1EJRBVOgsasnUSn5QMsyQ0aJVFnTu03YpCGj825orPaMw==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 6 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = I6UWtMBUHInj/h+CDCFElRHtBxZx8CNFAuXTTRJKLX4JrYf0Hb7qW259VIlcadwV4LULkI5wRZn4A6ehvY3DWQ==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = glgTlWPoSGjcmcUZWHTmM3MQwnXRjxHcr/VSIrg/8se/G79YQeeeV1GaP9kw1aJvRC6MiVExvxpTcXNYF/SHPQ==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = 6gBO5P7v+vM6sBvs2/iUxIZpTT6r2gdlXGi20UTc+5DnjuVIJGh97BC6vHfmmLE5UNtrAD35Xcku4kpDA/Sxpw==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 6 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 5 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = NfCDJblZT59QVmBALVVLsV+Rdtn4vWkjWWwsc6WF4Ru4yAY3dauUhWPlPops8Cs8ZzCkuhmBGjQJVe7iVHlGqg==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = yS3J2aitmaTyE1HsW7eumtPSAtwSciRJ14twdLo7xrEr3yV8GFjGr6Wz8euq5kn6BQn96SQwlwdtGIYmrd1hgg==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = zZgusrLScin9v4Euwvn3pe2Fb4/3HlKjiFl5lUngtMbI50I0K4QyKp4wd4kaFOIKPzMeA2rCGYjcrE8789TpDg==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = tn56JjTrHK9WlVH19XREBuEZFPbc0ko5FTIV6mhf1tODcqDYb2mshfxrcz/lkoYS8VTL2gOFBUMd9DEY63GvVw==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 6 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 7 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 7 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 6 6]  	[MsgId: MERR-26366]
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = utWca+HxjvflKxLJouXZy7X3DEmUjbIAM4WZxauTUdANpoI0F5VbujgKKk/nHwAK4CpnLzX2lupc7aXaxzAcEg==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = OdlNFSqO/r+jy4CFWMCIJmTEpoIKEYlcAV0JdoPNTr7VX9Qb72N68O2a27IsGCepkiHWj0LPGJmbRYb7N7jspw==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = rlw0/PUr2AXTP377E5KYEox69sS7bpGTKepHBH6219YE6GkKgWwzYUs5D9F8JJ5yNxxfr9rpEncnCFn4UtNIqA==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 7 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = tb9w8zvaAoAfH2MOONH/DKbn4GxNi4tBEtRgvsc4gFgjoV+oVhfZT5XESL/Odh/dsYqxVKgeiKZBrQKoc5sG2A==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = P854m54E7aE/nGPoYqacsaoI1l6JN96EMA1ANe4UWBSUTWxcey8ygkXT9SoppBtBtH4Kyp7jS/4w9gsSv2YmzA==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 5 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = mooEBp+ZEF8riTYe/K5Q/WdHbYR+6s4udvMm8eid8SKLfYBWjwLF0MA6d2nkcAxI3M1CedAzFu/FWxF/slM9IQ==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 8 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 5 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = ZCKYs5DBqv4/MGUOSqHXiSNS3AE9LjaRpwN50JkTblZdgMhXlPo2/gK8Ypyb0WYVhLc7rIo5wuKr3LlsCSkVDA==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 7 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 8 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 5 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = WuLjUcUyS8phOQnYniBoqr6z4Cc1WfCu6sTvkIJPT1Wg8Fjd0QNkpvMICoEixnKeKTzHrEMIiLiElPDW1ZbYMg==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 5 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 6 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 8 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 9 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = jVTp5D8zv0vtyBjsEPbo6lWHS9gRieuAlPxilPqoLxtIf7DWwjmj4TohFMeXI+e/CNddRK47zL358J8q1a8hyA==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 6 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 8 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = URpu8shiTEQV6/fuxLWc3HBjQah2Gja+9lUu/L+GIqJO8WR9OM2XIB72hJRVjSItETW+HCTeSnMRvA0jwV5Fkg==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = tzFaeCarYEyW8Re3dS/6SF5/PByUaeOgIGQw/KSttXWwp98MXunAf7TPR8B0TqgCZ9CUlDuurmK9ZY8hBkSjRQ==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = x/fWOEJ16RCUCb8L3QPjsdIaZLV5mwzsk8zlgNG7mNX+eH7zJzHdXGvTJZ0oqzkR93UhDtkAYehlDSdVJ2snwQ==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 5 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = jpylCRLmhlOy2fq8+WjBDZQ64KvDCdTeMFb9vCpuUSnLjrPYsKQU6L3l4j9KnBRHtRLlVBofrc4QiPoDJnDsbQ==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = 9vCANa4hZWHSLga7rysZYS0kLoMZOZfVdzCgu9/5k2umbH9Wmrzx8ELi6yivoZM5+YeUwTNdq9kSuRV1iele+Q==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 1.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = O9bq7lW4zUMDvQwNSUJmMvffS19NmqCqDS1/LFutz81/R7tV2Ek168/YPQBbJsiwKl+3BxLs2Fl5o3zyaeTnzg==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 7 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 6 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 5 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 9 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 6 6]  	[MsgId: MERR-26366]
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 9 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = N5B7xjccRqmlrEyqF1SHno5MQ2tst7dZ8mp5fJiHvlqWhH4NCPqls8n9UhcFdd1qV8jxtWgZcYzv6wVIjGoESw==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 10 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 7 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 9.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 9 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 6 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 8 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = 669jU8eaTV6E1BK6tHmLi3q90uOtGwLFJ5aa/Llzz5HXIMkTzCf035FzfUcNvOKJ8v99JavE72RhGosQktLWzg==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 2 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 7 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 10 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 6.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 6 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 7.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 7 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 4.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 4 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 5 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 10.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 10 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = R9DQtPCcwfHYqf+rVvlMQvoth5aLnvkYycxOT4xkOgv6vZFoQhz/DJXRLIWy7Mv71GEL954FBwabeISwOI2YzA==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "authenticity_token = dfe4dQ/vgafg1cuZbgh6tM7CZUahTAXyPQEKVL1JR2lG2Dtx8+4RgjXhFX6RD+Ird2i+y9yOA4RH107jRoUnAQ==".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EligibleDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmployeeID = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmployeeID". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "EmpHireDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployeeBeginCoverage.c(41): Notify: Saving Parameter "CovgStartDate = ".	[MsgId: MMSG-13798]
+EmployeeBeginCoverage.c(41): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 3 13]  	[MsgId: MERR-35049]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 11.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 11 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 8.	[MsgId: MMSG-10545]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Resource "http://enroll_uat.dchbx.org/assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeCreateAccount.c(27): Error -26366: "Text=Your account has been created" not found for web_reg_find, Snapshot Info [MSH 8 6]  	[MsgId: MERR-26366]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

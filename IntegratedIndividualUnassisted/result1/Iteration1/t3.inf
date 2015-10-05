@@ -1,0 +1,10 @@
+[t3]
+SnapshotXmlFile=snapshot_3.xml
+ContentType=text/html
+StepName=Link: Financial Assistance Calculator
+Total=1
+FileName1=t3.html
+RequestHeaderFile=t3_RequestHeader.txt
+ResponseHeaderFile=t3_ResponseHeader.txt
+RequestBodyFile=t3_RequestBody.txt
+URL1=http://dc.checkbookhealth.org/hie/dc/2016/login.cfm?data=eyJGT1JNVkFMVUVTIjp7fSwiVVJMVkFMVUVTIjp7ImRhdGEiOiIifX0=0

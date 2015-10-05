@@ -1,0 +1,26 @@
+Start auto log messages stack - Iteration 2.	[MsgId: MMSG-10545]
+EmployerCreateAccount.c(29): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployerCreateAccount.c(29): Notify: Saving Parameter "CreateAccountCount = 0".	[MsgId: MMSG-13798]
+EmployerCreateAccount.c(29): web_submit_data("users") was successful, 21085 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployerCreateAccount.c(49): Notify: Parameter Substitution: parameter "CreateAccountCount" =  "0"	[MsgId: MMSG-13992]
+EmployerCreateAccount.c(51): Notify: Transaction "EMPLYR_0003_Create_Account_Submit" ended with a "Fail" status (Duration: 0.3309 Wasted Time: 0.0002).	[MsgId: MMSG-16871]
+EmployerCreateAccount.c(51): Notify: Transaction "EMPLYR_0003_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployerCreateAccount.c(52): Notify: Parameter Substitution: parameter "pEmpPrefix" =  "BIZ-HT1"	[MsgId: MMSG-13992]
+EmployerCreateAccount.c(52): Notify: Parameter Substitution: parameter "FEIN" =  "962974723"	[MsgId: MMSG-13992]
+EmployerCreateAccount.c(52): Error: Failed to Create Account for::: BIZ-HT1962974723@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 5.	[MsgId: MMSG-10545]
+EmployerCreateAccount.c(29): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployerCreateAccount.c(29): Notify: Saving Parameter "CreateAccountCount = 0".	[MsgId: MMSG-13798]
+EmployerCreateAccount.c(29): web_submit_data("users") was successful, 21085 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
+EmployerCreateAccount.c(49): Notify: Parameter Substitution: parameter "CreateAccountCount" =  "0"	[MsgId: MMSG-13992]
+EmployerCreateAccount.c(51): Notify: Transaction "EMPLYR_0003_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2820 Wasted Time: 0.0002).	[MsgId: MMSG-16871]
+EmployerCreateAccount.c(51): Notify: Transaction "EMPLYR_0003_Create_Account_Submit" has 0 error message(s).	[MsgId: MMSG-16818]
+EmployerCreateAccount.c(52): Notify: Parameter Substitution: parameter "pEmpPrefix" =  "BIZ-HT1"	[MsgId: MMSG-13992]
+EmployerCreateAccount.c(52): Notify: Parameter Substitution: parameter "FEIN" =  "930561428"	[MsgId: MMSG-13992]
+EmployerCreateAccount.c(52): Error: Failed to Create Account for::: BIZ-HT1930561428@test.com	[MsgId: MERR-17999]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

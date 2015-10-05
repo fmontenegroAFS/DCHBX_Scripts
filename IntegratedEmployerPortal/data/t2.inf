@@ -1,0 +1,13 @@
+[t2]
+FileName1=t2.htm
+URL1=https://10.83.84.161/users/sign_in
+Total=2
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2_AvenirLTStd-Light-af804d2ea26c0ab34f6d6f1c148e90b2.html
+URL2=https://10.83.84.161/assets/AvenirLTStd-Light-af804d2ea26c0ab34f6d6f1c148e90b2.woff
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+GET /CitizenPortal/CDEJ/jscript/ibmidxtk/idx/oneui/templates/HoverCard.html HTTP/1.1
+Referer: https://webpp.dchealthlink.com/CitizenPortal/application.do
+X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_4_IA_qwdrkyx_3676;PC=HoverCard.html;VU=-1;ID=1443797403398
+User-Agent: Mozilla/5.0 (Windows NT 6.2; rv:31.0) Gecko/ Firefox/31.0
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.5
+Accept: */*
+Connection: Keep-Alive
+Host: webpp.dchealthlink.com
+Cookie: BIGipServerPool_webpp.dchealthlink.com=1129599754.23313.0000; OAM_REQ_0=invalid; OAM_REQ_COUNT=VERSION_4~1; has_js=1; OAM_ID=VERSION_4~H4fNzYuf3xKDHXwURv9g8g==~Zrkwf1mHDNVBYX/zs+WQxFDm5G2FAAwUXkzO6XavmregrF1T7QnYdHg0It+qD1n1odAKjN8x/7vjmiNp3BabK1PGRSrToWmZ4ERMt0nNUxqWKzIyjnlOtgrBs5aKR2VUjnKYYD/7NPLeiQ3GyQNDONJeExtoLqJNnpp2oXxS7lljo50UgbvQzaOU644eb2M0tbLPVQbDtMzWjBMmVJll2qMLtnxQ63YBHdYRWz/7diHN0djaEyg7hdEwkVKCuqJFhVBH2wvxR13kiyjMfXTGXFyHowBQ/w5i1Ne0odiPrA93UybIK+Bf6Km5FuPjvV1m; OAMAuthnCookie_webpp.dchealthlink.com:443=NxkFA5ohSTNDLSIgN4LwH1EQHGnbrwqYhqsskBtRcBrQhMFQKmFjK5FltJ44n5H9te9f6Z8R5wHDT8%2B9Bjik%2BnDBuaG8vUNIF9OMaM1o2ZdrwsDtZBbgPrpbj2xRjH9mDWFwT5WLDVNrv2rva6iH%2FBkiJVr6OqI4Nl%2BMlYbZCGQ1LExFoXZn0DumtfeMkmxlT2zLVheLfF9aAyzQcvfKVSbQ07oqQydFA8EFv0R3JHgj4%2B72Fjbx8ezaBUlPTtnrrXfCk6zmo6H5xfWzuBjxpT4VgnikHrMqpOp22H5BGpoNvWtaCUQ%2FkB%2BGxtJwyB10ujjUFVoldjxbhL4Au7b%2FgoPEHvjl2kupfs6EtnxxIBwAWtNu6k%2BlJEDixUm5v3ZJkKiFYYLwI3M0GQiegK%2B0gQ%3D%3D; JSESSIONID=2hvtWTZXJlJn0YyVF3vfv2QTRhLhrbthWsShYd2RvpJ7mgcxvKc2!990384057; _WL_AUTHCOOKIE_JSESSIONID=JHnPxqu2GjNBCL9DAQ3i
+

@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Thu, 30 Jul 2015 13:42:43 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Status: 200 OK
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+ETag: W/"ad233e336512e04c9f645fb439503792"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: request_method=; path=/; max-age=0; expires=Thu, 01 Jan 1970 00:00:00 -0000; secure
+X-Request-Id: 4f79545f-b375-45a4-a95e-7e6f44fd7c7b
+X-Runtime: 0.040598
+

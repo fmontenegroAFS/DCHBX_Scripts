@@ -1,0 +1,12 @@
+POST /users HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Referer: http://enroll-preprod.dchbx.org/users/sign_up
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.5
+Accept: */*
+Connection: Keep-Alive
+Host: enroll-preprod.dchbx.org
+Cookie: _session_id=UIu0o6dJAsmY7FhuFMR-RQyLhWw; AWSELB=E9996FC506F39754C3E0AC2A8DEAA81F18B87F093BC7B447CE514B7B1DC1503501F8DA7B06F81815235E4E84673C0092852AE8346EDAC4D2F1A2386D426B933EB82E22DF3B
+Content-Length: 1198
+

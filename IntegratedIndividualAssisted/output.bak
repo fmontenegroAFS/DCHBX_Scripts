@@ -1,0 +1,61 @@
+Virtual User Script started at : 10/2/2015 10:47:41 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.0.0 for Windows 7; build 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Run-Time Settings file: "C:\Users\francis.montenegro\Documents\VuGen\Scripts\IntegratedIndividualAssisted_V4_FM_10012015\\default.cfg"  	[MsgId: MMSG-27141]
+vuser_init.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+vuser_init.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+vuser_init.c(9): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
+vuser_init.c(9): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
+vuser_init.c(11): Notify: Parameter Substitution: parameter "MillisSeed" =  "104741.585"
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action ScriptFlow.
+ScriptFlow.c(7): Notify: Saving Parameter "LNameLength = 9".
+ScriptFlow.c(8): Notify: Parameter Substitution: parameter "LNameLength" =  "9"
+DataCreation.c(54): Notify: Saving Parameter "randomLN = laualcukh".
+ScriptFlow.c(12): Notify: Parameter Substitution: parameter "LNameLength" =  "9"
+DataCreation.c(54): Notify: Saving Parameter "p_FN = laualcukh".
+DataCreation.c(20): Notify: Saving Parameter "pSSN1dep1_1 = 380".
+DataCreation.c(21): Notify: Saving Parameter "pSSN2dep1_1 = 75".
+DataCreation.c(22): Notify: Saving Parameter "pSSN3dep1_1 = 7658".
+DataCreation.c(24): Notify: Parameter Substitution: parameter "pSSN1dep1_1" =  "380"
+DataCreation.c(24): Notify: Parameter Substitution: parameter "pSSN2dep1_1" =  "75"
+DataCreation.c(24): Notify: Parameter Substitution: parameter "pSSN3dep1_1" =  "7658"
+DataCreation.c(25): Notify: Parameter Substitution: parameter "pSSN1dep1_1" =  "380"
+DataCreation.c(25): Notify: Parameter Substitution: parameter "pSSN2dep1_1" =  "75"
+DataCreation.c(25): Notify: Parameter Substitution: parameter "pSSN3dep1_1" =  "7658"
+DataCreation.c(27): Notify: Saving Parameter "EmployeeDep1SSN = 380-75-7658".
+DataCreation.c(29): Notify: Saving Parameter "Assisted_SSN = 380-75-7658".
+DataCreation.c(30): Notify: Saving Parameter "p_SSN = 380757658".
+ScriptFlow.c(18): Notify: Parameter Substitution: parameter "randomLN" =  "laualcukh"
+ScriptFlow.c(18): Notify: Parameter Substitution: parameter "pSSN3dep1_1" =  "7658"
+ScriptFlow.c(20): Notify: Saving Parameter "dp_UserID = IA_laualcukh_7658".
+CreateUserFlow.c(5): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+CreateUserFlow.c(5): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+CreateUserFlow.c(7): Notify: Transaction "0003_Select_Individual" started.
+globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1443797261616".
+globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1443797261616"
+globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_laualcukh_7658"
+globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
+CreateUserFlow.c(10): web_url("assisted") started  	[MsgId: MMSG-26355]
+CreateUserFlow.c(10): Notify: Parameter Substitution: parameter "p_IA_URL" =  "preprod.dchealthlink.com"
+CreateUserFlow.c(10): Error -27794: Failed to connect to server "preprod.dchealthlink.com:443": [10060] Connection timed out  	[MsgId: MERR-27794]
+CreateUserFlow.c(10): Notify: Saving Parameter "authenticity_token = ".
+CreateUserFlow.c(10): Error -35049: No match found for the requested parameter "authenticity_token". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
+CreateUserFlow.c(10): web_url("assisted") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+CreateUserFlow.c(10): Notify: Transaction "0003_Select_Individual" ended with a "Fail" status (Duration: 21.3367 Wasted Time: 0.1052).
+CreateUserFlow.c(10): Notify: Transaction "0003_Select_Individual" has 1 error message(s).
+CreateUserFlow.c(10): Notify: The 1st error message associated with transaction "0003_Select_Individual" is "Error -27794: Failed to connect to server "preprod.dchealthlink.com:443": [10060] Connection timed out"
+Ending action ScriptFlow.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

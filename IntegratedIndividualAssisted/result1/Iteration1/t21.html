@@ -1,0 +1,39 @@
+<div class="app-container">
+  <div class="app-container-bc" 
+    data-dojo-type="dijit/layout/BorderContainer"
+    data-dojo-props="gutters:false"
+    data-dojo-attach-point="_borderContainer">
+    <div class="app-banner"
+      data-dojo-type="dojox/layout/ContentPane"
+      data-dojo-props="region: 'top'"
+      data-dojo-attach-point="_appBanner">
+    </div>
+    <div class="fixed-top html front logged-in no-sidebars page-node i18n-en fluid" 
+    	data-dojo-type="dojox/layout/ContentPane"
+      	data-dojo-props="region: 'top', style : {padding : 0, border : 0}">
+      <header id="logo-header" >
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="span12">
+              <a class="logo pull-left" href="http://dchealthlink.com/" title="DCHEALTHLINK.COM">
+                <img src="CDEJ/extapp/themes/curam-extapp/image/logo-f.png" alt="DCHEALTHLINK.COM" />
+              </a>
+              <h1 class="lite heade-txt" id="userType">My Account</h1>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div id="app-nav"
+      data-dojo-type="curam/widget/menu/MenuPane"
+      data-dojo-props="region: 'leading', startExpanded: false"
+      data-dojo-attach-point="_appNav"
+      class="leftNavMenu">
+    </div>
+	<div id="app-content"
+	  data-dojo-type="curam/widget/containers/TransitionContainer"
+  	  data-dojo-attach-point="_appContentBody" class="mainBody"
+	  data-dojo-props='region:"center", style : {padding : 0, border : 0}'>
+	</div>
+  </div>
+</div>

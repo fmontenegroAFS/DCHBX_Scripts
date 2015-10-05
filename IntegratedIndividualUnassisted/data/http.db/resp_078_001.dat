@@ -1,0 +1,902 @@
+a006
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://qa2.dchealthlink.com:4443/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="shortlink" href="/node/2271" />
+<link rel="canonical" href="/smallbusiness-calc-ballpark" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+
+    <title>UAT - Business Ballpark Cost Estimator Calculator | DC Health Link</title>
+    <!-- server status:  -->
+
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:600,800,400,700,300" rel="stylesheet" type="text/css">
+
+<style>
+@import url("https://qa2.dchealthlink.com:4443/sites/all/modules/calendar/css/calendar_multiday.css?nu66an");
+@import url("https://qa2.dchealthlink.com:4443/sites/all/modules/date/date_api/date.css?nu66an");
+@import url("https://qa2.dchealthlink.com:4443/sites/all/modules/date/date_popup/themes/datepicker.1.7.css?nu66an");
+@import url("https://qa2.dchealthlink.com:4443/sites/all/modules/fences/field.css?nu66an");
+@import url("https://qa2.dchealthlink.com:4443/sites/all/modules/extlink/extlink.css?nu66an");
+@import url("https://qa2.dchealthlink.com:4443/sites/all/modules/views/css/views.css?nu66an");
+</style>
+<style>
+@import url("https://qa2.dchealthlink.com:4443/sites/all/themes/dchl/css/bootstrap-theme.min.css?nu66an");
+@import url("https://qa2.dchealthlink.com:4443/sites/all/themes/dchl/css/bootstrap.min.css?nu66an");
+@import url("https://qa2.dchealthlink.com:4443/sites/all/themes/dchl/css/bootstrap-theme.xtras.css?nu66an");
+@import url("https://qa2.dchealthlink.com:4443/sites/all/themes/dchl/css/shared.css?nu66an");
+@import url("https://qa2.dchealthlink.com:4443/sites/all/themes/dchl/css/smallbusiness-calc-ballpark.css?nu66an");
+@import url("https://qa2.dchealthlink.com:4443/sites/all/themes/dchl/js/jquery-ui/jquery-ui.css?nu66an");
+@import url("https://qa2.dchealthlink.com:4443/sites/all/themes/dchl/js/jquery-ui/jquery-ui.theme.css?nu66an");
+@import url("https://qa2.dchealthlink.com:4443/sites/all/modules/ctools/css/ctools.css?nu66an");
+@import url("https://qa2.dchealthlink.com:4443/sites/all/themes/dchl/css/v2_3up_landing.css?nu66an");
+</style>
+
+    <script src="/sites/all/themes/dchl/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-2271 node-type-v2-3up-landing i18n-en enrollment_open" >
+
+<div id="skipmenu">
+    <a href="#skip" class="skippy" title="Skip Navigation">Skip Navigation</a>
+    <a href="/accessibility" class="skippy" title="Accessibility">Accessibility</a>
+    <a name="top"></a>
+</div>
+
+<!-- FIXME: $page_top not used? -->
+<!-- /$page_top -->
+
+<!-- page--v2_3up_landing.tpl.php -->
+
+<!-- header.tpl.php -->
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="row">
+
+            <div class="header_customer_service_top row-padding-top-5 row-padding-bottom-5">
+                <div class="call_phone_top">Call Customer Service : (855) 532-5465 <img src="/sites/all/themes/dchl/img/icon/phone-sm-blue.png"></div>
+            </div>
+            <div class="navbar-header header_left">
+                <div class="header_logo">
+                    <a class="logo pull-left" href="/" 
+                        title="DC Health Link Home">
+                        <img src="/sites/all/themes/dchl/img/logo.png" 
+                            alt="DC Health Link Home" />
+                    </a>
+                </div>
+
+                <div class="header_customer_service">
+                    <div class="call">Call Customer Service</div>
+
+<!-- FIXME: redundant, find some way to plug in a variable -->
+                    <div class="phone">(855) 532-5465 <img src="/sites/all/themes/dchl/img/icon/phone-sm-blue.png"></div>
+                </div>
+            </div>
+
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <div id="navbar" class="navbar-collapse collapse header_right">
+                <div class="navbar_topnav">
+  <div class="region region-nav-top">
+    <section id="block-menu-block-2" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-2 menu-name-menu-nav-top parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li  class="first leaf menu-mlid-1407"><a href="/login-sso" title="LOGIN">LOGIN</a></li>
+<li  class="leaf menu-mlid-1779"><a href="/" title="">Home</a></li>
+<li  class="leaf menu-mlid-1780"><a href="/" title="">Translate</a></li>
+<li  class="leaf has-children menu-mlid-1781"><a href="/brokers" title="">Brokers</a></li>
+<li  class="leaf menu-mlid-1782"><a href="/about" title="">About Us</a></li>
+<li  class="leaf menu-mlid-1691"><a href="/forms">Forms</a></li>
+<li  class="leaf menu-mlid-1783"><a href="/help" title="">Help</a></li>
+<li  class="last leaf menu-mlid-877"><a href="/search/node" title="Search">Search</a></li>
+</ul></div>
+  
+</section> <!-- /.block -->
+  </div>
+                </div>
+
+                <div class="navbar_botnav">
+  <div class="region region-nav-main">
+    <section id="block-menu-block-1" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li  class="first expanded menu-mlid-1174 dropdown"><a href="/individuals" title="Individual &amp; Family" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Individual & Family <span class="caret"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1359"><a href="/individuals-overview" title="Overview">Overview</a></li>
+<li  class="leaf menu-mlid-1807"><a href="/individuals/calculator">Calculate Your Cost</a></li>
+<li  class="leaf menu-mlid-964"><a href="/reduce-your-premiums" title="Reduce Your Premiums">Reduce Your Premiums</a></li>
+<li  class="leaf menu-mlid-1762"><a href="/plan-info/health-plans" title="Browse Our Plans">Browse Our Plans</a></li>
+<li  class="leaf menu-mlid-1761"><a href="https://dc.checkbookhealth.org/dc/" title="">Doctor Directory (beta)</a></li>
+<li  class="leaf menu-mlid-1756"><a href="/2014taxinfo">2014 Tax Information</a></li>
+<li  class="leaf menu-mlid-1759"><a href="/avoidtaxpenalty">Avoid the Tax Penalty</a></li>
+<li  class="leaf menu-mlid-1738"><a href="/medicaid" title="Medicaid">Medicaid</a></li>
+<li  class="collapsed menu-mlid-1746"><a href="/Renew-My-Medicaid" title="">Renew Your Medicaid</a></li>
+<li  class="leaf menu-mlid-1474"><a href="/fraud-alert" title="Consumer Alert - Fight Fraud">Consumer Alert - Fight Fraud</a></li>
+<li  class="leaf menu-mlid-1700"><a href="/FAQs?field_multi_category_faq_tid=2" title="">FAQs</a></li>
+<li  class="leaf menu-mlid-1482"><a href="/find-expert" title="Get Expert Help">Get Expert Help</a></li>
+<li  class="leaf menu-mlid-1742"><a href="/enrollmentcenters">Enrollment Centers</a></li>
+<li  class="last leaf menu-mlid-1569"><a href="/checklist" title="Application Checklist">Application Checklist</a></li>
+</ul></li>
+<li  class="expanded menu-mlid-1208 dropdown"><a href="/smallbusiness" title="Small Businesses" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Small Business <span class="caret"></span></a><ul class="dropdown-menu"><li  class="first leaf menu-mlid-1309"><a href="/overview-smallbiz" title="Overview">Overview</a></li>
+<li  class="leaf menu-mlid-980"><a href="/tax-credits" title="Tax Credits">Tax Credits</a></li>
+<li  class="leaf menu-mlid-985"><a href="/smallbiz-calculator" title="Calculator">Calculate Your Costs</a></li>
+<li  class="leaf menu-mlid-1699"><a href="/eligibility-calculator">Eligibility Calculator</a></li>
+<li  class="leaf menu-mlid-1479"><a href="/fraud-alert" title="">Consumer Alert - Fight Fraud</a></li>
+<li  class="leaf menu-mlid-1630"><a href="/node/1139">Deadlines for Employer-Sponsored Coverage</a></li>
+<li  class="leaf menu-mlid-1694"><a href="/FAQs?field_multi_category_faq_tid=4" title="">FAQs</a></li>
+<li  class="leaf menu-mlid-1743"><a href="/enrollmentcenters" title="">Enrollment Centers</a></li>
+<li  class="leaf menu-mlid-1361"><a href="/find-expert" title="Get Expert Help">Get Expert Help</a></li>
+<li  class="last leaf menu-mlid-1610"><a href="/businesschecklist">Application Checklist</a></li>
+</ul></li>
+<li  class="expanded menu-mlid-1478 dropdown"><a href="/employees" title="Employees" class="dropdown-toggle" data-toggle="dropdown" data-target="#">Employees <span class="caret"></span></a><ul class="dropdown-menu"><li  class="first last leaf menu-mlid-1786"><a href="/FAQs?field_multi_category_faq_tid=3" title="">FAQs</a></li>
+</ul></li>
+<li  class="leaf menu-mlid-1784"><a href="/login-sso" title="">Login</a></li>
+<li  class="last leaf menu-mlid-1785"><a href="/account-options" title="">Create Account</a></li>
+</ul></div>
+  
+</section> <!-- /.block -->
+  </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- /header.tpl.php -->
+
+
+<a name="skip"  tabindex="-1"></a>
+
+
+
+
+
+
+
+<section id="inner_body">
+    <div class="container">
+        <div class="row">
+
+
+<!-- node -->
+<article id="node-2271" class="node node-v2-3up-landing full clearfix" about="/smallbusiness-calc-ballpark" typeof="sioc:Item foaf:Document">
+
+
+  <header>
+            <span property="dc:title" content="Business Ballpark Cost Estimator Calculator" class="rdf-meta element-hidden"></span>
+      </header>
+
+  
+  <div class="field field-name-body field-type-text-with-summary field-label-hidden">
+    <div class="inner_content sb_ballpark_calc">
+    <div class="faux_table">
+        <div class="green_steps smallbusiness_calc">
+            <div class="step step_2">
+                <div class="top">
+                    <div class="label_top">Step 1</div>
+                    <div class="label_bot faux_table_cell">Understand your options</div>
+                </div>
+
+                <div class="bar on"></div>
+            </div>
+
+            <div class="step step_3">
+                <div class="top">
+                    <div class="label_top">Step 2</div>
+                    <div class="label_bot faux_table_cell">Set up your account,
+                        coverage and plans</div>
+                </div>
+
+                <div class="bar off"></div>
+            </div>
+
+            <div class="step step_4">
+                <div class="top">
+                    <div class="label_top">Step 3</div>
+                    <div class="label_bot faux_table_cell">Manage enrollment and share</div>
+                </div>
+
+                <div class="bar off"></div>
+            </div>
+        </div>
+    </div>
+
+    <h1>Business Ballpark Cost Estimator</h1>
+
+    <p class="text-center">This is your ballpark estimate based on the
+        information you provided. See how your costs may change by adjusting any of
+        the key variables.</p>
+
+    <div class="blue_bar">
+        Select a reference plan for your estimate
+    </div>
+
+    <table class="metal_slider_wrapper"><tr class="metal_slider_costs"><td class="bronze_cost">
+                $0
+            </td>
+
+            <td class="silver_cost">
+                $0
+            </td>
+
+            <td class="gold_cost">
+                $0
+            </td>
+
+            <td class="platinum_cost">
+                <div class="low">
+                    $0
+                </div>
+
+                <div class="high">
+                    $0
+                </div>
+            </td>
+        </tr><tr class="metal_slider_slider"><td colspan="4">
+                <div id="metal_slider"></div>
+            </td>
+        </tr><tr class="metal_slider_labels"><td class="bronze_label">
+                Lowest Cost<br />Bronze
+            </td>
+
+            <td class="silver_label">
+                Lowest Cost<br />Silver
+            </td>
+
+            <td class="gold_label">
+                Lowest Cost<br />Gold
+            </td>
+
+            <td class="platinum_label">
+                <div class="low">
+                    Lowest Cost<br />Platinum
+                </div>
+
+                <div class="high">
+                    Highest Cost<br />Platinum
+                </div>
+            </td>
+        </tr></table><div class="calc_box">
+        <div class="calc_left">
+            <div class="calc_heading">
+                <div class="heading_offered">
+                    Offered
+                </div>
+
+                <div class="heading_covered">
+                    People Covered
+                </div>
+
+                <div class="heading_age">
+                    Average Age
+                </div>
+
+                <div class="heading_contribution">
+                    Employer Contribution
+                </div>
+            </div>
+
+            <div class="calc_row full_timers">
+                <div class="cell_offered">
+                    <div class="check">
+                        <a href="#" id="ftes_toggle" class="on_off_check on">
+                            <img src="/sites/all/themes/dchl/img/icon/check-on.png" /></a>
+                    </div>
+
+                    <div class="double_label">
+                            Full-time Employees<br /><span>(50% minimum)</span>
+                    </div>
+
+                    <div class="help_wrapper">
+                        <a href="#" class="help" data-toggle="tooltip" data-placement="bottom" data-original-title="/FIXME"><img src="/sites/all/themes/dchl/img/icon/qm-sm-blue.png" /></a>
+                    </div>
+                </div>
+
+                <div class="cell_covered">
+                    <input type="text" id="f-fte_cnt" class="form-control" /></div>
+
+                <div class="cell_age">
+                    <input type="text" id="f-fte_age" class="form-control" /></div>
+
+                <div class="cell_contribution">
+                    <div class="contribution_input_wrapper">
+                        <input type="text" id="f-fte_contrib" class="form-control" /></div>
+
+                    <div class="contribution_slider_wrapper">
+                        <div class="contrib_slider_fifty"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="calc_row others">
+                <div class="cell_offered">
+                    <div class="check">
+                        <a href="#" id="others_toggle" class="on_off_check on">
+                            <img src="/sites/all/themes/dchl/img/icon/check-on.png" /></a>
+                    </div>
+
+                    <div class="double_label">
+                        Other Employees
+                    </div>
+
+                    <div class="help_wrapper">
+                        <a href="" class="help" data-toggle="tooltip" data-placement="bottom" data-original-title="/FIXME"><img src="/sites/all/themes/dchl/img/icon/qm-sm-blue.png" /></a>
+                    </div>
+                </div>
+
+                <div class="cell_covered">
+                    <input type="text" id="f-others_cnt" class="form-control" /></div>
+
+                <div class="cell_age">
+                    <input type="text" id="f-others_age" class="form-control" /></div>
+
+                <div class="cell_contribution">
+                    <div class="contribution_input_wrapper">
+                        <input type="text" id="f-others_contrib" class="form-control" /></div>
+
+                    <div class="contribution_slider_wrapper">
+                        <div class="contrib_slider_fifty"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="calc_row spouses">
+                <div class="cell_offered">
+                    <div class="check">
+                        <a href="#" id="spouses_toggle" class="on_off_check on">
+                            <img src="/sites/all/themes/dchl/img/icon/check-on.png" /></a>
+                    </div>
+
+                    <div class="double_label">
+                        Spouses /<br />Domestic Partners
+                    </div>
+
+                    <div class="help_wrapper">
+                        <a href="" class="help" data-toggle="tooltip" data-placement="bottom" data-original-title="/FIXME"><img src="/sites/all/themes/dchl/img/icon/qm-sm-blue.png" /></a>
+                    </div>
+                </div>
+
+                <div class="cell_covered">
+                    <input type="text" id="f-spouses_cnt" class="form-control" /></div>
+
+                <div class="cell_age">
+                    <input type="text" id="f-spouses_age" class="form-control" /></div>
+
+                <div class="cell_contribution">
+                    <div class="contribution_input_wrapper">
+                        <input type="text" id="f-spouses_contrib" class="form-control" /></div>
+
+                    <div class="contribution_slider_wrapper">
+                        <div class="contrib_slider"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="calc_row children">
+                <div class="cell_offered">
+                    <div class="check">
+                        <a href="#" id="children_toggle" class="on_off_check on">
+                            <img src="/sites/all/themes/dchl/img/icon/check-on.png" /></a>
+                    </div>
+
+                    <div class="double_label">
+                            Children under 26
+                    </div>
+
+                    <div class="help_wrapper">
+                        <a href="" class="help" data-toggle="tooltip" data-placement="bottom" data-original-title="/FIXME"><img src="/sites/all/themes/dchl/img/icon/qm-sm-blue.png" /></a>
+                    </div>
+                </div>
+
+                <div class="cell_covered">
+                    <input type="text" id="f-children_cnt" class="form-control" /></div>
+
+                <div class="cell_age">
+                    <input type="text" id="f-children_age" class="form-control" /></div>
+
+                <div class="cell_contribution">
+                    <div class="contribution_input_wrapper">
+                        <input type="text" id="f-children_contrib" class="form-control" /></div>
+
+                    <div class="contribution_slider_wrapper">
+                        <div class="contrib_slider"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="calc_right">
+            <div class="calc_right_whatis">
+                <div class="heading">
+                    <a href="#" data-target="#dyk_popup" data-target-idx="0" data-toggle="modal">What is a Reference Plan?</a>
+                </div>
+
+                <p>
+                    The reference plan is used to cap employer costs. Employer costs are fixed
+                    and predictable to help you stay within your budget. <a href="#" data-target="#dyk_popup" data-target-idx="0" data-toggle="modal">Learn
+                    more</a>
+                </p>
+            </div>
+
+            <div class="calc_right_cost">
+                <div class="heading">
+                    Estimated Maximum Monthly Employer Cost
+                </div>
+
+                <div class="bignum">
+                    $0
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="button_bar sb_ballpark_calc">
+    <a class="btn btn-red no_extlink" id="e_next" href="http://enroll-test.dchbx.org/employers/employer_profiles/new">Create Account</a>
+
+    <div class="side_print">
+        <a href="#" id="e-print"><img src="/sites/all/themes/dchl/img/icon/print-md-blue.png" /></a>
+        <span>Print</span>
+
+        <a href="#" id="e-print"><img src="/sites/all/themes/dchl/img/icon/save-sm-blue.png" /></a>
+        <span>Save</span>
+    </div>
+</div>
+  </div>
+
+      <footer>
+            
+    </footer>
+  
+  
+</article> <!-- /.node -->
+
+        </div>
+    </div>
+</section>
+
+<section id="under_body">
+    <div class="container">
+
+  <div class="region region-v2-3up-mid-links">
+    <section id="block-block-93" class="block block-block block-did-you-know clearfix">
+
+      
+  <div id="dyk_slider" class="carousel slide" data-interval="false">
+    <div id="dyk_did_you_know">
+        Did you know?
+    </div>
+
+    <div class="carousel-inner" role="listbox">
+<!--
+        <div class="item active">
+            <div class="headline">
+                Reference Plans Keep Costs Predictable
+            </div>
+            <p>
+                The reference plan is used to cap employer costs. Employer contribution
+                amounts are fixed by the reference plan, but can be applied by your plan
+                participants towards any plan. 
+                <a href="#" data-target="#dyk_popup" data-target-idx="0" 
+                        data-toggle="modal">Learn more</a>
+            </p>
+        </div>
+-->
+        <div class="item active">
+            <div class="headline">
+                It doesn't cost more to offer coverage to your employees'
+                families
+            </div>
+            <p>
+                Matching contributions for employees' families are
+                optional. Even if you don't match, you can still offer coverage. 
+                <a href="#" data-target="#dyk_popup" data-target-idx="1" data-toggle="modal">Learn more</a>
+            </p>
+        </div>
+    </div>
+
+    <a class="left carousel-control" href="#dyk_slider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+
+    <a class="right carousel-control" href="#dyk_slider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+<style>
+<!--/*--><![CDATA[/* ><!--*/
+
+.whatisaref h3 {
+    text-transform: uppercase; 
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.whatisaref img {
+    width: 100%;
+    max-width: 651px !important;
+    margin: 16px auto;
+}
+
+.whatisaref .tricolour {
+    float: left; 
+    padding: 0 8px 0 0; 
+    width: 33%;
+    line-height: 1.1em;
+}
+
+.whatisaref .tricolour:nth-child(3) {
+    padding: 0; 
+}
+
+.referenceplans img {
+    width: 100%;
+    margin: 16px auto;
+}
+
+.referenceplans .lefticon {
+    float: left;
+    min-height: 80px;
+    padding: 0 5% 0 86px;
+    width: 50%;
+}
+
+.referenceplans .dollarincircle {
+    background: 
+        url(/sites/all/themes/dchl/img/icon/dollar-in-circle.png) 
+        no-repeat 18px 6px;
+}
+
+.referenceplans .heartinbaloon {
+    background: 
+        url(/sites/all/themes/dchl/img/icon/heart-in-baloon.png) 
+        no-repeat 18px 6px;
+}
+
+/*--><!]]>*/
+</style><div role="dialog" tabindex="-1" id="dyk_popup" class="modal fade" style="display: none;">
+    <div role="document" class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button aria-label="Close" data-dismiss="modal" class="close" type="button"></button>
+            </div>
+
+            <div class="modal-body">
+                <div id="popup_slider" class="carousel slide" data-interval="false">
+                    <ol class="carousel-indicators"><li data-target="#popup_slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#popup_slider" data-slide-to="1"></li>
+                    </ol><div class="carousel-inner" role="listbox">
+
+<!-- item -->
+                        <div class="item active whatisaref">
+                            <h1 class="modal-title">What is a Reference Plan?</h1>
+
+                            <p>
+                                The reference plan is a tool that allows
+                                you to offer your employees a choice of plans while also allowing you to
+                                fix your costs to a specific plan so that costs are predictable and fit
+                                within your budget. You can offer plan participants the opportunity to
+                                choose any plan by metal level, insurance company or only one plan. Since
+                                your costs are tied to the reference plan, it will NEVER cost you more to
+                                offer your employees a choice of plans. <a href="/FIXME&quot;">Download our guide 
+                                (PDF)</a>
+                            </p>
+
+                            <img src="/sites/default/files/v2/what_is_a_reference_plan.jpg" /><div style="font-size: 12px;">
+                                <div class="tricolour">
+                                    <h3 style="color: #69a505;">
+                                        Metal Level
+                                    </h3>
+
+                                    Selecting a reference plan by metal
+                                    level allows your plan participants to choose any plan offered by any of
+                                    the DC Health Link insurance companies within that metal level. The
+                                    reference plan you choose determines the metal level. If your plan
+                                    participants choose another plan within that metal level, it will NEVER
+                                    cost you more.
+                                </div>
+
+                                <div class="tricolour">
+                                    <h3 style="color: #007cc5;">
+                                        Insurance Company
+                                    </h3>
+
+                                    Selecting a reference plan by metal
+                                    level allows your plan participants to choose any plan offered by any of
+                                    the DC Health Link insurance companies within that metal level. The
+                                    reference plan you choose determines the metal level. If your plan
+                                    participants choose another plan within that metal level, it will NEVER
+                                    cost you more.
+                                </div>
+
+                                <div class="tricolour">
+                                    <h3 style="color: #662992;">
+                                        One Plan
+                                    </h3>
+
+                                    Selecting a reference plan by metal
+                                    level allows your plan participants to choose any plan offered by any of
+                                    the DC Health Link insurance companies within that metal level. The
+                                    reference plan you choose determines the metal level. If your plan
+                                    participants choose another plan within that metal level, it will NEVER
+                                    cost you more.
+                                </div>
+                            </div>
+                        </div>
+
+<!-- item -->
+                        <div class="item referenceplans">
+                            <h1 class="modal-title">Reference Plans Keep Costs Predictable</h1>
+
+                            <p>
+                                The reference plan is used to cap employer costs. Employer contribution
+                                amounts are fixed by the reference plan, but can be applied by your plan
+                                participants towards any plan  if you let them choose by metal level or
+                                insurance company.
+                            </p>
+
+                            <img src="/sites/default/files/v2/costs_predictable.jpg" /><div>
+                                <div class="lefticon dollarincircle">
+                                    If the plan they choose costs more, your employees and other <b>plan
+                                    participants pay the difference</b>.
+                                </div>
+
+                                <div class="lefticon heartinbaloon">
+                                    If it costs less, they will pay less
+                                    but <b>you will never pay more</b>.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a class="left carousel-control" href="#popup_slider" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+
+                    <a class="right carousel-control" href="#popup_slider" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  
+</section> <!-- /.block -->
+<section id="block-block-92" class="block block-block customize_your_estimate block-customize-your-estimate clearfix">
+
+      
+  <div class="row">
+    <h4 class="text-center">
+        You can customize your estimate based on the features that are most
+        important to you as an employer
+    </h4>
+
+    <div class="col-md-6 col-sm-12">
+        <p>
+            Your initial estimate was calculated using the follwing assumptions:
+        </p>
+
+        <ul class="blue_dots"><li>Minimum required match contribution of 50% towards
+                employee coverage</li>
+
+            <li>Chossing a Gold (metal level) plan as
+                your "<a href="/FIXME">reference plan</a>"</li>
+
+            <li>Offering coverage to spouses, domestic partners and children at no 
+                cost to you (without a matching contribution)</li>
+        </ul></div>
+
+    <div class="col-md-6 col-sm-12">
+        <p>
+            Your costs may be higher or lower depending on:
+        </p>
+
+        <ul class="blue_dots"><li>The actual age of each plan participant who receives a 
+                contribution from you</li>
+
+            <li>The <a href="/FIXME">reference plan</a> you choose</li>
+
+            <li>If you choose to increase or decrease your contribution
+                towards employee premiums</li>
+
+            <li>Whether of not you choose to pay for some or all of the
+                costs for spouses, domestic partners or children</li>
+
+            <li>Your plan year and effective date of coverage</li>
+        </ul></div>
+</div>
+  
+</section> <!-- /.block -->
+  </div>
+
+    </div>
+</section>
+
+
+
+<!-- footer.tpl.php -->
+<footer>
+    <div id="row_one">
+        <div class="container">
+            <div class="row text-align-center">
+                <!-- Quick Links -->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h3>Quick Links</h3>
+
+                      <div class="region region-footer-social">
+    <section id="block-menu-block-3" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-3 menu-name-menu-quick-links parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li  class="first leaf menu-mlid-1789"><a href="/individuals" title="">Individual &amp; Family</a></li>
+<li  class="leaf menu-mlid-1790"><a href="/smallbusiness" title="">Small Business Owners</a></li>
+<li  class="leaf menu-mlid-1791"><a href="/employees" title="">Employees</a></li>
+<li  class="leaf menu-mlid-1792"><a href="/plan-info" title="">Plan Info</a></li>
+<li  class="leaf menu-mlid-1793"><a href="/brokers" title="">Brokers</a></li>
+<li  class="leaf menu-mlid-1794"><a href="/assisters" title="">Assisters</a></li>
+<li  class="leaf menu-mlid-1795"><a href="/about" title="">About Us</a></li>
+<li  class="last leaf menu-mlid-1796"><a href="/media" title="">For the Media</a></li>
+</ul></div>
+  
+</section> <!-- /.block -->
+  </div>
+
+                </div>
+                <!-- Get Help -->
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <h3>Get Help</h3>
+
+                    <!-- FIXME: hard coded -->
+                    <p class="get-help-phone">(855) 532-5465
+                        <span>MON-FRI 8AM-8PM EST</span>
+                    </p>
+
+                      <div class="region region-footer-help-links">
+    <section id="block-menu-block-13" class="block block-menu-block clearfix">
+
+        <h2 class="block-title">Get Help</h2>
+    
+  <div class="menu-block-wrapper menu-block-13 menu-name-menu-get-help parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li  class="first leaf menu-mlid-1799"><a href="/" title="">Email Us</a></li>
+<li  class="leaf menu-mlid-1800"><a href="/enrollmentcenters" title="">Enrollment Centers</a></li>
+<li  class="leaf menu-mlid-1801"><a href="/find-expert" title="">Find a Broker</a></li>
+<li  class="leaf menu-mlid-1802"><a href="/Frequently-Asked-Questions" title="">FAQs</a></li>
+<li  class="last leaf menu-mlid-1803"><a href="/" title="">Glossary</a></li>
+</ul></div>
+  
+</section> <!-- /.block -->
+  </div>
+
+                </div>
+                <!-- Follow Us -->
+                <div class="col-md-6 col-sm-12 followus-xs-sm">
+                    <h3>Follow Us</h3>
+
+                      <div class="region region-footer-links-2">
+    <section id="block-block-44" class="block block-block clearfix">
+
+      
+  <div class="social-footer-widgets-tweets">
+    <!--<h4 class="social-footer-widgets-title">TWEETS</h4>-->
+    <div class="clearfix">
+        <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/DCHealthLink" data-widget-id="387997017365946369" width="100%" height="300" data-chrome="nofooter noheader noborders noscrollbar transparent" data-tweet-limit="1" aria-polite="polite">Tweets by @DCHealthLink</a>
+        <script>
+<!--//--><![CDATA[// ><!--
+
+            !function (d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) {
+                    js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+                } 
+            } (document, "script", "twitter-wjs");
+        
+//--><!]]>
+</script></div>
+</div>
+
+<div class="social-footer-widgets-follow-us">
+    <!--<h4 class="social-footer-widgets-title">FOLLOW US</h4>-->
+    <div class="social-footer-widgets-follow-us-link">
+        <a href="https://www.facebook.com/pages/DC-Health-Benefit-Exchange/254860577970621" target="_blank" title="click to visit us on facebook">
+            <img src="/sites/all/themes/dchl/img/logo/facebook.png" alt="Facebook" /></a>
+        <a href="https://twitter.com/DCHealthLink" target="_blank" title="click to visit us on twitter">
+            <img src="/sites/all/themes/dchl/img/logo/twitter.png" alt="Twitter" /></a>
+        <a href="http://www.youtube.com/channel/UCb0vgdZ2ZuGK1xFjauVkMsg" target="_blank" title="click to visit us on youtube">
+            <img src="/sites/all/themes/dchl/img/logo/youtube.png" alt="Youtube" /></a>
+    </div>
+</div>
+  
+</section> <!-- /.block -->
+  </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="row_two">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 copyright text-align-center">
+                    Copyright &copy; 2013-2015 DC Health Link. All
+                    rights reserved.
+                </div>
+
+                <div class="col-sm-12 col-md-6 bottom_nav text-align-center">
+
+                      <div class="region region-footer-bottom-links">
+    <section id="block-menu-block-5" class="block block-menu-block clearfix">
+
+      
+  <div class="menu-block-wrapper menu-block-5 menu-name-menu-footer-bottom-menu parent-mlid-0 menu-level-1">
+  <ul class="menu nav"><li  class="first leaf menu-mlid-1351"><a href="/accessibility" title="Accessibility">Accessibility</a></li>
+<li  class="leaf menu-mlid-1475"><a href="/best-viewed" title="Best Viewed">Best Viewed</a></li>
+<li  class="leaf menu-mlid-888"><a href="/privacy" title="Privacy &amp; Security">Privacy &amp; Security</a></li>
+<li  class="last leaf menu-mlid-889"><a href="/terms" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+</ul></div>
+  
+</section> <!-- /.block -->
+  </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /footer.tpl.php -->
+
+
+
+<script src="/sites/all/themes/dchl/js/bootstrap.min.js?nu66an"></script>
+<script src="/sites/all/themes/dchl/js/shared.js?nu66an"></script>
+<script src="/misc/jquery.once.js?nu66an"></script>
+<script src="/misc/drupal.js?nu66an"></script>
+<script src="/misc/form.js?nu66an"></script>
+<script src="/sites/all/themes/dchl/js/jquery.bxslider.min.js?nu66an"></script>
+<script src="/sites/all/themes/dchl/js/not-homepage.js?nu66an"></script>
+<script src="/sites/all/themes/dchl/js/jquery.numberMask.js?nu66an"></script>
+<script src="https://qa2.dchealthlink.com:4443/sites/all/themes/dchl/js/smallbusiness-calc-ballpark.js?nu66an"></script>
+<script src="https://qa2.dchealthlink.com:4443/sites/all/themes/dchl/js/jquery-ui/jquery-ui.js?nu66an"></script>
+<script src="/sites/all/modules/extlink/extlink.js?nu66an"></script>
+<script src="https://qa2.dchealthlink.com:4443/sites/all/modules/google_analytics/googleanalytics.js?nu66an"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"dchl","theme_token":"Dv3WNQdo3MMLwFYbIypmdvC3b5kK8eHlOMU9wJob9CM","js":{"0":1,"\/sites\/all\/themes\/dchl\/js\/bootstrap.min.js":1,"\/sites\/all\/themes\/dchl\/js\/shared.js":1,"\/misc\/jquery.once.js":1,"\/misc\/drupal.js":1,"\/misc\/form.js":1,"\/sites\/all\/themes\/dchl\/js\/jquery.bxslider.min.js":1,"\/sites\/all\/themes\/dchl\/js\/not-homepage.js":1,"\/sites\/all\/themes\/dchl\/js\/jquery.numberMask.js":1,"sites\/all\/themes\/dchl\/js\/smallbusiness-calc-ballpark.js":1,"sites\/all\/themes\/dchl\/js\/jquery-ui\/jquery-ui.js":1,"\/sites\/all\/modules\/extlink\/extlink.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1},"css":{"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/themes\/dchl\/css\/bootstrap-theme.min.css":1,"sites\/all\/themes\/dchl\/css\/bootstrap.min.css":1,"sites\/all\/themes\/dchl\/css\/bootstrap-theme.xtras.css":1,"sites\/all\/themes\/dchl\/css\/shared.css":1,"sites\/all\/themes\/dchl\/css\/style.css":1,"sites\/all\/themes\/dchl\/css\/smallbusiness-calc-ballpark.css":1,"sites\/all\/themes\/dchl\/js\/jquery-ui\/jquery-ui.css":1,"sites\/all\/themes\/dchl\/js\/jquery-ui\/jquery-ui.theme.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/dchl\/css\/v2_3up_landing.css":1}},"extlink":{"extTarget":"_blank","extClass":"ext","extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":".no_extlink","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site. Test, test, test.","mailtoClass":"mailto"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});</script>
+
+
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-44439809-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+
+</body>
+</html>
+
+0
+

@@ -1,0 +1,10 @@
+GET /insured/employee/match?utf8=%E2%9C%93&people%5Bid%5D=&person%5Bfirst_name%5D=TestE&person%5Bmiddle_name%5D=L&person%5Blast_name%5D=ygai&person%5Bname_sfx%5D=&person%5Bdob%5D=1978-01-01&jq_datepicker_ignore_person%5Bdob%5D=01%2F01%2F1978&person%5Bssn%5D=512-36-9508&person%5Bgender%5D=FEMALE HTTP/1.1
+Referer: http://enroll-preprod.dchbx.org/insured/employee/search
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.5
+Accept: */*
+Connection: Keep-Alive
+Host: enroll-preprod.dchbx.org
+Cookie: _session_id=DC4GzJWENtCLWR4TBZhwQe1rxQY; AWSELB=E9996FC506F39754C3E0AC2A8DEAA81F18B87F093B024007372E79FF36966121B3677EAC92F81815235E4E84673C0092852AE8346E1941A8F5BDF5B152C7640CAF429D2B2C
+

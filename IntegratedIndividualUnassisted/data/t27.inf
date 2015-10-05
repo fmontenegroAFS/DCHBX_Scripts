@@ -1,0 +1,11 @@
+[t27]
+FileName1=t27.htm
+URL1=http://enroll-preprod.dchbx.org/insured/consumer_role/55fc2e4d69702d48735f0400/edit
+Total=1
+RequestHeaderFile=t27_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t27_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_27.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

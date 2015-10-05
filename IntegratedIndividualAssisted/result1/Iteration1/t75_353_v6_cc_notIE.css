@@ -1,0 +1,69 @@
+body.app-frame-body {
+position:absolute;
+top:0px;
+bottom:0px;
+right:0px;
+left:0px;
+}
+.soria span.container table.date {
+float:left;
+}
+.soria table.date + span.separator + input + input {
+margin-top:3px;
+}
+.soria div.list div div.header-wrapper h3 {
+padding-bottom:1px;
+}
+.soria div.list table {
+margin-top:15px;
+}
+.soria .list .list-details-row td {
+padding-bottom:2px;
+}
+tr.even-last-row td.first-field,
+tr.odd-last-row td.first-field,
+tr.even-last-row td.field,
+tr.odd-last-row td.field,
+tr.even-last-row td.last-field,
+tr.odd-last-row td.last-field {
+height:14px;
+}
+tr.even-last-row td.first-field,
+tr.odd-last-row td.first-field {
+padding-left:11px !important;
+}
+.soria div.list td.list-row-menu {
+padding-top:1px;
+}
+.list-inline-page .bottom .right {
+height:7px;
+}
+.list-inline-page .bottom .center {
+height:6px;
+}
+.list-inline-page .bottom .left {
+height:7px;
+}
+.search-input-controls table {
+border-collapse:separate;
+}
+.application-search .dijitButtonNode {
+border-color:#9AC3EE !important;
+}
+.visible span.closeButton {
+cursor:pointer;
+}
+body.soria table.expand-list-control {
+overflow:auto !important;
+}
+.soria .dijitMenuTable {
+border-collapse:separate;
+}
+body.soria table.payment-statement thead tr th.field.first-header span,
+body.soria table.payment-statement thead tr th.field.last-header span {
+padding-top:5px;
+}
+body.soria .navigation-tab-outer .dojoxExpandoClosed .dojoxExpandoTitleNode{
+top:26px !important;
+}
+

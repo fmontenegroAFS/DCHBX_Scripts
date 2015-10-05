@@ -1,0 +1,13 @@
+[hosts]
+qa2.dchealthlink.com=
+enroll-test.dchbx.org=
+staging.checkbookhealth.org=
+fonts.googleapis.com=
+fonts.gstatic.com=
+www.dchealthlink.com=
+app.dchealthlink.com=
+preprod.dchealthlink.com=
+dc.checkbookhealth.org=
+enroll-preprod.dchbx.org=
+js-agent.newrelic.com=
+bam.nr-data.net=

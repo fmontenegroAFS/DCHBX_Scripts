@@ -1,0 +1,142 @@
+/* Layout CSS
+-----------------*/
+.row{
+  margin-left: 0px; /* negative space between the columns */
+  *zoom: 1;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.row:after {
+  clear: both;
+}
+
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 0x; /* space between the columns */
+}
+
+.container {
+	width: 984px;
+}
+
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+
+
+.container:before,
+.container:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.container:after {
+  clear: both;
+}
+
+
+.span12 {
+  width: 984px;
+}
+
+.span1 {
+ width: 82px;	
+}
+
+.span2 {
+ width : 164px;	
+}
+
+.span3 {
+ width : 246px;	
+}
+
+.span4 {
+ width : 328px;	
+}
+
+.span5 {
+ width : 410px;	
+}
+
+.span6 {
+ width : 492px;	
+}
+
+.span7 {
+ width : 574px;	
+}
+
+.span8 {
+ width : 656px;	
+}
+
+.span9 {
+ width : 738px;	
+}
+
+.span10 {
+ width : 820px;	
+}
+
+.span11 {
+ width : 902px;	
+}
+
+/* content grid */
+#main-content-vert [class*="span"] {
+  margin-left: 25px; /* space between the columns */
+}
+#main-content-vert .container {
+	width:936px;
+	padding-top:20px;
+	padding-bottom:30px
+}
+
+#main-content-vert .row {
+	margin-left:-25px;	
+}
+
+#main-content-vert .span12 {
+	width:936px;
+}
+
+#main-content-vert .span3 {
+	width:209px;	
+}
+
+#main-content-vert .span6 {
+	width:468px;	
+}
+
+#main-content-vert .span9 {
+	width:702px;
+	
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+.visible-phone {
+  display: none !important;
+}
+.visible-tablet {
+  display: none !important;
+}
+.hidden-desktop {
+  display: none !important;
+}
+.visible-desktop {
+  display: inherit !important;
+}

@@ -1,0 +1,13 @@
+[t10]
+FileName1=t10.htm
+URL1=https://10.83.84.161/users/sign_in
+Total=2
+RequestHeaderFile=t10_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t10_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_10.xml
+FileName2=t10_firefox-39.0.complete.html
+URL2=http://download.cdn.mozilla.net/pub/firefox/releases/39.0/update/win32/en-US/firefox-39.0.complete.mar
+[ProtocolInfo]
+ProtocolId=QTWeb

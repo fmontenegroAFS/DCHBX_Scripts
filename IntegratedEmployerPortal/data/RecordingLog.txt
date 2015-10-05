@@ -1,0 +1,488 @@
+[API Trapper      (1dd0:1a24)] Recording in 32-bit mode: C:\Program Files (x86)\HP\LoadRunner\bin\firefox\firefox.exe
+[Network Analyzer (1dd0:1a24)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1dd0:1a24)] Load Network Traffic Analyzers:
+[Network Analyzer (1dd0:1a24)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (1dd0:1a24)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (1dd0:1a24)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (1dd0:1a24)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (1dd0:1a24)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (1dd0:1a24)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (1dd0:1a24)]     Analyzer Module: local_server (value=)
+[Network Analyzer (1dd0:1a24)] ------------------------------------------------------------------------------------------
+[Network Analyzer (1dd0:23b4)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0:1a24)] Establish Listener @ 127.0.0.1:0
+[Network Analyzer (1dd0:1a24)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0:1a24)] Request Connection: Remote Server @ 127.0.0.1:51846   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (1dd0:1a24)] Accept Connection : Service @ 127.0.0.1:51846  ,  Remote Client @ 127.0.0.1:51847
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0:23b4)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (1dd0:23b4)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 208.87.234.171:80   (Service=)  (Sid=  4)  PROXIED!
+[Web Request      (1dd0:23b4)] "GET /proxy.pac?p=77fhk73p"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  4) Client -> Server @ : 374 bytes (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  4) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  4) Server -> Client : 4228 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 208.87.234.171:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (1dd0:23b4)] "GET /proxy.pac?p=77fhk73p"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  5) Client -> Server @ : 374 bytes (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  5) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  5) Server -> Client : 4228 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 63.245.217.39:80   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (1dd0:23b4)] "GET /?product=firefox-39.0-complete&os=win&lang=en-US"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  7) Client -> Server @ : 709 bytes (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  7) Server -> Client : 405 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:1db0)]   (Sid:  6) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 208.87.234.201:80   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (1dd0:1db0)]   (Sid:  6) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Web Request      (1dd0:23b4)] "GET /"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Client -> Server @ : 286 bytes (SSL)(Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET http://download.cdn.mozilla.net/pub/firefox/releases/39.0/update/win32/en-US/firefox-39.0.complete.mar"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  8) Client -> Server @ : 838 bytes (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 6240 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /assets/application-1d6fbb9c01f0a4dc6b6bda4791921934.css"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Client -> Server @ : 377 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0:1d68)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 74.125.22.95:443   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:1d68)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:20d8)]   (Sid: 10) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Web Request      (1dd0:23b4)] "GET /assets/application-326755c708227e8681bb1301612676b3.js"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Client -> Server @ : 361 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 4196 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  8) Server -> Client : 10416 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:20d8)]   (Sid: 10) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:21b8)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:21b8)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /assets/favicon-b5b25fae47915387ed9b52dcd94369f8.ico"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 11) Client -> Server @ : 386 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 11) Server -> Client : 5747 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 9189 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  8) Connection Terminated (by Client)
+[Web Request      (1dd0:23b4)] "GET /assets/logo-43b272dcff33b1b3a8efb15e6f6c0e7c.png"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Client -> Server @ : 385 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 4281 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /assets/icons/phone-bcc17403386ca4171aae411f308ef6a1.png"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Client -> Server @ : 392 bytes (SSL)(Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /assets/icons/mail-21b45f89893abcf4033b96e8a261354e.png"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 11) Client -> Server @ : 391 bytes (SSL)(Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /assets/icons/message-6a0a303d9fc72d557125912bdf9efed8.png"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Client -> Server @ : 394 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0:23b4)]   (Sid: 10) Connection Terminated (by Client)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 1803 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (1dd0:23b4)]   (Sid:  6) Server -> Client : 1608 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 11) Server -> Client : 1749 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0:167c)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (1dd0:167c)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 74.125.22.95:443   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0:1a30)]   (Sid: 13) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 74.125.22.95:443   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (1dd0:1a30)]   (Sid: 13) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid:  7) Connection Terminated (by Client)
+[Network Analyzer (1dd0:220c)]   (Sid: 14) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0:220c)]   (Sid: 14) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:19dc)]   (Sid: 15) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:19dc)]   (Sid: 15) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:1d80)]   (Sid: 16) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:1d80)]   (Sid: 16) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid: 15) Connection Terminated (by Client)
+[Network Analyzer (1dd0:23b4)]   (Sid: 16) Connection Terminated (by Client)
+[Network Analyzer (1dd0:23b4)]   (Sid: 14) Connection Terminated (by Client)
+[Network Analyzer (1dd0:23b4)]   (Sid: 13) Connection Terminated (by Client)
+[Network Analyzer (1dd0:23b4)]   (Sid: 12) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent Click on Employer Portal [Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/new"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Client -> Server @ : 422 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 587 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /users/sign_in"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Client -> Server @ : 404 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 7216 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /assets/AvenirLTStd-Light-af804d2ea26c0ab34f6d6f1c148e90b2.woff"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Client -> Server @ : 484 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 770 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Click on Employer Portal [Network Analyzer (1dd0:23b4)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (1dd0:23b4)]   (Sid: 11) Connection Terminated (by Server)
+[User action                 ] StartTransactionEvent Click on Create Account [Web Request      (1dd0:23b4)] "GET /users/sign_up"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Client -> Server @ : 430 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 7291 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Click on Create Account [User action                 ] StartTransactionEvent Create Account [Web Request      (1dd0:23b4)] "POST /users"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Client -> Server @ : 816 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 208.87.234.201:80   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 707 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET http://download.mozilla.org/?product=firefox-39.0-complete&os=win&lang=en-US"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Client -> Server @ : 1175 bytes (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /employers"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Client -> Server @ : 410 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 1667 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 74.125.22.95:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 613 bytes  (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET http://download.cdn.mozilla.net/pub/firefox/releases/39.0/update/win32/en-US/firefox-39.0.complete.mar"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Client -> Server @ : 838 bytes (Service=HTTP)
+[Network Analyzer (1dd0:12f0)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:12f0)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 18) Connection Terminated (by Client)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 6944 bytes  (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /assets/delete-572c7c3f8a253bbebedd9b5735b044af.png"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Client -> Server @ : 396 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 1497 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 17) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent Create Account [User action                 ] StartTransactionEvent 1_transaction [Web Request      (1dd0:23b4)] "GET /assets/jquery-ui/ui-bg_flat_75_ffffff_40x100-d20cf782ea2d212335fa15f2ecb5e412.png"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Client -> Server @ : 473 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 491 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid= 19)  PROXIED!
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid= 20)  PROXIED!
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid= 21)  PROXIED!
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (1dd0:1de4)]   (Sid: 19) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0:1de4)]   (Sid: 19) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:2348)]   (Sid: 20) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0:2348)]   (Sid: 20) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:22d0)]   (Sid: 21) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0:22d0)]   (Sid: 21) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Web Request      (1dd0:23b4)] "GET /assets/jquery-ui/ui-bg_highlight-soft_75_cccccc_1x100-fcf0ee4ce3fcc9eb7d15fc0c2f96b827.png"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 19) Client -> Server @ : 482 bytes (SSL)(Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /assets/jquery-ui/ui-icons_222222_256x240-c9d45cbe79fa6dab691c8b7438a5c815.png"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 20) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /assets/jquery-ui/ui-bg_glass_75_e6e6e6_1x400-79e6a336ebef984293eef201f783ce65.png"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 21) Client -> Server @ : 473 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 19) Server -> Client : 414 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 20) Server -> Client : 4683 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 21) Server -> Client : 423 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /assets/jquery-ui/ui-bg_glass_75_dadada_1x400-5219036e0b535359bab02dc6d9a329c3.png"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Client -> Server @ : 473 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 424 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:123c)]   (Sid: 22) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0:123c)]   (Sid: 22) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Web Request      (1dd0:23b4)] "GET /assets/jquery-ui/ui-bg_glass_55_fbf9ee_1x400-b78c474f171fc7320cb93907b8d44b77.png"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 22) Client -> Server @ : 473 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 22) Server -> Client : 433 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /assets/jquery-ui/ui-bg_glass_65_ffffff_1x400-bddba5b8ad3fb6e9bb6e44d64bf147af.png"   
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Client -> Server @ : 473 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Server -> Client : 418 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (1dd0:23b4)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer (1dd0:23b4)]   (Sid: 21) Connection Terminated (by Server)
+[Network Analyzer (1dd0:23b4)]   (Sid: 22) Connection Terminated (by Server)
+[Network Analyzer (1dd0:23b4)]   (Sid:  9) Connection Terminated (by Server)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid= 23)  PROXIED!
+[Network Analyzer (1dd0:15f4)]   (Sid: 23) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0:15f4)]   (Sid: 23) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Web Request      (1dd0:23b4)] "POST /employers/employer_profiles"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Client -> Server @ : 1887 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 714 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/55ba29d24842583b6fe80400"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Client -> Server @ : 449 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 13024 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 74.125.22.95:443   (Service=)  (Sid= 24)  PROXIED!
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 74.125.22.95:443   (Service=)  (Sid= 25)  PROXIED!
+[Network Analyzer (1dd0:19bc)]   (Sid: 24) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:19bc)]   (Sid: 24) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid: 24) Connection Terminated (by Client)
+[Network Analyzer (1dd0:1938)]   (Sid: 25) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:1938)]   (Sid: 25) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Web Request      (1dd0:23b4)] "GET /assets/glyphicons-halflings-regular-d6e0ff593059a0d876be4db9d38ed499.woff"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Client -> Server @ : 495 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 25) Connection Terminated (by Client)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid= 26)  PROXIED!
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 7370 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:14ac)]   (Sid: 26) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0:14ac)]   (Sid: 26) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Web Request      (1dd0:23b4)] "GET /assets/icons/icon-business-owner-af38059fae9e279fe6258718668d610c.png"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 26) Client -> Server @ : 458 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 26) Server -> Client : 2059 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent 1_transaction [User action                 ] StartTransactionEvent Click on Benefits [Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/55ba29d24842583b6fe80400/show_profile?tab=benefits"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Client -> Server @ : 672 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 1731 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Click on Benefits [User action                 ] StartTransactionEvent Click on Add Plan [Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/55ba29d24842583b6fe80400/plan_years/new"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Client -> Server @ : 562 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 5006 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 208.87.234.180:80   (Service=)  (Sid= 27)  PROXIED!
+[Web Request      (1dd0:23b4)] "GET http://download.mozilla.org/?product=firefox-39.0-complete&os=win&lang=en-US"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 27) Client -> Server @ : 1175 bytes (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 27) Server -> Client : 611 bytes  (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET http://download.cdn.mozilla.net/pub/firefox/releases/39.0/update/win32/en-US/firefox-39.0.complete.mar"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 27) Client -> Server @ : 838 bytes (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 27) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 27) Server -> Client : 13888 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 27) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 27) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 27) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 27) Server -> Client : 10416 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 27) Connection Terminated (by Client)
+[Network Analyzer (1dd0:23b4)]   (Sid: 26) Connection Terminated (by Server)
+[User action                 ] EndTransactionEvent Click on Add Plan [User action                 ] StartTransactionEvent Add Plan Year [Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/55ba29d24842583b6fe80400/plan_years/recommend_dates?start_on=2015-09-01"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Client -> Server @ : 611 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 1743 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/55ba29d24842583b6fe80400/plan_years/search_reference_plan?reference_plan_id=5453a543791e4bcd33000007&location_id=benefit-group-55ba29ed4842583b6cfa0400&_=1438263763124"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Client -> Server @ : 806 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 6431 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/55ba29d24842583b6fe80400/plan_years/calc_employer_contributions?start_on=2015-09-01&reference_plan_id=5453a543791e4bcd33000007&location_id=benefit-group-55ba29ed4842583b6cfa0400&relation_benefits%5B0%5D%5Brelationship%5D=employee&relation_benefits%5B0%5D%5Bpremium_pct%5D=0&relation_benefits%5B0%5D%5Boffered%5D=true&relation_benefits%5B1%5D%5Brelationship%5D=spouse&relation_benefits%5B1%5D%5Bpremium_pct%5D=0&relation_benefits%5B1%5D%5Boffered%5D=true&relation_benefits%5B2%5D%5Brelationship%5D=domestic_partner&relation_benefits%5B2%5D%5Bpremium_pct%5D=0&relation_benefits%5B2%5D%5Boffered%5D=true&relation_benefits%5B3%5D%5Brelationship%5D=child_under_26&relation_benefits%5B3%5D%5Bpremium_pct%5D=0&relation_benefits%5B3%5D%5Boffered%5D=true&relation_benefits%5B4%5D%5Brelationship%5D=child_26_and_over&relation_benefits%5B4%5D%5Bpremium_pct%5D=0&relation_benefits%5B4%5D%5Boffered%5D=false&_=1438263763125"   
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Client -> Server @ : 1549 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid= 28)  PROXIED!
+[Network Analyzer (1dd0:21b0)]   (Sid: 28) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0:21b0)]   (Sid: 28) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Server -> Client : 801 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /assets/fontawesome-webfont-910e0931fc81458bc886f7722d35e127.woff?v=4.3.0"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 28) Client -> Server @ : 494 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 28) Server -> Client : 16384 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 28) Server -> Client : 6302 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 63.245.217.161:443   (Service=)  (Sid= 29)  PROXIED!
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 63.245.216.134:443   (Service=)  (Sid= 30)  PROXIED!
+[Network Analyzer (1dd0: 5e8)]   (Sid: 29) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer (1dd0: 5e8)]   (Sid: 29) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid: 29) Connection Terminated (by Client)
+[Network Analyzer (1dd0: 554)]   (Sid: 30) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer (1dd0: 554)]   (Sid: 30) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0:23b4)]   (Sid: 30) Connection Terminated (by Client)
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 63.245.217.161:443   (Service=)  (Sid= 31)  PROXIED!
+[Network Analyzer (1dd0:21c4)]   (Sid: 31) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer (1dd0:21c4)]   (Sid: 31) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid: 31) Connection Terminated (by Client)
+[Network Analyzer (1dd0:23b4)]   (Sid: 23) Connection Terminated (by Server)
+[Network Analyzer (1dd0:23b4)]   (Sid: 28) Connection Terminated (by Server)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 10.83.84.161:443   (Service=)  (Sid= 32)  PROXIED!
+[Network Analyzer (1dd0:1478)]   (Sid: 32) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES256-SHA)
+[Network Analyzer (1dd0:1478)]   (Sid: 32) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/55ba29d24842583b6fe80400/plan_years/calc_employer_contributions?start_on=2015-09-01&reference_plan_id=5453a543791e4bcd33000007&location_id=benefit-group-55ba29ed4842583b6cfa0400&relation_benefits%5B0%5D%5Brelationship%5D=employee&relation_benefits%5B0%5D%5Bpremium_pct%5D=100&relation_benefits%5B0%5D%5Boffered%5D=true&relation_benefits%5B1%5D%5Brelationship%5D=spouse&relation_benefits%5B1%5D%5Bpremium_pct%5D=0&relation_benefits%5B1%5D%5Boffered%5D=true&relation_benefits%5B2%5D%5Brelationship%5D=domestic_partner&relation_benefits%5B2%5D%5Bpremium_pct%5D=0&relation_benefits%5B2%5D%5Boffered%5D=true&relation_benefits%5B3%5D%5Brelationship%5D=child_under_26&relation_benefits%5B3%5D%5Bpremium_pct%5D=0&relation_benefits%5B3%5D%5Boffered%5D=true&relation_benefits%5B4%5D%5Brelationship%5D=child_26_and_over&relation_benefits%5B4%5D%5Bpremium_pct%5D=0&relation_benefits%5B4%5D%5Boffered%5D=false&_=1438263763126"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 1551 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 801 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/55ba29d24842583b6fe80400/plan_years/calc_employer_contributions?start_on=2015-09-01&reference_plan_id=5453a543791e4bcd33000007&location_id=benefit-group-55ba29ed4842583b6cfa0400&relation_benefits%5B0%5D%5Brelationship%5D=employee&relation_benefits%5B0%5D%5Bpremium_pct%5D=100&relation_benefits%5B0%5D%5Boffered%5D=true&relation_benefits%5B1%5D%5Brelationship%5D=spouse&relation_benefits%5B1%5D%5Bpremium_pct%5D=100&relation_benefits%5B1%5D%5Boffered%5D=true&relation_benefits%5B2%5D%5Brelationship%5D=domestic_partner&relation_benefits%5B2%5D%5Bpremium_pct%5D=0&relation_benefits%5B2%5D%5Boffered%5D=true&relation_benefits%5B3%5D%5Brelationship%5D=child_under_26&relation_benefits%5B3%5D%5Bpremium_pct%5D=0&relation_benefits%5B3%5D%5Boffered%5D=true&relation_benefits%5B4%5D%5Brelationship%5D=child_26_and_over&relation_benefits%5B4%5D%5Bpremium_pct%5D=0&relation_benefits%5B4%5D%5Boffered%5D=false&_=1438263763127"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 1553 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 801 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/55ba29d24842583b6fe80400/plan_years/calc_employer_contributions?start_on=2015-09-01&reference_plan_id=5453a543791e4bcd33000007&location_id=benefit-group-55ba29ed4842583b6cfa0400&relation_benefits%5B0%5D%5Brelationship%5D=employee&relation_benefits%5B0%5D%5Bpremium_pct%5D=100&relation_benefits%5B0%5D%5Boffered%5D=true&relation_benefits%5B1%5D%5Brelationship%5D=spouse&relation_benefits%5B1%5D%5Bpremium_pct%5D=100&relation_benefits%5B1%5D%5Boffered%5D=true&relation_benefits%5B2%5D%5Brelationship%5D=domestic_partner&relation_benefits%5B2%5D%5Bpremium_pct%5D=100&relation_benefits%5B2%5D%5Boffered%5D=true&relation_benefits%5B3%5D%5Brelationship%5D=child_under_26&relation_benefits%5B3%5D%5Bpremium_pct%5D=0&relation_benefits%5B3%5D%5Boffered%5D=true&relation_benefits%5B4%5D%5Brelationship%5D=child_26_and_over&relation_benefits%5B4%5D%5Bpremium_pct%5D=0&relation_benefits%5B4%5D%5Boffered%5D=false&_=1438263763128"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 1555 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 801 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 8.35.80.98:443   (Service=)  (Sid= 33)  PROXIED!
+[Network Analyzer (1dd0:1278)]   (Sid: 33) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Net An. Error    (1dd0:1278)]   (Sid: 33) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (1dd0:23b4)]   (Sid: 33) Connection Terminated (by Client)
+[Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/55ba29d24842583b6fe80400/plan_years/calc_employer_contributions?start_on=2015-09-01&reference_plan_id=5453a543791e4bcd33000007&location_id=benefit-group-55ba29ed4842583b6cfa0400&relation_benefits%5B0%5D%5Brelationship%5D=employee&relation_benefits%5B0%5D%5Bpremium_pct%5D=100&relation_benefits%5B0%5D%5Boffered%5D=true&relation_benefits%5B1%5D%5Brelationship%5D=spouse&relation_benefits%5B1%5D%5Bpremium_pct%5D=100&relation_benefits%5B1%5D%5Boffered%5D=true&relation_benefits%5B2%5D%5Brelationship%5D=domestic_partner&relation_benefits%5B2%5D%5Bpremium_pct%5D=100&relation_benefits%5B2%5D%5Boffered%5D=true&relation_benefits%5B3%5D%5Brelationship%5D=child_under_26&relation_benefits%5B3%5D%5Bpremium_pct%5D=100&relation_benefits%5B3%5D%5Boffered%5D=true&relation_benefits%5B4%5D%5Brelationship%5D=child_26_and_over&relation_benefits%5B4%5D%5Bpremium_pct%5D=0&relation_benefits%5B4%5D%5Boffered%5D=false&_=1438263763129"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 1557 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 801 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "POST /employers/employer_profiles/55ba29d24842583b6fe80400/plan_years"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 3748 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 714 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/55ba29d24842583b6fe80400"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 507 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 13152 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 74.125.29.95:443   (Service=)  (Sid= 34)  PROXIED!
+[Network Analyzer (1dd0:1d20)]   (Sid: 34) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:1d20)]   (Sid: 34) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid: 34) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent Add Plan Year [User action                 ] StartTransactionEvent Logout [Web Request      (1dd0:23b4)] "POST /users/sign_out"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 638 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 691 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 442 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 6385 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 74.125.29.95:443   (Service=)  (Sid= 35)  PROXIED!
+[Network Analyzer (1dd0:2210)]   (Sid: 35) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:2210)]   (Sid: 35) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid: 35) Connection Terminated (by Client)
+[User action                 ] EndTransactionEvent Logout [User action                 ] StartTransactionEvent Click on Employer Portal [Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/new"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 422 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 587 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /users/sign_in"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 457 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 7216 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Click on Employer Portal [Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 63.245.216.132:443   (Service=)  (Sid= 36)  PROXIED!
+[Network Analyzer (1dd0:2154)]   (Sid: 36) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:AES128-SHA)
+[Network Analyzer (1dd0:2154)]   (Sid: 36) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid: 36) Connection Terminated (by Client)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 208.87.234.201:80   (Service=)  (Sid= 37)  PROXIED!
+[Web Request      (1dd0:23b4)] "GET http://download.mozilla.org/?product=firefox-39.0-complete&os=win&lang=en-US"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 37) Client -> Server @ : 1175 bytes (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 37) Server -> Client : 613 bytes  (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET http://download.cdn.mozilla.net/pub/firefox/releases/39.0/update/win32/en-US/firefox-39.0.complete.mar"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 37) Client -> Server @ : 838 bytes (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 37) Server -> Client : 3472 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 37) Server -> Client : 6944 bytes  (Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 37) Connection Terminated (by Client)
+[Web Request      (1dd0:23b4)] "POST /users/sign_in"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 705 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 707 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /employers"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 410 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 762 bytes (SSL) (Service=HTTP)
+[Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/55ba29d24842583b6fe80400"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 485 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 13047 bytes (SSL) (Service=HTTP)
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 74.125.29.95:443   (Service=)  (Sid= 38)  PROXIED!
+[Network Analyzer (1dd0: 458)] Address lookup for MW7XVB8FRNR95Q = 10.82.142.172
+[Network Analyzer (1dd0: 458)] Request Connection: Remote Server @ 74.125.29.95:443   (Service=)  (Sid= 39)  PROXIED!
+[Network Analyzer (1dd0: 580)]   (Sid: 38) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0: 580)]   (Sid: 38) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid: 38) Connection Terminated (by Client)
+[Network Analyzer (1dd0: 45c)]   (Sid: 39) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0: 45c)]   (Sid: 39) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:DHE-RSA-AES128-SHA)
+[Network Analyzer (1dd0:23b4)]   (Sid: 39) Connection Terminated (by Client)
+[User action                 ] StartTransactionEvent Click on Benefits [Web Request      (1dd0:23b4)] "GET /employers/employer_profiles/55ba29d24842583b6fe80400/show_profile?tab=benefits"   
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Client -> Server @ : 725 bytes (SSL)(Service=HTTP)
+[Network Analyzer (1dd0:23b4)]   (Sid: 32) Server -> Client : 7942 bytes (SSL) (Service=HTTP)
+[User action                 ] EndTransactionEvent Click on Benefits [User action                 ] StartTransactionEvent Click on Benefit Group [User action                 ] EndTransactionEvent Click on Benefit Group 

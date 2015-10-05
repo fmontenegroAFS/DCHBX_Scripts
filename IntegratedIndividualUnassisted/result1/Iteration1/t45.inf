@@ -1,0 +1,10 @@
+[t45]
+SnapshotXmlFile=snapshot_16.xml
+ContentType=text/html
+StepName=Submit Data: checkout
+Total=1
+FileName1=t45.html
+RequestHeaderFile=t45_RequestHeader.txt
+ResponseHeaderFile=t45_ResponseHeader.txt
+RequestBodyFile=t45_RequestBody.txt
+URL1=http://enroll-preprod.dchbx.org/insured/plan_shoppings/560d708969702d7a69e95800/receipt?enrollment_kind=sep

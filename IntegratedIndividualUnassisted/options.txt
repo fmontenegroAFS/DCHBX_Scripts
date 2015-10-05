@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\francis.montenegro\Documents\VuGen\Scripts\IntegratedIndividualUnassisted_V4_FM_10012015
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\francis.montenegro\documents\vugen\scripts\integratedindividualunassisted_v4_fm_10012015\\logfile.log
+c:\users\francis.montenegro\documents\vugen\scripts\integratedindividualunassisted_v4_fm_10012015\\combined_IntegratedIndividualUnassisted_V4_FM_10012015.c
+c:\users\francis.montenegro\documents\vugen\scripts\integratedindividualunassisted_v4_fm_10012015\\pre_cci.c

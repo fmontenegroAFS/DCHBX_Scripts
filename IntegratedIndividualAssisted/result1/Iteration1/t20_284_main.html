@@ -1,0 +1,82 @@
+/* $Id$ */
+
+$(document).ready(function() {
+    
+    footer_adjust();
+    $(window).resize(function() {
+        footer_adjust();
+    });
+
+    $(window).on('hashchange', function() {
+        $('#dcas-ui-wrapper-sandbox a')[0].focus();
+    });
+    
+});
+
+/* footer_adjust() */
+function footer_adjust () {
+    var row_min_w = 986;
+    var leftbox_w = 224;
+    var container_w = $(window).width();
+    var rightboxes_w = container_w - leftbox_w - 10;
+    var reduction_subtract = 9;
+    var isfixed = container_w < row_min_w ? true : false;
+    
+    //console.log('container_w=' + container_w);
+    //console.log('rightboxes_w=' + rightboxes_w);
+    //console.log('isfixed=' + isfixed);
+    if (isfixed) {
+        //var rightbox = 132;        
+        var rightbox = 182; // removed 1 box      
+        $('.row-fluid .callus').css('width', rightbox + 'px');
+        $('.row-fluid .callus').css('background-position', '12px center');
+        $('.row-fluid .callus').css('padding-left', (12 + 30 + 8) + 'px');
+        
+        $('.row-fluid .sendus').css('width', rightbox + 'px');
+        $('.row-fluid .sendus').css('background-position', '12px center');
+        $('.row-fluid .sendus').css('padding-left', (12 + 43 + 10) + 'px');
+        
+        $('.row-fluid .find').css('width', rightbox + 'px');
+        $('.row-fluid .find').css('background-position', '12px center');
+        $('.row-fluid .find').css('padding-left', (12 + 40 + 10) + 'px');
+        
+        $('.row-fluid .read').css('width', rightbox + 'px');
+        $('.row-fluid .read').css('background-position', '12px 7px');
+        $('.row-fluid .read').css('padding-left', (12 + 46 + 10) + 'px');
+        
+        $('.row-fluid .follow').css('width', (rightbox - 1) + 'px');
+        $('.row-fluid .follow').css('padding-left', (12 + 0 + 10) + 'px');
+    }
+    else {
+        //var rightbox = (rightboxes_w / 5) - reduction_subtract;
+        var rightbox = (rightboxes_w / 4) - reduction_subtract; // removed 1 box
+        if (isfixed) rightbox = 143;
+        var gfactor = (rightbox - 140) * .24;
+        //console.log('rightbox=' + rightbox);
+        //console.log('gfactor=' + gfactor);
+                
+        $('.row-fluid .callus').css('width', rightbox + 'px');
+        callus_bg_pos = rightbox * .11 + gfactor - 9;
+        $('.row-fluid .callus').css('background-position', (callus_bg_pos) + 'px' + ' center');
+        $('.row-fluid .callus').css('padding-left', (callus_bg_pos + 30 + 8) + 'px'); // callus: 30px icon
+                
+        $('.row-fluid .sendus').css('width', rightbox + 'px');
+        sendus_bg_pos = rightbox * .20 + gfactor - 15;
+        $('.row-fluid .sendus').css('background-position', (sendus_bg_pos) + 'px' + ' center');
+        $('.row-fluid .sendus').css('padding-left', (sendus_bg_pos + 43 + 10) + 'px'); // sendus: 43px icon
+                
+        $('.row-fluid .find').css('width', rightbox + 'px');
+        find_bg_pos = rightbox * .18 + gfactor - 16;
+        $('.row-fluid .find').css('background-position', (find_bg_pos) + 'px' + ' center');
+        $('.row-fluid .find').css('padding-left', (find_bg_pos + 40 + 10) + 'px'); // find: 40px icon
+                
+        $('.row-fluid .read').css('width', rightbox + 'px');
+        read_bg_pos = rightbox * .14 + gfactor;
+        $('.row-fluid .read').css('background-position', (read_bg_pos) + 'px' + ' 7px');
+        $('.row-fluid .read').css('padding-left', (read_bg_pos + 46 + 10) + 'px'); // read: 46px icon
+        
+        $('.row-fluid .follow').css('width', (rightbox - 1) + 'px');
+        read_bg_pos = rightbox * .16 + gfactor;
+        $('.row-fluid .follow').css('padding-left', (read_bg_pos + 0 + 10) + 'px'); // follow: 0px icon
+    }
+}

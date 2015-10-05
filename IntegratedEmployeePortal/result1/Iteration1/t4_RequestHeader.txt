@@ -1,0 +1,10 @@
+GET /create-account/employee HTTP/1.1
+Referer: https://preprod.dchealthlink.com/employees
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:39.0) Gecko/20100101 Firefox/39.0
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.5
+Accept: */*
+Connection: Keep-Alive
+Host: preprod.dchealthlink.com
+Cookie: SSESS637adb3fad27e0085dbb0898a1450649=G73rKe1ei1ld0vYkP35JOnrEnbfEQs3mPKIxl8khYY0
+

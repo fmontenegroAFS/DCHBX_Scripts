@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: text/html; charset=utf-8
+Date: Fri, 07 Aug 2015 01:03:35 GMT
+ETag: W/"46f086b1d75431ed691b81bec5e9bd7e"
+Server: nginx/1.8.0
+Status: 200 OK
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: 167ec437-08d3-4916-af11-e14d067b9f6e
+X-Runtime: 0.018218
+X-XHR-Redirected-To: http://enroll_uat.dchbx.org/users/sign_in
+X-XSS-Protection: 1; mode=block
+Content-Length: 6665
+Connection: keep-alive
+

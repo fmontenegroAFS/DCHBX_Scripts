@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>IntegratedEmployeePortal</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Logic.c" Filter="2" />
+    <FileEntry Name="IntegratedLandingPage.c" Filter="2" />
+    <FileEntry Name="EmployeeTab.c" Filter="2" />
+    <FileEntry Name="EnrollAppHomePage.c" Filter="2" />
+    <FileEntry Name="ExistingEmpLogin.c" Filter="2" />
+    <FileEntry Name="EmployeeCreateAccount.c" Filter="2" />
+    <FileEntry Name="EmployeeBeginCoverage.c" Filter="2" />
+    <FileEntry Name="Add_a_Member.c" Filter="2" />
+    <FileEntry Name="Logout.c" Filter="2" />
+    <FileEntry Name="GenerateSSNs.c" Filter="2" />
+    <FileEntry Name="WorkOutPlanPurchase.c" Filter="2" />
+    <FileEntry Name="SaveSSN.c" Filter="2" />
+    <FileEntry Name="ClearUsedEmployees.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="IntegratedEmployeePortal.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="IntegratedEmployeePortal.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="SSNGenerator.h" Filter="2" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="2" />
+    <FileEntry Name="Bookmarks.xml" Filter="2" />
+    <FileEntry Name="Breakpoints.xml" Filter="2" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="2" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="2" />
+    <FileEntry Name="UserTasks.xml" Filter="2" />
+    <FileEntry Name="DfeConfig\" Filter="2" />
+    <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="EmpFName.dat" Filter="1" />
+    <FileEntry Name="EnrollAppEmployeePortal_V1_HT.prm.bak" Filter="1" />
+    <FileEntry Name="EnrollAppEmployeePortal_V2_HT_08142015.prm.bak" Filter="1" />
+    <FileEntry Name="EnrollAppEmployeePortal_V3_HT_08152015.prm.bak" Filter="1" />
+    <FileEntry Name="EnrollAppEmployeePortal_V4_HT_08182015.prm.bak" Filter="1" />
+    <FileEntry Name="EnrollAppEmployeePortal_V5_HT_08242015.prm.bak" Filter="1" />
+    <FileEntry Name="EnrollAppEmployeePortal_V6_HT_08242015.prm.bak" Filter="1" />
+    <FileEntry Name="EnrollAppEmployer_4SIMON_EMPLOYEE_V1.prm.bak" Filter="1" />
+    <FileEntry Name="IntegratedEmployeePortal.sdf" Filter="1" />
+    <FileEntry Name="IntegratedEmployeePortal_V1_FM_090112015.prm.bak" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv1tj.683.log" Filter="1" />
+    <FileEntry Name="mdrv2NH.529.log" Filter="1" />
+    <FileEntry Name="mdrv3YG.427.log" Filter="1" />
+    <FileEntry Name="mdrv8D2.515.log" Filter="1" />
+    <FileEntry Name="mdrv9S4.11.log" Filter="1" />
+    <FileEntry Name="mdrvcUf.381.log" Filter="1" />
+    <FileEntry Name="mdrvCZ2.181.log" Filter="1" />
+    <FileEntry Name="mdrvD9C.643.log" Filter="1" />
+    <FileEntry Name="mdrvEAQ.451.log" Filter="1" />
+    <FileEntry Name="mdrvFAW.19.log" Filter="1" />
+    <FileEntry Name="mdrvFgB.969.log" Filter="1" />
+    <FileEntry Name="mdrvgTW.163.log" Filter="1" />
+    <FileEntry Name="mdrvHxh.97.log" Filter="1" />
+    <FileEntry Name="mdrvkCO.521.log" Filter="1" />
+    <FileEntry Name="mdrvMBh.349.log" Filter="1" />
+    <FileEntry Name="mdrvNz7.743.log" Filter="1" />
+    <FileEntry Name="mdrvOq1.619.log" Filter="1" />
+    <FileEntry Name="mdrvqaT.525.log" Filter="1" />
+    <FileEntry Name="mdrvrh8.753.log" Filter="1" />
+    <FileEntry Name="mdrvtJi.215.log" Filter="1" />
+    <FileEntry Name="mdrvusH.211.log" Filter="1" />
+    <FileEntry Name="mdrvw01.675.log" Filter="1" />
+    <FileEntry Name="mdrvWER.321.log" Filter="1" />
+    <FileEntry Name="mdrvxzG.137.log" Filter="1" />
+    <FileEntry Name="mdrvzQr.369.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="pEmpNamePrefix.dat" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="WebHttpHtml10.prm.bak" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

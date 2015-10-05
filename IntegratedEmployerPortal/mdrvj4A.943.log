@@ -1,0 +1,20 @@
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployerClickBenefitsTab.c(7): web_url("Benefits Benefits") started  	[MsgId: MMSG-26355]
+EmployerClickBenefitsTab.c(7): Notify: Parameter Substitution: parameter "HTTP" =  "http"	[MsgId: MMSG-13992]
+EmployerClickBenefitsTab.c(7): Notify: Parameter Substitution: parameter "host_10_83_84_161" =  "enroll_uat.dchbx.org"	[MsgId: MMSG-13992]
+EmployerClickBenefitsTab.c(7): Notify: Parameter Substitution: parameter "EMPLOYER_ID" =  "55df4c6069702d566eb70500"	[MsgId: MMSG-13992]
+EmployerClickBenefitsTab.c(7): Notify: Parameter Substitution: parameter "HTTP" =  "http"	[MsgId: MMSG-13992]
+EmployerClickBenefitsTab.c(7): Notify: Parameter Substitution: parameter "host_10_83_84_161" =  "enroll_uat.dchbx.org"	[MsgId: MMSG-13992]
+EmployerClickBenefitsTab.c(7): Notify: Parameter Substitution: parameter "EMPLOYER_ID" =  "55df4c6069702d566eb70500"	[MsgId: MMSG-13992]
+EmployerClickBenefitsTab.c(7): Notify: Saving Parameter "AUTH_TOKEN_4 = zORTAmeAMYGYE3MI8MfchgbR1b4C6e+5JRjRav03RB7aOwP2bvICicuGZkfS35Mcs+5ERbh9Pc7ejeZKkzQOrA==".	[MsgId: MMSG-13798]
+EmployerClickBenefitsTab.c(7): Notify: Saving Parameter "AUTH_TOKEN_4 = zORTAmeAMYGYE3MI8MfchgbR1b4C6e+5JRjRav03RB7aOwP2bvICicuGZkfS35Mcs+5ERbh9Pc7ejeZKkzQOrA==".	[MsgId: MMSG-13798]
+EmployerClickBenefitsTab.c(7): Error -26377: No match found for the requested parameter "BENEFIT_GROUP_ID_3". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size, Snapshot Info [MSH 3 12]  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+
+Start auto log messages stack - Iteration 3.	[MsgId: MMSG-10545]
+EmployerClickBenefitsTab.c(7): Notify: Saving Parameter "BENEFIT_GROUP_ID_3 = ".	[MsgId: MMSG-13798]
+EmployerClickBenefitsTab.c(7): Error -26377: No match found for the requested parameter "Plan_ID4URL". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size, Snapshot Info [MSH 3 12]  	[MsgId: MERR-26377]
+End auto log messages stack.	[MsgId: MMSG-10544]
+
+

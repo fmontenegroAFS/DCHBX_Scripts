@@ -1,0 +1,11 @@
+[t19]
+FileName1=t19.htm
+URL1=http://dc.checkbookhealth.org/hie/dc/2016/search.cfm?data=eyJGT1JNVkFMVUVTIjp7fSwiVVJMVkFMVUVTIjp7InN0YXJ0IjoiIn19
+Total=1
+RequestHeaderFile=t19_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t19_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_19.xml
+[ProtocolInfo]
+ProtocolId=QTWeb
