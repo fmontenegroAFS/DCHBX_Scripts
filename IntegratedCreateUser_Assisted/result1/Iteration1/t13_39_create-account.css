@@ -15,6 +15,7 @@ label {
 }
 .btn-login {
   padding: 10px 0;
+  width: 100%;
 }
 .btn-login button {
   padding-left: 50px;

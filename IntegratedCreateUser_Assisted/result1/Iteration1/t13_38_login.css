@@ -2,7 +2,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.btn-login button {
+.btn-login {
     width: 100%;
 }
 .error {
@@ -19,7 +19,6 @@
     padding-left: 40px;
     padding-right: 40px;
 }
-
 .authorization {
     background: rgba(0, 0, 0, 0) url("../dcas-ui-wrapper-img/flag-red-sm.png") no-repeat scroll 20px center;
     padding-left: 70px;

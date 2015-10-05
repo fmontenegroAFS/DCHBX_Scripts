@@ -25,65 +25,6 @@
 <html >
 
 <head>
-<!-- AppInternalsXpert BMX Integration Begin -->
-<script>
-
-if(!OPNET_ARXS){
-
-   var OPNET_ARXS={startJS:Number(new Date()),
-
-   clientId:'B533CC015E2D826E',appId:100045,
-
-   collector:'opnetbm.dchealthlink.com',
-
-   collectorHttpPort:8100, collectorHttpsPort:8900,
-
-   sv:'0302',
-
-   ajax:true,
-
-   ajaxResponseTime:true};
-
-   (function(){
-
-      var w=window,l=w.addEventListener,m=w.attachEvent,
-
-      d=document,s='script',t='load',o=OPNET_ARXS,
-
-      r=(('https:'===d.location.protocol)?
-
-      'https://opnetbm.dchealthlink.com:8900':
-
-      'http://opnetbm.dchealthlink.com:8100')+
-
-      '/opnet_browsermetrix.c.'+
-
-      (o.ajax?'ajax.js':'js'),p=('onpagehide' in w),e=p?'pageshow':t,
-
-      j=d.createElement(s),x=d.getElementsByTagName(s)[0],
-
-      h=function(y){o.ldJS=new Date();o.per=y?y.persisted:null;},
-
-      i=function(){o.ld=1;};o.cookie=d.cookie;d.cookie=
-
-      '_op_aixPageId=0; path=/; expires='+(new Date(0)).toGMTString();
-
-      o.cookieAfterDelete=d.cookie;j.async=1;j.src=r;
-
-      if(l){l(e,h,false);if(p){l(t,i,false);}}else if(m)
-
-      {m('on'+e,h);if(p){m('on'+t,i);}}
-
-      if(o.sync){d.write('<'+s+' src=\''+r+'\'></'+s+'>');}
-
-      else{x.parentNode.insertBefore(j,x);}
-
-   })();}
-
-</script>
-<script>if(!OPNET_ARXS_PARAM){var OPNET_ARXS_PARAM={};} OPNET_ARXS_PARAM.pageId = 'a2_60073cde-f790-450a-8fc2-e3fe29bd61cd';</script>             
-<!-- AppInternalsXpert BMX Integration End -->
-
   <title>Welcome to DC Health Link | DC Health Link</title>
   <meta http-equiv="Content-type" content="text/html"/><meta http-equiv="Cache-Control" content="must-revalidate"/><meta
     http-equiv="Cache-Control" content="no-store"/><meta http-equiv="Cache-Control" content="no-cache"/><meta
@@ -101,8 +42,6 @@ if(!OPNET_ARXS){
 <link rel="stylesheet" type="text/css" href="/oaam_server/css/oaam_uio.css">
 
 
-
-  <link rel="stylesheet" type="text/css" href="/oaam_server/dhs/ui/dcas-ui-wrapper-css/main.css">
 
 
 
@@ -127,6 +66,7 @@ if(!OPNET_ARXS){
 						};
 </script>
 
+     
   <script language="javascript" type="text/javascript" charset="UTF-8">
     <!--
 
@@ -170,24 +110,6 @@ return false;
 
 
 
-  <style type="text/css">
- #main-content-vert .dcas_form .field {
-    float: left;
-    width: 100%;
-    padding: 0px 10px 22px 10px;
-}
-#main-content-vert .dcas_form .field.with-rule {
-margin-top: -13px;
-}
-#main-content-vert .dcas_form .pt10 {
-  padding-top: 10px;
-  }
-
-
-
-</style>  
-
-
 </head>
 
 <body class="html front not-logged-in no-sidebars page-node i18n-en">
@@ -209,7 +131,7 @@ margin-top: -13px;
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="shortcut icon" href="./dcas-ui-wrapper-img/favicon.ico" type="image/vnd.microsoft.icon" />
+<!-- <link rel="shortcut icon" href="./dcas-ui-wrapper-img/favicon.ico" type="image/vnd.microsoft.icon" /> -->
 <link rel="shortlink" href="/node/2277" />
 <link rel="canonical" href="/login" />
 <meta name="Generator" content="Drupal 7 (http://drupal.org)" />
@@ -357,7 +279,7 @@ margin-top: -13px;
        				<div class="field field-name-body field-type-text-with-summary field-label-hidden">
          		   		 <style>
 							<!--/*--><![CDATA[/* ><!--*/
-							@import url("//login.css");
+							@import url("dhs/ui/dcas-ui-wrapper-css/login.css");
 								/*--><!]]>*/
 					 	 </style>		
 					
@@ -386,8 +308,8 @@ margin-top: -13px;
 											<input type="password" id="pass" name="pass" tabindex="2" maxlength="40" class="form-control" title="Enter Password" value="" autocomplete="off" />
 										</div>
 										<div class="row row-margin">
-											<div class="col-xs-12 col-sm-6 col-md-6 ">
-												<div class="btn-continue text-right">
+											<div class="col-xs-12">
+												<div class="btn-continue text-center">
  											 		<div class="btn-login">
   												<input type="submit" class="btn btn-lg btn-danger" value="Login"/>
       											
