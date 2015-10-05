@@ -1,0 +1,127 @@
+/*
+See ExternalApplication.css
+*/
+.app-container {
+  width:100%;
+  height: 96.5%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container-bc {
+  width:100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*
+The oneui theme applies apdding to a content pane that we don't want.
+*/
+.app-container .app-banner.dijitContentPane, 
+.app-container .app-nav.dijitContentPane, 
+.app-container .app-content.dijitContentPane {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container .app-banner {
+  height: 0px;
+}
+
+.curamApp .leftNavMenu 
+{
+	background: #047BB0;
+	width: 150px;
+	padding:0px;
+	margin : 0px
+	overflow : hidden;
+	overflow : hidden;
+}
+
+/*Styling for the area of the Modal dialogs that is outside the UIM pages*/
+.oneui div.modalDialog .dijitDialogTitleBar .hidden {
+  display: none;
+}
+
+
+.oneui div.modalDialog div.dijitDialogPaneContent {
+  overflow: hidden !important;
+  height: auto !important;
+  width: auto !important;
+  padding-top: 0px;
+}
+
+.oneui div.modalDialog div.dijitDialogPaneContent .contentPanelFrameWrapper,
+.oneui div.modalDialog div.dijitDialogPaneContent iframe {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.oneui div.modalDialog .dijitDialogTitleBar .dijitDialogTitle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  float: left;
+}
+
+/* CSS added by UA team goes below this */
+
+/* Fix IE radio, and checkbox button alignment */
+.oneui .tabForm table.listBody td.leftAlignList div.dijitRadio {
+    float: left;
+    margin-top: 4px;
+}
+
+.oneui table.listBody td.leftAlignList .check-wrapper div.dijitCheckBox {
+    float: left;
+    margin-top: 2px;
+}
+
+/* Needed for text map. */
+.oneui ol.service-providers-list .service-providers-list-item-title {
+     font-weight: bold;
+}
+
+.oneui ol.service-providers-list .service-providers-list-item-description {
+    font-style: italic;
+    color: #505050;
+    background-color: inherit;
+}
+
+.oneui .service-providers-list table.service-providers-table-list {
+    width: 100%;
+}
+
+.oneui .service-providers-list table.service-providers-table-list th {
+    text-align: center;
+    font-weight: bold;
+}
+
+.oneui .service-providers-list table.service-providers-table-list td {
+    width: 25%;
+    padding: 5px 5px 5px 5px;
+    background-color: #F0F0F0;
+    color: inherit;
+    height: 8ex;
+}
+
+.oneui ol.service-providers-list {
+    font-weight: bold;
+}
+
+.oneui ol.service-providers-list > li > * {
+    font-weight: normal;
+}
+
+.oneui ol.service-providers-list > li {
+    margin-top: 10px;
+}
+
+/* Needed for IntakeLogin */
+.IntakeOptionalLogin .radiobutton-container-div .dijitRadio {
+    float: left;
+}
+
+.IntakeOptionalLogin .radiobutton-container-div .select-head-span-wrapper {
+    width: 90%;
+}

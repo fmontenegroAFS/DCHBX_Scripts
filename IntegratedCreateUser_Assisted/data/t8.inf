@@ -1,0 +1,13 @@
+[t8]
+FileName1=t8.htm
+URL1=https://webpp.dchealthlink.com/oaam_server/loginPage.jsp
+Total=2
+RequestHeaderFile=t8_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t8_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_8.xml
+FileName2=t8_red_square.gif
+URL2=https://webpp.dchealthlink.com/oaam_server/images/red_square.gif
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,295 @@
+//>>built
+require({cache:{"url:dijit/layout/templates/ScrollingTabController.html":"<div class=\"dijitTabListContainer-${tabPosition} tabStrip-disabled dijitLayoutContainer\"><!-- CURAM-FIX: removed style=\"visibility:hidden, dd the tabStrip-disabled class by default.\" -->\r\n\t<div data-dojo-type=\"dijit.layout._ScrollingTabControllerMenuButton\"\r\n\t\t\tclass=\"tabStripButton-${tabPosition}\"\r\n\t\t\tid=\"${id}_menuBtn\"\r\n\t\t\tdata-dojo-props=\"containerId: '${containerId}', iconClass: 'dijitTabStripMenuIcon',\r\n\t\t\t\t\tdropDownPosition: ['below-alt', 'above-alt']\"\r\n\t\t\tdata-dojo-attach-point=\"_menuBtn\" showLabel=\"false\" title=\"\">&#9660;</div>\r\n\t<div data-dojo-type=\"dijit.layout._ScrollingTabControllerButton\"\r\n\t\t\tclass=\"tabStripButton-${tabPosition}\"\r\n\t\t\tid=\"${id}_leftBtn\"\r\n\t\t\tdata-dojo-props=\"iconClass:'dijitTabStripSlideLeftIcon', showLabel:false, title:''\"\r\n\t\t\tdata-dojo-attach-point=\"_leftBtn\" data-dojo-attach-event=\"onClick: doSlideLeft\">&#9664;</div>\r\n\t<div data-dojo-type=\"dijit.layout._ScrollingTabControllerButton\"\r\n\t\t\tclass=\"tabStripButton-${tabPosition}\"\r\n\t\t\tid=\"${id}_rightBtn\"\r\n\t\t\tdata-dojo-props=\"iconClass:'dijitTabStripSlideRightIcon', showLabel:false, title:''\"\r\n\t\t\tdata-dojo-attach-point=\"_rightBtn\" data-dojo-attach-event=\"onClick: doSlideRight\">&#9654;</div>\r\n\t<div class='dijitTabListWrapper dijitTabContainerTopNone dijitAlignClient' data-dojo-attach-point='tablistWrapper'>\r\n\t\t<div role='tablist' data-dojo-attach-event='onkeypress:onkeypress'\r\n\t\t\t\tdata-dojo-attach-point='containerNode' class='nowrapTabStrip dijitTabContainerTop-tabs'></div>\r\n\t</div>\r\n</div>\r\n","url:dijit/layout/templates/_ScrollingTabControllerButton.html":"<div data-dojo-attach-event=\"onclick:_onClick\">\n\t<div role=\"presentation\" class=\"dijitTabInnerDiv\" data-dojo-attach-point=\"innerDiv,focusNode\">\n\t\t<div role=\"presentation\" class=\"dijitTabContent dijitButtonContents\" data-dojo-attach-point=\"tabContent\">\n\t\t\t<img role=\"presentation\" alt=\"\" src=\"${_blankGif}\" class=\"dijitTabStripIcon\" data-dojo-attach-point=\"iconNode\"/>\n\t\t\t<span data-dojo-attach-point=\"containerNode,titleNode\" class=\"dijitButtonText\"></span>\n\t\t</div>\n\t</div>\n</div>"}});
+define("dijit/layout/ScrollingTabController",["dojo/_base/array","dojo/_base/declare","dojo/dom-class","dojo/dom-geometry","dojo/dom-style","dojo/_base/fx","dojo/_base/lang","dojo/query","dojo/_base/sniff","../registry","dojo/text!./templates/ScrollingTabController.html","dojo/text!./templates/_ScrollingTabControllerButton.html","./TabController","./utils","../_WidgetsInTemplateMixin","../Menu","../MenuItem","../form/Button","../_HasDropDown","dojo/NodeList-dom"],function(_1,_2,_3,_4,_5,fx,_6,_7,_8,_9,_a,_b,_c,_d,_e,_f,_10,_11,_12){
+var _13=_2("dijit.layout.ScrollingTabController",[_c,_e],{baseClass:"dijitTabController dijitScrollingTabController",templateString:_a,useMenu:true,useSlider:true,tabStripClass:"",widgetsInTemplate:true,_minScroll:5,_setClassAttr:{node:"containerNode",type:"class"},_tabsWidth:-1,_tablistMenuItemIdSuffix:"_stcMi",buildRendering:function(){
+this.inherited(arguments);
+var n=this.domNode;
+this.scrollNode=this.tablistWrapper;
+this._initButtons();
+if(!this.tabStripClass){
+this.tabStripClass="dijitTabContainer"+this.tabPosition.charAt(0).toUpperCase()+this.tabPosition.substr(1).replace(/-.*/,"")+"None";
+_3.add(n,"tabStrip-disabled");
+}
+_3.add(this.tablistWrapper,this.tabStripClass);
+},onStartup:function(){
+this.inherited(arguments);
+this._postStartup=true;
+},onAddChild:function(_14,_15){
+this.inherited(arguments);
+var _16=_14.id;
+this.bustSizeCache=true;
+this._tabsWidth=-1;
+_1.forEach(["label","iconClass"],function(_17){
+this.pane2watches[_14.id].push(this.pane2button[_14.id].watch(_17,_6.hitch(this,function(){
+if(this._postStartup&&this._dim){
+this.resize(this._dim);
+}
+if(this._dim){
+this.bustSizeCache=true;
+this._tabsWidth=-1;
+this.pane2button[_16].domNode._width=0;
+}
+})));
+},this);
+var _18=function(pid,_19){
+var _1a=null;
+if(_19._menuBtn.dropDown){
+var _1b=dojo.query(pid+_19._tablistMenuItemIdSuffix,_19._menuBtn.dropDown.domNode)[0];
+if(_1b){
+_1a=dijit.byNode(_1b);
+}
+}
+return _1a;
+};
+this.pane2button[_16].connect(this.pane2button[_16],"_setCuramVisibleAttr",_6.hitch(this,function(){
+var _1c=_18(_16,this);
+if(_1c){
+this._setCuramVisibility(_1c,_16);
+}
+}));
+this.pane2button[_16].connect(this.pane2button[_16],"_setCuramDisabledAttr",_6.hitch(this,function(){
+var _1d=_18(_16,this);
+if(_1d){
+this._setCuramAvailability(_1d,_16);
+}
+}));
+_5.set(this.containerNode,"width",(_5.get(this.containerNode,"width")+200)+"px");
+},_setCuramVisibility:function(_1e,_1f){
+var _20=this.pane2button[_1f].curamVisible;
+if(_20){
+dojo.replaceClass(_1e.domNode,"visible","hidden");
+}else{
+dojo.replaceClass(_1e.domNode,"hidden","visible");
+}
+},_setCuramAvailability:function(_21,_22){
+var _23=!this.pane2button[_22].curamDisabled;
+_21.disabled=!_23;
+if(_23){
+dojo.replaceClass(_21.domNode,"enabled","disabled");
+}else{
+dojo.replaceClass(_21.domNode,"disabled","enabled");
+}
+},_getNodeWidth:function(_24){
+if(!_24._width){
+_24._width=dojo.style(_24,"width");
+}
+return _24._width;
+},destroyRendering:function(_25){
+_1.forEach(this._attachPoints,function(_26){
+delete this[_26];
+},this);
+this._attachPoints=[];
+_1.forEach(this._attachEvents,this.disconnect,this);
+this.attachEvents=[];
+},destroy:function(){
+if(this._menuBtn){
+this._menuBtn._curamOwnerController=null;
+}
+this.inherited(arguments);
+},onRemoveChild:function(_27,_28){
+var _29=this.pane2button[_27.id];
+if(this._selectedTab===_29.domNode){
+this._selectedTab=null;
+}
+this.inherited(arguments);
+this.bustSizeCache=true;
+this._tabsWidth=-1;
+},_initButtons:function(){
+this.subscribe("tab.title.name.finished",this._measureBtns);
+this._btnWidth=0;
+this._buttons=_7("> .tabStripButton",this.domNode).filter(function(btn){
+if((this.useMenu&&btn==this._menuBtn.domNode)||(this.useSlider&&(btn==this._rightBtn.domNode||btn==this._leftBtn.domNode))){
+this._btnWidth+=_4.getMarginBoxSimple(btn).w;
+return true;
+}else{
+_5.set(btn,"display","none");
+return false;
+}
+},this);
+this._menuBtn._curamOwnerController=this;
+},_getTabsWidth:function(){
+if(this._tabsWidth>-1){
+return this._tabsWidth;
+}
+var _2a=this.getChildren();
+if(_2a.length){
+var _2b=_2a[this.isLeftToRight()?_2a.length-1:0].domNode;
+var _2c=this._getNodeWidth(_2b);
+this._tabsWidth=_2b.offsetLeft+_2c;
+return this._tabsWidth;
+}else{
+return 0;
+}
+},_enableBtn:function(_2d){
+var _2e=this._getTabsWidth();
+_2d=_2d||_5.get(this.scrollNode,"width");
+return _2e>0&&_2d<_2e;
+},_measureBtns:function(){
+if(this._enableBtn()&&this._rightBtn.domNode.style.display=="none"){
+this.resize(this._dim);
+if(this.isLeftToRight()){
+this._rightBtn.set("disabled",true);
+}else{
+this._leftBtn.set("disabled",true);
+}
+}
+},resize:function(dim){
+if(dojo.query("> *",this.containerNode).length<1){
+if(this.domNode.style.height!="1px"){
+dojo.style(this.domNode,"height","1px");
+}
+return;
+}
+if(!this.bustSizeCache&&this._dim&&dim&&this._dim.w==dim.w){
+return;
+}
+this.bustSizeCache=false;
+this.scrollNodeHeight=this.scrollNodeHeight||this.scrollNode.offsetHeight;
+this._dim=dim;
+this.scrollNode.style.height="auto";
+var cb=this._contentBox=_d.marginBox2contentBox(this.domNode,{h:0,w:dim.w});
+cb.h=this.scrollNodeHeight;
+_4.setContentSize(this.domNode,cb);
+var _2f=this._enableBtn(this._contentBox.w);
+this._buttons.style("display",_2f?"":"none");
+this._leftBtn.layoutAlign="left";
+this._rightBtn.layoutAlign="right";
+this._menuBtn.layoutAlign=this.isLeftToRight()?"right":"left";
+var _30;
+if(_2f){
+_30=dijit.layout.layoutChildren(this.domNode,this._contentBox,[this._menuBtn,this._leftBtn,this._rightBtn,{domNode:this.scrollNode,layoutAlign:"client",fakeWidget:true}]);
+}else{
+_30=dijit.layout.layoutChildren(this.domNode,this._contentBox,[{domNode:this.scrollNode,layoutAlign:"client",fakeWidget:true}]);
+}
+this.scrollNode._width=_30.client.w;
+if(this._selectedTab){
+if(this._anim&&this._anim.status()=="playing"){
+this._anim.stop();
+}
+this.scrollNode.scrollLeft=this._convertToScrollLeft(this._getScrollForSelectedTab());
+}
+this._setButtonClass(this._getScroll());
+this._postResize=true;
+return {h:this._contentBox.h,w:dim.w};
+},_getScroll:function(){
+return (this.isLeftToRight()||_8("ie")<8||(_8("ie")&&_8("quirks"))||_8("webkit"))?this.scrollNode.scrollLeft:_5.get(this.containerNode,"width")-_5.get(this.scrollNode,"width")+(_8("ie")==8?-1:1)*this.scrollNode.scrollLeft;
+},_convertToScrollLeft:function(val){
+if(this.isLeftToRight()||_8("ie")<8||(_8("ie")&&_8("quirks"))||_8("webkit")){
+return val;
+}else{
+var _31=_5.get(this.containerNode,"width")-_5.get(this.scrollNode,"width");
+return (_8("ie")==8?-1:1)*(val-_31);
+}
+},onSelectChild:function(_32){
+var tab=this.pane2button[_32.id];
+if(!tab||!_32){
+return;
+}
+var _33=tab.domNode;
+if(_33!=this._selectedTab){
+this._selectedTab=_33;
+if(this._postResize){
+var _34=this._getNodeWidth(this.scrollNode);
+if(this._getTabsWidth()<_34){
+tab.onClick(null);
+}else{
+var sl=this._getScroll();
+if(sl>_33.offsetLeft||sl+_34<_33.offsetLeft+this._getNodeWidth(_33)){
+this.createSmoothScroll().play();
+}
+}
+}
+}
+this.inherited(arguments);
+},_getScrollBounds:function(){
+var _35=this.getChildren(),_36=this._getNodeWidth(this.scrollNode),_37=this._getNodeWidth(this.containerNode),_38=_37-_36,_39=this._getTabsWidth();
+if(_35.length&&_39>_36){
+return {min:this.isLeftToRight()?0:this._getNodeWidth(_35[_35.length-1].domNode),max:this.isLeftToRight()?_39-_36:_38};
+}else{
+var _3a=this.isLeftToRight()?0:_38;
+return {min:_3a,max:_3a};
+}
+},_getScrollForSelectedTab:function(){
+var w=this.scrollNode,n=this._selectedTab,_3b=_5.get(this.scrollNode,"width"),_3c=this._getScrollBounds();
+var pos=(n.offsetLeft+_5.get(n,"width")/2)-_3b/2;
+pos=Math.min(Math.max(pos,_3c.min),_3c.max);
+return pos;
+},createSmoothScroll:function(x){
+if(arguments.length>0){
+var _3d=this._getScrollBounds();
+x=Math.min(Math.max(x,_3d.min),_3d.max);
+}else{
+x=this._getScrollForSelectedTab();
+}
+if(this._anim&&this._anim.status()=="playing"){
+this._anim.stop();
+}
+var _3e=this,w=this.scrollNode,_3f=new fx.Animation({beforeBegin:function(){
+if(this.curve){
+delete this.curve;
+}
+var _40=w.scrollLeft,_41=_3e._convertToScrollLeft(x);
+_3f.curve=new fx._Line(_40,_41);
+},onAnimate:function(val){
+w.scrollLeft=val;
+}});
+this._anim=_3f;
+this._setButtonClass(x);
+return _3f;
+},_getBtnNode:function(e){
+var n=e.target;
+while(n&&!_3.contains(n,"tabStripButton")){
+n=n.parentNode;
+}
+return n;
+},doSlideRight:function(e){
+this.doSlide(1,this._getBtnNode(e));
+},doSlideLeft:function(e){
+this.doSlide(-1,this._getBtnNode(e));
+},doSlide:function(_42,_43){
+if(_43&&_3.contains(_43,"dijitTabDisabled")){
+return;
+}
+var _44=_5.get(this.scrollNode,"width");
+var d=(_44*0.75)*_42;
+var to=this._getScroll()+d;
+this._setButtonClass(to);
+this.createSmoothScroll(to).play();
+},_setButtonClass:function(_45){
+var _46=this._getScrollBounds();
+this._leftBtn.set("disabled",_45<=_46.min);
+this._rightBtn.set("disabled",_45>=_46.max);
+}});
+var _47=_2("dijit.layout._ScrollingTabControllerButtonMixin",null,{baseClass:"dijitTab tabStripButton",templateString:_b,tabIndex:"",isFocusable:function(){
+return false;
+}});
+_2("dijit.layout._ScrollingTabControllerButton",[_11,_47]);
+_2("dijit.layout._ScrollingTabControllerMenuButton",[_11,_12,_47],{containerId:"",tabIndex:"-1",isLoaded:function(){
+return false;
+},loadDropDown:function(_48){
+this.dropDown=new _f({id:this.containerId+"_menu",dir:this.dir,lang:this.lang,textDir:this.textDir});
+var _49=_9.byId(this.containerId);
+_1.forEach(_49.getChildren(),function(_4a){
+var _4b=new _10({id:_4a.id+"_stcMi",label:_4a.title,iconClass:_4a.iconClass,dir:_4a.dir,lang:_4a.lang,textDir:_4a.textDir,onClick:function(){
+_49.selectChild(_4a);
+}});
+this.dropDown.addChild(_4b);
+},this);
+dojo.forEach(this.dropDown.getChildren(),_6.hitch(this,function(_4c){
+var _4d=_4c.id.split(this._curamOwnerController._tablistMenuItemIdSuffix)[0];
+this._curamOwnerController._setCuramAvailability(_4c,_4d);
+this._curamOwnerController._setCuramVisibility(_4c,_4d);
+dojo.connect(_4c,"destroy",function(){
+setDynState=null;
+});
+}));
+_48();
+},closeDropDown:function(_4e){
+this.inherited(arguments);
+if(this.dropDown){
+this.dropDown.destroyRecursive();
+delete this.dropDown;
+}
+}});
+return _13;
+});

@@ -1,0 +1,11 @@
+GET /CitizenPortal/CDEJ/jscript/ibmidxtk/idx/oneui/templates/MenuDialog.html HTTP/1.1
+Referer: https://webpp.dchealthlink.com/CitizenPortal/application.do
+X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_5_IA_zzcktq_7023;PC=MenuDialog.html;VU=-1;ID=1443729507329
+User-Agent: Mozilla/5.0 (Windows NT 6.2; rv:31.0) Gecko/ Firefox/31.0
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.5
+Accept: */*
+Connection: Keep-Alive
+Host: webpp.dchealthlink.com
+Cookie: BIGipServerPool_webpp.dchealthlink.com=1146376970.23313.0000; OAM_REQ_0=invalid; OAM_REQ_COUNT=VERSION_4~1; _op_aixPageId=a2_cfa5bb9e-1205-4152-b946-da04c435290a; has_js=1; OAM_ID=VERSION_4~Hh/Xj4ZtmB74QvQ0BVjICg==~dAnzT33Ng02+NeLK/6P66Jhm2iNHktkpeit+uqFrSCHNrAh7ovIvoC2QDtcRd7ETnAmUyjYatfpVzklLZfGMM4WqMkThRYVtH9ktI0x25FwUBT4BUEQ5uJPMq+qFRA3fACQVqTmukP0DPWFmXt1TZ70emrfhMygEuntfwXR27lvLzetIm5Lm5H3nu/U7y6qgR5gOAV0sG+sgLJdVTG1aNKx8+Xh7pQdX5eA27WEUXKQ4Ls/cXDBzDR3/8jzn/NMxppMN9gCscfDpW4igqfLUj9mzlQQ2xNxRF3wL1YdfRFAycCpM40mnXFnVwoSGs1kG; OAMAuthnCookie_webpp.dchealthlink.com:443=mnYquCzDsRQuwnRGvAyZZPQ1eF%2B8Xy8sRE%2FJ5JLUQnMMO7lqjLcvr2QeBkxzKVUUWmqLx%2BwQufOIdT2WXtI9e9Ho%2BaXrfdhRMGZhQl4%2F5ZIUqJTYc1gCupxfIeHPfw5YPVKjND68rylonrbLIJwJdfxrDVSVU1oKA0Z67pSoMjbU%2BZRzQfyb82i6XQ6dJefIFPEJ8gnTM54SMrSRq12khV1y2N9vy2w0%2BxcT%2B5C0H8DMUpq9HejbcZz5eljwHzyOW8wOR21eC9H196QghrCLY2tDtB0mg%2BrTdVTETyvjEbS4APgTrI8RLT%2B5GooY26%2Fpgyr9LrJVi4verANZgI1cXQPvsUqTITVdL2SsIjsjBcMvqXMDQDowjgxZdzjL5BvWglmUxYokn%2BHCwBNcyR6AFQ%3D%3D; JSESSIONID=Wfd3WNQfyDvr8mwyVWhj1Ws8Zt8C10zqs8LLybNDLJ2sYsFhqft9!990384057; _WL_AUTHCOOKIE_JSESSIONID=XsRjbKy0yCfeKuu2F9ky
+

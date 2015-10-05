@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\francis.montenegro\Documents\VuGen\Scripts\IntegratedCreatedUser_Assisted_V1_HarishT
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\francis.montenegro\documents\vugen\scripts\integratedcreateduser_assisted_v1_harisht\\logfile.log
+c:\users\francis.montenegro\documents\vugen\scripts\integratedcreateduser_assisted_v1_harisht\\combined_IntegratedCreatedUser_Assisted_V1_HarishT.c
+c:\users\francis.montenegro\documents\vugen\scripts\integratedcreateduser_assisted_v1_harisht\\pre_cci.c

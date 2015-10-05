@@ -1,0 +1,72 @@
+/*
+ * Licensed Materials - Property of IBM
+ * 
+ * Copyright IBM Corporation 2013. All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or disclosure 
+ * restricted by GSA ADP Schedule Contract with IBM Corp.
+ */
+dojo.require("dojox.xml.parser");
+ 
+cw.event.registerAction(BrowsePlansAction={
+
+	eventType : 'browse_plans',
+	
+	execute : function(args) {
+	
+		BrowsePlansAction.browsePlans(args.motivationID, args.programID);
+		
+	},
+	
+	browsePlans: function(motivationID, programID) {
+	    
+	    var members = [];
+	    var primaryContact = [];
+		
+	    var actionUrl = cw.fragment.constructURL('HealthCare_actionSaveEnrollment');
+	    var actionParams = {
+	        motivationID:motivationID, 
+	        members:members.join(), 
+	        programID:programID, 
+	        primaryContact:primaryContact.join()
+	    };
+	    cw.ajax.call(actionUrl, actionParams,
+	        BrowsePlansAction.browsePlansCallback);
+ 
+	},
+	
+	browsePlansCallback: function(message, call) { 
+	
+		var motivationID = call.args.content.motivationID;
+	    
+		var enrollmentIDObj = message.getElementsByTagName("enrollmentID")[0];    
+		var enrollmentID = dojox.xml.parser.textContent(enrollmentIDObj);
+		
+		var members = [];
+		var membersList = message.getElementsByTagName("member");
+		
+		for (var i = 0; i < membersList.length; i++) {
+			var member = membersList[i];
+			members.push(member.getAttribute('personID'));
+		}  
+	
+		if (members.length == 0) {
+			members = [""];
+		}
+		
+		var reenrollingObj = message.getElementsByTagName("reenrolling")[0];    
+		var reenrolling = dojox.xml.parser.textContent(reenrollingObj);
+		
+		var programID = call.args.content.programID;
+	
+		// TODO or similar - depends if CX link has changed based on resuming
+		cw.event.dispatchEvent('open_connecture', {
+		    enrollmentID:enrollmentID, 
+        programID:programID, 
+        members:members,
+        reenrolling: reenrolling
+    });
+	}
+
+});
+

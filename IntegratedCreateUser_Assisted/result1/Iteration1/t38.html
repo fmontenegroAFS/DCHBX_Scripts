@@ -1,0 +1,87 @@
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  // Disable frame hijacking
+  if (top != self)
+     top.location.href = location.href;
+</script>
+
+
+
+
+
+<HTML>
+    <HEAD>
+    <TITLE>Single Sign-Off</TITLE>
+    <SCRIPT TYPE="text/javascript">
+
+    // Stores how many servers we need to sign out of
+    var appCount = 2;
+
+    // counter for how many servers replied (signed out / errored out)
+    var logoutAttemptedAppCount = 0;
+
+    // if true, one or more servers did not sign out successfully
+    var errorOccurred = false;
+
+    // A logout image loaded successfully
+    function imageLoadedHandler() {
+        logoutAttemptedAppCount++;
+        // mozilla seems to have trouble when redirection is too fast
+        if (logoutAttemptedAppCount >= appCount) {
+            setTimeout(doRedirect, 2000);
+        }
+    }
+
+    // When an image cannot be loaded, note the error
+    function imageErrorHandler() {
+        logoutAttemptedAppCount++;
+        errorOccurred = true;
+        // mozilla seems to have trouble when redirection is too fast
+        if (logoutAttemptedAppCount >= appCount)
+        {
+            setTimeout(doRedirect, 2000);
+        }
+    }
+
+    // Redirect back to login page (or generic error page)
+    function doRedirect() {
+        if(errorOccurred) {
+            //Cuurently ignoring error..@TODO handle this
+			//alert('LOGOUT_ERROR');
+        } 
+        document.RedirectForm.submit();
+    }
+    </SCRIPT>
+    </HEAD>
+    <BODY>
+
+        <FORM NAME="RedirectForm" METHOD="GET" ACTION="https://webpp.dchealthlink.com/fed/user/logout">
+
+            <INPUT TYPE="HIDDEN" NAME="returnurl" VALUE="https://preprod.dchealthlink.com?end_url" />
+
+        </FORM>
+
+        
+        <CENTER>
+            <BR/>
+            <IMG src="/oam/pages/images/wait.gif" border="0" ALT=""/>
+            <BR/>
+
+                        <img border=0 width=0 height=0 src="https://webpp.dchealthlink.com/oam_logout_success" alt ="" 
+                            onload="imageLoadedHandler()" onerror="imageErrorHandler()"/>
+
+                        <img border=0 width=0 height=0 src="null/oam_logout_success" alt ="" 
+                            onload="imageLoadedHandler()" onerror="imageErrorHandler()"/>
+            
+        </CENTER>
+    </BODY>
+</HTML>
+

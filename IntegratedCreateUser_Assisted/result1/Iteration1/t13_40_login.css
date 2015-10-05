@@ -1,0 +1,27 @@
+.row-margin {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-login button {
+    width: 100%;
+}
+.error {
+    margin: 5px 0;
+    float: left;
+}
+.error-text {
+    color: #e72b2d;
+}
+.error-input {
+    border: #e72b2d;
+}
+.btn-continue button {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.authorization {
+    background: rgba(0, 0, 0, 0) url("../dcas-ui-wrapper-img/flag-red-sm.png") no-repeat scroll 20px center;
+    padding-left: 70px;
+    padding-right: 15px;
+}

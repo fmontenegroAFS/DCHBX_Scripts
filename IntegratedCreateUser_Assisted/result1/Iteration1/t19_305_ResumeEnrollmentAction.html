@@ -1,0 +1,145 @@
+/*
+ * Licensed Materials - Property of IBM
+ * 
+ * Copyright IBM Corporation 2013,2014 . All Rights Reserved.
+ *
+ * US Government Users Restricted Rights - Use, duplication or disclosure 
+ * restricted by GSA ADP Schedule Contract with IBM Corp.
+ */
+dojo.require("dojox.xml.parser");
+ 
+hcr.eventHandler.registerAction(ResumeEnrollmentAction={
+
+	eventType : 'resume_enrollment',
+	
+	execute : function(args) {
+	
+		ResumeEnrollmentAction.resumeEnrollment(args.programID, args.enrollmentID);
+		
+	},
+	
+	/**
+	 * Handle attempts to resume enrollment.
+	 *
+	 * The function handles a number of scenario's that
+	 * can occur when a user tries to resume enrollment.
+	 *  1. Normal, clicking resume brings the user to the plan management site
+	 *  2. Expired, an enrollment has expired and the user is blocked from progressing.
+	 *  3. There are multiple enrollments and the user must select one before proceeding.
+	 * 
+	 *  @param programID, the ID of the program that the user is eligible for enrollment in.
+	 *  @param enrollmentID, (optional) this value can be passed in if the user has selected
+	 *  a distinct enrollment from the in progress enrollments list page, otherwise it is 
+	 *  undefined. 
+	 */
+	resumeEnrollment: function(programID, enrollmentID) {
+	    
+		var motivationID = getMotivationID();
+		
+		dojo.destroy('motivationID');
+		
+		var mainContentDiv = dojo.byId("eligibility-main-layout").parentNode;
+	    dojo.create("input", {id: "motivationID", 
+	        type: "hidden", value: motivationID}, mainContentDiv, "first");
+			
+	    var resumeUrl = cw.fragment.constructURL('HealthCare_multipleInProgressEnrollmentsExist');
+
+	    if (typeof enrollmentID === "undefined") {
+		      enrollmentID = 0;
+	    }
+	    
+	    var resumeParams = {
+	        motivationID:motivationID, 
+	        programID:programID,
+	        enrollmentID:enrollmentID
+	    };
+
+	    cw.ajax.call(resumeUrl, resumeParams,
+	        ResumeEnrollmentAction.resumeEnrollmentCallback);
+ 
+	},
+	
+	resumeEnrollmentCallback: function(message, call) { 
+	
+		var multipleEnrollmentsElements = message.getElementsByTagName("multipleEnrollments");
+		var multipleEnrollments;
+
+		if (multipleEnrollmentsElements.length == 1) {
+			multipleEnrollments = dojox.xml.parser.textContent(multipleEnrollmentsElements[0]);
+		}  else {
+			multipleEnrollments = "false";
+		}   
+
+		var programID = call.args.content.programID;
+		var motivationID = call.args.content.motivationID;
+		var enrollmentID = call.args.content.enrollmentID;		
+		
+		// If an enrollmentID was passed in then this indicates that
+		// the user has selected a distinct enrollment from the list page.
+		var noDistinctEnrollmentSelectedInd = 
+			(typeof enrollmentID === "undefined" || enrollmentID === 0);
+	  var multipleEnrollmentsInd = 
+	  	multipleEnrollments.indexOf("true") != -1;
+			 
+		if (multipleEnrollmentsInd && noDistinctEnrollmentSelectedInd) {
+ 
+ 			// Handle multiple distinct enrollments scenario
+			cw.fragment.load(
+				'background-panel', 
+				'HealthCare_listInProgressEnrollments', 
+				{motivationID:motivationID, programID:programID});
+
+        
+		} else {
+
+			// Handle single enrollment scenario
+			var enrollment = message.getElementsByTagName("enrollment")[0];
+			var hasInProgressEnrollmentExpired = 
+				enrollment.getAttribute('inProgressEnrollmentHasExpired') === 'true';		
+
+			if(typeof enrollmentID === "undefined" || enrollmentID === 0) {
+			
+				var enrollmentIDObj = message.getElementsByTagName("enrollmentID")[0];    
+				enrollmentID = dojox.xml.parser.textContent(enrollmentIDObj);
+			}
+				
+			var members = [];
+			var membersList = message.getElementsByTagName("member");
+				
+			for (var i = 0; i < membersList.length; i++) {
+				var member = membersList[i];
+				members.push(member.getAttribute('personID'));
+			}  
+				
+			var reenrollingObj = message.getElementsByTagName("reenrolling")[0];    
+			var reenrolling = dojox.xml.parser.textContent(reenrollingObj);
+				
+			// Block progress if the enrollment has expired.
+			if (hasInProgressEnrollmentExpired) {
+
+				var params = {
+						motivationID:motivationID,
+						enrollmentID:enrollmentID, 
+						programID:programID, 
+						members:members,
+						reenrolling: reenrolling
+				};
+				
+				cw.fragment.load(
+					'background-panel', 
+					'HealthCare_actionResumeEnrollmentBlocked', params);
+
+		  
+			} else {
+				// TODO or similar - depends if CX link has changed based on resuming
+				cw.event.dispatchEvent('open_connecture', {
+					enrollmentID:enrollmentID, 
+					programID:programID, 
+					members:members.join(),
+					reenrolling: reenrolling
+				});
+			}						
+		}	
+	}
+});
+

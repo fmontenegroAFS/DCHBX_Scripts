@@ -1,0 +1,1015 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE Report
+[
+<!ELEMENT Report (General ,(Doc|BPT)) >
+<!ATTLIST Report ver CDATA #REQUIRED tmZone CDATA #REQUIRED>
+
+<!ELEMENT General ( DocLocation ) >
+<!ATTLIST General productName CDATA #REQUIRED productVer CDATA #REQUIRED os CDATA #REQUIRED host CDATA #REQUIRED>
+
+<!ELEMENT BPT (DName,Res,DVer?,TSet?,TInst?,NodeArgs,AdditionalInfo*,Doc*) >
+<!ATTLIST BPT rID ID #REQUIRED >
+
+<!ELEMENT Doc (DName,Res,DVer?,TSet?,TInst?,RunType?,DT?,AdditionalInfo*,Step*,DIter*,Step*,Action*,Summary?,TestMaintenanceSummary*,NodeArgs?) >
+<!ATTLIST Doc rID ID #REQUIRED type (Test|BC) "Test" productName CDATA #REQUIRED BCIter CDATA #IMPLIED >
+
+<!ELEMENT RunType ( #PCDATA )>
+<!ATTLIST RunType fmStep (False|True) "False" batch (False|True) "False" upDesc (False|True) "False" upChk (False|True) "False" upAS (False|True) "False">
+
+<!ELEMENT DName ( #PCDATA ) >
+
+<!ELEMENT Res ( #PCDATA ) >
+
+<!ELEMENT AdditionalInfo (AdditionalDataName,AdditionalDataValue ) >
+
+<!ELEMENT AdditionalDataName ( #PCDATA ) >
+
+<!ELEMENT AdditionalDataValue ( #PCDATA ) >
+
+<!ELEMENT DVer ( #PCDATA ) >
+
+<!ELEMENT TSet ( #PCDATA ) >
+
+<!ELEMENT TInst ( #PCDATA ) >
+
+<!ELEMENT DIter (Step?,Action+,Summary?,NodeArgs)>
+<!ATTLIST DIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT DocLocation ( #PCDATA )>
+
+<!ELEMENT Action (AName,AIter*,(Step|HtmlStep|Action)*,Summary,ActionMaintenanceSummary*,NodeArgs ) >
+<!ATTLIST Action rID ID #REQUIRED>
+
+<!ELEMENT AIter ((Step|HtmlStep|Action)*,Summary?,NodeArgs) >
+<!ATTLIST AIter rID ID #REQUIRED iterID CDATA #REQUIRED>
+
+<!ELEMENT AName ( #PCDATA ) >
+
+<!ELEMENT TestMaintenanceSummary (ActionMaintenanceSummary) >
+<!ATTLIST TestMaintenanceSummary ObjectsAdded CDATA #REQUIRED ObjectsUpdated CDATA #REQUIRED StepsUpdated CDATA #REQUIRED StepsComments CDATA #REQUIRED><!ELEMENT ActionMaintenanceSummary (ObjectChange* ) >
+<!ATTLIST ActionMaintenanceSummary Action CDATA #REQUIRED Objects CDATA #REQUIRED Updated CDATA #REQUIRED LinesTotal CDATA #REQUIRED Added CDATA #REQUIRED LinesUpdated CDATA #REQUIRED>
+
+<!ELEMENT ObjectChange  (Hierarchy, PropertyChangeList* ) >
+<!ATTLIST ObjectChange Operation CDATA #IMPLIED OriginalRepository CDATA #IMPLIED>
+
+<!ELEMENT PropertyChangeList (PropertyDef) >
+
+<!ELEMENT PropertyDef (OriginalValue, NewValue) >
+<!ATTLIST PropertyDef PropName CDATA #REQUIRED OriginRegularExpression (True|False) "False" NewRegularExpression (True|False) "False" >
+
+<!ELEMENT OriginalValue ( #PCDATA )>
+
+<!ELEMENT NewValue ( #PCDATA )>
+
+<!ELEMENT Hierarchy  (ObjectName, Hierarchy*) >
+<!ATTLIST Hierarchy MicClass CDATA #REQUIRED>
+
+<!ELEMENT ObjectName  ( #PCDATA ) >
+
+<!ELEMENT Step (Obj,Details,Time,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST Step rID ID #REQUIRED retval CDATA #IMPLIED>
+
+<!ELEMENT HtmlStep (HTML,(Step|HtmlStep|Doc)*,NodeArgs) >
+<!ATTLIST HtmlStep rID ID #REQUIRED >
+
+<!ELEMENT Obj ( #PCDATA ) >
+<!ATTLIST Obj plainTxt (False|True) "True">
+
+<!ELEMENT Details ( #PCDATA ) >
+<!ATTLIST Details plainTxt (False|True) "True">
+
+<!ELEMENT Time ( #PCDATA ) >
+
+<!ELEMENT HTML ( #PCDATA ) >
+
+<!ELEMENT Disp ( #PCDATA ) >
+
+<!ELEMENT NodeArgs (Disp,TopPane?,BtmPane?)>
+<!ATTLIST NodeArgs eType CDATA #REQUIRED icon CDATA #REQUIRED nRep CDATA #REQUIRED filter (False|True) "True">
+<!ATTLIST NodeArgs status (Passed|Failed|Done|Warning|Information) "Done">
+<!ATTLIST NodeArgs iconSel CDATA #IMPLIED nType CDATA #IMPLIED MovieMarker CDATA "">
+
+<!ELEMENT TopPane (Path)>
+
+<!ELEMENT BtmPane ( (Path|WR)?,ASHilite?)>
+<!ATTLIST BtmPane vType CDATA "HTML">
+
+<!ELEMENT Path ( #PCDATA ) >
+
+<!ELEMENT ASHilite ( #PCDATA ) >
+
+<!ELEMENT WR ( #PCDATA ) >
+
+<!ELEMENT DT (NodeArgs) >
+<!ATTLIST DT rID ID #REQUIRED>
+
+<!ELEMENT Summary (Param*)>
+<!ATTLIST Summary sTime CDATA #IMPLIED eTime CDATA #IMPLIED passed CDATA #IMPLIED failed CDATA #IMPLIED warnings CDATA #IMPLIED retval CDATA #IMPLIED stopped (False|True) "False" >
+
+<!ELEMENT Param (ParamName,ParamVal)+ >
+<!ATTLIST Param paramInOut (In|Out) "In">
+
+<!ELEMENT ParamName ( #PCDATA ) >
+
+<!ELEMENT ParamVal ( #PCDATA ) >
+
+]
+>
+<Report ver="2.0" tmZone="Eastern Standard Time">
+<General productName="Vugen" productVer="12" os="" host="AFS7LXOYXPM1KY"><DocLocation><![CDATA[C:\Users\francis.montenegro\Documents\VuGen\Scripts\IntegratedCreatedUser_Assisted_V1_HarishT]]></DocLocation></General>
+<Doc rID="T1"   productName= "Vugen"  >
+<DName><![CDATA[IntegratedCreatedUser_Assisted_V1_HarishT]]></DName>
+<Res><![CDATA[result1]]></Res>
+<Action rID="T2">
+<AName><![CDATA[vuser_init]]></AName>
+<Step rID="T3">
+<Obj plainTxt="False" ><![CDATA[Service: Set Sockets Option]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Set socket option <STRONG><FONT COLOR=#00AF00>SSL_VERSION</FONT></STRONG> with value <STRONG><FONT COLOR=#00AF00>TLS1.1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:57:57]]></Time>
+<NodeArgs eType="General" icon="3" nRep="6" >
+<Disp><![CDATA[Service: Set Sockets Option]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T4">
+<Obj plainTxt="False" ><![CDATA[Service: Set Max Html Param Len]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Maximum length of a HTML string that can be retrieved and saved set to <STRONG><FONT COLOR=#00AF00>6270</FONT></STRONG> characters</CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:57:57]]></Time>
+<NodeArgs eType="General" icon="4" nRep="7" >
+<Disp><![CDATA[Service: Set Max Html Param Len]]></Disp>
+</NodeArgs>
+</Step>
+<Summary sTime="10/1/2015 - 15:57:57" eTime="10/1/2015 - 15:57:57" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="5" >
+<Disp><![CDATA[vuser_init Summary]]></Disp>
+</NodeArgs>
+</Action>
+<DIter rID="T5" iterID="1" >
+<Action rID="T6">
+<AName><![CDATA[ScriptFlow]]></AName>
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>authenticity_token</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>\ content="(.*?)"\ </FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>2</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:57:57]]></Time>
+<NodeArgs eType="General" icon="6" nRep="11" >
+<Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T8">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:57:57]]></Time>
+<NodeArgs eType="General" icon="3" nRep="12" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T9">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0003_Select_Individual_IA_zzcktq_7023;PC=assisted;VU=-1;ID=1443729477507</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:57:57]]></Time>
+<NodeArgs eType="General" icon="7" nRep="13" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T10">
+<Obj plainTxt="False" ><![CDATA[Url: search]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:57:59]]></Time>
+<NodeArgs eType="General" icon="8" nRep="14" status="Passed" >
+<Disp><![CDATA[Url: search]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t2.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T11">
+<Obj plainTxt="False" ><![CDATA[Submit Data: users]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:57:59]]></Time>
+<NodeArgs eType="General" icon="9" nRep="15" status="Passed" >
+<Disp><![CDATA[Submit Data: users]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t3.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T12">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>authenticity_token_1</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>\ content="(.*?)"\ </FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>2</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:57:59]]></Time>
+<NodeArgs eType="General" icon="6" nRep="16" >
+<Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T13">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>5D_Param</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>person%5Buser_id%5D=(.*?)">Continue</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>[param not passed in call]</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:57:59]]></Time>
+<NodeArgs eType="General" icon="6" nRep="17" >
+<Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T14">
+<Obj plainTxt="False" ><![CDATA[Url: match]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:57:59]]></Time>
+<NodeArgs eType="General" icon="8" nRep="18" status="Passed" >
+<Disp><![CDATA[Url: match]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t6.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T15">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>tap_token</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>tap_token=(.*?)TapSubmitURL</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>[param not passed in call]</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:57:59]]></Time>
+<NodeArgs eType="General" icon="6" nRep="19" >
+<Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T16">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:57:59]]></Time>
+<NodeArgs eType="General" icon="3" nRep="20" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T17">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0006_Continue_IA_zzcktq_7023;PC=consumer_role;VU=-1;ID=1443729479923</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:57:59]]></Time>
+<NodeArgs eType="General" icon="7" nRep="21" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T18">
+<Obj plainTxt="False" ><![CDATA[Submit Data: consumer_role]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:02]]></Time>
+<NodeArgs eType="General" icon="9" nRep="22" status="Passed" >
+<Disp><![CDATA[Submit Data: consumer_role]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t8.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T19">
+<Obj plainTxt="False" ><![CDATA[Service: Add Cookie]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following cookie: <STRONG><FONT COLOR=#00AF00>has_js=1; DOMAIN=webpp.dchealthlink.com</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:02]]></Time>
+<NodeArgs eType="General" icon="10" nRep="23" >
+<Disp><![CDATA[Service: Add Cookie]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T20">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=The username or password you entered is incorrect.</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:02]]></Time>
+<NodeArgs eType="General" icon="11" nRep="24" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T21">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text/IC=Please select three questions from the drop downs below</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:02]]></Time>
+<NodeArgs eType="General" icon="11" nRep="25" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T22">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:17]]></Time>
+<NodeArgs eType="General" icon="3" nRep="26" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T23">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0007_Login_Curam_IA_zzcktq_7023;PC=loginAuth.do;VU=-1;ID=1443729497108</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:17]]></Time>
+<NodeArgs eType="General" icon="7" nRep="27" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T24">
+<Obj plainTxt="False" ><![CDATA[Submit Data: loginAuth.do]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:21]]></Time>
+<NodeArgs eType="General" icon="9" nRep="28" status="Passed" >
+<Disp><![CDATA[Submit Data: loginAuth.do]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t9.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T25">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName =<STRONG><FONT COLOR=#00AF00>corr_fkvalue</FONT></STRONG><BR>Left Boundary = <STRONG><FONT COLOR=#00AF00>LB=fk" value="</FONT></STRONG><BR>Right Boundary = <STRONG><FONT COLOR=#00AF00>RB="></FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00></FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:21]]></Time>
+<NodeArgs eType="General" icon="6" nRep="29" >
+<Disp><![CDATA[Service: Reg Save Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T26">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>question0</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>'>(.*?)</option</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>2</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:21]]></Time>
+<NodeArgs eType="General" icon="6" nRep="30" >
+<Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T27">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>question1</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>'>(.*?)</option</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>8</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:21]]></Time>
+<NodeArgs eType="General" icon="6" nRep="31" >
+<Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T28">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>question2</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>'>(.*?)</option</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>14</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:21]]></Time>
+<NodeArgs eType="General" icon="6" nRep="32" >
+<Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T29">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:21]]></Time>
+<NodeArgs eType="General" icon="3" nRep="33" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T30">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0007_1_Login_Curam_authJump_IA_zzcktq_7023;PC=authJump.do;VU=-1;ID=1443729501208</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:21]]></Time>
+<NodeArgs eType="General" icon="7" nRep="34" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T31">
+<Obj plainTxt="False" ><![CDATA[Url: authJump.do]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:21]]></Time>
+<NodeArgs eType="General" icon="8" nRep="35" status="Passed" >
+<Disp><![CDATA[Url: authJump.do]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t13.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T32">
+<Obj plainTxt="False" ><![CDATA[Service: Convert Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>question0</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:21]]></Time>
+<NodeArgs eType="General" icon="3" nRep="36" >
+<Disp><![CDATA[Service: Convert Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T33">
+<Obj plainTxt="False" ><![CDATA[Service: Convert Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>question1</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:21]]></Time>
+<NodeArgs eType="General" icon="3" nRep="37" >
+<Disp><![CDATA[Service: Convert Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T34">
+<Obj plainTxt="False" ><![CDATA[Service: Convert Param]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>question2</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:21]]></Time>
+<NodeArgs eType="General" icon="3" nRep="38" >
+<Disp><![CDATA[Service: Convert Param]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T35">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:21]]></Time>
+<NodeArgs eType="General" icon="3" nRep="39" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T36">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0008_Security_Questions_IA_zzcktq_7023;PC=registerQuestions.do;VU=-1;ID=1443729501672</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:21]]></Time>
+<NodeArgs eType="General" icon="7" nRep="40" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T37">
+<Obj plainTxt="False" ><![CDATA[Submit Form: registerQuestions.do]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:23]]></Time>
+<NodeArgs eType="General" icon="12" nRep="41" status="Passed" >
+<Disp><![CDATA[Submit Form: registerQuestions.do]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t17.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T38">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Save Param RegExp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>o3ctx</FONT></STRONG><BR>RegExp = <STRONG><FONT COLOR=#00AF00>o3ctx=(.*?)";\\
+\ \ \ \ \ \ \</FONT></STRONG><BR>Instance = <STRONG><FONT COLOR=#00AF00>[param not passed in call]</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:23]]></Time>
+<NodeArgs eType="General" icon="6" nRep="42" >
+<Disp><![CDATA[Service: Reg Save Param RegExp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T39">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:23]]></Time>
+<NodeArgs eType="General" icon="3" nRep="43" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T40">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0009_Start_Application_IA_zzcktq_7023;PC=application.do;VU=-1;ID=1443729503258</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:23]]></Time>
+<NodeArgs eType="General" icon="7" nRep="44" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T41">
+<Obj plainTxt="False" ><![CDATA[Url: application.do]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:26]]></Time>
+<NodeArgs eType="General" icon="8" nRep="45" status="Passed" >
+<Disp><![CDATA[Url: application.do]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t19.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T42">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:26]]></Time>
+<NodeArgs eType="General" icon="3" nRep="46" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T43">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_1_IA_zzcktq_7023;PC=0010_ExternalApplication.html;VU=-1;ID=1443729506372</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:26]]></Time>
+<NodeArgs eType="General" icon="7" nRep="47" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T44">
+<Obj plainTxt="False" ><![CDATA[Custom Request: 0010_ExternalApplication.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:26]]></Time>
+<NodeArgs eType="General" icon="13" nRep="48" status="Passed" >
+<Disp><![CDATA[Custom Request: 0010_ExternalApplication.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t20.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T45">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:26]]></Time>
+<NodeArgs eType="General" icon="3" nRep="49" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T46">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_2_IA_zzcktq_7023;PC=Menu.html;VU=-1;ID=1443729506744</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:26]]></Time>
+<NodeArgs eType="General" icon="7" nRep="50" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T47">
+<Obj plainTxt="False" ><![CDATA[Custom Request: Menu.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:26]]></Time>
+<NodeArgs eType="General" icon="13" nRep="51" status="Passed" >
+<Disp><![CDATA[Custom Request: Menu.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t21.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T48">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:26]]></Time>
+<NodeArgs eType="General" icon="3" nRep="52" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T49">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_3_IA_zzcktq_7023;PC=_MenuColumn.html;VU=-1;ID=1443729506925</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:26]]></Time>
+<NodeArgs eType="General" icon="7" nRep="53" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T50">
+<Obj plainTxt="False" ><![CDATA[Custom Request: _MenuColumn.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="13" nRep="54" status="Passed" >
+<Disp><![CDATA[Custom Request: _MenuColumn.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t22.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T51">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="3" nRep="55" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T52">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_4_IA_zzcktq_7023;PC=HoverCard.html;VU=-1;ID=1443729507130</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="7" nRep="56" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T53">
+<Obj plainTxt="False" ><![CDATA[Custom Request: HoverCard.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="13" nRep="57" status="Passed" >
+<Disp><![CDATA[Custom Request: HoverCard.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t23.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T54">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="3" nRep="58" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T55">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_5_IA_zzcktq_7023;PC=MenuDialog.html;VU=-1;ID=1443729507329</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="7" nRep="59" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T56">
+<Obj plainTxt="False" ><![CDATA[Custom Request: MenuDialog.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="13" nRep="60" status="Passed" >
+<Disp><![CDATA[Custom Request: MenuDialog.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t24.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T57">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="3" nRep="61" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T58">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_6_IA_zzcktq_7023;PC=MenuHeading.html;VU=-1;ID=1443729507533</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="7" nRep="62" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T59">
+<Obj plainTxt="False" ><![CDATA[Custom Request: MenuHeading.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="13" nRep="63" status="Passed" >
+<Disp><![CDATA[Custom Request: MenuHeading.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t25.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T60">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="3" nRep="64" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T61">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_7_IA_zzcktq_7023;PC=HoverHelpTooltip.html;VU=-1;ID=1443729507736</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="7" nRep="65" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T62">
+<Obj plainTxt="False" ><![CDATA[Custom Request: HoverHelpTooltip.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="13" nRep="66" status="Passed" >
+<Disp><![CDATA[Custom Request: HoverHelpTooltip.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t26.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T63">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="3" nRep="67" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T64">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_8_IA_zzcktq_7023;PC=InlineDropDown.html;VU=-1;ID=1443729507911</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:27]]></Time>
+<NodeArgs eType="General" icon="7" nRep="68" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T65">
+<Obj plainTxt="False" ><![CDATA[Custom Request: InlineDropDown.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:28]]></Time>
+<NodeArgs eType="General" icon="13" nRep="69" status="Passed" >
+<Disp><![CDATA[Custom Request: InlineDropDown.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t27.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T66">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:28]]></Time>
+<NodeArgs eType="General" icon="3" nRep="70" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T67">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_9_IA_zzcktq_7023;PC=Rotator.html;VU=-1;ID=1443729508218</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:28]]></Time>
+<NodeArgs eType="General" icon="7" nRep="71" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T68">
+<Obj plainTxt="False" ><![CDATA[Custom Request: Rotator.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:28]]></Time>
+<NodeArgs eType="General" icon="13" nRep="72" status="Passed" >
+<Disp><![CDATA[Custom Request: Rotator.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t28.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T69">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:28]]></Time>
+<NodeArgs eType="General" icon="3" nRep="73" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T70">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_10_IA_zzcktq_7023;PC=MenuItem.html;VU=-1;ID=1443729508383</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:28]]></Time>
+<NodeArgs eType="General" icon="7" nRep="74" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T71">
+<Obj plainTxt="False" ><![CDATA[Custom Request: MenuItem.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:28]]></Time>
+<NodeArgs eType="General" icon="13" nRep="75" status="Passed" >
+<Disp><![CDATA[Custom Request: MenuItem.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t29.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T72">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:28]]></Time>
+<NodeArgs eType="General" icon="3" nRep="76" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T73">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_11_IA_zzcktq_7023;PC=TitlePane.html;VU=-1;ID=1443729508600</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:28]]></Time>
+<NodeArgs eType="General" icon="7" nRep="77" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T74">
+<Obj plainTxt="False" ><![CDATA[Custom Request: TitlePane.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:28]]></Time>
+<NodeArgs eType="General" icon="13" nRep="78" status="Passed" >
+<Disp><![CDATA[Custom Request: TitlePane.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t30.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T75">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:28]]></Time>
+<NodeArgs eType="General" icon="3" nRep="79" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T76">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_12_IA_zzcktq_7023;PC=DropDown.html;VU=-1;ID=1443729508810</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:28]]></Time>
+<NodeArgs eType="General" icon="7" nRep="80" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T77">
+<Obj plainTxt="False" ><![CDATA[Custom Request: DropDown.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:28]]></Time>
+<NodeArgs eType="General" icon="13" nRep="81" status="Passed" >
+<Disp><![CDATA[Custom Request: DropDown.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t31.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T78">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="3" nRep="82" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T79">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_13_IA_zzcktq_7023;PC=ContrastModeChooser.html;VU=-1;ID=1443729509008</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="7" nRep="83" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T80">
+<Obj plainTxt="False" ><![CDATA[Custom Request: ContrastModeChooser.html]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="13" nRep="84" status="Passed" >
+<Disp><![CDATA[Custom Request: ContrastModeChooser.html]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t32.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T81">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="3" nRep="85" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T82">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_14_IA_zzcktq_7023;PC=PathResolver;VU=-1;ID=1443729509241</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="7" nRep="86" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T83">
+<Obj plainTxt="False" ><![CDATA[Submit Data: PathResolver]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="9" nRep="87" status="Passed" >
+<Disp><![CDATA[Submit Data: PathResolver]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t33.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T84">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="3" nRep="88" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T85">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_15_IA_zzcktq_7023;PC=CitizenWorkspace_userHomeResolverPage.do;VU=-1;ID=1443729509438</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="7" nRep="89" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T86">
+<Obj plainTxt="False" ><![CDATA[Custom Request: CitizenWorkspace_userHomeResolverPage.do]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="13" nRep="90" status="Passed" >
+<Disp><![CDATA[Custom Request: CitizenWorkspace_userHomeResolverPage.do]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t34.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T87">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="3" nRep="91" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T88">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_16_IA_zzcktq_7023;PC=CitizenWorkspace_userHomeResolverPage.do_2;VU=-1;ID=1443729509713</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="7" nRep="92" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T89">
+<Obj plainTxt="False" ><![CDATA[Custom Request: CitizenWorkspace_userHomeResolverPage.do_2]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="13" nRep="93" status="Passed" >
+<Disp><![CDATA[Custom Request: CitizenWorkspace_userHomeResolverPage.do_2]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t35.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T90">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="3" nRep="94" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T91">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_17_IA_zzcktq_7023;PC=application-banner-fragment.jspx;VU=-1;ID=1443729509987</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:29]]></Time>
+<NodeArgs eType="General" icon="7" nRep="95" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T92">
+<Obj plainTxt="False" ><![CDATA[Custom Request: application-banner-fragment.jspx]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:30]]></Time>
+<NodeArgs eType="General" icon="13" nRep="96" status="Passed" >
+<Disp><![CDATA[Custom Request: application-banner-fragment.jspx]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t36.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T93">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:30]]></Time>
+<NodeArgs eType="General" icon="3" nRep="97" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T94">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0010_Curam_StartApp_Misc_URLS_18_IA_zzcktq_7023;PC=UIMIFrameWrapperPage.do;VU=-1;ID=1443729510231</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:30]]></Time>
+<NodeArgs eType="General" icon="7" nRep="98" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T95">
+<Obj plainTxt="False" ><![CDATA[Custom Request: UIMIFrameWrapperPage.do]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:32]]></Time>
+<NodeArgs eType="General" icon="13" nRep="99" status="Passed" >
+<Disp><![CDATA[Custom Request: UIMIFrameWrapperPage.do]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t37.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T96">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:32]]></Time>
+<NodeArgs eType="General" icon="3" nRep="100" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T97">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=0999_Logout_Curam;PC=logout.jsp;VU=-1;ID=1443729512494</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:32]]></Time>
+<NodeArgs eType="General" icon="7" nRep="101" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T98">
+<Obj plainTxt="False" ><![CDATA[Url: logout.jsp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:32]]></Time>
+<NodeArgs eType="General" icon="8" nRep="102" status="Passed" >
+<Disp><![CDATA[Url: logout.jsp]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t38.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Step rID="T99">
+<Obj plainTxt="False" ><![CDATA[Service: Save Timestamp]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>TimeStamp</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:32]]></Time>
+<NodeArgs eType="General" icon="3" nRep="103" >
+<Disp><![CDATA[Service: Save Timestamp]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T100">
+<Obj plainTxt="False" ><![CDATA[Service: Add Header]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER>Add the following header to the next HTTP request :<BR><STRONG><FONT COLOR=#00AF00>X-dynaTrace: NA=1000_Last_Logout;PC=logout;VU=-1;ID=1443729512859</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:32]]></Time>
+<NodeArgs eType="General" icon="7" nRep="104" >
+<Disp><![CDATA[Service: Add Header]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T101">
+<Obj plainTxt="False" ><![CDATA[Submit Form: logout]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[10/1/2015 - 15:58:34]]></Time>
+<NodeArgs eType="General" icon="12" nRep="105" status="Passed" >
+<Disp><![CDATA[Submit Form: logout]]></Disp>
+<BtmPane vType="HTMLSNSH">
+<Path><![CDATA[\Iteration1\t39.inf]]></Path>
+</BtmPane>
+</NodeArgs>
+</Step>
+<Summary sTime="10/1/2015 - 15:57:57" eTime="10/1/2015 - 15:58:34" passed="28" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="10" status="Passed" >
+<Disp><![CDATA[ScriptFlow Summary]]></Disp>
+</NodeArgs>
+</Action>
+<NodeArgs eType="StartIteration" icon="5" nRep="9" status="Passed" >
+<Disp><![CDATA[IntegratedCreatedUser_Assisted_V1_HarishT Iteration 1 (Row 1)]]></Disp>
+</NodeArgs>
+</DIter>
+<Action rID="T102">
+<AName><![CDATA[vuser_end]]></AName>
+<Summary sTime="10/1/2015 - 15:58:34" eTime="10/1/2015 - 15:58:34" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="108" >
+<Disp><![CDATA[vuser_end Summary]]></Disp>
+</NodeArgs>
+</Action>
+<Summary sTime="10/1/2015 - 15:57:57" eTime="10/1/2015 - 15:58:34" passed="28" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
+<Disp><![CDATA[Test IntegratedCreatedUser_Assisted_V1_HarishT Summary]]></Disp>
+</NodeArgs>
+</Doc>
+</Report>
