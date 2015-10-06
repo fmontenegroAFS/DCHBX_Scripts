@@ -46,7 +46,11 @@ Temporary Items
 # ==========================
 
 # Result Files
-result1/
+IntegratedCreateUser_Assisted/result1/
+IntegratedEmployeePortal/result1/
+IntegratedEmployerPortal/result1/
+IntegratedIndividualAssisted/result1/
+IntegratedIndividualUnassisted/result1/
 
 # Log Files
 *.log
