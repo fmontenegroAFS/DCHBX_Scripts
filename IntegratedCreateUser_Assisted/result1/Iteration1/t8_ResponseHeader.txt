@@ -1,16 +1,14 @@
 HTTP/1.1 200 OK
-Date: Mon, 05 Oct 2015 19:23:38 GMT
+Date: Tue, 06 Oct 2015 13:22:19 GMT
 Server: Oracle-Application-Server-11g
 Cache-Control: no-store
 Pragma: no-cache
 Expires: Thu, 01 Jan 1970 00:00:00 GMT
-X-OPNET-Transaction-Trace: a2_1a783dc8-0e49-4bff-9f16-690f0521ad0a
-Set-Cookie: _op_aixPageId=a2_09026a82-d6f5-4ee4-a49b-50a2fe7ad616; path=/
-Set-Cookie: _op_aixPageId=a2_1a783dc8-0e49-4bff-9f16-690f0521ad0a; path=/
-Set-Cookie: JSESSIONID=yV0yWSThZJ9yTSZbfdpYTD2K2PPZF5nQbLYghhvQnJnvj5F2bnYJ!-370398767!1094523685; path=/oaam_server; HttpOnly
-X-ORACLE-DMS-ECID: 0058M1nJ8RgAtHLLuQo2yX0002oO000D3p
+X-OPNET-Transaction-Trace: a2_3862e619-431e-4c8f-a4f2-928e243a62e5
+Set-Cookie: JSESSIONID=0MQjWTLLyBQpRfT6MPjvNnbxyJdFSJhFQydTs2VrC1kpP1nxTWLq!1094523685!-370398767; path=/oaam_server; HttpOnly
+X-ORACLE-DMS-ECID: 0058My4y5a^AtHLLuQo2yX0002oO000Xpt
 X-Powered-By: Servlet/2.5 JSP/2.1
-X-dynaTrace: PT=1098261;PA=1379048021;SP=DC HBX;PS=1724996734
+X-dynaTrace: PT=1183727;PA=1379048021;SP=DC HBX;PS=1724996734
 Keep-Alive: timeout=15, max=999
 Connection: Keep-Alive
 Transfer-Encoding: chunked

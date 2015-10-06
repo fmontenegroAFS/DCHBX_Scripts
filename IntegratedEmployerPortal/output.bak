@@ -1,9 +1,9 @@
-Virtual User Script started at : 10/5/2015 3:36:22 PM
+Virtual User Script started at : 10/5/2015 4:00:32 PM
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.0.0 for Windows 7; build 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Run-Time Settings file: "C:\Users\francis.montenegro\Documents\GitHub\DCHBX_Perf_Scripts\IntegratedEmployerPortal\\default.cfg"  	[MsgId: MMSG-27141]
-vuser_init.c(17): Notify: Parameter Substitution: parameter "MillisSeed" =  "153622.193"
+vuser_init.c(17): Notify: Parameter Substitution: parameter "MillisSeed" =  "160032.973"
 vuser_init.c(19): Notify: Parameter Substitution: parameter "VUserID" =  "1"
 vuser_init.c(24): Notify: Saving Parameter "EmpFileName = C:\Enroll_App\Data_Folder\EmpFName_1.dat".
 CreateFiles.c(5): Notify: Parameter Substitution: parameter "EmpFileName" =  "C:\Enroll_App\Data_Folder\EmpFName_1.dat"
@@ -12,10 +12,12 @@ Running Vuser...
 Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action ScriptFlow.
-EmployeeRosterSizeCalculator.c(4): Notify: Saving Parameter "Random = 94".
-EmployeeRosterSizeCalculator.c(24): Notify: Parameter Substitution: parameter "Random" =  "94"
-EmployeeRosterSizeCalculator.c(25): Notify: Saving Parameter "pEMPLOYEECOUNT = 42".
-EmployeeRosterSizeCalculator.c(26): Notify: Saving Parameter "pAddEmployeeTrName = 05_FortyToFiftyEmployee".
+EmployeeRosterSizeCalculator.c(4): Notify: Saving Parameter "Random = 75".
+EmployeeRosterSizeCalculator.c(24): Notify: Parameter Substitution: parameter "Random" =  "75"
+EmployeeRosterSizeCalculator.c(28): Notify: Parameter Substitution: parameter "Random" =  "75"
+EmployeeRosterSizeCalculator.c(32): Notify: Parameter Substitution: parameter "Random" =  "75"
+EmployeeRosterSizeCalculator.c(33): Notify: Saving Parameter "pEMPLOYEECOUNT = 27".
+EmployeeRosterSizeCalculator.c(34): Notify: Saving Parameter "pAddEmployeeTrName = 03_TwentyToThirtyEmployee".
 EnrollAppLandingPage.c(19): Notify: Transaction "INTEG_EMPLYR_0000_4_Landing_Page" started.
 EnrollAppLandingPage.c(21): web_url("Enroll App Landing Page") started  	[MsgId: MMSG-26355]
 EnrollAppLandingPage.c(21): Notify: Parameter Substitution: parameter "HTTP" =  "http"
@@ -27,8 +29,8 @@ EnrollAppLandingPage.c(21): Found resource "http://enroll-preprod.dchbx.org/asse
 EnrollAppLandingPage.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" in HTML "http://enroll-preprod.dchbx.org/"  	[MsgId: MMSG-26659]
 EnrollAppLandingPage.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" in HTML "http://enroll-preprod.dchbx.org/"  	[MsgId: MMSG-26659]
 EnrollAppLandingPage.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" in HTML "http://enroll-preprod.dchbx.org/"  	[MsgId: MMSG-26659]
-EnrollAppLandingPage.c(21): web_url("Enroll App Landing Page") was successful, 1078562 body bytes, 3211 header bytes, 240 chunking overhead bytes  	[MsgId: MMSG-26385]
-EnrollAppLandingPage.c(31): Notify: Transaction "INTEG_EMPLYR_0000_4_Landing_Page" ended with a "Pass" status (Duration: 2.6690 Wasted Time: 1.4452).
+EnrollAppLandingPage.c(21): web_url("Enroll App Landing Page") was successful, 1068225 body bytes, 3210 header bytes, 18 chunking overhead bytes  	[MsgId: MMSG-26385]
+EnrollAppLandingPage.c(31): Notify: Transaction "INTEG_EMPLYR_0000_4_Landing_Page" ended with a "Pass" status (Duration: 2.8773 Wasted Time: 1.7433).
 EmployerTab.c(4): Notify: Transaction "INTEG_EMPLYR_0001_Click_on_Employer_Portal_Tab" started.
 EmployerTab.c(6): web_url("Employer Portal") started  	[MsgId: MMSG-26355]
 EmployerTab.c(6): Notify: Parameter Substitution: parameter "HTTP" =  "http"
@@ -44,8 +46,8 @@ EmployerTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/logo-37b2d59f
 EmployerTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerTab.c(6): web_url("Employer Portal") was successful, 19315 body bytes, 878 header bytes  	[MsgId: MMSG-26386]
-EmployerTab.c(16): Notify: Transaction "INTEG_EMPLYR_0001_Click_on_Employer_Portal_Tab" ended with a "Pass" status (Duration: 0.2220 Wasted Time: 0.0112).
+EmployerTab.c(6): web_url("Employer Portal") was successful, 8978 body bytes, 877 header bytes  	[MsgId: MMSG-26386]
+EmployerTab.c(16): Notify: Transaction "INTEG_EMPLYR_0001_Click_on_Employer_Portal_Tab" ended with a "Pass" status (Duration: 0.1766 Wasted Time: 0.0107).
 EmployerCreateAccount.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
 EmployerCreateAccount.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
 EmployerCreateAccount.c(6): web_reg_save_param started  	[MsgId: MMSG-26355]
@@ -56,7 +58,7 @@ EmployerCreateAccount.c(10): Notify: Parameter Substitution: parameter "HTTP" = 
 EmployerCreateAccount.c(10): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
 EmployerCreateAccount.c(10): Notify: Parameter Substitution: parameter "HTTP" =  "http"
 EmployerCreateAccount.c(10): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerCreateAccount.c(10): Notify: Saving Parameter "AUTH_TOKEN_1 = mATixSDtmBVGEpJ/W/bSHPWPSxOVmUPa1eG1hsRe0ivjXxglZ9134WbgBMJgmvoEEp5suam3GAwGRJpXTNSV2g==".
+EmployerCreateAccount.c(10): Notify: Saving Parameter "AUTH_TOKEN_1 = ZkpEohB6X/ZX1n4qONtCwjGH+BrQgytGwHuWY8JmjwNEYjBjauShCw5wSowb5XhWUnrBgYDFNfH2t0lh9gOmDw==".
 EmployerCreateAccount.c(10): Resource "http://enroll-preprod.dchbx.org/assets/application-2f121e428665384236c5c46bcc77ec25.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerCreateAccount.c(10): Resource "http://enroll-preprod.dchbx.org/assets/application-3913c33f9bc63f3e07cf63a9c46d0f4a.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerCreateAccount.c(10): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
@@ -64,8 +66,8 @@ EmployerCreateAccount.c(10): Resource "http://enroll-preprod.dchbx.org/assets/lo
 EmployerCreateAccount.c(10): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerCreateAccount.c(10): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerCreateAccount.c(10): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(10): web_url("Create account") was successful, 19217 body bytes, 444 header bytes  	[MsgId: MMSG-26386]
-EmployerCreateAccount.c(20): Notify: Transaction "INTEG_EMPLYR_0002_Click_on_Create_Account" ended with a "Pass" status (Duration: 0.1681 Wasted Time: 0.0099).
+EmployerCreateAccount.c(10): web_url("Create account") was successful, 8880 body bytes, 443 header bytes  	[MsgId: MMSG-26386]
+EmployerCreateAccount.c(20): Notify: Transaction "INTEG_EMPLYR_0002_Click_on_Create_Account" ended with a "Pass" status (Duration: 0.1599 Wasted Time: 0.0161).
 EmployerCreateAccount.c(24): web_reg_save_param started  	[MsgId: MMSG-26355]
 EmployerCreateAccount.c(24): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 EmployerCreateAccount.c(25): web_reg_find started  	[MsgId: MMSG-26355]
@@ -76,14 +78,14 @@ EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "HTTP" = 
 EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
 EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "HTTP" =  "http"
 EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "AUTH_TOKEN_1" =  "mATixSDtmBVGEpJ/W/bSHPWPSxOVmUPa1eG1hsRe0ivjXxglZ9134WbgBMJgmvoEEp5suam3GAwGRJpXTNSV2g=="
+EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "AUTH_TOKEN_1" =  "ZkpEohB6X/ZX1n4qONtCwjGH+BrQgytGwHuWY8JmjwNEYjBjauShCw5wSowb5XhWUnrBgYDFNfH2t0lh9gOmDw=="
 EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "HTTP" =  "http"
 EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "pEmpPrefix" =  "BIZ-FM9"
-EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "FEIN" =  "899598955"
+EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "pEmpPrefix" =  "BIZ-FM10"
+EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "FEIN" =  "170910191"
 EmployerCreateAccount.c(29): Redirecting "http://enroll-preprod.dchbx.org/users" (redirection depth is 0)  	[MsgId: MMSG-26694]
 EmployerCreateAccount.c(29): To location "http://enroll-preprod.dchbx.org/employers"  	[MsgId: MMSG-26693]
-EmployerCreateAccount.c(29): Notify: Saving Parameter "AUTH_TOKEN_2 = 298C9tYXK7UbAfaC5FVN7nq/J1BFKu8cEJBQzTD4k6yghPgWkSfEQTvzYD/fOWX2na4A+nkEtMrDNX8cuHLUXQ==".
+EmployerCreateAccount.c(29): Notify: Saving Parameter "AUTH_TOKEN_2 = QwTLFSvlhN5DCsRC26/YX/0y7lsrJJ9te/lXUoNe6MJhLL/UUXt6Ixqs8OT4keLLns/XwHtigdpNNYhQtzvBzg==".
 EmployerCreateAccount.c(29): Resource "http://enroll-preprod.dchbx.org/assets/application-2f121e428665384236c5c46bcc77ec25.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerCreateAccount.c(29): Resource "http://enroll-preprod.dchbx.org/assets/application-3913c33f9bc63f3e07cf63a9c46d0f4a.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerCreateAccount.c(29): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
@@ -94,12 +96,12 @@ EmployerCreateAccount.c(29): Resource "http://enroll-preprod.dchbx.org/assets/ic
 EmployerCreateAccount.c(29): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerCreateAccount.c(29): Registered web_reg_find successful for "Text=Your account has been created" (count=1)  	[MsgId: MMSG-26364]
 EmployerCreateAccount.c(29): Notify: Saving Parameter "CreateAccountCount = 1".
-EmployerCreateAccount.c(29): web_submit_data("users") was successful, 30844 body bytes, 1410 header bytes  	[MsgId: MMSG-26386]
+EmployerCreateAccount.c(29): web_submit_data("users") was successful, 20508 body bytes, 1410 header bytes  	[MsgId: MMSG-26386]
 EmployerCreateAccount.c(49): Notify: Parameter Substitution: parameter "CreateAccountCount" =  "1"
-EmployerCreateAccount.c(57): Notify: Transaction "INTEG_EMPLYR_0003_Create_Account_Submit" ended with a "Pass" status (Duration: 0.5178 Wasted Time: 0.0177).
-ScriptFlow.c(35): Notify: Saving Parameter "LegalName = 5".
-ScriptFlow.c(37): Notify: Parameter Substitution: parameter "LegalName" =  "5"
-randomname.h(15): Notify: Saving Parameter "LegalName = eqvjs".
+EmployerCreateAccount.c(57): Notify: Transaction "INTEG_EMPLYR_0003_Create_Account_Submit" ended with a "Pass" status (Duration: 0.9486 Wasted Time: 0.0165).
+ScriptFlow.c(35): Notify: Saving Parameter "LegalName = 4".
+ScriptFlow.c(37): Notify: Parameter Substitution: parameter "LegalName" =  "4"
+randomname.h(15): Notify: Saving Parameter "LegalName = hqwk".
 EmployerCreateProfile.c(4): web_reg_save_param started  	[MsgId: MMSG-26355]
 EmployerCreateProfile.c(4): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 EmployerCreateProfile.c(6): Notify: Transaction "INTEG_EMPLYR_0005_CreateBusinesss_Profile" started.
@@ -108,40 +110,40 @@ EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "HTTP" =  
 EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
 EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "HTTP" =  "http"
 EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "AUTH_TOKEN_2" =  "298C9tYXK7UbAfaC5FVN7nq/J1BFKu8cEJBQzTD4k6yghPgWkSfEQTvzYD/fOWX2na4A+nkEtMrDNX8cuHLUXQ=="
-EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "899598955"
-EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "899598955"
-EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "LegalName" =  "eqvjs"
-EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "899598955"
-EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "899598955"
-EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "899598955"
-EmployerCreateProfile.c(8): Notify: Saving Parameter "EMPLOYER_ID = 5612d14c69702d0eed060000?tab=home".
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "AUTH_TOKEN_2" =  "QwTLFSvlhN5DCsRC26/YX/0y7lsrJJ9te/lXUoNe6MJhLL/UUXt6Ixqs8OT4keLLns/XwHtigdpNNYhQtzvBzg=="
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "170910191"
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "170910191"
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "LegalName" =  "hqwk"
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "170910191"
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "170910191"
+EmployerCreateProfile.c(8): Notify: Parameter Substitution: parameter "FEIN" =  "170910191"
+EmployerCreateProfile.c(8): Notify: Saving Parameter "EMPLOYER_ID = 5612d6f869702d04c3070000?tab=home".
 EmployerCreateProfile.c(8): Redirecting "http://enroll-preprod.dchbx.org/employers/employer_profiles" (redirection depth is 0)  	[MsgId: MMSG-26694]
-EmployerCreateProfile.c(8): To location "http://enroll-preprod.dchbx.org/employers/employer_profiles/5612d14c69702d0eed060000?tab=home"  	[MsgId: MMSG-26693]
+EmployerCreateProfile.c(8): To location "http://enroll-preprod.dchbx.org/employers/employer_profiles/5612d6f869702d04c3070000?tab=home"  	[MsgId: MMSG-26693]
 EmployerCreateProfile.c(8): Resource "http://enroll-preprod.dchbx.org/assets/application-2f121e428665384236c5c46bcc77ec25.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerCreateProfile.c(8): Resource "http://enroll-preprod.dchbx.org/assets/application-3913c33f9bc63f3e07cf63a9c46d0f4a.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerCreateProfile.c(8): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerCreateProfile.c(8): Resource "http://enroll-preprod.dchbx.org/assets/logo-37b2d59fd0101e8781456ec388f3400a.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateProfile.c(8): Found resource "http://enroll-preprod.dchbx.org/assets/icons/icon-business-owner-c8920868ad7a0186be46b4928575297b.png" in HTML "http://enroll-preprod.dchbx.org/employers/employer_profiles/5612d14c69702d0eed060000?tab=home"  	[MsgId: MMSG-26659]
-EmployerCreateProfile.c(8): Found resource "http://enroll-preprod.dchbx.org/assets/images/didyouknow_288-83d29995047954869d3fa1a453abc385.png" in HTML "http://enroll-preprod.dchbx.org/employers/employer_profiles/5612d14c69702d0eed060000?tab=home"  	[MsgId: MMSG-26659]
+EmployerCreateProfile.c(8): Found resource "http://enroll-preprod.dchbx.org/assets/icons/icon-business-owner-c8920868ad7a0186be46b4928575297b.png" in HTML "http://enroll-preprod.dchbx.org/employers/employer_profiles/5612d6f869702d04c3070000?tab=home"  	[MsgId: MMSG-26659]
+EmployerCreateProfile.c(8): Found resource "http://enroll-preprod.dchbx.org/assets/images/didyouknow_288-83d29995047954869d3fa1a453abc385.png" in HTML "http://enroll-preprod.dchbx.org/employers/employer_profiles/5612d6f869702d04c3070000?tab=home"  	[MsgId: MMSG-26659]
 EmployerCreateProfile.c(8): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerCreateProfile.c(8): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerCreateProfile.c(8): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateProfile.c(8): web_submit_data("employer_profiles") was successful, 73518 body bytes, 1728 header bytes  	[MsgId: MMSG-26386]
-EmployerCreateProfile.c(39): Notify: Transaction "INTEG_EMPLYR_0005_CreateBusinesss_Profile" ended with a "Pass" status (Duration: 1.6090 Wasted Time: 0.0085).
+EmployerCreateProfile.c(8): web_submit_data("employer_profiles") was successful, 63181 body bytes, 1728 header bytes  	[MsgId: MMSG-26386]
+EmployerCreateProfile.c(39): Notify: Transaction "INTEG_EMPLYR_0005_CreateBusinesss_Profile" ended with a "Pass" status (Duration: 0.8804 Wasted Time: 0.0141).
 EmployerClickBenefitsTab.c(4): web_reg_save_param started  	[MsgId: MMSG-26355]
 EmployerClickBenefitsTab.c(4): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 EmployerClickBenefitsTab.c(6): Notify: Transaction "INTEG_EMPLYR_0006_Click_Benefits_Tab" started.
 EmployerClickBenefitsTab.c(8): web_url("Benefits Benefits") started  	[MsgId: MMSG-26355]
 EmployerClickBenefitsTab.c(8): Notify: Parameter Substitution: parameter "HTTP" =  "http"
 EmployerClickBenefitsTab.c(8): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerClickBenefitsTab.c(8): Notify: Parameter Substitution: parameter "EMPLOYER_ID" =  "5612d14c69702d0eed060000?tab=home"
+EmployerClickBenefitsTab.c(8): Notify: Parameter Substitution: parameter "EMPLOYER_ID" =  "5612d6f869702d04c3070000?tab=home"
 EmployerClickBenefitsTab.c(8): Notify: Parameter Substitution: parameter "HTTP" =  "http"
 EmployerClickBenefitsTab.c(8): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerClickBenefitsTab.c(8): Notify: Parameter Substitution: parameter "EMPLOYER_ID" =  "5612d14c69702d0eed060000?tab=home"
-EmployerClickBenefitsTab.c(8): Notify: Saving Parameter "AUTH_TOKEN_4 = 2VIZOryYalN9rAfFbfsnoXpQZypbEH3S9/5iZTt3OCmiCePa+6iFp11ekXhWlw+5nUFAgGc+JgQkW020s/1/2A==".
-EmployerClickBenefitsTab.c(8): web_url("Benefits Benefits") was successful, 20467 body bytes, 444 header bytes  	[MsgId: MMSG-26386]
-EmployerClickBenefitsTab.c(18): Notify: Transaction "INTEG_EMPLYR_0006_Click_Benefits_Tab" ended with a "Pass" status (Duration: 0.2151 Wasted Time: 0.0126).
+EmployerClickBenefitsTab.c(8): Notify: Parameter Substitution: parameter "EMPLOYER_ID" =  "5612d6f869702d04c3070000?tab=home"
+EmployerClickBenefitsTab.c(8): Notify: Saving Parameter "AUTH_TOKEN_4 = 6ghv6d9+z71cwm/p7mHjAYLWKeiR8WpAe2fc0jeJ4jrIIBsopeAxQAVkW0/NX9mV4SsQc8G3dPdNqwPQA+zLNg==".
+EmployerClickBenefitsTab.c(8): web_url("Benefits Benefits") was successful, 10130 body bytes, 444 header bytes  	[MsgId: MMSG-26386]
+EmployerClickBenefitsTab.c(18): Notify: Transaction "INTEG_EMPLYR_0006_Click_Benefits_Tab" ended with a "Pass" status (Duration: 0.2030 Wasted Time: 0.0111).
 EmployerAddBenefits.c(3): web_reg_save_param started  	[MsgId: MMSG-26355]
 EmployerAddBenefits.c(3): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 EmployerAddBenefits.c(5): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
@@ -150,11 +152,11 @@ EmployerAddBenefits.c(7): Notify: Transaction "INTEG_EMPLYR_0007_Click_Add_Plan"
 EmployerAddBenefits.c(9): web_url("new") started  	[MsgId: MMSG-26355]
 EmployerAddBenefits.c(9): Notify: Parameter Substitution: parameter "HTTP" =  "http"
 EmployerAddBenefits.c(9): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerAddBenefits.c(9): Notify: Parameter Substitution: parameter "EMPLOYER_ID" =  "5612d14c69702d0eed060000?tab=home"
+EmployerAddBenefits.c(9): Notify: Parameter Substitution: parameter "EMPLOYER_ID" =  "5612d6f869702d04c3070000?tab=home"
 EmployerAddBenefits.c(9): Notify: Parameter Substitution: parameter "HTTP" =  "http"
 EmployerAddBenefits.c(9): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerAddBenefits.c(9): Notify: Parameter Substitution: parameter "EMPLOYER_ID" =  "5612d14c69702d0eed060000?tab=home"
-EmployerAddBenefits.c(9): Notify: Saving Parameter "AUTH_TOKEN_3 = 2a7+nhxWw+E8qVRGO4VJmAS+brS/ejHR443SmGYwdqKi9QR+W2YsFRxbwvsA6WGA469JHoNUagcwKP1J7roxUw==".
+EmployerAddBenefits.c(9): Notify: Parameter Substitution: parameter "EMPLOYER_ID" =  "5612d6f869702d04c3070000?tab=home"
+EmployerAddBenefits.c(9): Notify: Saving Parameter "AUTH_TOKEN_3 = NAO43U/LTjNgKOkv+lfAye1OZ7BcGEQ2NnX9mo6zl4oWK8wcNVWwzjmO3YnZafpdjrNeKwxeWoEAuSKYuta+hg==".
 EmployerAddBenefits.c(9): Resource "http://enroll-preprod.dchbx.org/assets/application-2f121e428665384236c5c46bcc77ec25.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerAddBenefits.c(9): Resource "http://enroll-preprod.dchbx.org/assets/application-3913c33f9bc63f3e07cf63a9c46d0f4a.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerAddBenefits.c(9): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
@@ -165,8 +167,8 @@ EmployerAddBenefits.c(9): Resource "http://enroll-preprod.dchbx.org/assets/icons
 EmployerAddBenefits.c(9): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 EmployerAddBenefits.c(9): Error -26377: No match found for the requested parameter "CorrelationParameter". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size  	[MsgId: MERR-26377]
 EmployerAddBenefits.c(9): Notify: Saving Parameter "CorrelationParameter = ".
-EmployerAddBenefits.c(9): web_url("new") highest severity level was "ERROR", 20467 body bytes, 444 header bytes  	[MsgId: MMSG-26388]
-EmployerAddBenefits.c(9): Notify: Transaction "INTEG_EMPLYR_0007_Click_Add_Plan" ended with a "Fail" status (Duration: 0.2767 Wasted Time: 0.0163).
+EmployerAddBenefits.c(9): web_url("new") highest severity level was "ERROR", 10130 body bytes, 444 header bytes  	[MsgId: MMSG-26388]
+EmployerAddBenefits.c(9): Notify: Transaction "INTEG_EMPLYR_0007_Click_Add_Plan" ended with a "Fail" status (Duration: 0.1720 Wasted Time: 0.0131).
 EmployerAddBenefits.c(9): Notify: Transaction "INTEG_EMPLYR_0007_Click_Add_Plan" has 1 error message(s).
 EmployerAddBenefits.c(9): Notify: The 1st error message associated with transaction "INTEG_EMPLYR_0007_Click_Add_Plan" is "Error -26377: No match found for the requested parameter "CorrelationParameter". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size"
 Ending action ScriptFlow.

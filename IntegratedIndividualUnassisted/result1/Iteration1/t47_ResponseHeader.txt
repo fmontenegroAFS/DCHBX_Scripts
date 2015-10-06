@@ -1,14 +1,14 @@
-HTTP/1.1 204 No Content
-Cache-Control: no-cache
-Date: Mon, 05 Oct 2015 19:33:46 GMT
-Server: nginx/1.8.0
-Set-Cookie: request_method=DELETE; path=/
-Set-Cookie: _session_id=Z2dDUY_D_35uW2oHKFGGeK8fNTs; path=/; HttpOnly
-Status: 204 No Content
-X-Content-Type-Options: nosniff
-X-Frame-Options: SAMEORIGIN
-X-Request-Id: 3d30ce79-161e-4629-b9d4-6424031ae58a
-X-Runtime: 0.022896
-X-XSS-Protection: 1; mode=block
-Connection: keep-alive
+HTTP/1.1 200 OK
+Date: Mon, 05 Oct 2015 22:31:05 GMT
+Server: Apache/2.2.15 (Red Hat)
+X-Powered-By: PHP/5.3.3
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Mon, 05 Oct 2015 22:31:05 GMT
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+ETag: "1444084265"
+Content-Language: en
+X-Generator: Drupal 7 (http://drupal.org)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
 

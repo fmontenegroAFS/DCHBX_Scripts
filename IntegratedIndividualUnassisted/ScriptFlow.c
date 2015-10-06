@@ -115,18 +115,33 @@ ScriptFlow()
 	
 	lr_start_transaction("INTEG_UNASSISTED_0021_Logout");
 	
-	web_submit_data("sign_out", 
-		"Action=http://enroll-preprod.dchbx.org/users/sign_out", 
-		"Method=POST", 
-		"RecContentType=text/html", 
-		"Referer=http://enroll-preprod.dchbx.org/insured/family_members?consumer_role_id={consumer_role_id}", 
-		"Snapshot=t10.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=_method", "Value=delete", ENDITEM, 
-		"Name=authenticity_token", "Value={authenticity_token_8}", ENDITEM, 
-		LAST);
+//	web_submit_data("sign_out", 
+//		"Action=http://enroll-preprod.dchbx.org/users/sign_out", 
+//		"Method=POST", 
+//		"RecContentType=text/html", 
+//		"Referer=http://enroll-preprod.dchbx.org/insured/family_members?consumer_role_id={consumer_role_id}", 
+//		"Snapshot=t10.inf", 
+//		"Mode=HTML", 
+//		ITEMDATA, 
+//		"Name=_method", "Value=delete", ENDITEM, 
+//		"Name=authenticity_token", "Value={authenticity_token_8}", ENDITEM, 
+//		LAST);
 
+//	web_submit_form("logout", 
+//		"Snapshot=t20.inf", 
+//		ITEMDATA, 
+//		LAST);	
+	
+	web_url("logout", 
+		"URL=https://webpp.dchealthlink.com/oam/server/logout?end_url=https://webpp.dchealthlink.com/fed/user/logout?returnurl=https://preprod.dchealthlink.com", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=https://webpp.dchealthlink.com/oam/server/logout?end_url=https://webpp.dchealthlink.com/fed/user/logout?returnurl=https://preprod.dchealthlink.com", 
+		"Snapshot=t81.inf", 
+		"Mode=HTML", 
+		LAST);		
+	
+	
 	lr_end_transaction("INTEG_UNASSISTED_0021_Logout",LR_AUTO);
 	
 	lr_think_time(20);

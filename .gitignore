@@ -54,3 +54,4 @@ result1/
 # Snapshots
 t*.html
 t*.inf
+snapshot*.xml

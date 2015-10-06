@@ -2516,18 +2516,33 @@ ScriptFlow()
 	
 	lr_start_transaction("INTEG_UNASSISTED_0021_Logout");
 	
-	web_submit_data("sign_out", 
-		"Action=http://enroll-preprod.dchbx.org/users/sign_out", 
-		"Method=POST", 
-		"RecContentType=text/html", 
-		"Referer=http://enroll-preprod.dchbx.org/insured/family_members?consumer_role_id={consumer_role_id}", 
-		"Snapshot=t10.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=_method", "Value=delete", "ENDITEM", 
-		"Name=authenticity_token", "Value={authenticity_token_8}", "ENDITEM", 
-		"LAST");
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
+ 
+ 
+ 
+ 
+	
+	web_url("logout", 
+		"URL=https://webpp.dchealthlink.com/oam/server/logout?end_url=https://webpp.dchealthlink.com/fed/user/logout?returnurl=https://preprod.dchealthlink.com", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=https://webpp.dchealthlink.com/oam/server/logout?end_url=https://webpp.dchealthlink.com/fed/user/logout?returnurl=https://preprod.dchealthlink.com", 
+		"Snapshot=t81.inf", 
+		"Mode=HTML", 
+		"LAST");		
+	
+	
 	lr_end_transaction("INTEG_UNASSISTED_0021_Logout",2);
 	
 	lr_think_time(20);
@@ -2902,7 +2917,8 @@ CreateAccount()
 	                "Name=user[referer]", "Value={CheckbookURL}/{Checkbook_specifics}/plan.cfm?data="
 	                "eyJGT1JNVkFMVUVTIjp7fSwiVVJMVkFMVUVTIjp7ImNvdmVyYWdlIjoiIiwicGxhbkxpc3QiOiI4NjA1MkRDMDQwMDAwNC0wMSIsInBsYW5UeXBlIjoiIiwiZmluZFN1YnNpZHkiOmZhbHNlLCJkZWR1Y3RpYmxlRmlsdGVyIjoiIiwibmF0aXZlIjowLCJzb3J0IjoyLCJoZWFsdGhTdGF0dXMiOiIiLCJjb3VudHkiOiJXYXNoaW5ndG9uIERDIiwibmV0d29yayI6IiIsImNhcnJpZXIiOiIiLCJkb2NJRHMiOiIiLCJxbTE1IjoiIiwibWVkaWNhbEV4cGVuc2UiOiIiLCJiYWRZZWFyRmlsdGVyIjoiIiwicW00IjoiIiwicW0xMiI6IiIsImNhbmNlbGVkSW5zdXJhbmNlIjoiIiwibWV0YWwiOiIiLCJxbTExIjoiIiwicW01IjoiIiwicW0xNCI6IiIsInFtNiI6IiIsInFtMT"
 	                "MiOiIiLCJob3VzZWhvbGROdW1iZXIiOjEsInFtNyI6IiIsInFtOCI6IiIsImFnZSI6MjUsInFtOSI6IiIsInFtMTAiOiIiLCJxdWFsaXR5RmlsdGVyIjoiIiwieWVhcmx5RmlsdGVyIjoiIiwicW0xIjoiIiwiaW5jb21lIjoiIiwicW0yIjoiIiwiY2FsY3VsYXRlU3Vic2lkeSI6MCwicW0zIjoiIiwicHJlbWl1bUZpbHRlciI6IiIsInByZWduYW50IjowLCJkb2N0b3JzRmlsdGVyIjoiIiwic21va2VyIjoiIn19", "ENDITEM",
-	                "Name=user[email]", "Value={applicantName}@mailinator.com", "ENDITEM",
+	              
+	                "Name=user[email]", "Value=dchbxpt+{applicantName}@gmail.com", "ENDITEM",	                
 	                "Name=user[password]", "Value=Abcd!234", "ENDITEM",
 	                "Name=user[password_confirmation]", "Value=Abcd!234", "ENDITEM",
 	                "Name=user[invitation_id]", "Value=", "ENDITEM",
@@ -3239,7 +3255,8 @@ SubmitPersonalData()
 	                "Name=person[phones_attributes][1][kind]", "Value=mobile", "ENDITEM",
 	                "Name=person[phones_attributes][1][full_phone_number]", "Value=", "ENDITEM",
 	                "Name=person[emails_attributes][0][kind]", "Value=home", "ENDITEM",
-	                "Name=person[emails_attributes][0][address]", "Value={applicantName}@mailinator.com", "ENDITEM",
+	             
+	                "Name=person[emails_attributes][0][address]", "Value=dchbxpt+{applicantName}@gmail.com", "ENDITEM",	                
 	                "Name=person[emails_attributes][0][id]", "Value={emailAddressElementID}", "ENDITEM",
 	                "Name=person[emails_attributes][1][kind]", "Value=work", "ENDITEM",
 	                "Name=person[emails_attributes][1][address]", "Value=", "ENDITEM",
