@@ -1,7 +1,15 @@
 EmployerCreateProfile()
 {
 	
-	web_reg_save_param("EMPLOYER_ID", "LB=employers/employer_profiles/", "RB=\r", LAST);
+	/*Correlation comment - Do not change!  Original value='{EMPLOYER_ID}' Name ='EMPLOYER_ID' Type ='Manual'*/
+	web_reg_save_param_regexp(
+		"ParamName=EMPLOYER_ID",
+		"RegExp=employer_profiles/(.*?)\\?tab",
+		SEARCH_FILTERS,
+		"Scope=Headers",
+		"IgnoreRedirections=No",
+		"RequestUrl=*/employer_profiles*",
+		LAST);
     
 	lr_start_transaction("INTEG_EMPLYR_0005_CreateBusinesss_Profile");
 

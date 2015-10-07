@@ -2630,6 +2630,8 @@ ScriptFlow()
 	
 	lr_think_time(10);
 	
+	web_reg_save_param("AUTH_TOKEN_4", "LB=<meta name=\"csrf-token\" content=\"", "RB=\" />", "LAST"); 
+	
 	EmployerClickBenefitsTab();  
 	
 	lr_think_time(10);
@@ -2649,15 +2651,13 @@ ScriptFlow()
 	
 	lr_think_time(10);
 	
-	web_reg_save_param("EMPLOYER_ID", "LB=employers/employer_profiles/", "RB=\r", "LAST");
-	
 	EmployerLogin();  
 	
 	lr_think_time(10);
 	
 	web_reg_save_param("AUTH_TOKEN_4", "LB=<meta name=\"csrf-token\" content=\"", "RB=\" />", "LAST");
 	
-	web_reg_save_param("BENEFIT_GROUP_ID_3", "LB=\"#bg", "RB=\">","SaveLen=24", "LAST");
+ 
 	
  
 
@@ -2940,6 +2940,7 @@ EmployerCreateAccount()
 	}
 	else
 	{
+		lr_log_message("Successfully created account for ::: %s%s@test.com", lr_eval_string("{pEmpPrefix}"), lr_eval_string("{FEIN}"));
 		lr_end_transaction("INTEG_EMPLYR_0003_Create_Account_Submit",0);
 	}
 
@@ -2986,7 +2987,15 @@ EmployerLogin()
 EmployerCreateProfile()
 {
 	
-	web_reg_save_param("EMPLOYER_ID", "LB=employers/employer_profiles/", "RB=\r", "LAST");
+	 
+	web_reg_save_param_regexp(
+		"ParamName=EMPLOYER_ID",
+		"RegExp=employer_profiles/(.*?)\\?tab",
+		"SEARCH_FILTERS",
+		"Scope=Headers",
+		"IgnoreRedirections=No",
+		"RequestUrl=*/employer_profiles*",
+		"LAST");
     
 	lr_start_transaction("INTEG_EMPLYR_0005_CreateBusinesss_Profile");
 
@@ -3031,19 +3040,22 @@ EmployerCreateProfile()
 EmployerClickBenefitsTab()
 {
 	
-	web_reg_save_param("AUTH_TOKEN_4", "LB=<meta name=\"csrf-token\" content=\"", "RB=\" />", "LAST"); 
-	
 	lr_start_transaction("INTEG_EMPLYR_0006_Click_Benefits_Tab");
 
-	web_url("Benefits Benefits", 
-		"URL={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}/show_profile?tab=benefits", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/javascript", 
-		"Referer={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}", 
-		"Snapshot=t6.inf", 
-		"Mode=HTML", 
-		"LAST");
+	web_link("Benefits", 
+		"Text=Benefits", 
+		"Snapshot=t30.inf", 
+		"LAST");	
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 	lr_end_transaction("INTEG_EMPLYR_0006_Click_Benefits_Tab",2);
 	
@@ -3056,27 +3068,39 @@ EmployerAddBenefits()
 {
 	web_reg_save_param("AUTH_TOKEN_3", "LB=<meta name=\"csrf-token\" content=\"", "RB=\" />", "LAST");
 	
-	web_reg_save_param_ex("ParamName=CorrelationParameter", "LB=option value=\"", "RB=\">Aetna", "SEARCH_FILTERS", "Scope=Body", "IgnoreRedirections=No",	"LAST");
+ 
 		
 	lr_start_transaction("INTEG_EMPLYR_0007_Click_Add_Plan");
 
-	web_url("new", 
-		"URL={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}/plan_years/new", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}", 
-		"Snapshot=t7.inf", 
-		"Mode=HTML", 
-		"LAST");
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	
 	lr_end_transaction("INTEG_EMPLYR_0007_Click_Add_Plan",2);
 	
 		lr_think_time(9);
 
 	 
 	
-	web_reg_save_param("AUTH_TOKEN_4", "LB=<meta name=\"csrf-token\" content=\"", "RB=\" />", "LAST"); 
+ 
 
 	lr_start_transaction(lr_eval_string("INTEG_EMPLYR_0008_1_Add_Plan_Year_{TxName}"));
 
@@ -3090,7 +3114,7 @@ EmployerAddBenefits()
 		"Mode=HTML",
 		"ITEMDATA",
 		"Name=utf8", "Value=✓", "ENDITEM",
-		"Name=authenticity_token", "Value={AUTH_TOKEN_3}", "ENDITEM",
+		"Name=authenticity_token", "Value={AUTH_TOKEN_4}", "ENDITEM",
 		"Name=plan_year[start_on]", "Value=2015-11-01", "ENDITEM",
 		"Name=plan_year[end_on]", "Value=2016-10-31", "ENDITEM",
 		"Name=plan_year[open_enrollment_start_on]", "Value=2015-08-25", "ENDITEM",
@@ -3191,20 +3215,29 @@ PublishPlan()
 Logout()
 {
 	lr_start_transaction("INTEG_EMPLYR_1000_Logout");
-	
-	web_submit_data("sign_out",
-		"Action={HTTP}://{EnrollAppLandingPage}/users/sign_out",
-		"Method=POST",
-		"TargetFrame=",
-		"RecContentType=text/html",
-		"Referer={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}",
-		"Snapshot=t9.inf",
-		"Mode=HTML",
-		"ITEMDATA",
-		"Name=_method", "Value=delete", "ENDITEM",
-		"Name=authenticity_token", "Value={AUTH_TOKEN_4}", "ENDITEM",
-		"LAST");
 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+	web_url("logout", 
+		"URL=https://webpp.dchealthlink.com/oam/server/logout?end_url=https://webpp.dchealthlink.com/fed/user/logout?returnurl=https://preprod.dchealthlink.com", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=https://webpp.dchealthlink.com/oam/server/logout?end_url=https://webpp.dchealthlink.com/fed/user/logout?returnurl=https://preprod.dchealthlink.com", 
+		"Snapshot=t81.inf", 
+		"Mode=HTML", 
+		"LAST");	
+	
 	lr_end_transaction("INTEG_EMPLYR_1000_Logout",2);
 	
 	return 0;
@@ -3228,16 +3261,35 @@ EmployerAddEmployeeRoster()
 	
 	lr_start_transaction("INTEG_EMPLYR_0009_Click_Employee_Tab");
 	
-		web_url("Employees Employees", 
-		"URL={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}/show_profile?tab=employees", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/javascript", 
-		"Referer={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}", 
-		"Snapshot=t7.inf", 
-		"Mode=HTML", 
-		"LAST");
-		
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	
+	web_link("Employees",
+	         "Text=Employees",
+	         "Snapshot=t27.inf",
+	         "LAST");
+	
+ 
+	web_reg_save_param_regexp(
+		"ParamName=Benefit_Group_ID",
+		"RegExp=option\\ value=\"(.*?)\">2015 Employer Benefits",
+		"SEARCH_FILTERS",
+		"Scope=Body",
+		"IgnoreRedirections=No",
+		"LAST");	
+	
+	web_link("Add New Employee",
+	         "Text=Add New Employee",
+	         "Snapshot=t28.inf",
+	         "LAST");
+	
 	lr_end_transaction("INTEG_EMPLYR_0009_Click_Employee_Tab", 2);
 	
 	lr_think_time(10);
@@ -3247,41 +3299,44 @@ EmployerAddEmployeeRoster()
 		web_reg_find("Text=provided SSN belongs", "SaveCount=savedcount", "LAST");
 		web_reg_find("Text=Census Employee is successfully", "SaveCount=passcount","LAST");
 
-	lr_start_transaction(lr_eval_string("INTEG_EMPLYR_0010_{pAddEmployeeTrName}"));	
+		lr_start_transaction(lr_eval_string("INTEG_EMPLYR_0010_{pAddEmployeeTrName}"));
 
-	web_submit_data("census_employees", 
-		"Action={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}/census_employees", 
-		"Method=POST", 
-		"TargetFrame=", 
-		"RecContentType=text/html", 
-		"Referer={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}", 
-		"Snapshot=t10.inf", 
-		"Mode=HTML", 
-		"EncodeAtSign=YES", 
-		"ITEMDATA", 
-		"Name=utf8", "Value=?", "ENDITEM", 
-		"Name=authenticity_token", "Value={Auth_Token_010}", "ENDITEM", 
-		"Name=census_employee[first_name]", "Value={EmpFName}", "ENDITEM", 
-		"Name=census_employee[middle_name]", "Value={EmpMI}", "ENDITEM", 
-		"Name=census_employee[last_name]", "Value={randomLN}", "ENDITEM", 
-		"Name=census_employee[name_sfx]", "Value=", "ENDITEM", 
-		"Name=census_employee[dob]", "Value={EmpDOB}", "ENDITEM", 
-		"Name=jq_datepicker_ignore_census_employee[dob]", "Value={EmpDOBPicker}", "ENDITEM", 
-		"Name=census_employee[ssn]", "Value={EmployeeSSN}", "ENDITEM", 
-		 
-		"Name=census_employee[gender]", "Value=female", "ENDITEM", 
-		"Name=census_employee[hired_on]", "Value={EmpHireDate}", "ENDITEM", 
-		"Name=jq_datepicker_ignore_census_employee[hired_on]", "Value={EmpHireDatePicker}", "ENDITEM", 
-		"Name=census_employee[is_business_owner]", "Value=0", "ENDITEM", 
-		"Name=census_employee[benefit_group_assignments_attributes][0][benefit_group_id]", "Value={BENEFIT_GROUP_ID_3}", "ENDITEM", 
-		"Name=census_employee[address_attributes][kind]", "Value=home", "ENDITEM", 
-		"Name=census_employee[address_attributes][address_1]", "Value=609 H Street NE", "ENDITEM", 
-		"Name=census_employee[address_attributes][address_2]", "Value=", "ENDITEM", 
-		"Name=census_employee[address_attributes][city]", "Value=Washington", "ENDITEM", 
-		"Name=census_employee[address_attributes][state]", "Value=DC", "ENDITEM", 
-		"Name=census_employee[address_attributes][zip]", "Value=20002", "ENDITEM", 
-		"Name=census_employee[email_attributes][kind]", "Value=work", "ENDITEM", 
-		"Name=census_employee[email_attributes][address]", "Value={pEmlyePrefix}{EmployeeSSN}@test.com", "ENDITEM", 
+
+	
+	web_submit_data("census_employees",
+	    "Action={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}/census_employees?employer_id={EMPLOYER_ID}",
+ 
+		"Method=POST",
+		"TargetFrame=",
+		"RecContentType=text/html",
+ 
+		"Referer={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}/census_employees/new?tab=employees",
+		"Snapshot=t10.inf",
+		"Mode=HTML",
+		"EncodeAtSign=YES",
+		"ITEMDATA",
+		"Name=utf8", "Value=?", "ENDITEM",
+		"Name=authenticity_token", "Value={Auth_Token_010}", "ENDITEM",
+		"Name=census_employee[first_name]", "Value={EmpFName}", "ENDITEM",
+		"Name=census_employee[middle_name]", "Value={EmpMI}", "ENDITEM",
+		"Name=census_employee[last_name]", "Value={randomLN}", "ENDITEM",
+		"Name=census_employee[name_sfx]", "Value=", "ENDITEM",
+		"Name=census_employee[dob]", "Value={EmpDOB}", "ENDITEM",
+		"Name=jq_datepicker_ignore_census_employee[dob]", "Value={EmpDOBPicker}", "ENDITEM",
+		"Name=census_employee[ssn]", "Value={EmployeeSSN}", "ENDITEM",
+		"Name=census_employee[gender]", "Value=female", "ENDITEM",
+		"Name=census_employee[hired_on]", "Value={EmpHireDate}", "ENDITEM",
+		"Name=jq_datepicker_ignore_census_employee[hired_on]", "Value={EmpHireDatePicker}", "ENDITEM",
+		"Name=census_employee[is_business_owner]", "Value=0", "ENDITEM",
+		"Name=census_employee[benefit_group_assignments_attributes][0][benefit_group_id]", "Value={Benefit_Group_ID}", "ENDITEM",
+		"Name=census_employee[address_attributes][kind]", "Value=home", "ENDITEM",
+		"Name=census_employee[address_attributes][address_1]", "Value=609 H Street NE", "ENDITEM",
+		"Name=census_employee[address_attributes][address_2]", "Value=", "ENDITEM",
+		"Name=census_employee[address_attributes][city]", "Value=Washington", "ENDITEM",
+		"Name=census_employee[address_attributes][state]", "Value=DC", "ENDITEM",
+		"Name=census_employee[address_attributes][zip]", "Value=20002", "ENDITEM",
+		"Name=census_employee[email_attributes][kind]", "Value=work", "ENDITEM",
+		"Name=census_employee[email_attributes][address]", "Value={pEmlyePrefix}{EmployeeSSN}@test.com", "ENDITEM",
  
  
  
@@ -3292,30 +3347,33 @@ EmployerAddEmployeeRoster()
  
  
 		"LAST");
- 
-# 109 "EmployerAddEmployeeRoster.c"
+
+ 		
+# 130 "EmployerAddEmployeeRoster.c"
+		 
+# 166 "EmployerAddEmployeeRoster.c"
 
  
-	
-	    	looper = 0;
-    	if (atoi(lr_eval_string("{passcount}"))){
-	    	EmployeeInfoOutput();  
-    		lr_end_transaction(lr_eval_string("INTEG_EMPLYR_0010_{pAddEmployeeTrName}"), 0);
-    	}
-    	
-    	else if (atoi(lr_eval_string("{savedcount}"))) {
-		     lr_output_message("SSN Already in use, retrying");
-		     looper = 1;
-		     retry++;
-		     
-		     if (retry > 4){
-		     	lr_output_message("Could Not Create New Employee");
-		     	lr_save_int(atoi(lr_eval_string("{pSSN3}"))+1000,"pSSN3");
-		     	}
-		    }
-    	else{
-    		lr_end_transaction(lr_eval_string("INTEG_EMPLYR_0010_{pAddEmployeeTrName}"),2);
-    	}
+		
+		looper = 0;
+		if (atoi(lr_eval_string("{passcount}"))){
+			EmployeeInfoOutput();  
+			lr_end_transaction(lr_eval_string("INTEG_EMPLYR_0010_{pAddEmployeeTrName}"), 0);
+		}
+		
+		else if (atoi(lr_eval_string("{savedcount}"))) {
+			lr_output_message("SSN Already in use, retrying");
+			looper = 1;
+			retry++;
+			
+			if (retry > 4){
+				lr_output_message("Could Not Create New Employee");
+				lr_save_int(atoi(lr_eval_string("{pSSN3}"))+1000,"pSSN3");
+			}
+		}
+		else{
+			lr_end_transaction(lr_eval_string("INTEG_EMPLYR_0010_{pAddEmployeeTrName}"),2);
+		}
 	}
 	
 	return 0;

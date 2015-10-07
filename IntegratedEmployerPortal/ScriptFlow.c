@@ -40,6 +40,8 @@ ScriptFlow()
 	
 	lr_think_time(10);
 	
+	web_reg_save_param("AUTH_TOKEN_4", "LB=<meta name=\"csrf-token\" content=\"", "RB=\" />", LAST); 
+	
 	EmployerClickBenefitsTab(); // Click on Benefits Tab. This function is separated intentionally
 	
 	lr_think_time(10);
@@ -59,15 +61,13 @@ ScriptFlow()
 	
 	lr_think_time(10);
 	
-	web_reg_save_param("EMPLOYER_ID", "LB=employers/employer_profiles/", "RB=\r", LAST);
-	
 	EmployerLogin(); // Login to the employer account
 	
 	lr_think_time(10);
 	
 	web_reg_save_param("AUTH_TOKEN_4", "LB=<meta name=\"csrf-token\" content=\"", "RB=\" />", LAST);
 	
-	web_reg_save_param("BENEFIT_GROUP_ID_3", "LB=\"#bg", "RB=\">","SaveLen=24", LAST);
+//	web_reg_save_param("BENEFIT_GROUP_ID_3", "LB=\"#bg", "RB=\">","SaveLen=24", LAST);
 	
 //		web_reg_save_param_ex("ParamName=Plan_ID4URL", "LB=/plan_years/", "RB=/publish\\\">Publish Plan Year", SEARCH_FILTERS, LAST);
 

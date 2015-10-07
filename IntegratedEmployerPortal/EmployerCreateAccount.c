@@ -54,6 +54,7 @@ EmployerCreateAccount()
 	}
 	else
 	{
+		lr_log_message("Successfully created account for ::: %s%s@test.com", lr_eval_string("{pEmpPrefix}"), lr_eval_string("{FEIN}"));
 		lr_end_transaction("INTEG_EMPLYR_0003_Create_Account_Submit",LR_PASS);
 	}
 

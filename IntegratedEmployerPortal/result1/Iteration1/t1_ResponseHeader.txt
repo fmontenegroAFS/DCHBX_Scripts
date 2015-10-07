@@ -2,17 +2,17 @@ HTTP/1.1 200 OK
 Cache-Control: max-age=0, private, must-revalidate
 Cache-control: no-cache="set-cookie"
 Content-Type: text/html; charset=utf-8
-Date: Tue, 06 Oct 2015 13:28:30 GMT
-ETag: W/"9e6ff5fc325de3ddbecf9f5e495b3d04"
+Date: Wed, 07 Oct 2015 14:34:43 GMT
+ETag: W/"2e81a62a4db81b537d44985916b05ba6"
 Server: nginx/1.8.0
-Set-Cookie: _session_id=LgTvxFADchZscOVF5dQivPo52tY; path=/; HttpOnly
-Set-Cookie: AWSELB=E9996FC506F39754C3E0AC2A8DEAA81F18B87F093BC7B447CE514B7B1DC1503501F8DA7B06F81815235E4E84673C0092852AE8346EDAC4D2F1A2386D426B933EB82E22DF3B;PATH=/;MAX-AGE=7200
+Set-Cookie: _session_id=FzTQVPxVQYRY6xrP4JaZiiToqYY; path=/; HttpOnly
+Set-Cookie: AWSELB=E9996FC506F39754C3E0AC2A8DEAA81F18B87F093B00CA252E77FE2A5337E475BA6FDF978EF81815235E4E84673C0092852AE8346EED136DC45370D6A575197ED0A2B6B418;PATH=/;MAX-AGE=7200
 Status: 200 OK
 X-Content-Type-Options: nosniff
 X-Frame-Options: SAMEORIGIN
-X-Request-Id: 69c9a93c-c89b-4d70-8423-ed176ed65e76
-X-Runtime: 0.024417
+X-Request-Id: e659b2c6-18ad-4b53-9a33-2ecb26d64368
+X-Runtime: 0.009143
 X-XSS-Protection: 1; mode=block
-Content-Length: 18259
+Content-Length: 7921
 Connection: keep-alive
 

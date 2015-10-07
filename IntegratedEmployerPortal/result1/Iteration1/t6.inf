@@ -1,5 +1,5 @@
 [t6]
-FileName2=t5_9_icon-business-owner-c8920868ad7a0186be46b4928575297b.png
+FileName2=t6_9_didyouknow_288-83d29995047954869d3fa1a453abc385.png
 FileName5=t1_6_css.css
 FileName4=t4_7_delete-90b3a8bb1e07dc6d45e3bffd92929015.png
 FileName7=t1_4_phone-b3ad531e1c8368729f17ce45eb54bbf1.png
@@ -10,9 +10,9 @@ RequestBodyFile=t6_RequestBody.txt
 ContentType=text/html
 URL10=http://enroll-preprod.dchbx.org/assets/application-6a1782976ac82bfb6840635516818c7f.css
 URL11=http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png
-URL1=http://enroll-preprod.dchbx.org/employers/employer_profiles/5613cc8269702d43b5060000?tab=home/show_profile?tab=benefits
-URL2=http://enroll-preprod.dchbx.org/assets/icons/icon-business-owner-c8920868ad7a0186be46b4928575297b.png
-URL3=http://enroll-preprod.dchbx.org/assets/images/didyouknow_288-83d29995047954869d3fa1a453abc385.png
+URL1=http://enroll-preprod.dchbx.org/employers/employer_profiles/56152d8669702d2d5f840000?tab=home
+URL2=http://enroll-preprod.dchbx.org/assets/images/didyouknow_288-83d29995047954869d3fa1a453abc385.png
+URL3=http://enroll-preprod.dchbx.org/assets/icons/icon-business-owner-c8920868ad7a0186be46b4928575297b.png
 ResponseHeaderFile=t6_ResponseHeader.txt
 URL4=http://enroll-preprod.dchbx.org/assets/delete-90b3a8bb1e07dc6d45e3bffd92929015.png
 FileName11=t1_0_message-e6d0f4f5f538fe315e1cb2eb96c57bec.png
@@ -22,10 +22,10 @@ URL6=http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88
 URL7=http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png
 URL8=http://enroll-preprod.dchbx.org/assets/logo-37b2d59fd0101e8781456ec388f3400a.png
 URL9=http://enroll-preprod.dchbx.org/assets/application-e51674c629cde588cb906a4b15c5064f.js
-SnapshotXmlFile=snapshot_6.xml
+SnapshotXmlFile=snapshot_5.xml
 RequestHeaderFile=t6_RequestHeader.txt
 SaveSnapshotResources=1
 Total=11
-StepName=Url: Benefits Benefits
+StepName=Submit Data: employer_profiles
 FileName1=t6.html
-FileName3=t5_8_didyouknow_288-83d29995047954869d3fa1a453abc385.png
+FileName3=t6_8_icon-business-owner-c8920868ad7a0186be46b4928575297b.png

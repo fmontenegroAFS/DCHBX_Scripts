@@ -25,8 +25,9 @@
     font-size: 29px;
     font-weight: 300;
     text-align: center;
-    padding-left: 13%;
-    padding-right: 13%;
+    padding-left: 6%;
+    padding-right: 6%;
+    line-height: 1.3;
 }
 
 #inner_body h1.page-header {
@@ -213,6 +214,10 @@
     font-weight: 700;
     text-transform: none;
     padding-left: 4px;
+
+    display: inline-block;
+    width: 82%;
+    vertical-align: top;
 }
 
 .smallbusiness .step .help_right {
@@ -233,12 +238,17 @@
     padding: 14px 0 0;
 }
 
+.smallbusiness .right_blurb p.find-broker {
+    padding-top: 5px;
+}
+
 .smallbusiness .right_blurb p a {
     font-weight: 600;
 }
 
 .smallbusiness .right_blurb img {
     float: right;
+    margin-top: 26px;
 }
 
 /* smallbusiness_calc */
@@ -588,3 +598,18 @@
 
 }
 
+@media (max-width: 1024px) {
+    .smallbusiness .step .label_left span {
+        width: 75%;
+    }
+    .smallbusiness .right_blurb p.find-broker {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    .smallbusiness .step .label_left span {
+        width: 100%;
+        padding-left: 0;
+    }
+}

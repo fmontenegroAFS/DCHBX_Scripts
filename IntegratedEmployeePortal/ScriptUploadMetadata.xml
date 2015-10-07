@@ -37,6 +37,10 @@
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="DfeConfig\" Filter="2" />
     <FileEntry Name="854200239.idx" Filter="1" />
+    <FileEntry Name="854200239_ibJ.245.idx" Filter="1" />
+    <FileEntry Name="854200239_NkR.679.idx" Filter="1" />
+    <FileEntry Name="854200239_pyF.775.idx" Filter="1" />
+    <FileEntry Name="854200239_QAP.215.idx" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
     <FileEntry Name="EmpFName_TestData.dat" Filter="1" />
     <FileEntry Name="IntegratedEmployeePortal.c.pickle" Filter="1" />

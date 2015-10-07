@@ -1,11 +1,11 @@
 GET /fed/user/logout?returnurl=https%3A%2F%2Fpreprod.dchealthlink.com%3Fend_url HTTP/1.1
 Referer: https://webpp.dchealthlink.com/oam/server/logout?end_url=https://webpp.dchealthlink.com/fed/user/logout?returnurl=https://preprod.dchealthlink.com?end_url=https%3A%2F%2Fpreprod.dchealthlink.com
-X-dynaTrace: NA=1000_Last_Logout;PC=logout;VU=-1;ID=1444137769841
+X-dynaTrace: NA=1000_Last_Logout;PC=logout;VU=-1;ID=1444231223588
 User-Agent: Mozilla/5.0 (Windows NT 6.2; rv:31.0) Gecko/ Firefox/31.0
 Accept-Encoding: gzip, deflate
 Accept-Language: en-US,en;q=0.5
 Accept: */*
 Connection: Keep-Alive
 Host: webpp.dchealthlink.com
-Cookie: BIGipServerPool_webpp.dchealthlink.com=1129599754.23313.0000; OAM_REQ_0=invalid; OAM_REQ_COUNT=VERSION_4~1; has_js=1; _op_aixPageId=a2_c9ac917e-30e3-4e8d-8e15-46ced920245b; JSESSIONID=Pg0GWTLdJmTgLby8mY6gPKphdJBG5bhlGyyMZFmTXQfhJQs9QPY5!1429209267; _WL_AUTHCOOKIE_JSESSIONID=KDyKb1JE64-NWPMy9AYo
+Cookie: BIGipServerPool_webpp.dchealthlink.com=1129599754.23313.0000; OAM_REQ_0=invalid; OAM_REQ_COUNT=VERSION_4~1; _op_aixPageId=a2_0d2562b5-85c5-414d-8a9e-55ce29eb1323; has_js=1; JSESSIONID=q0nnWV4Msy4v6ylXZm9ppBxgLjQkMJtS72pyQT1z9Lphq81PvQRJ!-1555316546; _WL_AUTHCOOKIE_JSESSIONID=OekAcmvPJ7q6D96D6RRg
 

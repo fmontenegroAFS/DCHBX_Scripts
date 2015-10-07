@@ -2,27 +2,39 @@ EmployerAddBenefits()
 {
 	web_reg_save_param("AUTH_TOKEN_3", "LB=<meta name=\"csrf-token\" content=\"", "RB=\" />", LAST);
 	
-	web_reg_save_param_ex("ParamName=CorrelationParameter", "LB=option value=\"", "RB=\">Aetna", SEARCH_FILTERS, "Scope=Body", "IgnoreRedirections=No",	LAST);
+//	web_reg_save_param_ex("ParamName=CorrelationParameter", "LB=option value=\"", "RB=\">Aetna", SEARCH_FILTERS, "Scope=Body", "IgnoreRedirections=No",	LAST);
 		
 	lr_start_transaction("INTEG_EMPLYR_0007_Click_Add_Plan");
 
-	web_url("new", 
-		"URL={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}/plan_years/new", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}", 
-		"Snapshot=t7.inf", 
-		"Mode=HTML", 
-		LAST);
+//	web_url("new", 
+//		"URL={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}/plan_years/new", 
+//		"TargetFrame=", 
+//		"Resource=0", 
+//		"RecContentType=text/html", 
+//		"Referer={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}", 
+//		"Snapshot=t7.inf", 
+//		"Mode=HTML", 
+//		LAST);
 
+//		web_link("click here", 
+//		"Text=click here", 
+//		"Snapshot=t25.inf", 
+//		EXTRARES, 
+//		"Url=recommend_dates?start_on=2016-01-01", "Referer={HTTP}://{EnrollAppLandingPage}/employers/employer_profiles/{EMPLOYER_ID}/plan_years/new?tab=benefits", ENDITEM, 
+//		"Url=5612dfc569702d080b010000/reference_plans?benefit_group={BENEFIT_GROUP_ID_3}&carrier_for_elected_plan=CareFirst&carrier_id=53e67210eb899a4603000004&plan_option_kind=single_carrier&start_on=2016", "Referer=http://enroll-preprod.dchbx.org/employers/employer_profiles/{EMPLOYER_ID}/plan_years/new?tab=benefits", ENDITEM, 
+//		"Url=search_reference_plan?start_on=2016-01-01&reference_plan_id=5603dfb069702d33bc170000&location_id=benefit-group-{BENEFIT_GROUP_ID_3}&_=1444077488637", "Referer=http://enroll-preprod.dchbx.org/employers/employer_profiles/{EMPLOYER_ID}/plan_years/new?tab=benefits", ENDITEM, 
+//		"Url=calc_employer_contributions?start_on=2016-01-01&reference_plan_id=5603dfb069702d33bc170000&plan_option_kind=single_carrier&relation_benefits%5B0%5D%5Brelationship%5D=employee&relation_benefits%5B0%5D%5Bpremium_pct%5D=50&relation_benefits%5B0%5D%5Boffered%5D=true&relation_benefits%5B1%5D%5Brelationship%5D=spouse&relation_benefits%5B1%5D%5Bpremium_pct%5D=0&relation_benefits%5B1%5D%5Boffered%5D=true&relation_benefits%5B2%5D%5Brelationship%5D=domestic_partner&"
+//		"relation_benefits%5B2%5D%5Bpremium_pct%5D=0&relation_benefits%5B2%5D%5Boffered%5D=true&relation_benefits%5B3%5D%5Brelationship%5D=child_under_26&relation_benefits%5B3%5D%5Bpremium_pct%5D=0&relation_benefits%5B3%5D%5Boffered%5D=true&relation_benefits%5B4%5D%5Brelationship%5D=child_26_and_over&relation_benefits%5B4%5D%5Bpremium_pct%5D=0&relation_benefits%5B4%5D%5Boffered%5D=false&location_id=benefit-group-{BENEFIT_GROUP_ID_3}&_=1444077488638", "Referer=http://enroll-preprod.dchbx.org/employers/"
+//		"employer_profiles/{EMPLOYER_ID}/plan_years/new?tab=benefits", ENDITEM, 
+//		LAST);
+	
 	lr_end_transaction("INTEG_EMPLYR_0007_Click_Add_Plan",LR_AUTO);
 	
 		lr_think_time(9);
 
 	// Auth Token value Needed for the logout Class
 	
-	web_reg_save_param("AUTH_TOKEN_4", "LB=<meta name=\"csrf-token\" content=\"", "RB=\" />", LAST); 
+//	web_reg_save_param("AUTH_TOKEN_4", "LB=<meta name=\"csrf-token\" content=\"", "RB=\" />", LAST); 
 
 	lr_start_transaction(lr_eval_string("INTEG_EMPLYR_0008_1_Add_Plan_Year_{TxName}"));
 
@@ -36,7 +48,7 @@ EmployerAddBenefits()
 		"Mode=HTML",
 		ITEMDATA,
 		"Name=utf8", "Value=✓", ENDITEM,
-		"Name=authenticity_token", "Value={AUTH_TOKEN_3}", ENDITEM,
+		"Name=authenticity_token", "Value={AUTH_TOKEN_4}", ENDITEM,
 		"Name=plan_year[start_on]", "Value=2015-11-01", ENDITEM,
 		"Name=plan_year[end_on]", "Value=2016-10-31", ENDITEM,
 		"Name=plan_year[open_enrollment_start_on]", "Value=2015-08-25", ENDITEM,

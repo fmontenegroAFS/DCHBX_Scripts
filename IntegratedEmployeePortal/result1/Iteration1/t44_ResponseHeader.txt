@@ -1,12 +1,14 @@
-HTTP/1.1 204 No Content
-Cache-Control: no-cache
-Date: Mon, 05 Oct 2015 19:53:16 GMT
-Server: nginx/1.8.0
-Status: 204 No Content
-X-Content-Type-Options: nosniff
-X-Frame-Options: SAMEORIGIN
-X-Request-Id: 74b140cb-4a00-4268-bdd8-ec30ea524fc0
-X-Runtime: 0.006354
-X-XSS-Protection: 1; mode=block
-Connection: keep-alive
+HTTP/1.1 200 OK
+Date: Wed, 07 Oct 2015 15:17:45 GMT
+Server: Apache/2.2.15 (Red Hat)
+X-Powered-By: PHP/5.3.3
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Wed, 07 Oct 2015 15:17:45 GMT
+Cache-Control: no-cache, must-revalidate, post-check=0, pre-check=0
+ETag: "1444231065"
+Content-Language: en
+X-Generator: Drupal 7 (http://drupal.org)
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=utf-8
 
