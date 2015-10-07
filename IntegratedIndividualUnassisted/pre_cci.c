@@ -2502,8 +2502,8 @@ ScriptFlow()
 	
 	lr_think_time(20);
 
-	web_reg_find("Text=Your enrollment application requires information that needs to be verified", 
-		"LAST");
+ 
+ 
 
 	lr_think_time(20);
 
@@ -2917,8 +2917,7 @@ CreateAccount()
 	                "Name=user[referer]", "Value={CheckbookURL}/{Checkbook_specifics}/plan.cfm?data="
 	                "eyJGT1JNVkFMVUVTIjp7fSwiVVJMVkFMVUVTIjp7ImNvdmVyYWdlIjoiIiwicGxhbkxpc3QiOiI4NjA1MkRDMDQwMDAwNC0wMSIsInBsYW5UeXBlIjoiIiwiZmluZFN1YnNpZHkiOmZhbHNlLCJkZWR1Y3RpYmxlRmlsdGVyIjoiIiwibmF0aXZlIjowLCJzb3J0IjoyLCJoZWFsdGhTdGF0dXMiOiIiLCJjb3VudHkiOiJXYXNoaW5ndG9uIERDIiwibmV0d29yayI6IiIsImNhcnJpZXIiOiIiLCJkb2NJRHMiOiIiLCJxbTE1IjoiIiwibWVkaWNhbEV4cGVuc2UiOiIiLCJiYWRZZWFyRmlsdGVyIjoiIiwicW00IjoiIiwicW0xMiI6IiIsImNhbmNlbGVkSW5zdXJhbmNlIjoiIiwibWV0YWwiOiIiLCJxbTExIjoiIiwicW01IjoiIiwicW0xNCI6IiIsInFtNiI6IiIsInFtMT"
 	                "MiOiIiLCJob3VzZWhvbGROdW1iZXIiOjEsInFtNyI6IiIsInFtOCI6IiIsImFnZSI6MjUsInFtOSI6IiIsInFtMTAiOiIiLCJxdWFsaXR5RmlsdGVyIjoiIiwieWVhcmx5RmlsdGVyIjoiIiwicW0xIjoiIiwiaW5jb21lIjoiIiwicW0yIjoiIiwiY2FsY3VsYXRlU3Vic2lkeSI6MCwicW0zIjoiIiwicHJlbWl1bUZpbHRlciI6IiIsInByZWduYW50IjowLCJkb2N0b3JzRmlsdGVyIjoiIiwic21va2VyIjoiIn19", "ENDITEM",
-	              
-	                "Name=user[email]", "Value=dchbxpt+{applicantName}@gmail.com", "ENDITEM",	                
+	                "Name=user[email]", "Value={applicantName}@test.com", "ENDITEM",                
 	                "Name=user[password]", "Value=Abcd!234", "ENDITEM",
 	                "Name=user[password_confirmation]", "Value=Abcd!234", "ENDITEM",
 	                "Name=user[invitation_id]", "Value=", "ENDITEM",
@@ -3255,8 +3254,7 @@ SubmitPersonalData()
 	                "Name=person[phones_attributes][1][kind]", "Value=mobile", "ENDITEM",
 	                "Name=person[phones_attributes][1][full_phone_number]", "Value=", "ENDITEM",
 	                "Name=person[emails_attributes][0][kind]", "Value=home", "ENDITEM",
-	             
-	                "Name=person[emails_attributes][0][address]", "Value=dchbxpt+{applicantName}@gmail.com", "ENDITEM",	                
+	                "Name=person[emails_attributes][0][address]", "Value={applicantName}@test.com", "ENDITEM",
 	                "Name=person[emails_attributes][0][id]", "Value={emailAddressElementID}", "ENDITEM",
 	                "Name=person[emails_attributes][1][kind]", "Value=work", "ENDITEM",
 	                "Name=person[emails_attributes][1][address]", "Value=", "ENDITEM",

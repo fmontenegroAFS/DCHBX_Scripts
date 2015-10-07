@@ -101,8 +101,8 @@ ScriptFlow()
 	
 	lr_think_time(20);
 
-	web_reg_find("Text=Your enrollment application requires information that needs to be verified", 
-		LAST);
+//	web_reg_find("Text=Your enrollment application requires information that needs to be verified", 
+//		LAST);
 
 	lr_think_time(20);
 
