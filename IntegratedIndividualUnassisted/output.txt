@@ -1,4 +1,4 @@
-Virtual User Script started at : 10/8/2015 10:10:05 AM
+Virtual User Script started at : 10/8/2015 12:18:34 PM
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.0.0 for Windows 7; build 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -8,17 +8,17 @@ Running Vuser...
 Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action ScriptFlow.
-ScriptFlow.c(4): Notify: Saving Parameter "LNameLength = 6".
-ScriptFlow.c(8): Notify: Parameter Substitution: parameter "LNameLength" =  "6"
-GenerateUserName.c(37): Notify: Saving Parameter "applicantName = qmbvwl".
-ScriptFlow.c(10): Notify: Parameter Substitution: parameter "applicantName" =  "qmbvwl"
-Applicant Name = qmbvwl
-GenerateUserSSN.c(5): Notify: Parameter Substitution: parameter "UserSSNFirst3" =  "693"
-GenerateUserSSN.c(5): Notify: Parameter Substitution: parameter "UserSSNSecond2" =  "09"
-GenerateUserSSN.c(5): Notify: Parameter Substitution: parameter "UserSSNLast4" =  "2036"
-GenerateUserSSN.c(6): Notify: Saving Parameter "applicantSSN = 693-09-2036".
-GenerateUserSSN.c(8): Notify: Parameter Substitution: parameter "applicantSSN" =  "693-09-2036"
-User SSN = 693-09-2036
+ScriptFlow.c(4): Notify: Saving Parameter "LNameLength = 4".
+ScriptFlow.c(8): Notify: Parameter Substitution: parameter "LNameLength" =  "4"
+GenerateUserName.c(37): Notify: Saving Parameter "applicantName = crev".
+ScriptFlow.c(10): Notify: Parameter Substitution: parameter "applicantName" =  "crev"
+Applicant Name = crev
+GenerateUserSSN.c(5): Notify: Parameter Substitution: parameter "UserSSNFirst3" =  "528"
+GenerateUserSSN.c(5): Notify: Parameter Substitution: parameter "UserSSNSecond2" =  "15"
+GenerateUserSSN.c(5): Notify: Parameter Substitution: parameter "UserSSNLast4" =  "8520"
+GenerateUserSSN.c(6): Notify: Saving Parameter "applicantSSN = 528-15-8520".
+GenerateUserSSN.c(8): Notify: Parameter Substitution: parameter "applicantSSN" =  "528-15-8520"
+User SSN = 528-15-8520
 IntegratedLandingPage.c(3): web_set_sockets_option started  	[MsgId: MMSG-26355]
 IntegratedLandingPage.c(3): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
 IntegratedLandingPage.c(5): web_reg_find started  	[MsgId: MMSG-26355]
@@ -74,10 +74,12 @@ IntegratedLandingPage.c(10): Found resource "https://preprod.dchealthlink.com/si
 IntegratedLandingPage.c(10): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/tooltip-flexible/jquery-ui.js?nvqwjm" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
 IntegratedLandingPage.c(10): Found resource "https://preprod.dchealthlink.com/sites/all/modules/custom/dchl_google_translate/dchl_google_translate.js?nvqwjm" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
 IntegratedLandingPage.c(10): Found resource "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&nvqwjm" in HTML "https://preprod.dchealthlink.com/"  	[MsgId: MMSG-26659]
-IntegratedLandingPage.c(10): Notify: Transaction "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/icon/bluenav-tooth.png" will be skipped - could not calculate the transaction time (duration=0.0174, think_time=0.0000, wasted_time=0.0194).
+IntegratedLandingPage.c(10): ssl_handle_status encounter error : SSL_ERROR_SSL, error message : error:1408F119:SSL routines:SSL3_GET_RECORD:decryption failed or bad record mac  	[MsgId: MMSG-26000]
+IntegratedLandingPage.c(10): Warning -27776: SSL protocol error when attempting to connect with host "preprod.dchealthlink.com"  	[MsgId: MWAR-27776]
+IntegratedLandingPage.c(10): Warning -27762: Request "https://preprod.dchealthlink.com/sites/all/themes/dchl/css/bootstrap.min.css?nuobvv" failed  	[MsgId: MWAR-27762]
 IntegratedLandingPage.c(10): Registered web_reg_find successful for "Text=Welcome to DC's Health Insurance Marketplace" (count=1)  	[MsgId: MMSG-26364]
-IntegratedLandingPage.c(10): web_url("preprod.dchealthlink.com") was successful, 1651217 body bytes, 16022 header bytes, 370 chunking overhead bytes  	[MsgId: MMSG-26385]
-IntegratedLandingPage.c(35): Notify: Transaction "INTEG_UNASSISTED_0001_Integrated_Landing_Page" ended with a "Pass" status (Duration: 4.4027 Wasted Time: 1.5138).
+IntegratedLandingPage.c(10): web_url("preprod.dchealthlink.com") highest severity level was "warning", 1527650 body bytes, 15718 header bytes, 306 chunking overhead bytes  	[MsgId: MMSG-26387]
+IntegratedLandingPage.c(35): Notify: Transaction "INTEG_UNASSISTED_0001_Integrated_Landing_Page" ended with a "Pass" status (Duration: 3.3118 Wasted Time: 1.4330).
 IndividualPage.c(4): web_reg_find started  	[MsgId: MMSG-26355]
 IndividualPage.c(4): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 IndividualPage.c(7): Notify: Transaction "INTEG_UNASSISTED_0002_Individual_Page" started.
@@ -121,8 +123,8 @@ IndividualPage.c(9): Resource "https://preprod.dchealthlink.com/sites/all/themes
 IndividualPage.c(9): Resource "https://preprod.dchealthlink.com/sites/all/modules/custom/dchl_google_translate/dchl_google_translate.js?nvqwjm" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 IndividualPage.c(9): Found resource "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&nvqwjm" in HTML "https://preprod.dchealthlink.com/individuals"  	[MsgId: MMSG-26659]
 IndividualPage.c(9): Registered web_reg_find successful for "Text=Individual &amp; Family | DC Health Link" (count=1)  	[MsgId: MMSG-26364]
-IndividualPage.c(9): web_link("Individual & Family") was successful, 142991 body bytes, 4546 header bytes, 93 chunking overhead bytes  	[MsgId: MMSG-26385]
-IndividualPage.c(25): Notify: Transaction "INTEG_UNASSISTED_0002_Individual_Page" ended with a "Pass" status (Duration: 0.4264 Wasted Time: 0.0311).
+IndividualPage.c(9): web_link("Individual & Family") was successful, 142991 body bytes, 4557 header bytes, 25 chunking overhead bytes  	[MsgId: MMSG-26385]
+IndividualPage.c(25): Notify: Transaction "INTEG_UNASSISTED_0002_Individual_Page" ended with a "Pass" status (Duration: 0.6886 Wasted Time: 0.0262).
 FinancialAssistanceCalculator.c(3): Notify: Transaction "INTEG_UNASSISTED_0003_Financial_Assistance_Calculator" started.
 FinancialAssistanceCalculator.c(5): web_reg_find started  	[MsgId: MMSG-26355]
 FinancialAssistanceCalculator.c(5): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -164,7 +166,7 @@ FinancialAssistanceCalculator.c(8): Found resource "http://dc.checkbookhealth.or
 FinancialAssistanceCalculator.c(8): Found resource "http://dc.checkbookhealth.org/hie/dc/2016/assets/js/global.js" in HTML "http://dc.checkbookhealth.org/hie/dc/2016/login.cfm?data=eyJGT1JNVkFMVUVTIjp7fSwiVVJMVkFMVUVTIjp7ImRhdGEiOiIifX0%3D"  	[MsgId: MMSG-26659]
 FinancialAssistanceCalculator.c(8): Registered web_reg_find successful for "Text=DC Plan Comparison Tool 2016" (count=1)  	[MsgId: MMSG-26364]
 FinancialAssistanceCalculator.c(8): web_link("Financial Assistance Calculator") was successful, 174547 body bytes, 8496 header bytes, 28 chunking overhead bytes  	[MsgId: MMSG-26385]
-FinancialAssistanceCalculator.c(18): Notify: Transaction "INTEG_UNASSISTED_0003_Financial_Assistance_Calculator" ended with a "Pass" status (Duration: 8.3445 Wasted Time: 0.0777).
+FinancialAssistanceCalculator.c(18): Notify: Transaction "INTEG_UNASSISTED_0003_Financial_Assistance_Calculator" ended with a "Pass" status (Duration: 0.9545 Wasted Time: 0.0365).
 SelectAccountType.c(4): Notify: Transaction "INTEG_UNASSISTED_0004_Integrated_Create_Account" started.
 SelectAccountType.c(6): web_reg_find started  	[MsgId: MMSG-26355]
 SelectAccountType.c(6): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
@@ -199,8 +201,8 @@ SelectAccountType.c(9): Found resource "https://preprod.dchealthlink.com/sites/a
 SelectAccountType.c(9): Resource "https://preprod.dchealthlink.com/sites/all/modules/custom/dchl_google_translate/dchl_google_translate.js?nvqwjm" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 SelectAccountType.c(9): Found resource "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&nvqwjm" in HTML "https://preprod.dchealthlink.com/create-account"  	[MsgId: MMSG-26659]
 SelectAccountType.c(9): Registered web_reg_find successful for "Text=What Type of Account Do You Need" (count=1)  	[MsgId: MMSG-26364]
-SelectAccountType.c(9): web_link("Create Account") was successful, 69427 body bytes, 3894 header bytes, 174 chunking overhead bytes  	[MsgId: MMSG-26385]
-SelectAccountType.c(18): Notify: Transaction "INTEG_UNASSISTED_0004_Integrated_Create_Account" ended with a "Pass" status (Duration: 0.4031 Wasted Time: 0.0146).
+SelectAccountType.c(9): web_link("Create Account") was successful, 69427 body bytes, 3899 header bytes, 108 chunking overhead bytes  	[MsgId: MMSG-26385]
+SelectAccountType.c(18): Notify: Transaction "INTEG_UNASSISTED_0004_Integrated_Create_Account" ended with a "Pass" status (Duration: 0.5802 Wasted Time: 0.0248).
 SelectUnassisted.c(5): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
 SelectUnassisted.c(5): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
 SelectUnassisted.c(15): web_reg_find started  	[MsgId: MMSG-26355]
@@ -236,20 +238,20 @@ SelectUnassisted.c(20): Found resource "http://enroll-preprod.dchbx.org/assets/l
 SelectUnassisted.c(20): Found resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" in HTML "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26659]
 SelectUnassisted.c(20): Found resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" in HTML "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26659]
 SelectUnassisted.c(20): Found resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" in HTML "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26659]
-SelectUnassisted.c(20): Notify: Saving Parameter "authenticity_token_2 = pGegQNhWNsN1nYvX0poYLrJjeh3tNSow7AISSS31oQwZDLfrgaFOrbl/2qEW/HtOb6lIdWmZ0SIunlxelXZChg==".
+SelectUnassisted.c(20): Notify: Saving Parameter "authenticity_token_2 = 1048pr+zOW137T+NZJgwEDhgBgU0JJ7k5+4wGFIQSSLbPtehQIWN9W1B7W+euBQE0N10Hf++0Et9dI3vl49A6g==".
 SelectUnassisted.c(20): Registered web_reg_find successful for "Text=Create account" (count=2)  	[MsgId: MMSG-26364]
-SelectUnassisted.c(20): web_url("unassisted") was successful, 1209894 body bytes, 9941 header bytes, 49 chunking overhead bytes  	[MsgId: MMSG-26385]
-SelectUnassisted.c(48): Notify: Transaction "INTEG_UNASSISTED_0005_Select_Unassisted" ended with a "Pass" status (Duration: 0.9007 Wasted Time: 0.0855).
+SelectUnassisted.c(20): web_url("unassisted") was successful, 1199558 body bytes, 9940 header bytes, 221 chunking overhead bytes  	[MsgId: MMSG-26385]
+SelectUnassisted.c(48): Notify: Transaction "INTEG_UNASSISTED_0005_Select_Unassisted" ended with a "Pass" status (Duration: 0.8420 Wasted Time: 0.1070).
 CreateAccount.c(4): web_reg_find started  	[MsgId: MMSG-26355]
 CreateAccount.c(4): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 CreateAccount.c(7): Notify: Transaction "INTEG_UNASSISTED_0010_Create_Account" started.
 CreateAccount.c(9): web_submit_data("users") started  	[MsgId: MMSG-26355]
 CreateAccount.c(9): Notify: Parameter Substitution: parameter "enrollPreprodURL" =  "http://enroll-preprod.dchbx.org"
 CreateAccount.c(9): Notify: Parameter Substitution: parameter "enrollPreprodURL" =  "http://enroll-preprod.dchbx.org"
-CreateAccount.c(9): Notify: Parameter Substitution: parameter "authenticity_token_2" =  "pGegQNhWNsN1nYvX0poYLrJjeh3tNSow7AISSS31oQwZDLfrgaFOrbl/2qEW/HtOb6lIdWmZ0SIunlxelXZChg=="
+CreateAccount.c(9): Notify: Parameter Substitution: parameter "authenticity_token_2" =  "1048pr+zOW137T+NZJgwEDhgBgU0JJ7k5+4wGFIQSSLbPtehQIWN9W1B7W+euBQE0N10Hf++0Et9dI3vl49A6g=="
 CreateAccount.c(9): Notify: Parameter Substitution: parameter "CheckbookURL" =  "http://dc.checkbookhealth.org"
 CreateAccount.c(9): Notify: Parameter Substitution: parameter "Checkbook_specifics" =  "hie/dc/2016"
-CreateAccount.c(9): Notify: Parameter Substitution: parameter "applicantName" =  "qmbvwl"
+CreateAccount.c(9): Notify: Parameter Substitution: parameter "applicantName" =  "crev"
 CreateAccount.c(9): Redirecting "http://enroll-preprod.dchbx.org/users" (redirection depth is 0)  	[MsgId: MMSG-26694]
 CreateAccount.c(9): To location "http://enroll-preprod.dchbx.org/insured/consumer_role/search?uqhp=true"  	[MsgId: MMSG-26693]
 CreateAccount.c(9): Resource "http://enroll-preprod.dchbx.org/assets/application-6a1782976ac82bfb6840635516818c7f.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
@@ -261,8 +263,8 @@ CreateAccount.c(9): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone
 CreateAccount.c(9): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateAccount.c(9): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateAccount.c(9): Registered web_reg_find successful for "Text=Welcome! Your account has been created" (count=1)  	[MsgId: MMSG-26364]
-CreateAccount.c(9): web_submit_data("users") was successful, 27590 body bytes, 1439 header bytes  	[MsgId: MMSG-26386]
-CreateAccount.c(30): Notify: Transaction "INTEG_UNASSISTED_0010_Create_Account" ended with a "Pass" status (Duration: 1.3035 Wasted Time: 0.0116).
+CreateAccount.c(9): web_submit_data("users") was successful, 17249 body bytes, 1439 header bytes  	[MsgId: MMSG-26386]
+CreateAccount.c(30): Notify: Transaction "INTEG_UNASSISTED_0010_Create_Account" ended with a "Pass" status (Duration: 0.7220 Wasted Time: 0.0152).
 AccountMatch.c(3): web_reg_find started  	[MsgId: MMSG-26355]
 AccountMatch.c(3): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 AccountMatch.c(7): web_reg_find started  	[MsgId: MMSG-26355]
@@ -274,28 +276,28 @@ AccountMatch.c(23): Registering web_reg_save_param_regexp was successful  	[MsgI
 AccountMatch.c(32): Notify: Transaction "INTEG_UNASSISTED_0011_Account_Match" started.
 AccountMatch.c(34): web_url("match") started  	[MsgId: MMSG-26355]
 AccountMatch.c(34): Notify: Parameter Substitution: parameter "enrollPreprodURL" =  "http://enroll-preprod.dchbx.org"
-AccountMatch.c(34): Notify: Parameter Substitution: parameter "applicantName" =  "qmbvwl"
-AccountMatch.c(34): Notify: Parameter Substitution: parameter "applicantSSN" =  "693-09-2036"
+AccountMatch.c(34): Notify: Parameter Substitution: parameter "applicantName" =  "crev"
+AccountMatch.c(34): Notify: Parameter Substitution: parameter "applicantSSN" =  "528-15-8520"
 AccountMatch.c(34): Notify: Parameter Substitution: parameter "enrollPreprodURL" =  "http://enroll-preprod.dchbx.org"
 AccountMatch.c(34): Resource "http://enroll-preprod.dchbx.org/assets/application-6a1782976ac82bfb6840635516818c7f.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 AccountMatch.c(34): Resource "http://enroll-preprod.dchbx.org/assets/application-e51674c629cde588cb906a4b15c5064f.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 AccountMatch.c(34): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 AccountMatch.c(34): Resource "http://enroll-preprod.dchbx.org/assets/logo-37b2d59fd0101e8781456ec388f3400a.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 AccountMatch.c(34): Resource "http://enroll-preprod.dchbx.org/assets/icons/icon-individual-8a4cafd6dc492fdb0c305a4484e74d14.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-AccountMatch.c(34): Found resource "http://enroll-preprod.dchbx.org/assets/icons/list-f0ce83c809fcb33568ee1787941dc643.png" in HTML "http://enroll-preprod.dchbx.org/insured/consumer_role/match?utf8=%E2%9C%93&people%5Bid%5D=&person%5Bfirst_name%5D=Test&person%5Bmiddle_name%5D=L&person%5Blast_name%5D=qmbvwl&person%5Bname_sfx%5D=&person%5Bdob%5D=1978-01-01&jq_datepicker_ignore_person%5Bdob%5D=01%2F01%2F1978&person%5Bssn%5D=693-09-2036&person%5Bno_ssn%5D=0&person%5Bgender%5D=male"  	[MsgId: MMSG-26659]
+AccountMatch.c(34): Found resource "http://enroll-preprod.dchbx.org/assets/icons/list-f0ce83c809fcb33568ee1787941dc643.png" in HTML "http://enroll-preprod.dchbx.org/insured/consumer_role/match?utf8=%E2%9C%93&people%5Bid%5D=&person%5Bfirst_name%5D=Test&person%5Bmiddle_name%5D=L&person%5Blast_name%5D=crev&person%5Bname_sfx%5D=&person%5Bdob%5D=1978-01-01&jq_datepicker_ignore_person%5Bdob%5D=01%2F01%2F1978&person%5Bssn%5D=528-15-8520&person%5Bno_ssn%5D=0&person%5Bgender%5D=male"  	[MsgId: MMSG-26659]
 AccountMatch.c(34): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 AccountMatch.c(34): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 AccountMatch.c(34): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-AccountMatch.c(34): Notify: Saving Parameter "authenticity_token = yMNtjOoIXAut/hB4lOabvNSrIMRLo1NnE9uO2KGsL9J1qHons/8kZWEcQQ5QgPjcCWESrM8PqHXRR8DPGS/MWA==".
-AccountMatch.c(34): Notify: Saving Parameter "UserID = 5616796069702d4398a10000".
+AccountMatch.c(34): Notify: Saving Parameter "authenticity_token = TYHLK1yf/6xufko8i+Os3JMPn6bPFToLhiOGlS5hlDxB8SAso6lLNHTSmN5xw4jIe7LtvgSPdKQcuTti6/6d9A==".
+AccountMatch.c(34): Notify: Saving Parameter "UserID = 5616976069702d1801cb0000".
 AccountMatch.c(34): Registered web_reg_find successful for "Text=Now let's see if you and your family are eligible to enroll in coverage on DC Health Link" (count=1)  	[MsgId: MMSG-26364]
 AccountMatch.c(34): Notify: Saving Parameter "AccountMatch = 1".
 AccountMatch.c(34): Registered web_reg_find successful for "Text=The Curam account lookup service is currently unavailable"  	[MsgId: MMSG-26362]
 AccountMatch.c(34): Notify: Saving Parameter "CuramUnavailable = 0".
-AccountMatch.c(34): web_url("match") was successful, 26698 body bytes, 779 header bytes  	[MsgId: MMSG-26386]
+AccountMatch.c(34): web_url("match") was successful, 16353 body bytes, 779 header bytes  	[MsgId: MMSG-26386]
 AccountMatch.c(43): Notify: Parameter Substitution: parameter "CuramUnavailable" =  "0"
 AccountMatch.c(49): Notify: Parameter Substitution: parameter "AccountMatch" =  "1"
-AccountMatch.c(51): Notify: Transaction "INTEG_UNASSISTED_0011_Account_Match" ended with a "Pass" status (Duration: 0.6671 Wasted Time: 0.0228).
+AccountMatch.c(51): Notify: Transaction "INTEG_UNASSISTED_0011_Account_Match" ended with a "Pass" status (Duration: 0.6482 Wasted Time: 0.0255).
 ConsumerRole.c(4): web_reg_find started  	[MsgId: MMSG-26355]
 ConsumerRole.c(4): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 ConsumerRole.c(9): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
@@ -333,16 +335,16 @@ ConsumerRole.c(81): Registering web_reg_save_param_regexp was successful  	[MsgI
 ConsumerRole.c(84): Notify: Transaction "INTEG_UNASSISTED_0012_Consumer_Role" started.
 ConsumerRole.c(86): web_submit_data("consumer_role") started  	[MsgId: MMSG-26355]
 ConsumerRole.c(86): Notify: Parameter Substitution: parameter "enrollPreprodURL" =  "http://enroll-preprod.dchbx.org"
-ConsumerRole.c(86): Notify: Parameter Substitution: parameter "applicantName" =  "qmbvwl"
-ConsumerRole.c(86): Notify: Parameter Substitution: parameter "applicantSSN" =  "693-09-2036"
-ConsumerRole.c(86): Notify: Parameter Substitution: parameter "UserID" =  "5616796069702d4398a10000"
+ConsumerRole.c(86): Notify: Parameter Substitution: parameter "applicantName" =  "crev"
+ConsumerRole.c(86): Notify: Parameter Substitution: parameter "applicantSSN" =  "528-15-8520"
+ConsumerRole.c(86): Notify: Parameter Substitution: parameter "UserID" =  "5616976069702d1801cb0000"
 ConsumerRole.c(86): Notify: Parameter Substitution: parameter "enrollPreprodURL" =  "http://enroll-preprod.dchbx.org"
-ConsumerRole.c(86): Notify: Parameter Substitution: parameter "applicantName" =  "qmbvwl"
-ConsumerRole.c(86): Notify: Parameter Substitution: parameter "applicantSSN" =  "693-09-2036"
-ConsumerRole.c(86): Notify: Parameter Substitution: parameter "authenticity_token" =  "yMNtjOoIXAut/hB4lOabvNSrIMRLo1NnE9uO2KGsL9J1qHons/8kZWEcQQ5QgPjcCWESrM8PqHXRR8DPGS/MWA=="
-ConsumerRole.c(86): Redirecting "http://enroll-preprod.dchbx.org/insured/consumer_role?person%5Bdob%5D=1978-01-01&person%5Bfirst_name%5D=Test&person%5Bgender%5D=male&person%5Blast_name%5D=qmbvwl&person%5Bmiddle_name%5D=L&person%5Bname_sfx%5D=&person%5Bno_ssn%5D=0&person%5Bssn%5D=693-09-2036&person%5Buser_id%5D=5616796069702d4398a10000" (redirection depth is 0)  	[MsgId: MMSG-26694]
-ConsumerRole.c(86): To location "http://enroll-preprod.dchbx.org/insured/consumer_role/5616796169702d43c1ae0000/edit"  	[MsgId: MMSG-26693]
-ConsumerRole.c(86): Notify: Saving Parameter "consumer_role_id = 5616796169702d43c1ae0000".
+ConsumerRole.c(86): Notify: Parameter Substitution: parameter "applicantName" =  "crev"
+ConsumerRole.c(86): Notify: Parameter Substitution: parameter "applicantSSN" =  "528-15-8520"
+ConsumerRole.c(86): Notify: Parameter Substitution: parameter "authenticity_token" =  "TYHLK1yf/6xufko8i+Os3JMPn6bPFToLhiOGlS5hlDxB8SAso6lLNHTSmN5xw4jIe7LtvgSPdKQcuTti6/6d9A=="
+ConsumerRole.c(86): Redirecting "http://enroll-preprod.dchbx.org/insured/consumer_role?person%5Bdob%5D=1978-01-01&person%5Bfirst_name%5D=Test&person%5Bgender%5D=male&person%5Blast_name%5D=crev&person%5Bmiddle_name%5D=L&person%5Bname_sfx%5D=&person%5Bno_ssn%5D=0&person%5Bssn%5D=528-15-8520&person%5Buser_id%5D=5616976069702d1801cb0000" (redirection depth is 0)  	[MsgId: MMSG-26694]
+ConsumerRole.c(86): To location "http://enroll-preprod.dchbx.org/insured/consumer_role/5616976169702d1813b80000/edit"  	[MsgId: MMSG-26693]
+ConsumerRole.c(86): Notify: Saving Parameter "consumer_role_id = 5616976169702d1813b80000".
 ConsumerRole.c(86): Resource "http://enroll-preprod.dchbx.org/assets/application-6a1782976ac82bfb6840635516818c7f.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ConsumerRole.c(86): Resource "http://enroll-preprod.dchbx.org/assets/application-e51674c629cde588cb906a4b15c5064f.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ConsumerRole.c(86): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
@@ -352,62 +354,62 @@ ConsumerRole.c(86): Resource "http://enroll-preprod.dchbx.org/assets/icons/list-
 ConsumerRole.c(86): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ConsumerRole.c(86): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 ConsumerRole.c(86): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-ConsumerRole.c(86): Notify: Saving Parameter "person_id = 5616796169702d43c1a40000".
-ConsumerRole.c(86): Notify: Saving Parameter "NaturalizationCertElementID = 5616796169702d43d3f30a00".
-ConsumerRole.c(86): Notify: Saving Parameter "CertOfCitizentshipElementID = 5616796169702d43d3f30a00".
-ConsumerRole.c(86): Notify: Saving Parameter "ReentryPermitElementID = 5616796169702d43d3f30a00".
-ConsumerRole.c(86): Notify: Saving Parameter "PermanentResidentCardElementID = 5616796169702d43d3f30a00".
-ConsumerRole.c(86): Notify: Saving Parameter "RefugeeTravelDocumentElementID = 5616796169702d43d3f30a00".
-ConsumerRole.c(86): Notify: Saving Parameter "ArrivalDepartureRecordElementID = 5616796169702d43d3f30a00".
-ConsumerRole.c(86): Notify: Saving Parameter "ForeignPassportArrivalDepartureRecordElementID = 5616796169702d43d3f30a00".
-ConsumerRole.c(86): Notify: Saving Parameter "ImmigrantVisaElementID = 5616796169702d43d3f30a00".
-ConsumerRole.c(86): Notify: Saving Parameter "TemporaryI-551StampElementID = 5616796169702d43d3f30a00".
-ConsumerRole.c(86): Notify: Saving Parameter "CertOfEligibilityForNonimmigrantElementID = 5616796169702d43d3f30a00".
-ConsumerRole.c(86): Notify: Saving Parameter "OtherWithAlienNumberElementID = 5616796169702d43d3f30a00".
-ConsumerRole.c(86): Notify: Saving Parameter "UnexpiredForeignPassportElementID = 5616796169702d43d3f30a00".
-ConsumerRole.c(86): Notify: Saving Parameter "DS2019ElementID = 5616796169702d43d3f30a00".
-ConsumerRole.c(86): Notify: Saving Parameter "emailAddressElementID = 5616796169702d43d3f30a00".
+ConsumerRole.c(86): Notify: Saving Parameter "person_id = 5616976169702d1813ae0000".
+ConsumerRole.c(86): Notify: Saving Parameter "NaturalizationCertElementID = 5616976269702d17ef170100".
+ConsumerRole.c(86): Notify: Saving Parameter "CertOfCitizentshipElementID = 5616976269702d17ef170100".
+ConsumerRole.c(86): Notify: Saving Parameter "ReentryPermitElementID = 5616976269702d17ef170100".
+ConsumerRole.c(86): Notify: Saving Parameter "PermanentResidentCardElementID = 5616976269702d17ef170100".
+ConsumerRole.c(86): Notify: Saving Parameter "RefugeeTravelDocumentElementID = 5616976269702d17ef170100".
+ConsumerRole.c(86): Notify: Saving Parameter "ArrivalDepartureRecordElementID = 5616976269702d17ef170100".
+ConsumerRole.c(86): Notify: Saving Parameter "ForeignPassportArrivalDepartureRecordElementID = 5616976269702d17ef170100".
+ConsumerRole.c(86): Notify: Saving Parameter "ImmigrantVisaElementID = 5616976269702d17ef170100".
+ConsumerRole.c(86): Notify: Saving Parameter "TemporaryI-551StampElementID = 5616976269702d17ef170100".
+ConsumerRole.c(86): Notify: Saving Parameter "CertOfEligibilityForNonimmigrantElementID = 5616976269702d17ef170100".
+ConsumerRole.c(86): Notify: Saving Parameter "OtherWithAlienNumberElementID = 5616976269702d17ef170100".
+ConsumerRole.c(86): Notify: Saving Parameter "UnexpiredForeignPassportElementID = 5616976269702d17ef170100".
+ConsumerRole.c(86): Notify: Saving Parameter "DS2019ElementID = 5616976269702d17ef170100".
+ConsumerRole.c(86): Notify: Saving Parameter "emailAddressElementID = 5616976269702d17ef170100".
 ConsumerRole.c(86): Registered web_reg_find successful for "Text=let's get you signed up for healthcare" (count=1)  	[MsgId: MMSG-26364]
 ConsumerRole.c(86): Notify: Saving Parameter "ConsumerMatch = 1".
-ConsumerRole.c(86): web_submit_data("consumer_role") was successful, 137356 body bytes, 1047 header bytes  	[MsgId: MMSG-26386]
+ConsumerRole.c(86): web_submit_data("consumer_role") was successful, 127010 body bytes, 1047 header bytes  	[MsgId: MMSG-26386]
 ConsumerRole.c(98): Notify: Parameter Substitution: parameter "ConsumerMatch" =  "1"
-ConsumerRole.c(100): Notify: Transaction "INTEG_UNASSISTED_0012_Consumer_Role" ended with a "Pass" status (Duration: 0.8109 Wasted Time: 0.0624).
+ConsumerRole.c(100): Notify: Transaction "INTEG_UNASSISTED_0012_Consumer_Role" ended with a "Pass" status (Duration: 0.7074 Wasted Time: 0.0675).
 SubmitPersonalData.c(4): web_reg_find started  	[MsgId: MMSG-26355]
 SubmitPersonalData.c(4): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 SubmitPersonalData.c(7): Notify: Transaction "INTEG_UNASSISTED_0013_Submit_Personal_Data" started.
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "consumer_role_id" =  "5616796169702d43c1ae0000"
-SubmitPersonalData.c(9): web_submit_data("5616796169702d43c1ae0000") started  	[MsgId: MMSG-26355]
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "consumer_role_id" =  "5616976169702d1813b80000"
+SubmitPersonalData.c(9): web_submit_data("5616976169702d1813b80000") started  	[MsgId: MMSG-26355]
 SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "enrollPreprodURL" =  "http://enroll-preprod.dchbx.org"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "consumer_role_id" =  "5616796169702d43c1ae0000"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "consumer_role_id" =  "5616976169702d1813b80000"
 SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "enrollPreprodURL" =  "http://enroll-preprod.dchbx.org"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "consumer_role_id" =  "5616796169702d43c1ae0000"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "authenticity_token" =  "yMNtjOoIXAut/hB4lOabvNSrIMRLo1NnE9uO2KGsL9J1qHons/8kZWEcQQ5QgPjcCWESrM8PqHXRR8DPGS/MWA=="
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "applicantName" =  "qmbvwl"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "applicantSSN" =  "693-09-2036"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "NaturalizationCertElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "CertOfCitizentshipElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "ReentryPermitElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "PermanentResidentCardElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "RefugeeTravelDocumentElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "ArrivalDepartureRecordElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "ForeignPassportArrivalDepartureRecordElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "ImmigrantVisaElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "RefugeeTravelDocumentElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "TemporaryI-551StampElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "CertOfEligibilityForNonimmigrantElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "ForeignPassportArrivalDepartureRecordElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "OtherWithAlienNumberElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "OtherWithAlienNumberElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "RefugeeTravelDocumentElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "UnexpiredForeignPassportElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "DS2019ElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "consumer_role_id" =  "5616796169702d43c1ae0000"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "NaturalizationCertElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "CertOfCitizentshipElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "consumer_role_id" =  "5616796169702d43c1ae0000"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "applicantName" =  "qmbvwl"
-SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "emailAddressElementID" =  "5616796169702d43d3f30a00"
-SubmitPersonalData.c(9): Redirecting "http://enroll-preprod.dchbx.org/insured/consumer_role/5616796169702d43c1ae0000" (redirection depth is 0)  	[MsgId: MMSG-26694]
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "consumer_role_id" =  "5616976169702d1813b80000"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "authenticity_token" =  "TYHLK1yf/6xufko8i+Os3JMPn6bPFToLhiOGlS5hlDxB8SAso6lLNHTSmN5xw4jIe7LtvgSPdKQcuTti6/6d9A=="
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "applicantName" =  "crev"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "applicantSSN" =  "528-15-8520"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "NaturalizationCertElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "CertOfCitizentshipElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "ReentryPermitElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "PermanentResidentCardElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "RefugeeTravelDocumentElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "ArrivalDepartureRecordElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "ForeignPassportArrivalDepartureRecordElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "ImmigrantVisaElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "RefugeeTravelDocumentElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "TemporaryI-551StampElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "CertOfEligibilityForNonimmigrantElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "ForeignPassportArrivalDepartureRecordElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "OtherWithAlienNumberElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "OtherWithAlienNumberElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "RefugeeTravelDocumentElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "UnexpiredForeignPassportElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "DS2019ElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "consumer_role_id" =  "5616976169702d1813b80000"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "NaturalizationCertElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "CertOfCitizentshipElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "consumer_role_id" =  "5616976169702d1813b80000"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "applicantName" =  "crev"
+SubmitPersonalData.c(9): Notify: Parameter Substitution: parameter "emailAddressElementID" =  "5616976269702d17ef170100"
+SubmitPersonalData.c(9): Redirecting "http://enroll-preprod.dchbx.org/insured/consumer_role/5616976169702d1813b80000" (redirection depth is 0)  	[MsgId: MMSG-26694]
 SubmitPersonalData.c(9): To location "http://enroll-preprod.dchbx.org/insured/consumer_role/ridp_agreement"  	[MsgId: MMSG-26693]
 SubmitPersonalData.c(9): Resource "http://enroll-preprod.dchbx.org/assets/application-6a1782976ac82bfb6840635516818c7f.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 SubmitPersonalData.c(9): Resource "http://enroll-preprod.dchbx.org/assets/application-e51674c629cde588cb906a4b15c5064f.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
@@ -419,8 +421,8 @@ SubmitPersonalData.c(9): Resource "http://enroll-preprod.dchbx.org/assets/icons/
 SubmitPersonalData.c(9): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 SubmitPersonalData.c(9): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 SubmitPersonalData.c(9): Registered web_reg_find successful for "Text=Consent" (count=1)  	[MsgId: MMSG-26364]
-SubmitPersonalData.c(9): web_submit_data("5616796169702d43c1ae0000") was successful, 24913 body bytes, 1030 header bytes  	[MsgId: MMSG-26386]
-SubmitPersonalData.c(146): Notify: Transaction "INTEG_UNASSISTED_0013_Submit_Personal_Data" ended with a "Pass" status (Duration: 0.5023 Wasted Time: 0.0227).
+SubmitPersonalData.c(9): web_submit_data("5616976169702d1813b80000") was successful, 14572 body bytes, 1030 header bytes  	[MsgId: MMSG-26386]
+SubmitPersonalData.c(146): Notify: Transaction "INTEG_UNASSISTED_0013_Submit_Personal_Data" ended with a "Pass" status (Duration: 12.6715 Wasted Time: 0.0133).
 IDVerificationQuestions.c(4): web_reg_find started  	[MsgId: MMSG-26355]
 IDVerificationQuestions.c(4): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 IDVerificationQuestions.c(7): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
@@ -440,14 +442,14 @@ IDVerificationQuestions.c(38): Resource "http://enroll-preprod.dchbx.org/assets/
 IDVerificationQuestions.c(38): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 IDVerificationQuestions.c(38): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 IDVerificationQuestions.c(38): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-IDVerificationQuestions.c(38): Notify: Saving Parameter "authenticity_token_1 = E7lG6z6q/L6mzNOYce09ePxSvcJPN9cjuT/KHGTsLdGu0lFAZ12E0Gougu61i14YIZiPqsubLDF7o4QL3G/OWw==".
+IDVerificationQuestions.c(38): Notify: Saving Parameter "authenticity_token_1 = 2yS7GJZoJg2mqffvPE4kLHKZ9hZSTWvJjcigo6FLG3bXVFAfaV6SlbwFJQ3GbgA4miSEDpnXJWYXUh1UZNQSvg==".
 IDVerificationQuestions.c(38): Notify: Saving Parameter "session_id = ".
 IDVerificationQuestions.c(38): Error -35049: No match found for the requested parameter "session_id". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
 IDVerificationQuestions.c(38): Notify: Saving Parameter "transaction_id = ".
 IDVerificationQuestions.c(38): Error -35049: No match found for the requested parameter "transaction_id". Check whether the requested regular expression exists in the response data  	[MsgId: MERR-35049]
 IDVerificationQuestions.c(38): Registered web_reg_find successful for "Text=content interactive_identity_verifications" (count=1)  	[MsgId: MMSG-26364]
-IDVerificationQuestions.c(38): web_link("Continue_3") highest severity level was "ERROR", 18610 body bytes, 444 header bytes  	[MsgId: MMSG-26388]
-IDVerificationQuestions.c(38): Notify: Transaction "INTEG_UNASSISTED_0014_Choose_Family_Members" ended with a "Fail" status (Duration: 3.2013 Wasted Time: 0.0789).
+IDVerificationQuestions.c(38): web_link("Continue_3") highest severity level was "ERROR", 8271 body bytes, 443 header bytes  	[MsgId: MMSG-26388]
+IDVerificationQuestions.c(38): Notify: Transaction "INTEG_UNASSISTED_0014_Choose_Family_Members" ended with a "Fail" status (Duration: 3.1335 Wasted Time: 0.0099).
 IDVerificationQuestions.c(38): Notify: Transaction "INTEG_UNASSISTED_0014_Choose_Family_Members" has 0 error message(s).
 Ending action ScriptFlow.
 Ending iteration 1.

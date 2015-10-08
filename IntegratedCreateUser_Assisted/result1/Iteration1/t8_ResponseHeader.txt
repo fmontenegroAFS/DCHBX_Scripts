@@ -1,19 +1,16 @@
-HTTP/1.1 200 OK
-Date: Thu, 08 Oct 2015 14:05:57 GMT
-Server: Oracle-Application-Server-11g
-Cache-Control: no-store
-Pragma: no-cache
-Expires: Thu, 01 Jan 1970 00:00:00 GMT
-X-OPNET-Transaction-Trace: a2_04d6451e-72d3-48ef-9317-6f927929c936
-Set-Cookie: _op_aixPageId=a2_e685fc83-a667-4770-965c-5aa7999c8441; path=/
-Set-Cookie: _op_aixPageId=a2_04d6451e-72d3-48ef-9317-6f927929c936; path=/
-Set-Cookie: JSESSIONID=5j0NWW4FTPqWS0PkPGmHm2YTfpvdZ4hjQYQ8GgJ9n0f2VwhnvPxQ!850585476!365570539; path=/oaam_server; HttpOnly
-X-ORACLE-DMS-ECID: 0058PXSiCtMAtHLLuQo2yX0002oO0012gb
-X-Powered-By: Servlet/2.5 JSP/2.1
-X-dynaTrace: PT=1318311;PA=1379048021;SP=DC HBX;PS=1724996734
-Keep-Alive: timeout=15, max=999
-Connection: Keep-Alive
-Transfer-Encoding: chunked
-Content-Type: text/html; charset=UTF-8
-Content-Language: en
+HTTP/1.1 302 Found
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Thu, 08 Oct 2015 15:53:47 GMT
+Location: https://webpp.dchealthlink.com/NavigationLoginApp
+Server: nginx/1.8.0
+Set-Cookie: request_method=POST; path=/
+Status: 302 Found
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: 1246cd85-0c93-4776-99fa-e7504cba53b8
+X-Runtime: 0.079513
+X-XSS-Protection: 1; mode=block
+Content-Length: 115
+Connection: keep-alive
 
