@@ -1,2 +1,0 @@
-"_method=post&authenticity_token=s239tcl%2FS8BacllsRbR07PzP%2BtL2OdUz7cmx1mN0gg4mIl5b57LrFKSef6"
-"AxDC%2BArwARvSIW7sj1Pk34Fcq%2FCw%3D%3D"

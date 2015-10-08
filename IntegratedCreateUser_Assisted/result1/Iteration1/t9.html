@@ -4,12 +4,19 @@
 
 
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
 
 
 
 
 
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 
 
@@ -74,22 +81,100 @@ if(!OPNET_ARXS){
    })();}
 
 </script>
-<script>if(!OPNET_ARXS_PARAM){var OPNET_ARXS_PARAM={};} OPNET_ARXS_PARAM.pageId = 'a2_56126d18-1031-431e-a413-2a6dad282a30';</script>             
+<script>if(!OPNET_ARXS_PARAM){var OPNET_ARXS_PARAM={};} OPNET_ARXS_PARAM.pageId = 'a2_261f1926-9c15-4cd3-8503-9e0fd28a9baf';</script>             
 <!-- AppInternalsXpert BMX Integration End -->
 
+  <title>Welcome to DC Health Link | DC Health Link</title>
+  <meta http-equiv="Content-type" content="text/html"/><meta http-equiv="Cache-Control" content="must-revalidate"/><meta
+    http-equiv="Cache-Control" content="no-store"/><meta http-equiv="Cache-Control" content="no-cache"/><meta
+    http-equiv="Cache-Control" content="private"/><meta http-equiv="Pragma" content="no-cache"/>
+    <meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=1;" />
+  
 
-<title>Welcome to DC Health Link | DC Health Link</title>
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=1;" />
 
-  <!-- 11.1.2.1.0.OAAM_11.1.2.1.0BP_GENERIC_131212.1204 : N/A : default -->
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/oaam_server/css/oaam_uio.css">
+
+
+
+
+
+
+
+<script type="text/javascript" charset="UTF-8" language="javascript" src="/oaam_server/js/oaam_uio.js"></script>
+
+
+<script type="text/javascript" charset="UTF-8">
+	loginIdRegExpr = /[^\s\\\<\>]/gi;
+	var app_messages = {
+							validateInvalidChars: "{0} has invalid characters.",
+							validateMinMaxLength: "Your answer should be {0}-{1} characters.",
+							validateDuplicateQuestion: "You can\u0027t select the same question again.",
+							validateEmptyAnswers: "Please enter the answer for question number(s)",
+							validateEmptyAnswer: "Please enter your answer.",
+							validateSelectQuestions: "Please select your questions.",
+							validatePasswordFormat: "Invalid password format.",
+							validatePasswordComplete: "Completed",
+							validatePasswordNotEntered: "Not entered.",
+							validateChallenge: "Please enter the answer."
+						};
+</script>
+
+     
+  <script language="javascript" type="text/javascript" charset="UTF-8">
+    <!--
+
+    function validateFields() {
+      var returnVal = true;
+      var msg = "";
+    var elem = document.getElementById("userid");
+var userid = elem.value;
+userid = trimstring(userid);
+elem.value = userid;
+var loginIdLbl = "Username";
+if (userid == '') {
+alert("Please enter the Username.");
+elem.focus();
+return false;
+}
+if (!isValidLoginId(userid,loginIdLbl)) {
+elem.focus();
+return false;
+}
+var elem = document.getElementById("pass");
+var pass = elem.value;
+pass = trimstring(pass);
+elem.value = pass;
+var loginIdLbl = "Password";
+if (pass == '') {
+alert("Please enter the Password.");
+elem.focus();
+return false;
+}
+if (!isValidLoginId(pass,loginIdLbl)) {
+elem.focus();
+return false;
+}
+
+      return returnVal;
+    }
+    
+    // -->
+  </script>
+
+
+
 </head>
-
-
 
 <body class="html front not-logged-in no-sidebars page-node i18n-en">
 
-  <!DOCTYPE html>
+	<!-- <div class="container"> -->
+		<!DOCTYPE html>
 <html lang="en" dir="ltr"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:dc="http://purl.org/dc/terms/"
@@ -235,269 +320,136 @@ if(!OPNET_ARXS){
   </div>
 </nav>
 
-
-
-<div id="main-content-vert">
-	<div class="container">
-        <!-- <div class="row">
-            <section class="span12">
-                   <div class="single_wide_col_form">  -->
-                      
-				
+		
+  <div id="blue_sub_header">
+  		<div class="container">
+    		<div class="row">
+     			 <h1>Login</h1>
+   			  </div>
+  		</div>
+   </div>
+			
+	<section id="inner_body">
+		<div class="container">
+			<div class="row">	
+				<!-- node -->
+     		  <article id="node-2277" class="node node-login-wrapper full clearfix" about="/login" typeof="sioc:Item foaf:Document">
+        		 <header> <span property="dc:title" content="Login" class="rdf-meta element-hidden"></span> </header>
+       				<div class="field field-name-body field-type-text-with-summary field-label-hidden">
+         		   		 <style>
+							<!--/*--><![CDATA[/* ><!--*/
+							@import url("dhs/ui/dcas-ui-wrapper-css/login.css");
+								/*--><!]]>*/
+					 	 </style>		
 					
+					 	 
 
+						 
+						 <div class="loginError" id="errorMessage" title="The username or password you entered is incorrect. If you have forgotten your username or password, use the &#39;Forgot Username&#39; or &#39;Forgot Password&#39; links.">
+				 				 <img src="/oaam_server/images/red_square.gif" height="7" width="7" align="top" valign="top" border="0" alt="Error">
+								 The username or password you entered is incorrect. If you have forgotten your username or password, use the 'Forgot Username' or 'Forgot Password' links.
+						 </div>
+						 
+						<div class="inner_content login-container">
+    						<div class="outlined" id="signOnCreds">
+    						<div class="row">
+      							<form autocomplete="off" name="signon" id="signon" action="/oaam_server/loginAuth.do" method="post" onsubmit="javascript:return validateFields();">
+        		                  <input type="hidden" id="clientOffset" name="clientOffset" />
+        							<!-- <ul class="credsList">
+<li>
+<label for="userid">Username:</label>
+<input type="text" id="userid" name="userid" tabindex="1" maxlength="40" class="textInput" title="Enter Username" value="" autocomplete="off" /></li>
+<li>
+<label for="pass">Password:</label>
+<input type="password" id="pass" name="pass" tabindex="2" maxlength="30" class="textInput" title="Enter Password" value="" autocomplete="off" /></li>
+</ul> -->
+		        						<div class="form-group">
+											<label for="userid">Username</label><a href="https://webpp.dchealthlink.com/GetUserName/" class="pull-right">Forgot Username?</a>
+											<input type="text" id="userid" name="userid" tabindex="1" maxlength="40" class="form-control" title="Enter Username" value="" autocomplete="off" />
+										</div>
+         								<div class="form-group">
+          									<label for="pass">Password</label></label><a href="dhsFPUsername.jsp"" class="pull-right">Forgot Password?</a>
+											<input type="password" id="pass" name="pass" tabindex="2" maxlength="40" class="form-control" title="Enter Password" value="" autocomplete="off" />
+										</div>
+										<div class="row row-margin">
+											<div class="col-xs-12">
+												<div class="btn-continue text-center">
+ 											 		<div class="btn-login">
+  												<input type="submit" class="btn btn-lg btn-danger" value="Login"/>
+      											
+ 											 		</div>
+ 											 	</div>
+											</div>
+										</div>
+										   					
+      											
+      							</form>	
+      							</div>		
+      							<div class="row row-margin">
+                <div class="col-xs-12 col-sm-6 col-md-6"> <a href=""></a> </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 text-right"> Don't have an account? <a href="https://preprod.dchealthlink.com/create-account?attested=1"> Get started</a>.</div>
+              </div>
+      								
+      							   
+							</div>
 
+   						   <script language="javascript" type="text/javascript" charset="UTF-8">
+      <!--
+      document.signon.userid.focus();
 
+      var time = new Date();
+      var offset = (time.getTimezoneOffset() / 60 * -1);
+      document.getElementById("clientOffset").value = offset;
 
-
-
-
-
-
-
-
-
-
-<div class="row">
- <section class="span12">
-	<!-- <div class="bharosaPageTitle">  -->
-	<div id="blue_sub_header">
-	  <div class="container">
-	    <div class="row">
-	      <h1>
-  		Security Questions
-  	      </h1>
-	    </div>
-	  </div>
+      function advancePage(){};
+      // -->
+    </script>
+   						  
+   						   
+     					   <script type="text/javascript" charset="UTF-8" language="javascript" src="js/AC_OETags.js"></script>
+<script language="JavaScript" type="text/javascript" charset="UTF-8">
+           <!--
+           var hasReqestedVersion = DetectFlashVer(8, 0, 0);
+           if (hasReqestedVersion) {
+             var flashName = "/oaam_server/flash/bharosa8";
+             
+             AC_FL_RunContent(
+                   "src", flashName,
+                   "width", "1",
+                   "height", "1",
+                   "align", "middle",
+                   "id", "flash",
+                   "quality", "low",
+                   "bgcolor", "#FFFFFF",
+                   "name", "flash",
+                   "allowScriptAccess","sameDomain",
+                   "type", "application/x-shockwave-flash",
+                   "FlashVars", "dcPurp=uio");
+            }
+             //-->
+</script>
+   						   
+  					   </div>
+  					<div class="button_bar">
+            <div class="authorization row-padding-top-10 row-padding-bottom-10 text-left">
+            This system is the property of the District of Columbia Government and contains U.S.Government information. Unauthorized use of, or access to, this computer system may subject you to Federal, State, and Civil penalties.
+            </div>
+          </div>   
+  					   
+  			</article>
+  			
+  			
+  		</div>
 	</div>
-	
-	
-	<!-- </div>
+ </section>
+ 
+<section id="under_body">
+  <div class="container">
+    <div class="row mid_links"> </div>
+  </div>
+</section>
+  
 
-	<div class="bharosaPageMessage">
-	  We will use your security questions and answers to confirm your identity at times when extra safety is needed.
-	</div> -->
-	<div class="inner_content ">
-	<div class="outlined">
-		<form name="loginForm" class="dcas_form" id="loginForm" method="post" action="/oaam_server/registerQuestions.do" autocomplete="off"
-			  onsubmit="return validateReg();">
-			  <div class="col-xs-12">
-                    <p>Please select three questions from the drop downs below and provide answers to each.</p>
-                </div>
-			   
-				<input type="hidden" name="showView" value="saveQuestions">
-				<input type="hidden" name="fk" value="11252_56ff0b6646567179f894a7107ec83613b540639d27db5230fc425f827fbf9b3d">
-				<input type="hidden" name="numQuestions" value="3">
-
-				
-
-				
-
-				<noscript>
-				  <div class="loginError" title="Please enable javascript for a better experience.">
-					<img src="images/red_square.gif" height="7" width="7" align="top" valign="top" border="0" alt="Error">
-					Please enable javascript for a better experience.
-				  </div>
-				</noscript>
-
-
-				<!-- <table width="100%" cellpadding="0" cellspacing="0" border="0">  -->
-
-				 <!--
-				  <td valign="top" colspan="2">
-					<table width="100%" cellpadding="1" cellspacing="2" border="0">
-					  <tr><td valign="top" width="480">
-						  <table width="480" cellpadding="0" cellspacing="0" border="0"> -->
-
-							
-							<div class="row row-margin">
-                   			 <div class="col-xs-12 col-sm-6 col-md-6">
-                        		<div class="form-group">
-							<label id="registerQuestionsLabel0" class="registerQuestionsLabel">
-							Question <span class="sub-label">1 (Choose a question from the list below)
-							</span>
-                            </label>
-							  
-								<select class="form-control" name='question0' id='question0'>
-								  <option value=''>Select One</option>
-								  
-								  <option value='52'>What was your first sweetheart&#39;s last name&#63;</option>
-								  
-								  <option value='80'>What is your eldest child&#39;s nickname&#63;</option>
-								  
-								  <option value='31'>What was your birth weight&#63;</option>
-								  
-								  <option value='42'>What year do you plan on retiring&#63;</option>
-								  
-								  <option value='67'>What was the first name of your high school best friend&#63;</option>
-								  
-								</select>
-							
-							  </div>
-							</div>
-							<div class="col-xs-12 col-sm-6 col-md-6">
-                        		<div class="form-group">
-								
-								<label  class="registerQuestionsLabel">
-															Answer <span class="sub-label">1 (Enter your answer)
-															</span>
-                                </label>
-								<input type="text" class="form-control" name="Bharosa_Register_Pad0DataField" id="Bharosa_Register_Pad0DataField" maxlength="4000"/>
-							  <!-- </td>
-							</tr> -->
-							
-							<!-- <tr><td style='height:35px'></td></tr> -->
-							
-							</div>
-						</div>
-						</div>
-							
-							<div class="row row-margin">
-                   			 <div class="col-xs-12 col-sm-6 col-md-6">
-                        		<div class="form-group">
-							<label id="registerQuestionsLabel1" class="registerQuestionsLabel">
-							Question <span class="sub-label">2 (Choose a question from the list below)
-							</span>
-                            </label>
-							  
-								<select class="form-control" name='question1' id='question1'>
-								  <option value=''>Select One</option>
-								  
-								  <option value='62'>What year did you purchase your first car&#63;</option>
-								  
-								  <option value='55'>What was your first cat&#39;s name&#63;</option>
-								  
-								  <option value='90'>What is the name of the first musical group you saw in concert&#63;</option>
-								  
-								  <option value='34'>What is your maternal grandfather&#39;s first name&#63;</option>
-								  
-								  <option value='124'>What is your all time favorite play&#63;</option>
-								  
-								</select>
-							
-							  </div>
-							</div>
-							<div class="col-xs-12 col-sm-6 col-md-6">
-                        		<div class="form-group">
-								
-								<label  class="registerQuestionsLabel">
-															Answer <span class="sub-label">2 (Enter your answer)
-															</span>
-                                </label>
-								<input type="text" class="form-control" name="Bharosa_Register_Pad1DataField" id="Bharosa_Register_Pad1DataField" maxlength="4000"/>
-							  <!-- </td>
-							</tr> -->
-							
-							<!-- <tr><td style='height:35px'></td></tr> -->
-							
-							</div>
-						</div>
-						</div>
-							
-							<div class="row row-margin">
-                   			 <div class="col-xs-12 col-sm-6 col-md-6">
-                        		<div class="form-group">
-							<label id="registerQuestionsLabel2" class="registerQuestionsLabel">
-							Question <span class="sub-label">3 (Choose a question from the list below)
-							</span>
-                            </label>
-							  
-								<select class="form-control" name='question2' id='question2'>
-								  <option value=''>Select One</option>
-								  
-								  <option value='24'>In what city was your favorite Olympic games played&#63;</option>
-								  
-								  <option value='53'>In what city did you get engaged&#63;</option>
-								  
-								  <option value='81'>What was the name of the hospital your youngest child was born in&#63;</option>
-								  
-								  <option value='32'>What was the first street you lived on&#63;</option>
-								  
-								  <option value='43'>What was your first yearly salary&#63;</option>
-								  
-								</select>
-							
-							  </div>
-							</div>
-							<div class="col-xs-12 col-sm-6 col-md-6">
-                        		<div class="form-group">
-								
-								<label  class="registerQuestionsLabel">
-															Answer <span class="sub-label">3 (Enter your answer)
-															</span>
-                                </label>
-								<input type="text" class="form-control" name="Bharosa_Register_Pad2DataField" id="Bharosa_Register_Pad2DataField" maxlength="4000"/>
-							  <!-- </td>
-							</tr> -->
-							
-							</div>
-						</div>
-						</div>
-							
-
-					<!--</table>
-				  </td>
-				</tr> -->
-
-				<script language="javascript" type="text/javascript" charset="UTF-8" src="/oaam_server/js/oaam_uio_html.js"></script>
-				<script language="javascript" type="text/javascript" charset="UTF-8">
-				  <!--
-
-				  var maxPinLength = 4000;
-				  var minPinLength = 1;
-
-				  // -->
-				</script>
-				<!--</table>-->
-
-				
-				
-				
-				<div class="row row-margin">
-                    <div class="col-xs-12">
-				<div class="btn-continue text-center">
-				   <input name="register" type="submit"
-																							   class="btn btn-lg btn-danger"
-																							   value="Continue"
-																							   title="Continue"/>
-				</div>
-				  </div>
-                </div>
-				
-				
-
-				<script language="javascript" type="text/javascript" charset="UTF-8">
-				  <!--
-				  bharosaAuthenticator = "Bharosa_Register_Pad";
-				  var num = 3;
-				  focusIndex = '0';
-
-				  if (num > 0) {
-					document.getElementById("question0").focus();
-				  }
-
-				  function validateFields() {
-					return validateSecurityQAforTP();
-				  }
-
-				  // -->
-				</script>
-				</form>
-				</div>
-</div></section></div>
-				
-      			
-                <!-- </div> 
-            </section>
-        </div> -->
-    </div>
-</div>
-
-
-
-
-
-   
 <!-- footer.tpl.php -->
 <footer>
   <div id="row_two">
@@ -541,7 +493,5 @@ if(!OPNET_ARXS){
 </body>
 </html>
 
-
 </body>
-
 </html>

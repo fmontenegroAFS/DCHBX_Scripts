@@ -46,6 +46,16 @@ IDVerificationQuestions()
 	
 	web_reg_find("Text=Family Members",
 	             LAST);
+	
+	/*Correlation comment - Do not change!  Original value='5604514e69702d027f160000' Name ='family_id' Type ='Manual'*/
+	web_reg_save_param_regexp(
+		"ParamName=family_id",
+		"RegExp=family_id=(.*?)\">Add\\ Member",
+		SEARCH_FILTERS,
+		"Scope=Body",
+		"IgnoreRedirections=Yes",
+		"RequestUrl=*/family_members*",
+		LAST);
 
 	lr_start_transaction("INTEG_UNASSISTED_0015_ID_Verification_Questions");	
 	

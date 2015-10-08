@@ -19,6 +19,7 @@
 #include "ConsumerRole.c"
 #include "SubmitPersonalData.c"
 #include "IDVerificationQuestions.c"
+#include "AddFirstFamilyMember.c"
 #include "SubmitChangeReason.c"
 #include "GroupSelections.c"
 #include "ThankYou.c"
@@ -26,4 +27,5 @@
 #include "FinancialAssistanceCalculator.c"
 #include "SelectAccountType.c"
 #include "SelectUnassisted.c"
+#include "GenerateFamilyMemberSSN.c"
 #include "vuser_end.c"

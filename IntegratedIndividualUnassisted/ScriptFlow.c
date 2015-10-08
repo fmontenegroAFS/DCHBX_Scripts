@@ -84,6 +84,10 @@ ScriptFlow()
 	IDVerificationQuestions();
 	
 	lr_think_time(20);
+	
+	AddFirstFamilyMember();
+	
+	lr_think_time(20);
 
 	SubmitChangeReason();
 	

@@ -21,6 +21,7 @@
     <FileEntry Name="ConsumerRole.c" Filter="2" />
     <FileEntry Name="SubmitPersonalData.c" Filter="2" />
     <FileEntry Name="IDVerificationQuestions.c" Filter="2" />
+    <FileEntry Name="AddFirstFamilyMember.c" Filter="2" />
     <FileEntry Name="SubmitChangeReason.c" Filter="2" />
     <FileEntry Name="GroupSelections.c" Filter="2" />
     <FileEntry Name="ThankYou.c" Filter="2" />
@@ -28,6 +29,7 @@
     <FileEntry Name="FinancialAssistanceCalculator.c" Filter="2" />
     <FileEntry Name="SelectAccountType.c" Filter="2" />
     <FileEntry Name="SelectUnassisted.c" Filter="2" />
+    <FileEntry Name="GenerateFamilyMemberSSN.c" Filter="2" />
     <FileEntry Name="vuser_end.c" Filter="2" />
   </ActionFiles>
   <GeneralFiles>
