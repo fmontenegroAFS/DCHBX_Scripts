@@ -1,8 +1,0 @@
-Error: CCI compilation error -c:\users\francis.montenegro\appdata\local\temp\1\brr_mps.448\global_dir\53995071\pre_cci.c: vuser_init.c:17: error: illegal statement termination.	[MsgId: MERR-19799]
-Error: CCI compilation error -c:\users\francis.montenegro\appdata\local\temp\1\brr_mps.448\global_dir\53995071\pre_cci.c: vuser_init.c:17: error: skipping `int'.	[MsgId: MERR-19799]
-Error: CCI compilation error -c:\users\francis.montenegro\appdata\local\temp\1\brr_mps.448\global_dir\53995071\pre_cci.c: vuser_init.c:17: error: undeclared identifier `fileGroup'.	[MsgId: MERR-19799]
-Error: CCI compilation error -c:\users\francis.montenegro\appdata\local\temp\1\brr_mps.448\global_dir\53995071\pre_cci.c: SmallBusinessTab.c:29: warning: missing return value.	[MsgId: MERR-19799]
-Error: CCI compilation error -c:\users\francis.montenegro\appdata\local\temp\1\brr_mps.448\global_dir\53995071\pre_cci.c: c:\\users\\francis.montenegro\\appdata\\local\\temp\\1\\brr_mps.448\\global_dir\\53995071\\combined_IntegratedEmployerPortal_V1_FM_09082015.c:23: error: 3 errors, not writing pre_cci.ci.	[MsgId: MERR-19799]
-Error: Vuser compilation failed. Please set CCIDebug to Off in CCI section of mdrv.dat file.	[MsgId: MERR-19797]
-Warning: Extension cciext.dll reports error -19797 on call to function ExtPerProcessInitialize	[MsgId: MWAR-10485]
-Error: Thread Context: Call to service of the driver failed, reason - thread context wasn't initialized on this thread.	[MsgId: MERR-10176]

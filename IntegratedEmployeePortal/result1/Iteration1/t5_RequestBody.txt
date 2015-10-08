@@ -1,4 +1,0 @@
-"utf8=%3F&authenticity_token=vEiFRWOf2nPYQoGv9t%2BPkjqKOwNLEifmSi37qkAJCtXftRuatlPY8d4BtqXimIz3"
-"byKRqQzjZoWDnAQ8JBdTCA%3D%3D&user%5Breferer%5D=http%3A%2F%2Fenroll-preprod.dchbx.org%2Fusers%2"
-"Fsign_in&user%5Bemail%5D=FM27816-51-8912%40test.com&user%5Bpassword%5D=Abcd%21234&user%5Bpassw"
-"ord_confirmation%5D=Abcd%21234&user%5Binvitation_id%5D=&commit=Create+account"

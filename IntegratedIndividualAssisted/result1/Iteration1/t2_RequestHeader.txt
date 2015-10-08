@@ -1,9 +1,0 @@
-GET /create-account/assisted HTTP/1.1
-X-dynaTrace: NA=0003_Select_Individual_IA_mdb_6461;PC=assisted;VU=-1;ID=1444076894961
-User-Agent: Mozilla/5.0 (Windows NT 6.2; rv:31.0) Gecko/ Firefox/31.0
-Accept-Encoding: gzip, deflate
-Accept-Language: en-US,en;q=0.5
-Accept: */*
-Connection: Keep-Alive
-Host: preprod.dchealthlink.com
-
