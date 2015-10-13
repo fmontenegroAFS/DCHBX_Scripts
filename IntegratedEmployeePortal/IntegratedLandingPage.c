@@ -1,7 +1,5 @@
 IntegratedLandingPage()
 {
-	web_set_sockets_option("SSL_VERSION", "TLS1.1");
-
 	web_reg_find("Text=What kind of health insurance do you need?",LAST);
 
 //	web_add_cookie("SSESSd887f51ab6d1bc995bd49426f78d3b00=lKNDuIbQFY4N0CSnYg_ZhKzLjyptmwBzGbSOXa7-l9M; DOMAIN=qa2.dchealthlink.com");

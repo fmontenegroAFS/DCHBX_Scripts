@@ -52,10 +52,10 @@ ScriptFlow()
 //	ConsumerRoleSearch();
 //	
 //	lr_think_time(20);
-	
-	FinancialAssistanceCalculator();
-	
-	lr_think_time(20);
+//	
+//	FinancialAssistanceCalculator();
+//	
+//	lr_think_time(20);
 	
 	SelectAccountType();
 	
@@ -85,9 +85,9 @@ ScriptFlow()
 	
 	lr_think_time(20);
 	
-	AddFirstFamilyMember();
-	
-	lr_think_time(20);
+//	AddFirstFamilyMember();
+//	
+//	lr_think_time(20);
 
 	SubmitChangeReason();
 	

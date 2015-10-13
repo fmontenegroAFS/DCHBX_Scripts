@@ -4,6 +4,17 @@ CreateAccount()
 	web_reg_find("Text=Welcome! Your account has been created",
 	             LAST);
 	
+	/*Correlation comment - Do not change!  Original value='qAzgLS9b1Q8MLY2wJt2iUnkWir4Mnh+nd6MVf2kdGh4VjC5ZfHmUa1f62VElXHfB+q6tAfd0s5wlPxmPnd/YKQ==' Name ='authenticity_token' Type ='ResponseBased'*/
+	web_reg_save_param_regexp(
+		"ParamName=authenticity_token",
+		"RegExp=\\ content=\"(.*?)\"\\ ",
+		"Ordinal=2",
+		SEARCH_FILTERS,
+		"Scope=Body",
+		"IgnoreRedirections=No",
+		"RequestUrl=*/search*",
+		LAST);
+	
 	lr_start_transaction("INTEG_UNASSISTED_0010_Create_Account");
 
 	web_submit_data("users",

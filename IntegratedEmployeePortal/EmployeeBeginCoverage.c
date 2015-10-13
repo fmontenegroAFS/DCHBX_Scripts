@@ -2,6 +2,17 @@ EmployeeBeginCoverage()
 {
 
 	web_reg_find("Text/IC=Personal Information", "SAVECOUNT=ContinueButton", LAST );
+	
+	/*Correlation comment - Do not change!  Original value='66R+ZHGc3ehydRqt4+vcihIuuELP4MY/WMlIRaMCOwHCysdaRzoYnJjOo3t2dmZ0ZwB/sLQRpprqIa0C7dJksA==' Name ='authenticity_token_2' Type ='Manual'*/
+	web_reg_save_param_regexp(
+		"ParamName=authenticity_token_2",
+		"RegExp=\\ content=\"(.*?)\"\\ ",
+		"Ordinal=2",
+		SEARCH_FILTERS,
+		"Scope=Body",
+		"IgnoreRedirections=Yes",
+		"RequestUrl=*/search*",
+		LAST);
 	 	
 	lr_start_transaction("EMPLYE_0006_Continue_Coverage");
 
@@ -37,13 +48,24 @@ EmployeeBeginCoverage()
 	web_reg_save_param_regexp("ParamName=EligibleDate", "RegExp=/dt>\\\n<dd>(.*?)</dd", "Ordinal=3", SEARCH_FILTERS,"Scope=Body","IgnoreRedirections=No",LAST);
 
 	/*Correlation comment - Do not change!  Original value='55cf866f69702d3f93c51100' Name ='EmployeeID' Type ='Manual'*/
-	web_reg_save_param_regexp("ParamName=EmployeeID","RegExp=type=\"hidden\"\\ value=\"(.*?)\"\\ name",	"Ordinal=9",SEARCH_FILTERS,	"Scope=Body","IgnoreRedirections=No",LAST);
+//	web_reg_save_param_regexp("ParamName=EmployeeID","RegExp=type=\"hidden\"\\ value=\"(.*?)\"\\ name",	"Ordinal=9",SEARCH_FILTERS,	"Scope=Body","IgnoreRedirections=No",LAST);
 
 	/*Correlation comment - Do not change!  Original value='01/01/2015' Name ='EmpHireDate' Type ='Manual'*/
 	web_reg_save_param_regexp("ParamName=EmpHireDate", "RegExp=/dt>\\\n<dd>(.*?)</dd", "Ordinal=2",SEARCH_FILTERS, "Scope=Body", "IgnoreRedirections=No",	LAST);
 
 	/*Correlation comment - Do not change!  Original value='09/01/2015' Name ='CovgStartDate' Type ='Manual'*/
 	web_reg_save_param_regexp("ParamName=CovgStartDate", "RegExp=/dt>\\\n<dd>(.*?)</dd", "Ordinal=3", SEARCH_FILTERS, "Scope=Body", "IgnoreRedirections=No", LAST);	
+	
+	/*Correlation comment - Do not change!  Original value='561baa1969702d10be100000' Name ='employee_id' Type ='Manual'*/
+	web_reg_save_param_regexp(
+		"ParamName=employee_id",
+		"RegExp=type=\"hidden\"\\ value=\"(.*?)\"\\ name",
+		"Ordinal=10",
+		SEARCH_FILTERS,
+		"Scope=Body",
+		"IgnoreRedirections=No",
+		"RequestUrl=*/match*",
+		LAST);	
 	
 /*********************************************************************************************************************************************************************/	
 	
@@ -53,14 +75,35 @@ EmployeeBeginCoverage()
 	
 	lr_start_transaction("EMPLYE_0007_Add_Personal_Info");
 
-	web_url("match", 
-		"URL=http://{enrollAppLandingPage}/{applicationTypeLowerCase}/employee/match?utf8=%E2%9C%93&people%5Bid%5D=&person%5Bfirst_name%5D=TestE&person%5Bmiddle_name%5D=L&person%5Blast_name%5D={EmpLName}&person%5Bname_sfx%5D=&person%5Bdob%5D=1978-01-01&jq_datepicker_ignore_person%5Bdob%5D=01%2F01%2F1978&person%5Bssn%5D={EmpSSN}&person%5Bgender%5D={EmpSEX}",
-		"TargetFrame=",
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://{enrollAppLandingPage}/{applicationTypeLowerCase}/employee/search", 
-		"Snapshot=t31.inf", 
-		"Mode=HTML", 
+//	web_url("match", 
+//		"URL=http://{enrollAppLandingPage}/{applicationTypeLowerCase}/employee/match?utf8=%E2%9C%93&people%5Bid%5D=&person%5Bfirst_name%5D=TestE&person%5Bmiddle_name%5D=L&person%5Blast_name%5D={EmpLName}&person%5Bname_sfx%5D=&person%5Bdob%5D=1978-01-01&jq_datepicker_ignore_person%5Bdob%5D=01%2F01%2F1978&person%5Bssn%5D={EmpSSN}&person%5Bgender%5D={EmpSEX}",
+//		"TargetFrame=",
+//		"Resource=0", 
+//		"RecContentType=text/html", 
+//		"Referer=http://{enrollAppLandingPage}/{applicationTypeLowerCase}/employee/search", 
+//		"Snapshot=t31.inf", 
+//		"Mode=HTML", 
+//		LAST);
+
+	web_submit_data("match",
+		"Action=http://{enrollAppLandingPage}/{applicationTypeLowerCase}/employee/match",
+		"Method=POST",
+		"RecContentType=text/html",
+		"Referer=http://{enrollAppLandingPage}/{applicationTypeLowerCase}/employee/search",
+		"Snapshot=t6.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=utf8", "Value=✓", ENDITEM,
+		"Name=authenticity_token", "Value={authenticity_token_2}", ENDITEM,
+		"Name=people[id]", "Value=", ENDITEM,
+		"Name=person[first_name]", "Value=TestE", ENDITEM,
+		"Name=person[middle_name]", "Value=L", ENDITEM,
+		"Name=person[last_name]", "Value={EmpLName}", ENDITEM,
+		"Name=person[name_sfx]", "Value=", ENDITEM,
+		"Name=person[dob]", "Value=1978-01-01", ENDITEM,
+		"Name=jq_datepicker_ignore_person[dob]", "Value=01/01/1978", ENDITEM,
+		"Name=person[ssn]", "Value={EmpSSN}", ENDITEM,
+		"Name=person[gender]", "Value=female", ENDITEM,
 		LAST);
 	
 	if (strcmp(lr_eval_string("{AddPersonalInfo}"), "0") > 0)
@@ -116,7 +159,7 @@ EmployeeBeginCoverage()
 		"Action=http://{enrollAppLandingPage}/{applicationTypeLowerCase}/employee", 
 		"Method=POST", 
 		"RecContentType=text/html", 
-		"Referer=http://{enrollAppLandingPage}/{applicationTypeLowerCase}/employee/match?utf8=%E2%9C%93&people%5Bid%5D=&person%5Bfirst_name%5D=TestE&person%5Bmiddle_name%5D=L&person%5Blast_name%5D={EmpLName}&person%5Bname_sfx%5D=&person%5Bdob%5D=1978-01-01&jq_datepicker_ignore_person%5Bdob%5D=01%2F01%2F1978&person%5Bssn%5D={EmpSSN}&person%5Bgender%5D={EmpSEX}", 
+		"Referer=http://{enrollAppLandingPage}/{applicationTypeLowerCase}/employee/match", 
 		"Snapshot=t8.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
@@ -131,7 +174,7 @@ EmployeeBeginCoverage()
 		"Name=employment_relationship[gender]", "Value={EmpSEX}", ENDITEM,
 		"Name=employment_relationship[hired_on]", "Value={EmpHireDate}", ENDITEM,
 		"Name=employment_relationship[eligible_for_coverage_on]", "Value={CovgStartDate}", ENDITEM,
-		"Name=employment_relationship[census_employee_id]", "Value={EmployeeID}", ENDITEM,
+		"Name=employment_relationship[census_employee_id]", "Value={employee_id}", ENDITEM,
 		LAST);
 	
 	if (strcmp(lr_eval_string("{ClickThisismyEmployer}"), "0") > 0)

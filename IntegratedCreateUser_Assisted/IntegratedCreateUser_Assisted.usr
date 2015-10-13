@@ -75,7 +75,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order="0001_Load_Integrated_HomePage__*delimiter*__0002_Click_Create_Account__*delimiter*__0003_Select_Individual__*delimiter*__0004_Create_EnrollApp_User__*delimiter*__0005_Personal_Info__*delimiter*__0006_Continue__*delimiter*__0007_Login_Curam__*delimiter*__0007_1_Login_Curam_authJump__*delimiter*__0008_Security_Questions__*delimiter*__0009_Start_Application__*delimiter*__0010_Curam_StartApp_Misc_URLS__*delimiter*__0999_Logout_Curam__*delimiter*__1000_Last_Logout"
 [StateManagement]
-LastReplayStatus=2
+LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1

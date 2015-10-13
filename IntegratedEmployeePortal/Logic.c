@@ -2,9 +2,11 @@ Logic()
 {
 	GenerateSSNs();
 	
-	IntegratedLandingPage();
+	web_set_sockets_option("SSL_VERSION", "TLS1.1");
+	
+//	IntegratedLandingPage();
 
-	EmployeeTab();
+//	EmployeeTab();
 
 	EnrollAppHomePage();
 	
