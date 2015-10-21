@@ -2536,12 +2536,12 @@ Drupal_Steps()
 CreateUserFlow()
 {
 	
-	 
-	web_reg_save_param_regexp("ParamName=authenticity_token", "RegExp=\\ content=\"(.*?)\"\\ ", "Ordinal=2", "SEARCH_FILTERS", "Scope=Body", "IgnoreRedirections=Yes", "RequestUrl=*/sign_up*", "LAST");
+
 	
 	lr_start_transaction("0003_Select_Individual");
 	addDynaTraceHeader("NA=0003_Select_Individual_{dp_UserID};PC=assisted");
-
+	
+	
 	web_url("assisted", 
 		"URL=https://{p_IA_URL}/create-account/assisted", 
 		"Resource=0", 
@@ -2549,8 +2549,20 @@ CreateUserFlow()
 		"Referer=", 
 		"Snapshot=t17.inf", 
 		"Mode=HTML", 
-		"LAST");	
+		"LAST");
+	
+	web_reg_find("Text=Create account",
+	             "LAST");
+	
+	 
+	web_reg_save_param_regexp("ParamName=authenticity_token", "RegExp=\\ content=\"(.*?)\"\\ ", "Ordinal=2", "SEARCH_FILTERS", "Scope=Body", "IgnoreRedirections=Yes", "RequestUrl=*/sign_up*", "LAST");
 
+	
+	web_link("I ACCEPT THE TERMS", 
+		"Text=I ACCEPT THE TERMS", 
+		"Snapshot=t2.inf", 
+		"LAST");
+	
 	web_url("search",
 		"URL=http://enroll-preprod.dchbx.org/insured/consumer_role/search?aqhp=true", 
 		"TargetFrame=", 
@@ -2603,15 +2615,37 @@ CreateUserFlow()
 
  
 
-	web_url("match",
-		"URL=http://{p_EA_URL}/insured/consumer_role/match?utf8=%E2%9C%93&people%5Bid%5D=&person%5Bfirst_name%5D=assisted&person%5Bmiddle_name%5D=&person%5Blast_name%5D={randomLN}&person%5Bname_sfx%5D=&person%5Bdob%5D=1978-01-01&jq_datepicker_ignore_person%5Bdob%5D=01%2F01%2F1978&person%5Bssn%5D={Assisted_SSN}&person%5Bno_ssn%5D=0&person%5Bgender%5D=male", 
-		"Resource=0", 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	
+	web_submit_data("match", 
+		"Action=http://{p_EA_URL}/insured/consumer_role/match", 
+		"Method=POST", 
 		"RecContentType=text/html", 
-		"Referer=http://{p_EA_URL}/insured/consumer_role/search?aqhp=true", 
-		
-		"Snapshot=t19.inf",
+		"Referer={enrollPreprodURL}/insured/consumer_role/search?uqhp=true", 
+		"Snapshot=t6.inf", 
 		"Mode=HTML", 
-		"LAST");
+		"ITEMDATA", 
+		"Name=utf8", "Value=✓", "ENDITEM", 
+		"Name=authenticity_token", "Value={authenticity_token}", "ENDITEM", 
+		"Name=people[id]", "Value=", "ENDITEM", 
+		"Name=person[first_name]", "Value=assisted", "ENDITEM", 
+		"Name=person[middle_name]", "Value=", "ENDITEM", 
+		"Name=person[last_name]", "Value={randomLN}", "ENDITEM", 
+		"Name=person[name_sfx]", "Value=", "ENDITEM", 
+		"Name=person[dob]", "Value=1978-01-01", "ENDITEM", 
+		"Name=jq_datepicker_ignore_person[dob]", "Value=01/01/1978", "ENDITEM", 
+		"Name=person[ssn]", "Value={Assisted_SSN}", "ENDITEM", 
+		"Name=person[no_ssn]", "Value=0", "ENDITEM", 
+		"Name=person[gender]", "Value=male", "ENDITEM", 
+		"LAST");	
 
 	lr_end_transaction("0005_Personal_Info",2);
 
@@ -2795,7 +2829,7 @@ CreateUserFlow()
 	
 	
 	 	
-# 275 "CreateUserFlow.c"
+# 309 "CreateUserFlow.c"
 	lr_end_transaction("0008_Security_Questions", 2);
 	
 	lr_think_time(14);

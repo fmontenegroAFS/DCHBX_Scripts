@@ -137,7 +137,7 @@ SubmitPersonalData()
 	                "Name=person[phones_attributes][1][kind]", "Value=mobile", ENDITEM,
 	                "Name=person[phones_attributes][1][full_phone_number]", "Value=", ENDITEM,
 	                "Name=person[emails_attributes][0][kind]", "Value=home", ENDITEM,
-	                "Name=person[emails_attributes][0][address]", "Value={applicantName}@test.com", ENDITEM,
+	                "Name=person[emails_attributes][0][address]", "Value={applicantName}@{emailDomain}", ENDITEM,
 	                "Name=person[emails_attributes][0][id]", "Value={emailAddressElementID}", ENDITEM,
 	                "Name=person[emails_attributes][1][kind]", "Value=work", ENDITEM,
 	                "Name=person[emails_attributes][1][address]", "Value=", ENDITEM,
