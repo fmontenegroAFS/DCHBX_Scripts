@@ -565,27 +565,26 @@ EmployeeBeginCoverage()
 
 	lr_start_transaction("EMPLYE_0016_Click_Select_Plan");
 
-//	web_submit_data("thankyou",
-//		"Action=http://{enrollAppLandingPage}/insured/plan_shoppings/{plan_shoppings}/thankyou?change_plan=&plan_id={plan_id}",
-//		"Method=POST",
-//		"TargetFrame=",
-//		"RecContentType=text/html",
-//		"Referer=http://{enrollAppLandingPage}/insured/plan_shoppings/{plan_shoppings}",
-//		"Snapshot=t38.inf",
-//		"Mode=HTML",
-//		ITEMDATA,
-//		"Name=_method", "Value=post", ENDITEM,
-//		"Name=authenticity_token", "Value={authenticity_token_3}", ENDITEM,
-//		LAST);
-	
-	web_url("thankyou", 
-		"URL=http://{enrollAppLandingPage}/insured/plan_shoppings/{plan_shoppings}/thankyou?change_plan=&coverage_kind=health&enrollment_kind=sep&market_kind=shop&plan_id={plan_id}", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://enroll-preprod.dchbx.org/insured/plan_shoppings/{plan_shoppings}?coverage_kind=health&enrollment_kind=sep&market_kind=shop", 
-		"Snapshot=t14.inf", 
-		"Mode=HTML", 
+	web_submit_data("thankyou",
+		"Action=http://{enrollAppLandingPage}/insured/plan_shoppings/{plan_shoppings}/thankyou?change_plan=&coverage_kind=health&enrollment_kind=sep&market_kind=shop&plan_id={plan_id}",
+		"Method=POST",
+		"RecContentType=text/html",
+		"Referer=http://{enrollAppLandingPage}/insured/plan_shoppings/{plan_shoppings}?coverage_kind=health&enrollment_kind=sep&market_kind=shop",
+		"Snapshot=t38.inf",
+		"Mode=HTML",
+		ITEMDATA,
+		"Name=_method", "Value=post", ENDITEM,
+		"Name=authenticity_token", "Value={authenticity_token_3}", ENDITEM,
 		LAST);
+	
+//	web_url("thankyou", 
+//		"URL=http://{enrollAppLandingPage}/insured/plan_shoppings/{plan_shoppings}/thankyou?change_plan=&coverage_kind=health&enrollment_kind=sep&market_kind=shop&plan_id={plan_id}", 
+//		"Resource=0", 
+//		"RecContentType=text/html", 
+//		"Referer=http://enroll-preprod.dchbx.org/insured/plan_shoppings/{plan_shoppings}?coverage_kind=health&enrollment_kind=sep&market_kind=shop", 
+//		"Snapshot=t14.inf", 
+//		"Mode=HTML",
+//		LAST);
 
 	lr_end_transaction("EMPLYE_0016_Click_Select_Plan",LR_AUTO);
 	
@@ -600,17 +599,17 @@ EmployeeBeginCoverage()
 	
 	lr_start_transaction("EMPLYE_0017_Purchase");
 
-	web_submit_data("checkout", 
-		"Action=http://{enrollAppLandingPage}/insured/plan_shoppings/{plan_shoppings}/checkout?change_plan=change_plan&plan_id={plan_id}", 
-		"Method=POST", 
-		"RecContentType=text/html", 
-		"Referer=http://{enrollAppLandingPage}/insured/plan_shoppings/{plan_shoppings}/thankyou?change_plan=change_plan&plan_id={plan_id}", 
-		"Snapshot=t27.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=_method", "Value=post", ENDITEM, 
-		"Name=authenticity_token", "Value={authenticity_token_4}", ENDITEM, 
-		LAST);
+//	web_submit_data("checkout", 
+//		"Action=http://{enrollAppLandingPage}/insured/plan_shoppings/{plan_shoppings}/checkout?change_plan=change_plan&plan_id={plan_id}", 
+//		"Method=POST", 
+//		"RecContentType=text/html", 
+//		"Referer=http://{enrollAppLandingPage}/insured/plan_shoppings/{plan_shoppings}/thankyou?change_plan=change_plan&plan_id={plan_id}", 
+//		"Snapshot=t27.inf", 
+//		"Mode=HTML", 
+//		ITEMDATA, 
+//		"Name=_method", "Value=post", ENDITEM, 
+//		"Name=authenticity_token", "Value={authenticity_token_4}", ENDITEM, 
+//		LAST);
 	
 	web_submit_data("checkout",
 		"Action=http://{enrollAppLandingPage}/insured/plan_shoppings/{plan_shoppings}/checkout?coverage_kind=health&enrollment_kind=sep&market_kind=shop&plan_id={plan_id}",
