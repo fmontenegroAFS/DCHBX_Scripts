@@ -1,9 +1,9 @@
 Start auto log messages stack - Iteration 1.
 EmployeeCreateAccount.c(11): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
 EmployeeCreateAccount.c(11): Notify: Saving Parameter "AccountCreated = 0".
-EmployeeCreateAccount.c(11): web_submit_data("users") was successful, 9951 body bytes, 484 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(11): web_submit_data("users") was successful, 20988 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
 EmployeeCreateAccount.c(30): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"
-EmployeeCreateAccount.c(36): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2961 Wasted Time: 0.0103).
+EmployeeCreateAccount.c(36): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2502 Wasted Time: 0.0116).
 EmployeeCreateAccount.c(36): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).
 EmployeeCreateAccount.c(37): Notify: Next row for parameter EmpWorkEmail = 1 [table  = EmpWorkEmail].
 EmployeeCreateAccount.c(37): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "FM20708-61-5589@test.com"
