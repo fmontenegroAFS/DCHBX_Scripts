@@ -2907,7 +2907,7 @@ ConsumerRoleSearch()
 CreateAccount()
 {
 
-	web_reg_find("Text=Welcome! Your account has been created",
+	web_reg_find("Text=Your account has been created",
 	             "LAST");
 	
 	 
@@ -2954,7 +2954,7 @@ CreateAccount()
 # 1 "AccountMatch.c" 1
 AccountMatch()
 {
-	web_reg_find("Text=Now let's see if you and your family are eligible to enroll in coverage on DC Health Link", 
+	web_reg_find("Text=Thank you.", 
 	             "SAVECOUNT=AccountMatch",
 	             	"LAST");
 	
@@ -3019,7 +3019,7 @@ AccountMatch()
 	else
 	{
 			lr_end_transaction("INTEG_UNASSISTED_0011_Account_Match",1);
-			lr_error_message("Failed to get Fantastic msg for User %s", lr_eval_string("{applicantName}"));
+			lr_error_message("Failed to get acknowledgement msg for User %s", lr_eval_string("{applicantName}"));
 			lr_exit(2, 2);
 	}
 	
@@ -3035,7 +3035,7 @@ AccountMatch()
 ConsumerRole()
 {
 	
-	web_reg_find("Text=let's get you signed up for healthcare",
+	web_reg_find("Text=Please answer the following questions",
 	             "SAVECOUNT=ConsumerMatch",
 	             	"LAST");
 	
@@ -3150,7 +3150,7 @@ ConsumerRole()
 SubmitPersonalData()
 {
 	
-	web_reg_find("Text=Consent",
+	web_reg_find("Text=Verify Identity",
 	             "LAST");
 	
 	lr_start_transaction("INTEG_UNASSISTED_0013_Submit_Personal_Data");
@@ -3570,7 +3570,7 @@ SubmitChangeReason()
 		"RequestUrl=*/new*",
 		"LAST");
 	
-	web_reg_find("Text/IC=Covered Family Members",
+	web_reg_find("Text/IC=Who needs coverage?",
 	             "LAST");
 
 	lr_start_transaction("INTEG_UNASSISTED_0017_ID_Submit_Change_Reason");	
@@ -3662,15 +3662,15 @@ GroupSelections()
 ThankYou()
 {
 	
-	 
-	web_reg_save_param_regexp(
-		"ParamName=authenticity_token_7",
-		"RegExp=\\ content=\"(.*?)\"\\ ",
-		"Ordinal=2",
-		"SEARCH_FILTERS",
-		"Scope=Body",
-		"IgnoreRedirections=No",
-		"LAST");
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 	web_reg_find("Text=Confirm Your Plan Selection","LAST");
 
@@ -3678,18 +3678,27 @@ ThankYou()
 	
 	lr_start_transaction("INTEG_UNASSISTED_0019_Thank_You");
 
-	web_submit_data("thankyou",
-	                "Action={enrollPreprodURL}/insured/plan_shoppings/{plan_shoppings}/thankyou?change_plan=&coverage_kind=health&enrollment_kind=sep&market_kind=individual&plan_id={plan_id}",
-	                "Method=POST",
-	                "RecContentType=text/html",
-	                "Referer={enrollPreprodURL}/insured/plan_shoppings/{plan_shoppings}?coverage_kind=health&enrollment_kind=sep&market_kind=individual",
-	                "Snapshot=t78.inf",
-	                "Mode=HTML",
-	                "ITEMDATA",
-	                "Name=_method", "Value=post", "ENDITEM",
-	                "Name=authenticity_token", "Value={authenticity_token_6}", "ENDITEM",
-	                "LAST");
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
+	web_url("thankyou",
+	        "URL={enrollPreprodURL}/insured/plan_shoppings/{plan_shoppings}/thankyou?change_plan=&coverage_kind=health&enrollment_kind=sep&market_kind=shop&plan_id={plan_id}",
+	        "Resource=0",
+	        "RecContentType=text/html",
+	        "Referer={enrollPreprodURL}/insured/plan_shoppings/{plan_shoppings}?coverage_kind=health&enrollment_kind=sep&market_kind=shop",
+	        "Snapshot=t14.inf",
+	        "Mode=HTML",
+	        "LAST");
+	
 	lr_end_transaction("INTEG_UNASSISTED_0019_Thank_You", 2);
 
 	
@@ -3700,7 +3709,7 @@ ThankYou()
 # 1 "CheckOut.c" 1
 CheckOut()
 {
-	web_reg_find("Text/IC=Purchase confirmation","LAST");
+	web_reg_find("Text/IC=Enrollment Submitted","LAST");
 	
 	 
 	web_reg_save_param_regexp(
@@ -3723,7 +3732,7 @@ CheckOut()
 	                "Mode=HTML",
 	                "ITEMDATA",
 	                "Name=_method", "Value=post", "ENDITEM",
-	                "Name=authenticity_token", "Value={authenticity_token_7}", "ENDITEM",
+	                "Name=authenticity_token", "Value={authenticity_token_6}", "ENDITEM",
 	                "LAST");
 
 	lr_end_transaction("INTEG_UNASSISTED_0020_Check_Out", 2);

@@ -1,0 +1,10 @@
+GET /hie/dc/2016/search.cfm?start HTTP/1.1
+Host: staging.checkbookhealth.org
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://staging.checkbookhealth.org/hie/dc/2016/index.cfm?data=eyJGT1JNVkFMVUVTIjp7fSwiVVJMVkFMVUVTIjp7fX0=
+Cookie: LB-Persist=!PRe125tpealbYc45JbCJ8poLtzDaKNnOCyRB8H7KZAXusm4ClGl/QWMGC0zED6OZJBPTsVMfNh7RrQ==; MARBLE=324357756180
+Connection: keep-alive
+

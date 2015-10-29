@@ -45,7 +45,7 @@ SubmitChangeReason()
 		"RequestUrl=*/new*",
 		LAST);
 	
-	web_reg_find("Text/IC=Covered Family Members",
+	web_reg_find("Text/IC=Who needs coverage?",
 	             LAST);
 
 	lr_start_transaction("INTEG_UNASSISTED_0017_ID_Submit_Change_Reason");	

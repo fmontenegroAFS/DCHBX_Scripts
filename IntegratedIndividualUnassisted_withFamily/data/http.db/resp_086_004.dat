@@ -1,0 +1,14 @@
+/* $Id$ */
+
+$(document).ready(function(){
+    $('.hastip').tooltipsy({
+        offset: [3, 0],
+        //showEvent: 'click',
+        content: function (e, x) {
+            return $(e).next('.tt_content').html();
+        }
+    });
+    
+    $('.styled_select').customSelect();
+});
+

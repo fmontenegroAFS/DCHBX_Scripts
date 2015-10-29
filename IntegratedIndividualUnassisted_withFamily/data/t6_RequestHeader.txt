@@ -1,0 +1,11 @@
+GET /users/sign_up HTTP/1.1
+Host: enroll-test.dchbx.org
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0
+Accept: text/html, application/xhtml+xml, application/xml
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+X-XHR-Referer: http://enroll-test.dchbx.org/users/sign_in
+Referer: http://enroll-test.dchbx.org/users/sign_in
+Cookie: _session_id=hMYv13jiU4rGH4uBss96IV8hkIE
+Connection: keep-alive
+

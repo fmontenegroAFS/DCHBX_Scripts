@@ -1,6 +1,6 @@
 AccountMatch()
 {
-	web_reg_find("Text=Now let's see if you and your family are eligible to enroll in coverage on DC Health Link", 
+	web_reg_find("Text=Thank you.", 
 	             "SAVECOUNT=AccountMatch",
 	             	LAST);
 	
@@ -65,7 +65,7 @@ AccountMatch()
 	else
 	{
 			lr_end_transaction("INTEG_UNASSISTED_0011_Account_Match",LR_FAIL);
-			lr_error_message("Failed to get Fantastic msg for User %s", lr_eval_string("{applicantName}"));
+			lr_error_message("Failed to get acknowledgement msg for User %s", lr_eval_string("{applicantName}"));
 			lr_exit(LR_EXIT_ITERATION_AND_CONTINUE, LR_AUTO);
 	}
 	

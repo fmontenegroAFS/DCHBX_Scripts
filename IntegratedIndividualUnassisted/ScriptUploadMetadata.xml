@@ -46,7 +46,6 @@
     <FileEntry Name="UserTasks.xml" Filter="2" />
     <FileEntry Name="combined_IntegratedIndividualUnassisted.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
-    <FileEntry Name="AccountMatch.c.bak" Filter="1" />
     <FileEntry Name="Applicants.dat" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
     <FileEntry Name="data.zip" Filter="1" />

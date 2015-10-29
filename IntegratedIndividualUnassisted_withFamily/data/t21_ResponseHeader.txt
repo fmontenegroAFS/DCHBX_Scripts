@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Server: Microsoft-IIS/7.5
+Set-Cookie: SAVEDPLANSURL=age%3D25%26healthStatus%3D%26medicalExpense%3D%26smoker%3D%26native%3D0%26pregnant%3D0%26county%3DWashington%2520DC%26canceledInsurance%3D%26findSubsidy%3DNO%26calculateSubsidy%3D0%26householdNumber%3D1%26income%3D%26sort%3D2%26docIDs%3D%26coverage%3D%26metal%3D%26planType%3D%26carrier%3D%26doctorsFilter%3D%26premiumFilter%3D%26yearlyFilter%3D%26badYearFilter%3D%26deductibleFilter%3D%26qualityFilter%3D%26qm1%3D%26qm2%3D%26qm3%3D%26qm4%3D%26qm5%3D%26qm6%3D%26qm7%3D%26qm8%3D%26qm9%3D%26qm10%3D%26qm11%3D%26qm12%3D%26qm13%3D%26qm14%3D%26qm15%3D%26network%3D;expires=Sun, 10-Sep-2045 15:27:05 GMT;path=/
+Set-Cookie: SHOWAIALPOPUP=;path=/
+Set-Cookie: SHOWAIALPOPUP=true;expires=Wed, 28-Aug-2019 15:27:05 GMT;path=/
+X-Powered-By: ASP.NET
+Date: Fri, 18 Sep 2015 15:27:05 GMT
+

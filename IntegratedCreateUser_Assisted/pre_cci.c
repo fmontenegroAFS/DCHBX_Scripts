@@ -2580,16 +2580,39 @@ CreateUserFlow()
 
  
 
-	web_url("match",
-		"URL=http://{p_EA_URL}/insured/consumer_role/match?utf8=%E2%9C%93&people%5Bid%5D=&person%5Bfirst_name%5D=assisted&person%5Bmiddle_name%5D=&person%5Blast_name%5D={randomLN}&person%5Bname_sfx%5D=&person%5Bdob%5D=1978-01-01&jq_datepicker_ignore_person%5Bdob%5D=01%2F01%2F1978&person%5Bssn%5D={Assisted_SSN}&person%5Bno_ssn%5D=0&person%5Bgender%5D=male", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://{p_EA_URL}/insured/consumer_role/search?aqhp=true", 
-		
-		"Snapshot=t19.inf",
-		"Mode=HTML", 
-		"LAST");
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
+	web_submit_data("match", 
+		"Action=http://{p_EA_URL}/insured/consumer_role/match", 
+		"Method=POST", 
+		"RecContentType=text/html", 
+		"Referer=http://{p_EA_URL}/insured/consumer_role/search?uqhp=true", 
+		"Snapshot=t6.inf", 
+		"Mode=HTML", 
+		"ITEMDATA", 
+		"Name=utf8", "Value=✓", "ENDITEM", 
+		"Name=authenticity_token", "Value={authenticity_token}", "ENDITEM", 
+		"Name=people[id]", "Value=", "ENDITEM", 
+		"Name=person[first_name]", "Value=assisted", "ENDITEM", 
+		"Name=person[middle_name]", "Value=", "ENDITEM", 
+		"Name=person[last_name]", "Value={randomLN}", "ENDITEM", 
+		"Name=person[name_sfx]", "Value=", "ENDITEM", 
+		"Name=person[dob]", "Value=1978-01-01", "ENDITEM", 
+		"Name=jq_datepicker_ignore_person[dob]", "Value=01/01/1978", "ENDITEM", 
+		"Name=person[ssn]", "Value={Assisted_SSN}", "ENDITEM", 
+		"Name=person[no_ssn]", "Value=0", "ENDITEM", 
+		"Name=person[gender]", "Value=male", "ENDITEM", 
+		"LAST");	
+		
+	
 	lr_end_transaction("0005_Personal_Info",2);
 
 	lr_think_time(20);
@@ -2772,7 +2795,7 @@ CreateUserFlow()
 	
 	
 	 	
-# 277 "CreateUserFlow.c"
+# 300 "CreateUserFlow.c"
 	lr_end_transaction("0008_Security_Questions", 2);
 	
 	lr_think_time(20);

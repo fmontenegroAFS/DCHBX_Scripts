@@ -1,9 +1,12 @@
 Start auto log messages stack - Iteration 1.
-EmployeeBeginCoverage.c(614): Notify: Parameter Substitution: parameter "plan_shoppings" =  "5627eb8569702d1621240000"
-EmployeeBeginCoverage.c(614): Notify: Parameter Substitution: parameter "plan_id" =  "5453a544791e4bcd330000e9"
-EmployeeBeginCoverage.c(614): Notify: Parameter Substitution: parameter "authenticity_token_4" =  "XTrrcfNAWj37a+rAtRXE6hTapzPZYi73xPQ1tvmQepRfWAG0IkR2bRmW3KybcxL+TJJuGrsTHA/yRxbGeLEj+Q=="
-EmployeeBeginCoverage.c(614): Redirecting "http://enroll-preprod.dchbx.org/insured/plan_shoppings/5627eb8569702d1621240000/checkout?coverage_kind=health&enrollment_kind=sep&market_kind=shop&plan_id=5453a544791e4bcd330000e9" (redirection depth is 0)  	[MsgId: MMSG-26694]
-EmployeeBeginCoverage.c(614): To location "http://enroll-preprod.dchbx.org/insured/plan_shoppings/5627eb8569702d1621240000/thankyou?change_plan=&coverage_kind=health&enrollment_kind=sep&market_kind=shop&plan_id=5453a544791e4bcd330000e9"  	[MsgId: MMSG-26693]
-EmployeeBeginCoverage.c(614): Error -26627: HTTP Status-Code=404 (Not Found) for "http://enroll-preprod.dchbx.org/insured/plan_shoppings/5627eb8569702d1621240000/thankyou?change_plan=&coverage_kind=health&enrollment_kind=sep&market_kind=shop&plan_id=5453a544791e4bcd330000e9", Snapshot Info [MSH 1 42]  	[MsgId: MERR-26627]
+EmployeeCreateAccount.c(11): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
+EmployeeCreateAccount.c(11): Notify: Saving Parameter "AccountCreated = 0".
+EmployeeCreateAccount.c(11): web_submit_data("users") was successful, 9951 body bytes, 484 header bytes  	[MsgId: MMSG-26386]
+EmployeeCreateAccount.c(30): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"
+EmployeeCreateAccount.c(36): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2961 Wasted Time: 0.0103).
+EmployeeCreateAccount.c(36): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).
+EmployeeCreateAccount.c(37): Notify: Next row for parameter EmpWorkEmail = 1 [table  = EmpWorkEmail].
+EmployeeCreateAccount.c(37): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "FM20708-61-5589@test.com"
+EmployeeCreateAccount.c(37): Error: Failed to create account for FM20708-61-5589@test.com
 End auto log messages stack.
 
