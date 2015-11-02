@@ -20,7 +20,7 @@ GroupSelections()
 		"RequestUrl=*/group_selections*",
 		LAST);
 
-	web_reg_find("Text=Choose a healthcare plan",LAST);
+	web_reg_find("Text=Choose Healthcare",LAST);
 	
 	lr_start_transaction("INTEG_UNASSISTED_0018_ID_Group_Selections");
 

@@ -1,4 +1,4 @@
-Virtual User Script started at : 10/22/2015 1:31:12 PM
+Virtual User Script started at : 11/2/2015 11:15:48 AM
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.0.0 for Windows 7; build 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -7,69 +7,68 @@ vuser_init.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
 vuser_init.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
 vuser_init.c(9): web_set_max_html_param_len started  	[MsgId: MMSG-26355]
 vuser_init.c(9): web_set_max_html_param_len was successful  	[MsgId: MMSG-26392]
-vuser_init.c(11): Notify: Parameter Substitution: parameter "MillisSeed" =  "133112.162"
+vuser_init.c(11): Notify: Parameter Substitution: parameter "MillisSeed" =  "111548.877"
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
 Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action ScriptFlow.
-ScriptFlow.c(8): Notify: Saving Parameter "LNameLength = 9".
-ScriptFlow.c(9): Notify: Parameter Substitution: parameter "LNameLength" =  "9"
-DataCreation.c(48): Notify: Saving Parameter "randomLN = wusfpccrs".
-DataCreation.c(18): Notify: Saving Parameter "pSSN1dep1_1 = 252".
-DataCreation.c(19): Notify: Saving Parameter "pSSN2dep1_1 = 12".
-DataCreation.c(20): Notify: Saving Parameter "pSSN3dep1_1 = 6356".
-DataCreation.c(22): Notify: Parameter Substitution: parameter "pSSN1dep1_1" =  "252"
-DataCreation.c(22): Notify: Parameter Substitution: parameter "pSSN2dep1_1" =  "12"
-DataCreation.c(22): Notify: Parameter Substitution: parameter "pSSN3dep1_1" =  "6356"
-DataCreation.c(23): Notify: Saving Parameter "EmployeeDep1SSN = 252-12-6356".
-DataCreation.c(25): Notify: Saving Parameter "Assisted_SSN = 252-12-6356".
-ScriptFlow.c(13): Notify: Parameter Substitution: parameter "randomLN" =  "wusfpccrs"
-ScriptFlow.c(13): Notify: Parameter Substitution: parameter "pSSN3dep1_1" =  "6356"
-ScriptFlow.c(15): Notify: Saving Parameter "dp_UserID = IA_wusfpccrs_6356".
+ScriptFlow.c(8): Notify: Saving Parameter "LNameLength = 6".
+ScriptFlow.c(9): Notify: Parameter Substitution: parameter "LNameLength" =  "6"
+DataCreation.c(48): Notify: Saving Parameter "randomLN = fijibm".
+DataCreation.c(18): Notify: Saving Parameter "pSSN1dep1_1 = 948".
+DataCreation.c(19): Notify: Saving Parameter "pSSN2dep1_1 = 60".
+DataCreation.c(20): Notify: Saving Parameter "pSSN3dep1_1 = 8028".
+DataCreation.c(22): Notify: Parameter Substitution: parameter "pSSN1dep1_1" =  "948"
+DataCreation.c(22): Notify: Parameter Substitution: parameter "pSSN2dep1_1" =  "60"
+DataCreation.c(22): Notify: Parameter Substitution: parameter "pSSN3dep1_1" =  "8028"
+DataCreation.c(23): Notify: Saving Parameter "EmployeeDep1SSN = 948-60-8028".
+DataCreation.c(25): Notify: Saving Parameter "Assisted_SSN = 948-60-8028".
+ScriptFlow.c(13): Notify: Parameter Substitution: parameter "randomLN" =  "fijibm"
+ScriptFlow.c(13): Notify: Parameter Substitution: parameter "pSSN3dep1_1" =  "8028"
+ScriptFlow.c(15): Notify: Saving Parameter "dp_UserID = IA_fijibm_8028".
 CreateUserFlow.c(5): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(5): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
 CreateUserFlow.c(7): Notify: Transaction "0003_Select_Individual" started.
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535072181".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480948896".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535072181"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480948896"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 CreateUserFlow.c(21): web_url("search") started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(21): Redirecting "http://enroll-preprod.dchbx.org/insured/consumer_role/search?aqhp=true" (redirection depth is 0)  	[MsgId: MMSG-26694]
 CreateUserFlow.c(21): To location "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26693]
-CreateUserFlow.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/application-aa0abdbde5ee8a6fd9fafd6ade3bf340.css" in HTML "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/application-2ac465d110f12de5756c160552db9427.js" in HTML "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/application-e8ba5aa0d555bc9b213c60faeb8d04b9.css" in HTML "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/application-5bda676d080c75d0e20885d4bee972b8.js" in HTML "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(21): Found resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" in HTML "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/logo-37b2d59fd0101e8781456ec388f3400a.png" in HTML "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" in HTML "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" in HTML "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" in HTML "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(21): Notify: Saving Parameter "authenticity_token = nVdodPenv+ECSNzpNNLDHkDnFCrttSMoflEdY1OdASXGMzLf55+EEA4edwgS6HAkydRLJIyNpZn2T/nj5BQ0MQ==".
-CreateUserFlow.c(21): web_url("search") was successful, 1091852 body bytes, 3645 header bytes, 232 chunking overhead bytes  	[MsgId: MMSG-26385]
-CreateUserFlow.c(31): Notify: Transaction "0003_Select_Individual" ended with a "Pass" status (Duration: 2.4632 Wasted Time: 1.3589).
+CreateUserFlow.c(21): Notify: Saving Parameter "authenticity_token = Qs9KQ5+bqdAkOwJvQ4iV7DFxpqd0/qT/Skur32dnTfpwPPgp/wLs5Zx7jTuFtzfXJZgkdkxvFttC1uFiDe6WRQ==".
+CreateUserFlow.c(21): web_url("search") was successful, 1113355 body bytes, 3645 header bytes, 241 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateUserFlow.c(31): Notify: Transaction "0003_Select_Individual" ended with a "Pass" status (Duration: 2.8492 Wasted Time: 1.6948).
 CreateUserFlow.c(35): Notify: Transaction "0004_Create_EnrollApp_User" started.
 CreateUserFlow.c(39): web_submit_data("users") started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(39): Notify: Parameter Substitution: parameter "p_EA_URL" =  "enroll-preprod.dchbx.org"
 CreateUserFlow.c(39): Notify: Parameter Substitution: parameter "p_EA_URL" =  "enroll-preprod.dchbx.org"
-CreateUserFlow.c(39): Notify: Parameter Substitution: parameter "authenticity_token" =  "nVdodPenv+ECSNzpNNLDHkDnFCrttSMoflEdY1OdASXGMzLf55+EEA4edwgS6HAkydRLJIyNpZn2T/nj5BQ0MQ=="
-CreateUserFlow.c(39): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+CreateUserFlow.c(39): Notify: Parameter Substitution: parameter "authenticity_token" =  "Qs9KQ5+bqdAkOwJvQ4iV7DFxpqd0/qT/Skur32dnTfpwPPgp/wLs5Zx7jTuFtzfXJZgkdkxvFttC1uFiDe6WRQ=="
+CreateUserFlow.c(39): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 CreateUserFlow.c(39): Notify: Parameter Substitution: parameter "emailDomain" =  "test.com"
 CreateUserFlow.c(39): Redirecting "http://enroll-preprod.dchbx.org/users" (redirection depth is 0)  	[MsgId: MMSG-26694]
 CreateUserFlow.c(39): To location "http://enroll-preprod.dchbx.org/insured/consumer_role/search?aqhp=true"  	[MsgId: MMSG-26693]
-CreateUserFlow.c(39): Resource "http://enroll-preprod.dchbx.org/assets/application-aa0abdbde5ee8a6fd9fafd6ade3bf340.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-CreateUserFlow.c(39): Resource "http://enroll-preprod.dchbx.org/assets/application-2ac465d110f12de5756c160552db9427.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+CreateUserFlow.c(39): Resource "http://enroll-preprod.dchbx.org/assets/application-e8ba5aa0d555bc9b213c60faeb8d04b9.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+CreateUserFlow.c(39): Resource "http://enroll-preprod.dchbx.org/assets/application-5bda676d080c75d0e20885d4bee972b8.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(39): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(39): Resource "http://enroll-preprod.dchbx.org/assets/logo-37b2d59fd0101e8781456ec388f3400a.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-CreateUserFlow.c(39): Found resource "http://enroll-preprod.dchbx.org/assets/icons/icon-individual-8a4cafd6dc492fdb0c305a4484e74d14.png" in HTML "http://enroll-preprod.dchbx.org/insured/consumer_role/search?aqhp=true"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(39): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(39): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(39): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-CreateUserFlow.c(39): web_submit_data("users") was successful, 28681 body bytes, 1439 header bytes  	[MsgId: MMSG-26386]
-CreateUserFlow.c(59): Notify: Transaction "0004_Create_EnrollApp_User" ended with a "Pass" status (Duration: 0.2954 Wasted Time: 0.0074).
+CreateUserFlow.c(39): web_submit_data("users") was successful, 25193 body bytes, 1104 header bytes  	[MsgId: MMSG-26386]
+CreateUserFlow.c(59): Notify: Transaction "0004_Create_EnrollApp_User" ended with a "Pass" status (Duration: 0.3047 Wasted Time: 0.0100).
 CreateUserFlow.c(64): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(64): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
 CreateUserFlow.c(67): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
@@ -78,75 +77,76 @@ CreateUserFlow.c(69): Notify: Transaction "0005_Personal_Info" started.
 CreateUserFlow.c(83): web_submit_data("match") started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(83): Notify: Parameter Substitution: parameter "p_EA_URL" =  "enroll-preprod.dchbx.org"
 CreateUserFlow.c(83): Notify: Parameter Substitution: parameter "p_EA_URL" =  "enroll-preprod.dchbx.org"
-CreateUserFlow.c(83): Notify: Parameter Substitution: parameter "authenticity_token" =  "nVdodPenv+ECSNzpNNLDHkDnFCrttSMoflEdY1OdASXGMzLf55+EEA4edwgS6HAkydRLJIyNpZn2T/nj5BQ0MQ=="
-CreateUserFlow.c(83): Notify: Parameter Substitution: parameter "randomLN" =  "wusfpccrs"
-CreateUserFlow.c(83): Notify: Parameter Substitution: parameter "Assisted_SSN" =  "252-12-6356"
-CreateUserFlow.c(83): Resource "http://enroll-preprod.dchbx.org/assets/application-aa0abdbde5ee8a6fd9fafd6ade3bf340.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-CreateUserFlow.c(83): Resource "http://enroll-preprod.dchbx.org/assets/application-2ac465d110f12de5756c160552db9427.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+CreateUserFlow.c(83): Notify: Parameter Substitution: parameter "authenticity_token" =  "Qs9KQ5+bqdAkOwJvQ4iV7DFxpqd0/qT/Skur32dnTfpwPPgp/wLs5Zx7jTuFtzfXJZgkdkxvFttC1uFiDe6WRQ=="
+CreateUserFlow.c(83): Notify: Parameter Substitution: parameter "randomLN" =  "fijibm"
+CreateUserFlow.c(83): Notify: Parameter Substitution: parameter "Assisted_SSN" =  "948-60-8028"
+CreateUserFlow.c(83): Resource "http://enroll-preprod.dchbx.org/assets/application-e8ba5aa0d555bc9b213c60faeb8d04b9.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+CreateUserFlow.c(83): Resource "http://enroll-preprod.dchbx.org/assets/application-5bda676d080c75d0e20885d4bee972b8.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(83): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(83): Resource "http://enroll-preprod.dchbx.org/assets/logo-37b2d59fd0101e8781456ec388f3400a.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-CreateUserFlow.c(83): Resource "http://enroll-preprod.dchbx.org/assets/icons/icon-individual-8a4cafd6dc492fdb0c305a4484e74d14.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(83): Found resource "http://enroll-preprod.dchbx.org/assets/icons/list-f0ce83c809fcb33568ee1787941dc643.png" in HTML "http://enroll-preprod.dchbx.org/insured/consumer_role/match"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(83): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(83): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(83): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-CreateUserFlow.c(83): Notify: Saving Parameter "authenticity_token_1 = 88xRBvUv9OaiQi5Hboefv3OWYca1VBXWsrAKYSg+BguoqAut5RfPF64UhaZIvSyF+qU+yNRsk2c6ru7hn7czHw==".
-CreateUserFlow.c(83): Notify: Saving Parameter "5D_Param = 56291d6969702d2b9e320000".
-CreateUserFlow.c(83): web_submit_data("match") was successful, 27735 body bytes, 820 header bytes  	[MsgId: MMSG-26386]
-CreateUserFlow.c(106): Notify: Transaction "0005_Personal_Info" ended with a "Pass" status (Duration: 0.2611 Wasted Time: 0.0460).
+CreateUserFlow.c(83): Notify: Saving Parameter "authenticity_token_1 = VPILW8i+rzNj32WszMgaYJec5GCMVm2TJTkmiUtP1UxmAbkxqCfqBtuf6vgK97hbg3VmsbTH37ctpGw0IcYO8w==".
+CreateUserFlow.c(83): Notify: Saving Parameter "5D_Param = 56378c4669702d5b861d0000".
+CreateUserFlow.c(83): web_submit_data("match") was successful, 26441 body bytes, 820 header bytes  	[MsgId: MMSG-26386]
+CreateUserFlow.c(106): Notify: Transaction "0005_Personal_Info" ended with a "Pass" status (Duration: 0.1927 Wasted Time: 0.0089).
 CreateUserFlow.c(111): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(111): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
 CreateUserFlow.c(118): Notify: Transaction "0006_Continue" started.
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535075209".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480952249".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535075209"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480952249"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 CreateUserFlow.c(122): web_submit_data("consumer_role") started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "p_EA_URL" =  "enroll-preprod.dchbx.org"
-CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "randomLN" =  "wusfpccrs"
-CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "Assisted_SSN" =  "252-12-6356"
-CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "5D_Param" =  "56291d6969702d2b9e320000"
+CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "randomLN" =  "fijibm"
+CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "Assisted_SSN" =  "948-60-8028"
+CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "5D_Param" =  "56378c4669702d5b861d0000"
 CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "p_EA_URL" =  "enroll-preprod.dchbx.org"
-CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "randomLN" =  "wusfpccrs"
-CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "Assisted_SSN" =  "252-12-6356"
-CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "authenticity_token_1" =  "88xRBvUv9OaiQi5Hboefv3OWYca1VBXWsrAKYSg+BguoqAut5RfPF64UhaZIvSyF+qU+yNRsk2c6ru7hn7czHw=="
-CreateUserFlow.c(122): Redirecting "http://enroll-preprod.dchbx.org/insured/consumer_role?person%5Bdob%5D=1978-01-01&person%5Bfirst_name%5D=assisted&person%5Bgender%5D=male&person%5Blast_name%5D=wusfpccrs&person%5Bmiddle_name%5D=&person%5Bname_sfx%5D=&person%5Bno_ssn%5D=0&person%5Bssn%5D=252-12-6356&person%5Buser_id%5D=56291d6969702d2b9e320000" (redirection depth is 0)  	[MsgId: MMSG-26694]
+CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "randomLN" =  "fijibm"
+CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "Assisted_SSN" =  "948-60-8028"
+CreateUserFlow.c(122): Notify: Parameter Substitution: parameter "authenticity_token_1" =  "VPILW8i+rzNj32WszMgaYJec5GCMVm2TJTkmiUtP1UxmAbkxqCfqBtuf6vgK97hbg3VmsbTH37ctpGw0IcYO8w=="
+CreateUserFlow.c(122): Redirecting "http://enroll-preprod.dchbx.org/insured/consumer_role?person%5Bdob%5D=1978-01-01&person%5Bfirst_name%5D=assisted&person%5Bgender%5D=male&person%5Blast_name%5D=fijibm&person%5Bmiddle_name%5D=&person%5Bname_sfx%5D=&person%5Bno_ssn%5D=0&person%5Bssn%5D=948-60-8028&person%5Buser_id%5D=56378c4669702d5b861d0000" (redirection depth is 0)  	[MsgId: MMSG-26694]
+CreateUserFlow.c(122): To location "http://enroll-preprod.dchbx.org/saml/navigate_to_assistance"  	[MsgId: MMSG-26693]
+CreateUserFlow.c(122): Redirecting "http://enroll-preprod.dchbx.org/saml/navigate_to_assistance" (redirection depth is 1)  	[MsgId: MMSG-26694]
 CreateUserFlow.c(122): To location "https://webpp.dchealthlink.com/oam/server/logout?end_url=https://webpp.dchealthlink.com/fed/user/logout?returnurl=https://webpp.dchealthlink.com/CitizenPortal"  	[MsgId: MMSG-26693]
-CreateUserFlow.c(122): Redirecting "https://webpp.dchealthlink.com/oam/server/logout?end_url=https://webpp.dchealthlink.com/fed/user/logout?returnurl=https://webpp.dchealthlink.com/CitizenPortal" (redirection depth is 1)  	[MsgId: MMSG-26694]
+CreateUserFlow.c(122): Redirecting "https://webpp.dchealthlink.com/oam/server/logout?end_url=https://webpp.dchealthlink.com/fed/user/logout?returnurl=https://webpp.dchealthlink.com/CitizenPortal" (redirection depth is 2)  	[MsgId: MMSG-26694]
 CreateUserFlow.c(122): To location "https://webpp.dchealthlink.com/fed/user/logout?returnurl=https%3A%2F%2Fwebpp.dchealthlink.com%2FCitizenPortal"  	[MsgId: MMSG-26693]
-CreateUserFlow.c(122): Redirecting "https://webpp.dchealthlink.com/fed/user/logout?returnurl=https%3A%2F%2Fwebpp.dchealthlink.com%2FCitizenPortal" (redirection depth is 2)  	[MsgId: MMSG-26694]
+CreateUserFlow.c(122): Redirecting "https://webpp.dchealthlink.com/fed/user/logout?returnurl=https%3A%2F%2Fwebpp.dchealthlink.com%2FCitizenPortal" (redirection depth is 3)  	[MsgId: MMSG-26694]
 CreateUserFlow.c(122): To location "https://webpp.dchealthlink.com/oam/server/logout?p_done_url=https%3A%2F%2Fwebpp.dchealthlink.com%2Ffed%2Fuser%2Fslooam11g%3Fid%3Doam11g%26type%3D2&invokeOSFSLogout=false"  	[MsgId: MMSG-26693]
-CreateUserFlow.c(122): Redirecting "https://webpp.dchealthlink.com/oam/server/logout?p_done_url=https%3A%2F%2Fwebpp.dchealthlink.com%2Ffed%2Fuser%2Fslooam11g%3Fid%3Doam11g%26type%3D2&invokeOSFSLogout=false" (redirection depth is 3)  	[MsgId: MMSG-26694]
+CreateUserFlow.c(122): Redirecting "https://webpp.dchealthlink.com/oam/server/logout?p_done_url=https%3A%2F%2Fwebpp.dchealthlink.com%2Ffed%2Fuser%2Fslooam11g%3Fid%3Doam11g%26type%3D2&invokeOSFSLogout=false" (redirection depth is 4)  	[MsgId: MMSG-26694]
 CreateUserFlow.c(122): To location "https://webpp.dchealthlink.com/fed/user/slooam11g?id=oam11g&type=2"  	[MsgId: MMSG-26693]
-CreateUserFlow.c(122): Redirecting "https://webpp.dchealthlink.com/fed/user/slooam11g?id=oam11g&type=2" (redirection depth is 4)  	[MsgId: MMSG-26694]
+CreateUserFlow.c(122): Redirecting "https://webpp.dchealthlink.com/fed/user/slooam11g?id=oam11g&type=2" (redirection depth is 5)  	[MsgId: MMSG-26694]
 CreateUserFlow.c(122): To location "https://webpp.dchealthlink.com/CitizenPortal"  	[MsgId: MMSG-26693]
-CreateUserFlow.c(122): Redirecting "https://webpp.dchealthlink.com/CitizenPortal" (redirection depth is 5)  	[MsgId: MMSG-26694]
-CreateUserFlow.c(122): To location "https://webpp.dchealthlink.com:443/oam/server/obrareq.cgi?encquery%3DZZEJ0tkWv%2F0STZrIkLYsNcU9yn%2BZkdlPB38Wdh3n5Cmog%2Fcm6XbPxKKCfEj0p27QKbQ9oVUHuIoQts12w430Qf1mFsXe9AYGx6UY3qGEMNdtvGEoNZjRmOAJgzMJB84kqA%2BY9pVbWc5sizBH0elm%2BxUGbKHHVi5%2B2dFQZUHWXV6hgSnrcCwWlxT2yMTsM%2FUdMMHls%2Fzib9yhsSscusT%2BFll9%2B%2BvZvm3tJr6hN7NPyLK0kd%2FaVZF4cSb5WW5etHsssv0Yfe%2F7k6sx6P%2F8dYyF%2FQuRwxlLTFKa5G46N%2FkdBag%3D%20agentid%3DDCAS_WG%20ver%3D1%20crmethod%3D2"  	[MsgId: MMSG-26693]
-CreateUserFlow.c(122): Redirecting "https://webpp.dchealthlink.com:443/oam/server/obrareq.cgi?encquery%3DZZEJ0tkWv%2F0STZrIkLYsNcU9yn%2BZkdlPB38Wdh3n5Cmog%2Fcm6XbPxKKCfEj0p27QKbQ9oVUHuIoQts12w430Qf1mFsXe9AYGx6UY3qGEMNdtvGEoNZjRmOAJgzMJB84kqA%2BY9pVbWc5sizBH0elm%2BxUGbKHHVi5%2B2dFQZUHWXV6hgSnrcCwWlxT2yMTsM%2FUdMMHls%2Fzib9yhsSscusT%2BFll9%2B%2BvZvm3tJr6hN7NPyLK0kd%2FaVZF4cSb5WW5etHsssv0Yfe%2F7k6sx6P%2F8dYyF%2FQuRwxlLTFKa5G46N%2FkdBag%3D%20agentid%3DDCAS_WG%20ver%3D1%20crmethod%3D2" (redirection depth is 6)  	[MsgId: MMSG-26694]
-CreateUserFlow.c(122): To location "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26693]
-CreateUserFlow.c(122): Notify: Saving Parameter "tap_token = v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&".
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/css/oaam_uio.css" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/js/oaam_uio.js" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://fonts.googleapis.com/css?family=Open+Sans:600,800,400,700,300" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/jquery-1.11.2.min.js" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-img/logo.png" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-img/icon/phone-sm-blue.png" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/js/AC_OETags.js" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/bootstrap.min.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/shared.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/jquery.once.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/drupal.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/form.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/jquery.bxslider.min.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/not-homepage.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/jquery.numberMask.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/extlink.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/googleanalytics.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-5568341380574249644&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(122): web_submit_data("consumer_role") was successful, 260349 body bytes, 17165 header bytes, 272 chunking overhead bytes  	[MsgId: MMSG-26385]
-CreateUserFlow.c(164): Notify: Transaction "0006_Continue" ended with a "Pass" status (Duration: 5.1585 Wasted Time: 0.0534).
+CreateUserFlow.c(122): Redirecting "https://webpp.dchealthlink.com/CitizenPortal" (redirection depth is 6)  	[MsgId: MMSG-26694]
+CreateUserFlow.c(122): To location "https://webpp.dchealthlink.com:443/oam/server/obrareq.cgi?encquery%3DL1vUonHu5Tk3YnD3rlcWY3uAQd6MXFzL4%2BYLGYAV03uQUDDeGa3XITaHaXnAUYED4zlp3dQ4uy%2FHANN6Qkx60e%2BHaGtXd9coLglBw8J1j%2FFYh18%2BwkU%2BdBDvTUfEMPQDB7LZTotv2SsjoFqyiV%2F3eXj3LrlsMPdcCINtIXq0O4ZRffVv%2Bg%2FRfeS63BPthVOcIjYFdeq%2FN8qg91EaVvp4L9zoBXyU8x64RZSvoKrQ3nbpFfUWR0LCwivhiy6Y1QLZJFejjOX4mQXSahO8T1%2BGUlJYK%2FGM%2F%2BvWediyqtx2lPQ%3D%20agentid%3DDCAS_WG%20ver%3D1%20crmethod%3D2"  	[MsgId: MMSG-26693]
+CreateUserFlow.c(122): Redirecting "https://webpp.dchealthlink.com:443/oam/server/obrareq.cgi?encquery%3DL1vUonHu5Tk3YnD3rlcWY3uAQd6MXFzL4%2BYLGYAV03uQUDDeGa3XITaHaXnAUYED4zlp3dQ4uy%2FHANN6Qkx60e%2BHaGtXd9coLglBw8J1j%2FFYh18%2BwkU%2BdBDvTUfEMPQDB7LZTotv2SsjoFqyiV%2F3eXj3LrlsMPdcCINtIXq0O4ZRffVv%2Bg%2FRfeS63BPthVOcIjYFdeq%2FN8qg91EaVvp4L9zoBXyU8x64RZSvoKrQ3nbpFfUWR0LCwivhiy6Y1QLZJFejjOX4mQXSahO8T1%2BGUlJYK%2FGM%2F%2BvWediyqtx2lPQ%3D%20agentid%3DDCAS_WG%20ver%3D1%20crmethod%3D2" (redirection depth is 7)  	[MsgId: MMSG-26694]
+CreateUserFlow.c(122): To location "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26693]
+CreateUserFlow.c(122): Notify: Saving Parameter "tap_token = v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&".
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/css/oaam_uio.css" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/js/oaam_uio.js" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://fonts.googleapis.com/css?family=Open+Sans:600,800,400,700,300" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/jquery-1.11.2.min.js" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-img/logo.png" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-img/icon/phone-sm-blue.png" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/js/AC_OETags.js" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/bootstrap.min.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/shared.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/jquery.once.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/drupal.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/form.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/jquery.bxslider.min.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/not-homepage.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/jquery.numberMask.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/extlink.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): Found resource "https://webpp.dchealthlink.com:443/oaam_server/dhs/ui/dcas-ui-wrapper-js/googleanalytics.js?nu05sh" in HTML "https://webpp.dchealthlink.com:443/oaam_server/oamLoginPage.jsp?tap_token=v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&TapSubmitURL=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foam%2Fserver%2Fdap%2Fcred_submit&authn_try_count=0&contextType=external&TAPPartnerId=OAAMTAPPartner&miscCookie=Secure%3Bhttponly&MatchLDAPAttribute=uid&daptoken=string&challenge_url=https%3A%2F%2Fwebpp.dchealthlink.com%3A443%2Foaam_server%2FoamLoginPage.jsp&ssoCookie=Secure%3Bhttponly&request_id=-4351959196342832449&locale=en_US&resource_url=https%253A%252F%252Fwebpp.dchealthlink.com%252FCitizenPortal"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(122): web_submit_data("consumer_role") was successful, 256034 body bytes, 17740 header bytes, 287 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateUserFlow.c(164): Notify: Transaction "0006_Continue" ended with a "Pass" status (Duration: 1.1244 Wasted Time: 0.0492).
 CreateUserFlow.c(166): web_add_cookie started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(166): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 CreateUserFlow.c(166): web_add_cookie was successful  	[MsgId: MMSG-26392]
@@ -156,20 +156,20 @@ CreateUserFlow.c(174): web_reg_find started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(174): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 CreateUserFlow.c(176): Notify: Transaction "0007_Login_Curam" started.
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535080378".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480953389".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535080378"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480953389"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 CreateUserFlow.c(180): web_submit_data("loginAuth.do") started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(180): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 CreateUserFlow.c(180): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
-CreateUserFlow.c(180): Notify: Parameter Substitution: parameter "tap_token" =  "v2.0%7EOAAMTAPPartner%7ENEU2MURGRDI1MjgxNUMxMEY1MTg1Nn4wNDgwNkU0NjA0OTRGOEVGNzI2NkRGMDdFNzhBN0QzRkQ4NzlGQUE3fkM3RUZDREJDQkRDNDA1RTVDRTExOEE1RDFCRUYwRDNBfjREN0Q2Qzc3QzEwRDNGQTU2RkM2MDk0MUM4MTBFQkZFQTQwODg0QzZDRkYzOUFGNjM2M0I4RDA4MkFFMkJGNTUxNjQ4MDE0QUY2MTgzRTJENTYzNDU5RTlBMkUwODU0NEEyMjRDMDE3RjhCRjYzOTUzRDNCRjI3REJBNkRBMjVFQzZEQTY0MUQ3QTNGNUU5NkNFOTE0N0VGRUQ1RkIwQTNENjEzNTMzOEY4Q0VDNTQ2RkMyMjI4MTE0QTFCQzZDMDZENDUyOEY0MEFCNTREQ0U1MkUzQjE0NEYzQzVERUM4RjQ3QkMzQTZENjRFREQzRUQ4MTdCMEU3ODY3QTg1QTE%3D&"
+CreateUserFlow.c(180): Notify: Parameter Substitution: parameter "tap_token" =  "v2.0%7EOAAMTAPPartner%7ENEUxQjI3NjVERjA3OTZFNTQ2ODIzOH40MEY5QTE4NkIzQUNCOURDQTVERDU1QkEzQTBDRDFDMTA2M0QzRjYwfjFFOTBENDUwODAxRkU1NDU1RkU5ODEyMzcxNzRCRTUzfjMxNzE0REY4RTI1NjA2NUU5RkNDNTFCMzMyNjY0MjgwNzBDRENGMDFFMzQzMDY5QjA3MkQ1QTE2RTU4MUZDOTREOTNDM0NFMjI2RUVBRjhERkQxOTdCMzBGRTFFMDBBMEJDMzg2Mjk0MDc5QTJEOUM1MDRGRDIyRUQyNDE3RTJEM0IxODU5N0EyNkJEREI3QzA2M0YxRUQwODE3QzNCQkYyMDIwMUQ4MjYxNzJCOEZEMTY0QkI1RkYzNTI4NDU2OTNBQTQ0REYyRDFCRUE0MTg2NTFGMjU4QTkwNTJEMDI4NEIzN0U3MEZBNDIxRjk4QjJCQTNBOUJFNTUzRDVFQjY%3D&"
 CreateUserFlow.c(180): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 CreateUserFlow.c(180): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 CreateUserFlow.c(180): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
-CreateUserFlow.c(180): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+CreateUserFlow.c(180): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 CreateUserFlow.c(180): Notify: Parameter Substitution: parameter "emailDomain" =  "test.com"
 CreateUserFlow.c(180): Detected non-resource "https://webpp.dchealthlink.com/oaam_server/authJump.do?jump=false" in "https://webpp.dchealthlink.com/oaam_server/loginAuth.do"  	[MsgId: MMSG-26574]
 CreateUserFlow.c(180): Resource "https://webpp.dchealthlink.com/oaam_server/css/oaam_uio.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
@@ -199,9 +199,9 @@ CreateUserFlow.c(180): Registered web_reg_find successful for "Text=The username
 CreateUserFlow.c(180): Notify: Saving Parameter "OIMLOGIN = 0".
 CreateUserFlow.c(180): Registered web_reg_find successful for "Text=Please select three questions from the drop downs below" (count=1)  	[MsgId: MMSG-26364]
 CreateUserFlow.c(180): Notify: Saving Parameter "LOGIN_Success = 1".
-CreateUserFlow.c(180): web_submit_data("loginAuth.do") was successful, 53796 body bytes, 3896 header bytes, 152 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateUserFlow.c(180): web_submit_data("loginAuth.do") was successful, 44767 body bytes, 3896 header bytes, 138 chunking overhead bytes  	[MsgId: MMSG-26385]
 CreateUserFlow.c(195): Notify: Parameter Substitution: parameter "LOGIN_Success" =  "1"
-CreateUserFlow.c(197): Notify: Transaction "0007_Login_Curam" ended with a "Pass" status (Duration: 19.7707 Wasted Time: 0.0192).
+CreateUserFlow.c(197): Notify: Transaction "0007_Login_Curam" ended with a "Pass" status (Duration: 23.1424 Wasted Time: 0.0134).
 CreateUserFlow.c(216): web_reg_save_param started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(216): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
 CreateUserFlow.c(221): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
@@ -212,11 +212,11 @@ CreateUserFlow.c(223): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(223): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
 CreateUserFlow.c(225): Notify: Transaction "0007_1_Login_Curam_authJump" started.
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535100154".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480976538".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535100154"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480976538"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 CreateUserFlow.c(227): web_url("authJump.do") started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(227): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
@@ -257,7 +257,7 @@ CreateUserFlow.c(227): Resource "https://fonts.googleapis.com/css?family=Open+Sa
 CreateUserFlow.c(227): Resource "https://webpp.dchealthlink.com/oaam_server/dhs/ui/dcas-ui-wrapper-js/jquery-1.11.2.min.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(227): Resource "https://webpp.dchealthlink.com/oaam_server/dhs/ui/dcas-ui-wrapper-img/logo.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(227): Resource "https://webpp.dchealthlink.com/oaam_server/dhs/ui/dcas-ui-wrapper-img/icon/phone-sm-blue.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-CreateUserFlow.c(227): Notify: Saving Parameter "corr_fkvalue = 5165_6982057a137e45e30c19b1b88fd1ac45eb2c4cb8c6cba6da601d0af54d633087".
+CreateUserFlow.c(227): Notify: Saving Parameter "corr_fkvalue = 8561_f6524188cbca64b02c1bb20ac2dbfa87f088d25e54067c2b392b3c0ed08e831d".
 CreateUserFlow.c(227): Resource "https://webpp.dchealthlink.com/oaam_server/js/oaam_uio_html.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(227): Resource "https://webpp.dchealthlink.com/oaam_server/dhs/ui/dcas-ui-wrapper-js/bootstrap.min.js?nu05sh" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(227): Resource "https://webpp.dchealthlink.com/oaam_server/dhs/ui/dcas-ui-wrapper-js/shared.js?nu05sh" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
@@ -269,57 +269,57 @@ CreateUserFlow.c(227): Resource "https://webpp.dchealthlink.com/oaam_server/dhs/
 CreateUserFlow.c(227): Resource "https://webpp.dchealthlink.com/oaam_server/dhs/ui/dcas-ui-wrapper-js/jquery.numberMask.js?nu05sh" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(227): Resource "https://webpp.dchealthlink.com/oaam_server/dhs/ui/dcas-ui-wrapper-js/extlink.js?nu05sh" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 CreateUserFlow.c(227): Resource "https://webpp.dchealthlink.com/oaam_server/dhs/ui/dcas-ui-wrapper-js/googleanalytics.js?nu05sh" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-CreateUserFlow.c(227): Notify: Saving Parameter "question0 = What state did you visit the first time you left home&#63;".
-CreateUserFlow.c(227): Notify: Saving Parameter "question1 = What is your significant other&#39;s favorite color&#63;".
-CreateUserFlow.c(227): Notify: Saving Parameter "question2 = What was the year of your favorite soccer World Cup&#63;".
-CreateUserFlow.c(227): web_url("authJump.do") was successful, 235982 body bytes, 8425 header bytes, 91 chunking overhead bytes  	[MsgId: MMSG-26385]
-CreateUserFlow.c(250): Notify: Transaction "0007_1_Login_Curam_authJump" ended with a "Pass" status (Duration: 0.9632 Wasted Time: 0.0473).
+CreateUserFlow.c(227): Notify: Saving Parameter "question0 = What was your father&#39;s profession when you were born&#63;".
+CreateUserFlow.c(227): Notify: Saving Parameter "question1 = What color was the interior of your first car&#63;".
+CreateUserFlow.c(227): Notify: Saving Parameter "question2 = What is the middle name of your youngest sibling&#63;".
+CreateUserFlow.c(227): web_url("authJump.do") was successful, 231945 body bytes, 8425 header bytes, 84 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateUserFlow.c(250): Notify: Transaction "0007_1_Login_Curam_authJump" ended with a "Pass" status (Duration: 0.4966 Wasted Time: 0.0463).
 CreateUserFlow.c(254): Notify: Saving Parameter "question00 = question0".
 CreateUserFlow.c(255): Notify: Saving Parameter "question11 = question1".
 CreateUserFlow.c(256): Notify: Saving Parameter "question22 = question2".
 CreateUserFlow.c(258): web_convert_param started  	[MsgId: MMSG-26355]
-CreateUserFlow.c(258): Notify: Saving Parameter "question0 = What state did you visit the first time you left home?".
+CreateUserFlow.c(258): Notify: Saving Parameter "question0 = What was your father's profession when you were born?".
 CreateUserFlow.c(258): web_convert_param was successful  	[MsgId: MMSG-26392]
 CreateUserFlow.c(261): web_convert_param started  	[MsgId: MMSG-26355]
-CreateUserFlow.c(261): Notify: Saving Parameter "question1 = What is your significant other's favorite color?".
+CreateUserFlow.c(261): Notify: Saving Parameter "question1 = What color was the interior of your first car?".
 CreateUserFlow.c(261): web_convert_param was successful  	[MsgId: MMSG-26392]
 CreateUserFlow.c(264): web_convert_param started  	[MsgId: MMSG-26355]
-CreateUserFlow.c(264): Notify: Saving Parameter "question2 = What was the year of your favorite soccer World Cup?".
+CreateUserFlow.c(264): Notify: Saving Parameter "question2 = What is the middle name of your youngest sibling?".
 CreateUserFlow.c(264): web_convert_param was successful  	[MsgId: MMSG-26392]
 CreateUserFlow.c(270): Notify: Transaction "0008_Security_Questions" started.
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535101123".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480977041".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535101123"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480977041"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 CreateUserFlow.c(274): web_submit_form("registerQuestions.do") started  	[MsgId: MMSG-26355]
-CreateUserFlow.c(274): Notify: Parameter Substitution: parameter "question0" =  "What state did you visit the first time you left home?"
-CreateUserFlow.c(274): Notify: Parameter Substitution: parameter "question1" =  "What is your significant other's favorite color?"
-CreateUserFlow.c(274): Notify: Parameter Substitution: parameter "question2" =  "What was the year of your favorite soccer World Cup?"
+CreateUserFlow.c(274): Notify: Parameter Substitution: parameter "question0" =  "What was your father's profession when you were born?"
+CreateUserFlow.c(274): Notify: Parameter Substitution: parameter "question1" =  "What color was the interior of your first car?"
+CreateUserFlow.c(274): Notify: Parameter Substitution: parameter "question2" =  "What is the middle name of your youngest sibling?"
 CreateUserFlow.c(274): Submitting form to "https://webpp.dchealthlink.com/oaam_server/registerQuestions.do", Target Frame=""  	[MsgId: MMSG-27978]
 CreateUserFlow.c(274): Redirecting "https://webpp.dchealthlink.com/oaam_server/registerQuestions.do" (redirection depth is 0)  	[MsgId: MMSG-26694]
-CreateUserFlow.c(274): To location "https://webpp.dchealthlink.com:443/oam/server/dap/cred_submit?oam_tap_token=v2.0~OAAMTAPPartner~NEVBNjY5Q0EyNUU0MUEzNDFEQzVGOX5CQ0U3ODBEMEIxN0NDRDEyMzQxMTgyODJBMzEwQ0EwNzM2NUQ2RjM5fjYxQTREQUQ1QzUyRTY1QzIyNENEOTcxRkIyMEFENTFGfkUxNTI5OTBFRTFBOUJDRjBDRjMyMTkwN0E0RkNGNjY5NjFFM0VDQkY1REU4OTlCMzNCNEQ5OUQ3RDQ0NDQzMzg2QUMwMTVGNjRBQUYzNjg5OTk5MjIxMEY3N0FEM0M0NDNBMEQ3M0Q1N0RFMDk3NUEyRDc1RjlBODkxNUI5QjVGQjhGQ0NFRThCRTQ0NzBDNjREODE5N0RCNTFCNzU1NEVENDQ2RDNENjlGQTNEQTM0RkQ0OUIwNTlEOUFCODIzMDM2Mzg3MUQxNTlDMDIzRjVFQzJFNEM1N0JDQkU4QzA2NzA4MEUxQjY3M0MyOUU3NzI3MzI3OUREQjRGOUE2NkZCRDk2NDRFQURFMkZGNjdBNTYzMkYzNTdCMTMzMzEzQzYyREE0NURBNUY2MjlGOTEyNTI1NzREQUQ1MjdDNTAwOTU1REE3N0EwNUZCMEM2RkI5NkJCQzhGNjg1OTUxQTUzMDM3MkIwREVFMTQ2MUYyNzFFRjY2RTc3NkJEN0UyMw=="  	[MsgId: MMSG-26693]
-CreateUserFlow.c(274): Redirecting "https://webpp.dchealthlink.com:443/oam/server/dap/cred_submit?oam_tap_token=v2.0~OAAMTAPPartner~NEVBNjY5Q0EyNUU0MUEzNDFEQzVGOX5CQ0U3ODBEMEIxN0NDRDEyMzQxMTgyODJBMzEwQ0EwNzM2NUQ2RjM5fjYxQTREQUQ1QzUyRTY1QzIyNENEOTcxRkIyMEFENTFGfkUxNTI5OTBFRTFBOUJDRjBDRjMyMTkwN0E0RkNGNjY5NjFFM0VDQkY1REU4OTlCMzNCNEQ5OUQ3RDQ0NDQzMzg2QUMwMTVGNjRBQUYzNjg5OTk5MjIxMEY3N0FEM0M0NDNBMEQ3M0Q1N0RFMDk3NUEyRDc1RjlBODkxNUI5QjVGQjhGQ0NFRThCRTQ0NzBDNjREODE5N0RCNTFCNzU1NEVENDQ2RDNENjlGQTNEQTM0RkQ0OUIwNTlEOUFCODIzMDM2Mzg3MUQxNTlDMDIzRjVFQzJFNEM1N0JDQkU4QzA2NzA4MEUxQjY3M0MyOUU3NzI3MzI3OUREQjRGOUE2NkZCRDk2NDRFQURFMkZGNjdBNTYzMkYzNTdCMTMzMzEzQzYyREE0NURBNUY2MjlGOTEyNTI1NzREQUQ1MjdDNTAwOTU1REE3N0EwNUZCMEM2RkI5NkJCQzhGNjg1OTUxQTUzMDM3MkIwREVFMTQ2MUYyNzFFRjY2RTc3NkJEN0UyMw==" (redirection depth is 1)  	[MsgId: MMSG-26694]
-CreateUserFlow.c(274): To location "https://webpp.dchealthlink.com/obrar.cgi?encreply=S53rcPiQt%2BP0sqjJvbTT8a5jqLQL5oS9%2Flvu0tcm6amNkaMnGv4JEEl%2F%2FjIGYPhTXb1U2zf%2BzTjegL4M1qOmH7vcILMn4xWaV3DsmDQdAvZuTnEBvn1p4I7VzKnSoJz7DWeWlH9RNDxuWZEMm5SU%2BzuOG4jFruZAz6eyPfZgYL8Hwfbm52WPvPtnLT4A65%2FmRB%2FQvEBOOLA1fq5RgJ8c%2B7FS1OGWKHfALEQEvzOPosRju6fWxtVTC9%2BjaoX%2FNrvtd0xGCExd4aAVpVt2eh2DLJTsaEeH4FU9MxDIs617nhMb%2B6SRn7PcWkLVWLcgK6MD787Y%2Ba1D82W8zt%2FOwJhHCaB3c%2FqHaopE6wDlIbdzilURabOT7fH3nK7%2F%2FKoCEM0qNY%2FGiUfIrMLlZHvTfH0EHvbHS2vkVURizTkdYu9l4VlwdEP%2FJKqCExU2aITebixlXES7pNfWcmR1CI%2FDVc8JZp1hVbBvbQJ87LYj%2FWk4QvYJlDQEdFV8qKv4btN0XQyYfn4u9wQcsYRDZ0BWumKMjixMWoZf0FvhqkL841QvPXoagccDKXbV9Q1t2id%2Fn2aaLsyn3UjvlmHQnJHtQvjQbfGC1yKJAIh6wyCKMXvArYWgpKbN84Z79EUr6K%2BOQnxvWcnlPgaxwPnVJibhxr8e%2F1lmsBB4N4utv%2Fc27ccx5%2FD5eVP5%2BIDRSF56IIaH76nLVSFjUYeVGQ%2FLCjexeDnvsH4RDiQokkJsMWNMu%2B4FnfGsL%2FI4%2FiYFWSAt90y004hoJq6Y3XFxKsikoaySWuX3YSzHGT8%2B%2F9UPSmuYR13jd%2FoDjCULI53T%2Bs8Ow%2BiaEkAN"  	[MsgId: MMSG-26693]
-CreateUserFlow.c(274): Redirecting "https://webpp.dchealthlink.com/obrar.cgi?encreply=S53rcPiQt%2BP0sqjJvbTT8a5jqLQL5oS9%2Flvu0tcm6amNkaMnGv4JEEl%2F%2FjIGYPhTXb1U2zf%2BzTjegL4M1qOmH7vcILMn4xWaV3DsmDQdAvZuTnEBvn1p4I7VzKnSoJz7DWeWlH9RNDxuWZEMm5SU%2BzuOG4jFruZAz6eyPfZgYL8Hwfbm52WPvPtnLT4A65%2FmRB%2FQvEBOOLA1fq5RgJ8c%2B7FS1OGWKHfALEQEvzOPosRju6fWxtVTC9%2BjaoX%2FNrvtd0xGCExd4aAVpVt2eh2DLJTsaEeH4FU9MxDIs617nhMb%2B6SRn7PcWkLVWLcgK6MD787Y%2Ba1D82W8zt%2FOwJhHCaB3c%2FqHaopE6wDlIbdzilURabOT7fH3nK7%2F%2FKoCEM0qNY%2FGiUfIrMLlZHvTfH0EHvbHS2vkVURizTkdYu9l4VlwdEP%2FJKqCExU2aITebixlXES7pNfWcmR1CI%2FDVc8JZp1hVbBvbQJ87LYj%2FWk4QvYJlDQEdFV8qKv4btN0XQyYfn4u9wQcsYRDZ0BWumKMjixMWoZf0FvhqkL841QvPXoagccDKXbV9Q1t2id%2Fn2aaLsyn3UjvlmHQnJHtQvjQbfGC1yKJAIh6wyCKMXvArYWgpKbN84Z79EUr6K%2BOQnxvWcnlPgaxwPnVJibhxr8e%2F1lmsBB4N4utv%2Fc27ccx5%2FD5eVP5%2BIDRSF56IIaH76nLVSFjUYeVGQ%2FLCjexeDnvsH4RDiQokkJsMWNMu%2B4FnfGsL%2FI4%2FiYFWSAt90y004hoJq6Y3XFxKsikoaySWuX3YSzHGT8%2B%2F9UPSmuYR13jd%2FoDjCULI53T%2Bs8Ow%2BiaEkAN" (redirection depth is 2)  	[MsgId: MMSG-26694]
+CreateUserFlow.c(274): To location "https://webpp.dchealthlink.com:443/oam/server/dap/cred_submit?oam_tap_token=v2.0~OAAMTAPPartner~NEVCMjgwM0E3NDBBM0UzRjYwRUY2OX4wN0M4MjU3MTEyMDUyRTNFQTcxRUM2MEM5RUY1Q0QwQTEzOUUyMkZDfkNGMzQ5RjA0REU2MjQwM0ZFRTM3NDA1QjA5MTI1MjEyfjIwQkI1MTAxNjA2RUY1MDNBRUNCMzFCNTc1RjczQjE5Rjc0NEJCMzlDOUJDQjIxQ0FDRjNBNjk4QTg3ODg0M0Q0REZBMkY2MzA0QTk3MDc3MTBEOTBGRTcwMkI5RjEwQjBGQTlCN0Y3RTQyQTgwNEFCQjZCRTk5MEE3NzAyN0JBNUVDRTI3NzA2MDJDQjc4RkVFQzM4RUU5MTQ1NTg3MjA1Q0ZGNTc2MEUxRTg0M0M5OUJDQzRFMEJCMUZFQkE2MEZFNzRDNUZCODk5MjUzM0ZGMTgyOEU2OURFRDFCMkZENjBBNDRFODU3ODc0NUYxRDk5RjExM0QzMjg5MzZFNDE1MzEzNzJGNDdDQUZDMzQyNTkxMTk1Q0VBRTlBQTJDOTlDOTA3NjVCM0RCQkE3MjUzMTgxQzcwQTNGMzdENzE0QTJDNjkzMUE0RjAxMEQ4NkJDQTBDMzg0NUVGMjRBMDlDODA3RTRGNURENDUwMzVFNUFBOTczMjMzNjQxMTEyOQ=="  	[MsgId: MMSG-26693]
+CreateUserFlow.c(274): Redirecting "https://webpp.dchealthlink.com:443/oam/server/dap/cred_submit?oam_tap_token=v2.0~OAAMTAPPartner~NEVCMjgwM0E3NDBBM0UzRjYwRUY2OX4wN0M4MjU3MTEyMDUyRTNFQTcxRUM2MEM5RUY1Q0QwQTEzOUUyMkZDfkNGMzQ5RjA0REU2MjQwM0ZFRTM3NDA1QjA5MTI1MjEyfjIwQkI1MTAxNjA2RUY1MDNBRUNCMzFCNTc1RjczQjE5Rjc0NEJCMzlDOUJDQjIxQ0FDRjNBNjk4QTg3ODg0M0Q0REZBMkY2MzA0QTk3MDc3MTBEOTBGRTcwMkI5RjEwQjBGQTlCN0Y3RTQyQTgwNEFCQjZCRTk5MEE3NzAyN0JBNUVDRTI3NzA2MDJDQjc4RkVFQzM4RUU5MTQ1NTg3MjA1Q0ZGNTc2MEUxRTg0M0M5OUJDQzRFMEJCMUZFQkE2MEZFNzRDNUZCODk5MjUzM0ZGMTgyOEU2OURFRDFCMkZENjBBNDRFODU3ODc0NUYxRDk5RjExM0QzMjg5MzZFNDE1MzEzNzJGNDdDQUZDMzQyNTkxMTk1Q0VBRTlBQTJDOTlDOTA3NjVCM0RCQkE3MjUzMTgxQzcwQTNGMzdENzE0QTJDNjkzMUE0RjAxMEQ4NkJDQTBDMzg0NUVGMjRBMDlDODA3RTRGNURENDUwMzVFNUFBOTczMjMzNjQxMTEyOQ==" (redirection depth is 1)  	[MsgId: MMSG-26694]
+CreateUserFlow.c(274): To location "https://webpp.dchealthlink.com/obrar.cgi?encreply=DW%2BF4OYblsaWOuyak9%2BhiTQEOnv1aFxFh6yfjtxVHMlIIgLO3ZxplgWigjFRnXUXjI0Hf8tujB%2F8nomjuhLTy6SVluGLFey9Mya%2BWGrWYEISIMYiVKklZ%2BCQck1dDfJsHtc4i0yTsrQBXfkxRZk2EwfoNFTJaCSEXlnJ4wDZc3%2FaQqqkhxjqG8LMBLcsNyyeElbN9xgVRicJ9sIiSzfoet6ANaJQymeDxU6m6Y01LfOUhom9g7%2FAlfVuCdzUAlixoMFuTsxMtLDYQ5qAyKHJRj2TAGr4jgI6KBRT5XW40MdZbGsrenUMR8nAJic4rQYJ%2FrExpXlUy3QwgGHKHUJWw2bF4VFX4c8xYFvVoiY0s58GJC85DB2UBvGk0jSNWEl2NeYKpbBfZcUeaY0u11BqfhICrEaj8hzkA4jUrIEs7ELVmCtOMOYa5ds3rPPFcEs559qo%2ByDSJrCDSgQOBSR1x0wTeZXwPB0OMH0nmZx6loFpb9gueQ%2Ftr3DAFr95jys3n69fQ5PyARVeoajmMk%2B%2BJI6ck7KZJg%2FbDtV0tTG5Mnc%2BBT4C77PFEcIfT%2FYDwjHYoRZ0sOGizb%2FsKjysboQkGFukr3T3ZiDZ9T3erTIMY1SN02msHNQtiNa%2F7klABl2kqbUnVxkGGoLuF7agZECjjGT%2FOO253JRWIuro63vHb4TctAayFrmt4%2FfgWD77fr1bTh2TAI4ZW6jA1dXjqGaRGXZbdtcazMYqyZruhbyup3fc0Nwd5Z%2FSn7wOS5LNr2lTe8eHF3yTzQjdfNIrf86cap0VJuWGtHH4x9gfYxOQ1sYcDvuTLMl3uu0Pc6xMP1nI"  	[MsgId: MMSG-26693]
+CreateUserFlow.c(274): Redirecting "https://webpp.dchealthlink.com/obrar.cgi?encreply=DW%2BF4OYblsaWOuyak9%2BhiTQEOnv1aFxFh6yfjtxVHMlIIgLO3ZxplgWigjFRnXUXjI0Hf8tujB%2F8nomjuhLTy6SVluGLFey9Mya%2BWGrWYEISIMYiVKklZ%2BCQck1dDfJsHtc4i0yTsrQBXfkxRZk2EwfoNFTJaCSEXlnJ4wDZc3%2FaQqqkhxjqG8LMBLcsNyyeElbN9xgVRicJ9sIiSzfoet6ANaJQymeDxU6m6Y01LfOUhom9g7%2FAlfVuCdzUAlixoMFuTsxMtLDYQ5qAyKHJRj2TAGr4jgI6KBRT5XW40MdZbGsrenUMR8nAJic4rQYJ%2FrExpXlUy3QwgGHKHUJWw2bF4VFX4c8xYFvVoiY0s58GJC85DB2UBvGk0jSNWEl2NeYKpbBfZcUeaY0u11BqfhICrEaj8hzkA4jUrIEs7ELVmCtOMOYa5ds3rPPFcEs559qo%2ByDSJrCDSgQOBSR1x0wTeZXwPB0OMH0nmZx6loFpb9gueQ%2Ftr3DAFr95jys3n69fQ5PyARVeoajmMk%2B%2BJI6ck7KZJg%2FbDtV0tTG5Mnc%2BBT4C77PFEcIfT%2FYDwjHYoRZ0sOGizb%2FsKjysboQkGFukr3T3ZiDZ9T3erTIMY1SN02msHNQtiNa%2F7klABl2kqbUnVxkGGoLuF7agZECjjGT%2FOO253JRWIuro63vHb4TctAayFrmt4%2FfgWD77fr1bTh2TAI4ZW6jA1dXjqGaRGXZbdtcazMYqyZruhbyup3fc0Nwd5Z%2FSn7wOS5LNr2lTe8eHF3yTzQjdfNIrf86cap0VJuWGtHH4x9gfYxOQ1sYcDvuTLMl3uu0Pc6xMP1nI" (redirection depth is 2)  	[MsgId: MMSG-26694]
 CreateUserFlow.c(274): To location "https://webpp.dchealthlink.com/CitizenPortal"  	[MsgId: MMSG-26693]
 CreateUserFlow.c(274): Redirecting "https://webpp.dchealthlink.com/CitizenPortal" (redirection depth is 3)  	[MsgId: MMSG-26694]
 CreateUserFlow.c(274): To location "https://webpp.dchealthlink.com/CitizenPortal/"  	[MsgId: MMSG-26693]
 CreateUserFlow.c(274): Redirecting "https://webpp.dchealthlink.com/CitizenPortal/" (redirection depth is 4)  	[MsgId: MMSG-26694]
 CreateUserFlow.c(274): To location "https://webpp.dchealthlink.com/CitizenPortal/userhome.jsp"  	[MsgId: MMSG-26693]
-CreateUserFlow.c(274): web_submit_form("registerQuestions.do") was successful, 5059 body bytes, 5759 header bytes, 48 chunking overhead bytes  	[MsgId: MMSG-26385]
-CreateUserFlow.c(300): Notify: Transaction "0008_Security_Questions" ended with a "Pass" status (Duration: 1.4137 Wasted Time: 0.0140).
+CreateUserFlow.c(274): web_submit_form("registerQuestions.do") was successful, 4867 body bytes, 5721 header bytes, 48 chunking overhead bytes  	[MsgId: MMSG-26385]
+CreateUserFlow.c(300): Notify: Transaction "0008_Security_Questions" ended with a "Pass" status (Duration: 1.5291 Wasted Time: 0.0136).
 CreateUserFlow.c(305): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(305): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
 CreateUserFlow.c(314): Notify: Transaction "0009_Start_Application" started.
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535102538".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480978573".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535102538"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480978573"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 CreateUserFlow.c(317): web_url("application.do") started  	[MsgId: MMSG-26355]
 CreateUserFlow.c(317): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
@@ -579,7 +579,7 @@ CreateUserFlow.c(317): Found resource "https://webpp.dchealthlink.com/CitizenPor
 CreateUserFlow.c(317): Found resource "https://webpp.dchealthlink.com/CitizenPortal/CDEJ/jscript/application.js" in HTML "https://webpp.dchealthlink.com/CitizenPortal/application.do"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(317): Found resource "https://webpp.dchealthlink.com/CitizenPortal/CDEJ/jscript/jquery.min.js" in HTML "https://webpp.dchealthlink.com/CitizenPortal/application.do"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(317): Found resource "https://webpp.dchealthlink.com/CitizenPortal/CDEJ/jscript/main.js" in HTML "https://webpp.dchealthlink.com/CitizenPortal/application.do"  	[MsgId: MMSG-26659]
-CreateUserFlow.c(317): Found resource "https://webpp.dchealthlink.com/CitizenPortal/servlet/template?r=cw-fragment-css-template&pr=cw-fragment-css-properties&l=en_US&t=150909b36e6" in HTML "https://webpp.dchealthlink.com/CitizenPortal/application.do"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(317): Found resource "https://webpp.dchealthlink.com/CitizenPortal/servlet/template?r=cw-fragment-css-template&pr=cw-fragment-css-properties&l=en_US&t=150c8fc232a" in HTML "https://webpp.dchealthlink.com/CitizenPortal/application.do"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(317): Found resource "https://webpp.dchealthlink.com/CitizenPortal/CDEJ/jscript/cwtk/cw.js" in HTML "https://webpp.dchealthlink.com/CitizenPortal/application.do"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(317): Found resource "https://webpp.dchealthlink.com/CitizenPortal/CDEJ/jscript/hcr-common.js" in HTML "https://webpp.dchealthlink.com/CitizenPortal/application.do"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(317): Found resource "https://webpp.dchealthlink.com/CitizenPortal/CDEJ/jscript/EligibilityResult.js" in HTML "https://webpp.dchealthlink.com/CitizenPortal/application.do"  	[MsgId: MMSG-26659]
@@ -598,16 +598,18 @@ CreateUserFlow.c(317): Found resource "https://webpp.dchealthlink.com/CitizenPor
 CreateUserFlow.c(317): Found resource "https://webpp.dchealthlink.com/CitizenPortal/CDEJ/jscript/ResumeSelectedEnrollmentAction.js" in HTML "https://webpp.dchealthlink.com/CitizenPortal/application.do"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(317): Found resource "https://webpp.dchealthlink.com/CitizenPortal/CDEJ/jscript/BrowsePlansAction.js" in HTML "https://webpp.dchealthlink.com/CitizenPortal/application.do"  	[MsgId: MMSG-26659]
 CreateUserFlow.c(317): Found resource "https://webpp.dchealthlink.com/CitizenPortal/CDEJ/jscript/UpdateEntitlementAction.js" in HTML "https://webpp.dchealthlink.com/CitizenPortal/application.do"  	[MsgId: MMSG-26659]
+CreateUserFlow.c(317): Notify: Transaction "https://webpp.dchealthlink.com/CitizenPortal/servlet/PathResolver?r=i&p=/config/tablayout/image[app-banner-logo.png]" will be skipped - could not calculate the transaction time (duration=0.0149, think_time=0.0000, wasted_time=0.0164).
+CreateUserFlow.c(317): Notify: Transaction "https://webpp.dchealthlink.com/CitizenPortal/CDEJ/css/font-awesome.min.css" will be skipped - could not calculate the transaction time (duration=0.0195, think_time=0.0000, wasted_time=0.0215).
 CreateUserFlow.c(317): Notify: Saving Parameter "o3ctx = 1048576".
-CreateUserFlow.c(317): web_url("application.do") was successful, 2054873 body bytes, 126992 header bytes  	[MsgId: MMSG-26386]
-CreateUserFlow.c(550): Notify: Transaction "0009_Start_Application" ended with a "Pass" status (Duration: 2.8791 Wasted Time: 0.3461).
+CreateUserFlow.c(317): web_url("application.do") was successful, 2054870 body bytes, 126992 header bytes  	[MsgId: MMSG-26386]
+CreateUserFlow.c(550): Notify: Transaction "0009_Start_Application" ended with a "Pass" status (Duration: 3.7049 Wasted Time: 0.6170).
 Curam_StartApp_Misc_URLS.c(4): Notify: Transaction "0010_Curam_StartApp_Misc_URLS" started.
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535105419".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480982279".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535105419"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480982279"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(7): web_custom_request("0010_ExternalApplication.html") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(7): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
@@ -616,99 +618,99 @@ Curam_StartApp_Misc_URLS.c(7): Found resource "https://webpp.dchealthlink.com/Ci
 Curam_StartApp_Misc_URLS.c(7): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://webpp.dchealthlink.com/CitizenPortal/CDEJ/jscript/curam/app/templates/CDEJ/extapp/themes/curam-extapp/image/logo-f.png"  	[MsgId: MWAR-26627]
 Curam_StartApp_Misc_URLS.c(7): web_custom_request("0010_ExternalApplication.html") highest severity level was "warning", 3522 body bytes, 738 header bytes  	[MsgId: MMSG-26388]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535105817".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480983949".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535105817"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480983949"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(18): web_custom_request("Menu.html") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(18): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(18): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(18): web_custom_request("Menu.html") was successful, 882 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535106016".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480984150".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535106016"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480984150"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(29): web_custom_request("_MenuColumn.html") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(29): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(29): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(29): web_custom_request("_MenuColumn.html") was successful, 328 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535106217".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480984391".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535106217"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480984391"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(40): web_custom_request("HoverCard.html") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(40): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(40): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(40): web_custom_request("HoverCard.html") was successful, 903 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535106407".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480984632".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535106407"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480984632"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(51): web_custom_request("MenuDialog.html") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(51): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(51): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(51): web_custom_request("MenuDialog.html") was successful, 339 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535106637".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480984858".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535106637"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480984858"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(62): web_custom_request("MenuHeading.html") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(62): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(62): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(62): web_custom_request("MenuHeading.html") was successful, 218 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535106851".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480985045".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535106851"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480985045"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(73): web_custom_request("HoverHelpTooltip.html") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(73): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(73): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(73): web_custom_request("HoverHelpTooltip.html") was successful, 772 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535107039".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480985219".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535107039"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480985219"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(84): web_custom_request("InlineDropDown.html") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(84): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(84): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(84): web_custom_request("InlineDropDown.html") was successful, 766 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535107213".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480985406".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535107213"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480985406"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(95): web_custom_request("Rotator.html") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(95): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(95): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(95): web_custom_request("Rotator.html") was successful, 814 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535107387".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480985616".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535107387"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480985616"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(106): web_custom_request("MenuItem.html") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(106): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
@@ -719,55 +721,55 @@ Curam_StartApp_Misc_URLS.c(106): Warning -26627: HTTP Status-Code=404 (Not Found
 Curam_StartApp_Misc_URLS.c(106): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://webpp.dchealthlink.com/CitizenPortal/CDEJ/jscript/cwtk/widget/templates/${_blankGif}"  	[MsgId: MWAR-26627]
 Curam_StartApp_Misc_URLS.c(106): web_custom_request("MenuItem.html") highest severity level was "warning", 4581 body bytes, 1186 header bytes  	[MsgId: MMSG-26388]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535107624".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480985878".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535107624"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480985878"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(117): web_custom_request("TitlePane.html") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(117): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(117): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(117): web_custom_request("TitlePane.html") was successful, 2510 body bytes, 495 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535107843".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480986076".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535107843"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480986076"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(128): web_custom_request("DropDown.html") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(128): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(128): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(128): web_custom_request("DropDown.html") was successful, 856 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535108070".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480986269".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535108070"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480986269"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(139): web_custom_request("ContrastModeChooser.html") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(139): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(139): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(139): web_custom_request("ContrastModeChooser.html") was successful, 305 body bytes, 494 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535108311".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480986467".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535108311"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480986467"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(150): web_submit_data("PathResolver") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(150): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(150): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(150): web_submit_data("PathResolver") was successful, 2786 body bytes, 428 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535108604".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480986661".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535108604"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480986661"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(162): web_custom_request("CitizenWorkspace_userHomeResolverPage.do") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(162): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
@@ -775,11 +777,11 @@ Curam_StartApp_Misc_URLS.c(162): Notify: Parameter Substitution: parameter "o3ct
 Curam_StartApp_Misc_URLS.c(162): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(162): web_custom_request("CitizenWorkspace_userHomeResolverPage.do") was successful, 113 body bytes, 440 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535108804".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480986971".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535108804"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480986971"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(174): web_custom_request("CitizenWorkspace_userHomeResolverPage.do_2") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(174): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
@@ -787,22 +789,22 @@ Curam_StartApp_Misc_URLS.c(174): Notify: Parameter Substitution: parameter "o3ct
 Curam_StartApp_Misc_URLS.c(174): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(174): web_custom_request("CitizenWorkspace_userHomeResolverPage.do_2") was successful, 113 body bytes, 440 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535109048".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480987220".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535109048"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480987220"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(186): web_custom_request("application-banner-fragment.jspx") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(186): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
 Curam_StartApp_Misc_URLS.c(186): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
-Curam_StartApp_Misc_URLS.c(186): web_custom_request("application-banner-fragment.jspx") was successful, 5324 body bytes, 441 header bytes  	[MsgId: MMSG-26386]
+Curam_StartApp_Misc_URLS.c(186): web_custom_request("application-banner-fragment.jspx") was successful, 5321 body bytes, 441 header bytes  	[MsgId: MMSG-26386]
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535109292".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480987504".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535109292"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480987504"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
-globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_wusfpccrs_6356"
+globals.h(32): Notify: Parameter Substitution: parameter "dp_UserID" =  "IA_fijibm_8028"
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Curam_StartApp_Misc_URLS.c(198): web_custom_request("UIMIFrameWrapperPage.do") started  	[MsgId: MMSG-26355]
 Curam_StartApp_Misc_URLS.c(198): Notify: Parameter Substitution: parameter "p_Webapp_URL" =  "webpp.dchealthlink.com"
@@ -842,12 +844,12 @@ Curam_StartApp_Misc_URLS.c(198): Found resource "https://webpp.dchealthlink.com/
 Curam_StartApp_Misc_URLS.c(198): Found resource "https://webpp.dchealthlink.com/CitizenPortal/Images/renew-medicaid-ico.png" in HTML "https://webpp.dchealthlink.com/CitizenPortal/en_US/StandardUser_homePage.do?pageParams=&o3ctx=1048576&dojo.preventCache=1443210488053"  	[MsgId: MMSG-26659]
 Curam_StartApp_Misc_URLS.c(198): Found resource "https://webpp.dchealthlink.com/CitizenPortal/Images/enroll-ico.png" in HTML "https://webpp.dchealthlink.com/CitizenPortal/en_US/StandardUser_homePage.do?pageParams=&o3ctx=1048576&dojo.preventCache=1443210488053"  	[MsgId: MMSG-26659]
 Curam_StartApp_Misc_URLS.c(198): web_custom_request("UIMIFrameWrapperPage.do") was successful, 782707 body bytes, 8214 header bytes  	[MsgId: MMSG-26386]
-Curam_StartApp_Misc_URLS.c(230): Notify: Transaction "0010_Curam_StartApp_Misc_URLS" ended with a "Pass" status (Duration: 5.4435 Wasted Time: 0.2759).
+Curam_StartApp_Misc_URLS.c(230): Notify: Transaction "0010_Curam_StartApp_Misc_URLS" ended with a "Pass" status (Duration: 6.3112 Wasted Time: 0.2974).
 Logout_Curam.c(4): Notify: Transaction "0999_Logout_Curam" started.
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535110864".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480988592".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535110864"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480988592"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Logout_Curam.c(6): web_url("logout.jsp") started  	[MsgId: MMSG-26355]
@@ -861,13 +863,13 @@ Logout_Curam.c(6): Found resource "https://webpp.dchealthlink.com/oam/pages/imag
 Logout_Curam.c(6): Found resource "https://webpp.dchealthlink.com/oam_logout_success" in HTML "https://webpp.dchealthlink.com/oam/server/logout?end_url=https://webpp.dchealthlink.com/fed/user/logout?returnurl=https://preprod.dchealthlink.com?end_url=https%3A%2F%2Fpreprod.dchealthlink.com"  	[MsgId: MMSG-26659]
 Logout_Curam.c(6): Found resource "https://webpp.dchealthlink.com/oam/server/null/oam_logout_success" in HTML "https://webpp.dchealthlink.com/oam/server/logout?end_url=https://webpp.dchealthlink.com/fed/user/logout?returnurl=https://preprod.dchealthlink.com?end_url=https%3A%2F%2Fpreprod.dchealthlink.com"  	[MsgId: MMSG-26659]
 Logout_Curam.c(6): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://webpp.dchealthlink.com/oam/server/null/oam_logout_success"  	[MsgId: MWAR-26627]
-Logout_Curam.c(6): web_url("logout.jsp") highest severity level was "warning", 10668 body bytes, 2333 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26387]
-Logout_Curam.c(15): Notify: Transaction "0999_Logout_Curam" ended with a "Pass" status (Duration: 0.3417 Wasted Time: 0.0080).
+Logout_Curam.c(6): web_url("logout.jsp") highest severity level was "warning", 12096 body bytes, 2408 header bytes, 11 chunking overhead bytes  	[MsgId: MMSG-26387]
+Logout_Curam.c(15): Notify: Transaction "0999_Logout_Curam" ended with a "Pass" status (Duration: 0.3856 Wasted Time: 0.0117).
 Logout_Curam.c(19): Notify: Transaction "1000_Last_Logout" started.
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") started  	[MsgId: MMSG-26355]
-globals.h(18): Notify: Saving Parameter "TimeStamp = 1445535111207".
+globals.h(18): Notify: Saving Parameter "TimeStamp = 1446480988979".
 globals.h(18): web_save_timestamp_param("web_save_timestamp_param") was successful  	[MsgId: MMSG-26392]
-globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1445535111207"
+globals.h(19): Notify: Parameter Substitution: parameter "TimeStamp" =  "1446480988979"
 globals.h(32): web_add_header("X-dynaTrace") started  	[MsgId: MMSG-26355]
 globals.h(32): web_add_header("X-dynaTrace") was successful  	[MsgId: MMSG-26392]
 Logout_Curam.c(22): web_submit_form("logout") started  	[MsgId: MMSG-26355]
@@ -885,8 +887,8 @@ Logout_Curam.c(22): Found resource "https://preprod.dchealthlink.com/sites/all/t
 Logout_Curam.c(22): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/bootstrap.min.js" in HTML "https://preprod.dchealthlink.com/beta-2016"  	[MsgId: MMSG-26659]
 Logout_Curam.c(22): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/js/beta-2016.js" in HTML "https://preprod.dchealthlink.com/beta-2016"  	[MsgId: MMSG-26659]
 Logout_Curam.c(22): Found resource "https://preprod.dchealthlink.com/sites/all/themes/dchl/img/logo.png" in HTML "https://preprod.dchealthlink.com/beta-2016"  	[MsgId: MMSG-26659]
-Logout_Curam.c(22): web_submit_form("logout") was successful, 171958 body bytes, 4819 header bytes, 49 chunking overhead bytes  	[MsgId: MMSG-26385]
-Logout_Curam.c(26): Notify: Transaction "1000_Last_Logout" ended with a "Pass" status (Duration: 0.9635 Wasted Time: 0.0146).
+Logout_Curam.c(22): web_submit_form("logout") was successful, 172290 body bytes, 4815 header bytes, 49 chunking overhead bytes  	[MsgId: MMSG-26385]
+Logout_Curam.c(26): Notify: Transaction "1000_Last_Logout" ended with a "Pass" status (Duration: 0.8846 Wasted Time: 0.0153).
 Ending action ScriptFlow.
 Ending iteration 1.
 Ending Vuser...

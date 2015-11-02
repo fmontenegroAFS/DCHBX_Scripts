@@ -1,12 +1,20 @@
 Start auto log messages stack - Iteration 1.
-EmployeeCreateAccount.c(11): Registered web_reg_find successful for "Text=Your account has been created"  	[MsgId: MMSG-26362]
-EmployeeCreateAccount.c(11): Notify: Saving Parameter "AccountCreated = 0".
-EmployeeCreateAccount.c(11): web_submit_data("users") was successful, 20988 body bytes, 485 header bytes  	[MsgId: MMSG-26386]
-EmployeeCreateAccount.c(30): Notify: Parameter Substitution: parameter "AccountCreated" =  "0"
-EmployeeCreateAccount.c(36): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" ended with a "Fail" status (Duration: 0.2502 Wasted Time: 0.0116).
-EmployeeCreateAccount.c(36): Notify: Transaction "EMPLYE_0004_Create_Account_Submit" has 0 error message(s).
-EmployeeCreateAccount.c(37): Notify: Next row for parameter EmpWorkEmail = 1 [table  = EmpWorkEmail].
-EmployeeCreateAccount.c(37): Notify: Parameter Substitution: parameter "EmpWorkEmail" =  "FM20708-61-5589@test.com"
-EmployeeCreateAccount.c(37): Error: Failed to create account for FM20708-61-5589@test.com
+EmployeeBeginCoverage.c(88): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(88): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(88): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(88): Notify: Saving Parameter "authenticity_token_5 = t2uAbCia/q7pjuIi5m1Frws+DwjmFiXGrQTbIod5bf8uJ2sXKqF2VetyZppE/yDpY0U8gpmZ5d7/zWOi44d2aQ==".
+EmployeeBeginCoverage.c(88): Notify: Saving Parameter "EligibleDate = ".
+EmployeeBeginCoverage.c(88): Error -35049: No match found for the requested parameter "EligibleDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 12]  	[MsgId: MERR-35049]
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1.
+EmployeeBeginCoverage.c(88): Notify: Saving Parameter "EmpHireDate = ".
+EmployeeBeginCoverage.c(88): Error -35049: No match found for the requested parameter "EmpHireDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 12]  	[MsgId: MERR-35049]
+End auto log messages stack.
+
+Start auto log messages stack - Iteration 1.
+EmployeeBeginCoverage.c(88): Notify: Saving Parameter "CovgStartDate = ".
+EmployeeBeginCoverage.c(88): Error -35049: No match found for the requested parameter "CovgStartDate". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 12]  	[MsgId: MERR-35049]
+EmployeeBeginCoverage.c(88): Error -35049: No match found for the requested parameter "employee_id". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 12]  	[MsgId: MERR-35049]
 End auto log messages stack.
 

@@ -3279,7 +3279,7 @@ EmployerAddEmployeeRoster()
  
 	web_reg_save_param_regexp(
 		"ParamName=Benefit_Group_ID",
-		"RegExp=option\\ value=\"(.*?)\">2015 Employer Benefits",
+		"RegExp=value=\"(.*?)\">2015 Employer Benefits",
 		"SEARCH_FILTERS",
 		"Scope=Body",
 		"IgnoreRedirections=No",
