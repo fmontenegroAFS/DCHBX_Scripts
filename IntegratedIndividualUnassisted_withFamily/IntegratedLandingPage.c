@@ -2,6 +2,9 @@ IntegratedLandingPage()
 {
 	web_set_sockets_option("SSL_VERSION", "TLS1.1");
 
+	web_reg_find("Text=Welcome to DC's Health Insurance Marketplace",
+	             LAST);		
+	
 	lr_start_transaction("INTEG_UNASSISTED_0001_Integrated_Landing_Page");
 
 	web_url("preprod.dchealthlink.com",
@@ -29,13 +32,12 @@ IntegratedLandingPage()
 	        "Url=/sites/all/modules/extlink/extlink.png", "Referer={IntegratedURL}sites/all/modules/extlink/extlink.css?nuobvv", ENDITEM,
 	        LAST);
 
-	web_reg_find("Text=Welcome to DC's Health Insurance Marketplace",
-	             LAST);	
+
 	
-	web_link("I ACCEPT THE TERMS", 
-		"Text=I ACCEPT THE TERMS", 
-		"Snapshot=t2.inf", 
-		LAST);
+//	web_link("I ACCEPT THE TERMS", 
+//		"Text=I ACCEPT THE TERMS", 
+//		"Snapshot=t2.inf", 
+//		LAST);
 	
 	lr_end_transaction("INTEG_UNASSISTED_0001_Integrated_Landing_Page", LR_AUTO);
 
