@@ -1,9 +1,0 @@
-$('#qle-details .qle-form').addClass('hidden');
-  $('#qle-details .success-info').removeClass('hidden');
-  $('#qle-details .error-info').addClass('hidden');
-  $('#qle-details .initial-info').addClass('hidden');
-    $(".effective_on_kinds").html("  <input type=\"hidden\" name=\"effective_on_kind\" id=\"effective_on_kind\" value=\"first_of_month\" />\n\n");
-
-$('#qle-details .default-info').addClass('hidden');
-
-// $('.add_new_family_member').click();

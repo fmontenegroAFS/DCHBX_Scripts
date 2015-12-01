@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\francis.montenegro\Documents\GitHub\DCHBX_Perf_Scripts\IntegratedIndividualUnassisted
--IC:\Program Files (x86)\HP\LoadRunner\include
--ec:\users\francis.montenegro\documents\github\dchbx_perf_scripts\integratedindividualunassisted\\logfile.log
-c:\users\francis.montenegro\documents\github\dchbx_perf_scripts\integratedindividualunassisted\\combined_IntegratedIndividualUnassisted.c
-c:\users\francis.montenegro\documents\github\dchbx_perf_scripts\integratedindividualunassisted\\pre_cci.c

@@ -1,2 +1,0 @@
-    if (top.frames.length!=0) top.location=self.document.location;
-    if (top!= self) top.location.href = location.href;
