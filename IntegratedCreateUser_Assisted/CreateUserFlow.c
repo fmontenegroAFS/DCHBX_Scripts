@@ -171,7 +171,7 @@ CreateUserFlow()
 
 	// web_find_text("Text/IC=The username or password you entered is incorrect.", "SAVECOUNT=OIMLOGIN", LAST);
 	web_reg_find("Text/IC=The username or password you entered is incorrect.", "SAVECOUNT=OIMLOGIN", LAST );
-	web_reg_find("Text/IC=Please select three questions from the drop downs below", "SAVECOUNT=LOGIN_Success", LAST );
+	web_reg_find("Text/IC=DC HealthLink One Time Pin Registration", "SAVECOUNT=LOGIN_Success", LAST );
 	
 	lr_start_transaction("0007_Login_Curam");
 
@@ -218,9 +218,6 @@ CreateUserFlow()
 //    web_reg_save_param("corr_ques1","LB=<option value='","RB='>","Ord=8",LAST);
 //    web_reg_save_param("corr_ques2","LB=<option value='","RB='>","Ord=14",LAST);
     /*Correlation comment - Do not change!  Original value='What color was your first cat&#63;' Name ='question0' Type ='Manual'*/
-	web_reg_save_param_regexp("ParamName=question0", "RegExp='>(.*?)</option", "Ordinal=2",	SEARCH_FILTERS,	"Scope=Body","IgnoreRedirections=Yes", "RequestUrl=*/registerQuestions.do*",LAST);
-	web_reg_save_param_regexp("ParamName=question1", "RegExp='>(.*?)</option", "Ordinal=8", SEARCH_FILTERS,	"Scope=Body","IgnoreRedirections=Yes", "RequestUrl=*/registerQuestions.do*",LAST);
-	web_reg_save_param_regexp("ParamName=question2", "RegExp='>(.*?)</option", "Ordinal=14",SEARCH_FILTERS,	"Scope=Body","IgnoreRedirections=Yes", "RequestUrl=*/registerQuestions.do*",LAST);
 
 	lr_start_transaction("0007_1_Login_Curam_authJump");	
 		addDynaTraceHeader("NA=0007_1_Login_Curam_authJump_{dp_UserID};PC=authJump.do");
@@ -251,19 +248,6 @@ CreateUserFlow()
 /**********************************************************************************************************************************************************/
 //	char sIn[] = question0;
 
-	lr_save_string("question0", "question00");
-	lr_save_string("question1", "question11");
-	lr_save_string("question2", "question22");
-	
-	web_convert_param("question0", "SourceEncoding=HTML",
-            "TargetEncoding=PLAIN", LAST);
-
-	web_convert_param("question1", "SourceEncoding=HTML",
-            "TargetEncoding=PLAIN", LAST);
-	
-	web_convert_param("question2", "SourceEncoding=HTML",
-            "TargetEncoding=PLAIN", LAST);
-	
 /**********************************************************************************************************************************************************/	
 	lr_think_time(20);
 	
@@ -271,15 +255,11 @@ CreateUserFlow()
 	
 	addDynaTraceHeader("NA=0008_Security_Questions_{dp_UserID};PC=registerQuestions.do");
 
-	web_submit_form("registerQuestions.do",
-		"Snapshot=t9.inf", 
+	web_submit_form("registerQuestions.do", 
+		"Snapshot=t11.inf", 
 		ITEMDATA, 
-		"Name=question0", "Value={question0}", ENDITEM, 
-		"Name=Bharosa_Register_Pad0DataField", "Value=none", ENDITEM, 
-		"Name=question1", "Value={question1}", ENDITEM, 
-		"Name=Bharosa_Register_Pad1DataField", "Value=none", ENDITEM, 
-		"Name=question2", "Value={question2}", ENDITEM, 
-		"Name=Bharosa_Register_Pad2DataField", "Value=none", ENDITEM, 
+		"Name=email", "Value=individual_assisted_1@test.com", ENDITEM, 
+		"Name=registerDevice", "Value=true", ENDITEM, 
 		"Name=register", "Value=Continue", ENDITEM, 
 		LAST);
 	

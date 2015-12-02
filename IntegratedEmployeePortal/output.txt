@@ -1,3 +1,10 @@
-Just In Time Log mode.
-Log messages will be sent only when an error occurs.
-To change this behavior, look at the Log tab in Run Time Settings.
+Start auto log messages stack - Iteration 1.
+EmployeeBeginCoverage.c(529): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(529): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+EmployeeBeginCoverage.c(529): Notify: Saving Parameter "authenticity_token_3 = ZmWH37+iovXJH+HFTxcEqxFutzH9NzkNJKsdP+hGO0jncueM0V/nePSoaJIn7hExhzd0JdmopsxKCitOSCVo2w==".
+EmployeeBeginCoverage.c(529): Notify: Saving Parameter "authenticity_token_3 = ZmWH37+iovXJH+HFTxcEqxFutzH9NzkNJKsdP+hGO0jncueM0V/nePSoaJIn7hExhzd0JdmopsxKCitOSCVo2w==".
+EmployeeBeginCoverage.c(529): Notify: Saving Parameter "plan_shoppings = ".
+EmployeeBeginCoverage.c(529): Error -35049: No match found for the requested parameter "plan_shoppings". Check whether the requested regular expression exists in the response data, Snapshot Info [MSH 1 37]  	[MsgId: MERR-35049]
+EmployeeBeginCoverage.c(529): Error -26377: No match found for the requested parameter "plan_count". Check whether the requested boundaries exist in the response data. Also, if the data you want to save exceeds 256 bytes, use web_set_max_html_param_len to increase the parameter size, Snapshot Info [MSH 1 37]  	[MsgId: MERR-26377]
+End auto log messages stack.
+

@@ -51,6 +51,7 @@
     <FileEntry Name="IntegratedIndividualAssisted.prm.bak" Filter="1" />
     <FileEntry Name="IntegratedIndividualAssisted_APTC.c.pickle" Filter="1" />
     <FileEntry Name="IntegratedIndividualAssisted_APTC.ci" Filter="1" />
+    <FileEntry Name="IntegratedIndividualAssisted_APTC.prm.bak" Filter="1" />
     <FileEntry Name="IntegratedIndividualAssisted_APTC.sdf" Filter="1" />
     <FileEntry Name="IntegratedIndividualAssisted_V4_FM_10012015.prm.bak" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />

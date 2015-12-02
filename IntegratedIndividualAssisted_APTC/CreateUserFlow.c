@@ -23,10 +23,10 @@ CreateUserFlow()
 	web_reg_save_param_regexp("ParamName=authenticity_token", "RegExp=\\ content=\"(.*?)\"\\ ", "Ordinal=2", SEARCH_FILTERS, "Scope=Body", "IgnoreRedirections=Yes", "RequestUrl=*/sign_up*", LAST);
 
 	
-	web_link("I ACCEPT THE TERMS", 
-		"Text=I ACCEPT THE TERMS", 
-		"Snapshot=t2.inf", 
-		LAST);
+//	web_link("I ACCEPT THE TERMS", 
+//		"Text=I ACCEPT THE TERMS", 
+//		"Snapshot=t2.inf", 
+//		LAST);
 	
 	web_url("search",
 		"URL=http://enroll-preprod.dchbx.org/insured/consumer_role/search?aqhp=true", 

@@ -1,9 +1,9 @@
-Virtual User Script started at : 11/11/2015 1:11:19 PM
+Virtual User Script started at : 12/1/2015 4:47:03 PM
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.0.0 for Windows 7; build 2739 (Nov 30 2014 23:13:05)  	[MsgId: MMSG-27143]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Run-Time Settings file: "C:\Users\francis.montenegro\Documents\GitHub\DCHBX_Perf_Scripts\IntegratedEmployerPortal\\default.cfg"  	[MsgId: MMSG-27141]
-vuser_init.c(17): Notify: Parameter Substitution: parameter "MillisSeed" =  "131119.318"
+vuser_init.c(17): Notify: Parameter Substitution: parameter "MillisSeed" =  "164703.256"
 vuser_init.c(19): Notify: Parameter Substitution: parameter "VUserID" =  "1"
 vuser_init.c(24): Notify: Saving Parameter "EmpFileName = C:\Enroll_App\Data_Folder\EmpFName_1.dat".
 CreateFiles.c(5): Notify: Parameter Substitution: parameter "EmpFileName" =  "C:\Enroll_App\Data_Folder\EmpFName_1.dat"
@@ -12,191 +12,22 @@ Running Vuser...
 Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action ScriptFlow.
-EmployeeRosterSizeCalculator.c(4): Notify: Saving Parameter "Random = 17".
-EmployeeRosterSizeCalculator.c(24): Notify: Parameter Substitution: parameter "Random" =  "17"
-EmployeeRosterSizeCalculator.c(28): Notify: Parameter Substitution: parameter "Random" =  "17"
-EmployeeRosterSizeCalculator.c(32): Notify: Parameter Substitution: parameter "Random" =  "17"
-EmployeeRosterSizeCalculator.c(36): Notify: Parameter Substitution: parameter "Random" =  "17"
-EmployeeRosterSizeCalculator.c(41): Notify: Saving Parameter "pEMPLOYEECOUNT = 7".
+EmployeeRosterSizeCalculator.c(4): Notify: Saving Parameter "Random = 56".
+EmployeeRosterSizeCalculator.c(24): Notify: Parameter Substitution: parameter "Random" =  "56"
+EmployeeRosterSizeCalculator.c(28): Notify: Parameter Substitution: parameter "Random" =  "56"
+EmployeeRosterSizeCalculator.c(32): Notify: Parameter Substitution: parameter "Random" =  "56"
+EmployeeRosterSizeCalculator.c(36): Notify: Parameter Substitution: parameter "Random" =  "56"
+EmployeeRosterSizeCalculator.c(41): Notify: Saving Parameter "pEMPLOYEECOUNT = 9".
 EmployeeRosterSizeCalculator.c(42): Notify: Saving Parameter "pAddEmployeeTrName = 01_OneToTenEmployee".
 EnrollAppLandingPage.c(19): Notify: Transaction "INTEG_EMPLYR_0000_4_Landing_Page" started.
 EnrollAppLandingPage.c(21): web_url("Enroll App Landing Page") started  	[MsgId: MMSG-26355]
 EnrollAppLandingPage.c(21): Notify: Parameter Substitution: parameter "HTTP" =  "http"
 EnrollAppLandingPage.c(21): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EnrollAppLandingPage.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/application-108e129c408366f93cd4fb3fbb67eb43.css" in HTML "http://enroll-preprod.dchbx.org/"  	[MsgId: MMSG-26659]
-EnrollAppLandingPage.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/application-38d25a6b2b7bf04733b0410eed4e445b.js" in HTML "http://enroll-preprod.dchbx.org/"  	[MsgId: MMSG-26659]
-EnrollAppLandingPage.c(21): Found resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" in HTML "http://enroll-preprod.dchbx.org/"  	[MsgId: MMSG-26659]
-EnrollAppLandingPage.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/logo-37b2d59fd0101e8781456ec388f3400a.png" in HTML "http://enroll-preprod.dchbx.org/"  	[MsgId: MMSG-26659]
-EnrollAppLandingPage.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" in HTML "http://enroll-preprod.dchbx.org/"  	[MsgId: MMSG-26659]
-EnrollAppLandingPage.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" in HTML "http://enroll-preprod.dchbx.org/"  	[MsgId: MMSG-26659]
-EnrollAppLandingPage.c(21): Found resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" in HTML "http://enroll-preprod.dchbx.org/"  	[MsgId: MMSG-26659]
-EnrollAppLandingPage.c(21): web_url("Enroll App Landing Page") was successful, 1097895 body bytes, 3210 header bytes, 76 chunking overhead bytes  	[MsgId: MMSG-26385]
-EnrollAppLandingPage.c(31): Notify: Transaction "INTEG_EMPLYR_0000_4_Landing_Page" ended with a "Pass" status (Duration: 2.4942 Wasted Time: 1.6737).
-EmployerTab.c(4): Notify: Transaction "INTEG_EMPLYR_0001_Click_on_Employer_Portal_Tab" started.
-EmployerTab.c(6): web_url("Employer Portal") started  	[MsgId: MMSG-26355]
-EmployerTab.c(6): Notify: Parameter Substitution: parameter "HTTP" =  "http"
-EmployerTab.c(6): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerTab.c(6): Notify: Parameter Substitution: parameter "HTTP" =  "http"
-EmployerTab.c(6): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerTab.c(6): Redirecting "http://enroll-preprod.dchbx.org/employers/employer_profiles/new" (redirection depth is 0)  	[MsgId: MMSG-26694]
-EmployerTab.c(6): To location "http://enroll-preprod.dchbx.org/users/sign_up"  	[MsgId: MMSG-26693]
-EmployerTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/application-108e129c408366f93cd4fb3fbb67eb43.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/application-38d25a6b2b7bf04733b0410eed4e445b.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerTab.c(6): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/logo-37b2d59fd0101e8781456ec388f3400a.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerTab.c(6): web_url("Employer Portal") was successful, 9784 body bytes, 877 header bytes  	[MsgId: MMSG-26386]
-EmployerTab.c(16): Notify: Transaction "INTEG_EMPLYR_0001_Click_on_Employer_Portal_Tab" ended with a "Pass" status (Duration: 0.2200 Wasted Time: 0.0072).
-EmployerCreateAccount.c(4): web_set_sockets_option started  	[MsgId: MMSG-26355]
-EmployerCreateAccount.c(4): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
-EmployerCreateAccount.c(6): web_reg_save_param started  	[MsgId: MMSG-26355]
-EmployerCreateAccount.c(6): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
-EmployerCreateAccount.c(8): Notify: Transaction "INTEG_EMPLYR_0002_Click_on_Create_Account" started.
-EmployerCreateAccount.c(10): web_url("Create account") started  	[MsgId: MMSG-26355]
-EmployerCreateAccount.c(10): Notify: Parameter Substitution: parameter "HTTP" =  "http"
-EmployerCreateAccount.c(10): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerCreateAccount.c(10): Notify: Parameter Substitution: parameter "HTTP" =  "http"
-EmployerCreateAccount.c(10): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerCreateAccount.c(10): Notify: Saving Parameter "AUTH_TOKEN_1 = 11nzpAzmywU25W13ubQY012EgNK1E+dMUmRG2pk1/zqUOfu5WuhxPfxsqB8/qXF7QQMPMgkUYI4gqNpvLOuwWg==".
-EmployerCreateAccount.c(10): Resource "http://enroll-preprod.dchbx.org/assets/application-108e129c408366f93cd4fb3fbb67eb43.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(10): Resource "http://enroll-preprod.dchbx.org/assets/application-38d25a6b2b7bf04733b0410eed4e445b.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(10): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(10): Resource "http://enroll-preprod.dchbx.org/assets/logo-37b2d59fd0101e8781456ec388f3400a.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(10): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(10): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(10): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(10): web_url("Create account") was successful, 9686 body bytes, 443 header bytes  	[MsgId: MMSG-26386]
-EmployerCreateAccount.c(20): Notify: Transaction "INTEG_EMPLYR_0002_Click_on_Create_Account" ended with a "Pass" status (Duration: 0.1492 Wasted Time: 0.0065).
-EmployerCreateAccount.c(24): web_reg_save_param started  	[MsgId: MMSG-26355]
-EmployerCreateAccount.c(24): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
-EmployerCreateAccount.c(25): web_reg_find started  	[MsgId: MMSG-26355]
-EmployerCreateAccount.c(25): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
-EmployerCreateAccount.c(27): Notify: Transaction "INTEG_EMPLYR_0003_Create_Account_Submit" started.
-EmployerCreateAccount.c(29): web_submit_data("users") started  	[MsgId: MMSG-26355]
-EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "HTTP" =  "http"
-EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "HTTP" =  "http"
-EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "AUTH_TOKEN_1" =  "11nzpAzmywU25W13ubQY012EgNK1E+dMUmRG2pk1/zqUOfu5WuhxPfxsqB8/qXF7QQMPMgkUYI4gqNpvLOuwWg=="
-EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "HTTP" =  "http"
-EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "pEmpPrefix" =  "BIZ-FM50"
-EmployerCreateAccount.c(29): Notify: Parameter Substitution: parameter "FEIN" =  "989205904"
-EmployerCreateAccount.c(29): Redirecting "http://enroll-preprod.dchbx.org/users" (redirection depth is 0)  	[MsgId: MMSG-26694]
-EmployerCreateAccount.c(29): To location "http://enroll-preprod.dchbx.org/employers"  	[MsgId: MMSG-26693]
-EmployerCreateAccount.c(29): Notify: Saving Parameter "AUTH_TOKEN_2 = sM7jSYLfv7GAa6ZOAyomHo2srqYUJDeYWO5vLyr6yQTzrutU1NEFiUriYyaFN0+2kSshRqgjsFoqIvOanySGZA==".
-EmployerCreateAccount.c(29): Resource "http://enroll-preprod.dchbx.org/assets/application-108e129c408366f93cd4fb3fbb67eb43.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(29): Resource "http://enroll-preprod.dchbx.org/assets/application-38d25a6b2b7bf04733b0410eed4e445b.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(29): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(29): Resource "http://enroll-preprod.dchbx.org/assets/logo-37b2d59fd0101e8781456ec388f3400a.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(29): Found resource "http://enroll-preprod.dchbx.org/assets/delete-90b3a8bb1e07dc6d45e3bffd92929015.png" in HTML "http://enroll-preprod.dchbx.org/employers"  	[MsgId: MMSG-26659]
-EmployerCreateAccount.c(29): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(29): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(29): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateAccount.c(29): Registered web_reg_find successful for "Text=Your account has been created" (count=1)  	[MsgId: MMSG-26364]
-EmployerCreateAccount.c(29): Notify: Saving Parameter "CreateAccountCount = 1".
-EmployerCreateAccount.c(29): web_submit_data("users") was successful, 22104 body bytes, 1410 header bytes  	[MsgId: MMSG-26386]
-EmployerCreateAccount.c(49): Notify: Parameter Substitution: parameter "CreateAccountCount" =  "1"
-EmployerCreateAccount.c(57): Notify: Parameter Substitution: parameter "pEmpPrefix" =  "BIZ-FM50"
-EmployerCreateAccount.c(57): Notify: Parameter Substitution: parameter "FEIN" =  "989205904"
-Successfully created account for ::: BIZ-FM50989205904@test.com
-EmployerCreateAccount.c(58): Notify: Transaction "INTEG_EMPLYR_0003_Create_Account_Submit" ended with a "Pass" status (Duration: 0.5072 Wasted Time: 0.0119).
-ScriptFlow.c(35): Notify: Saving Parameter "LegalName = 5".
-ScriptFlow.c(37): Notify: Parameter Substitution: parameter "LegalName" =  "5"
-randomname.h(15): Notify: Saving Parameter "LegalName = sqbvo".
-EmployerCreateProfile.c(5): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
-EmployerCreateProfile.c(5): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
-EmployerCreateProfile.c(14): Notify: Transaction "INTEG_EMPLYR_0005_CreateBusinesss_Profile" started.
-EmployerCreateProfile.c(16): web_submit_data("employer_profiles") started  	[MsgId: MMSG-26355]
-EmployerCreateProfile.c(16): Notify: Parameter Substitution: parameter "HTTP" =  "http"
-EmployerCreateProfile.c(16): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerCreateProfile.c(16): Notify: Parameter Substitution: parameter "HTTP" =  "http"
-EmployerCreateProfile.c(16): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerCreateProfile.c(16): Notify: Parameter Substitution: parameter "AUTH_TOKEN_2" =  "sM7jSYLfv7GAa6ZOAyomHo2srqYUJDeYWO5vLyr6yQTzrutU1NEFiUriYyaFN0+2kSshRqgjsFoqIvOanySGZA=="
-EmployerCreateProfile.c(16): Notify: Parameter Substitution: parameter "FEIN" =  "989205904"
-EmployerCreateProfile.c(16): Notify: Parameter Substitution: parameter "FEIN" =  "989205904"
-EmployerCreateProfile.c(16): Notify: Parameter Substitution: parameter "LegalName" =  "sqbvo"
-EmployerCreateProfile.c(16): Notify: Parameter Substitution: parameter "FEIN" =  "989205904"
-EmployerCreateProfile.c(16): Notify: Parameter Substitution: parameter "FEIN" =  "989205904"
-EmployerCreateProfile.c(16): Notify: Parameter Substitution: parameter "FEIN" =  "989205904"
-EmployerCreateProfile.c(16): Redirecting "http://enroll-preprod.dchbx.org/employers/employer_profiles" (redirection depth is 0)  	[MsgId: MMSG-26694]
-EmployerCreateProfile.c(16): To location "http://enroll-preprod.dchbx.org/employers/employer_profiles/564384e169702d2088120000?tab=home"  	[MsgId: MMSG-26693]
-EmployerCreateProfile.c(16): Notify: Saving Parameter "EMPLOYER_ID = 564384e169702d2088120000".
-EmployerCreateProfile.c(16): Resource "http://enroll-preprod.dchbx.org/assets/application-108e129c408366f93cd4fb3fbb67eb43.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateProfile.c(16): Resource "http://enroll-preprod.dchbx.org/assets/application-38d25a6b2b7bf04733b0410eed4e445b.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateProfile.c(16): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateProfile.c(16): Resource "http://enroll-preprod.dchbx.org/assets/logo-37b2d59fd0101e8781456ec388f3400a.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateProfile.c(16): Found resource "http://enroll-preprod.dchbx.org/assets/icons/icon-business-owner-c8920868ad7a0186be46b4928575297b.png" in HTML "http://enroll-preprod.dchbx.org/employers/employer_profiles/564384e169702d2088120000?tab=home"  	[MsgId: MMSG-26659]
-EmployerCreateProfile.c(16): Found resource "http://enroll-preprod.dchbx.org/assets/images/didyouknow_288-83d29995047954869d3fa1a453abc385.png" in HTML "http://enroll-preprod.dchbx.org/employers/employer_profiles/564384e169702d2088120000?tab=home"  	[MsgId: MMSG-26659]
-EmployerCreateProfile.c(16): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateProfile.c(16): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateProfile.c(16): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerCreateProfile.c(16): web_submit_data("employer_profiles") was successful, 63933 body bytes, 1728 header bytes  	[MsgId: MMSG-26386]
-EmployerCreateProfile.c(47): Notify: Transaction "INTEG_EMPLYR_0005_CreateBusinesss_Profile" ended with a "Pass" status (Duration: 0.3823 Wasted Time: 0.0109).
-ScriptFlow.c(43): web_reg_save_param started  	[MsgId: MMSG-26355]
-ScriptFlow.c(43): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
-EmployerClickBenefitsTab.c(4): Notify: Transaction "INTEG_EMPLYR_0006_Click_Benefits_Tab" started.
-EmployerClickBenefitsTab.c(6): web_link("Benefits") started  	[MsgId: MMSG-26355]
-EmployerClickBenefitsTab.c(6): Linking to "http://enroll-preprod.dchbx.org/employers/employer_profiles/564384e169702d2088120000?tab=benefits", Target Frame=""  	[MsgId: MMSG-27994]
-EmployerClickBenefitsTab.c(6): Notify: Saving Parameter "AUTH_TOKEN_4 = U5YdJS/4b9NvTtEiE0C8Qwja1+usLjHMElEDI2DFd98Q9hU4efbV66XHFEqVXdXrFF1YCxAptg5gnZ+W1Rs4vw==".
-EmployerClickBenefitsTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/application-108e129c408366f93cd4fb3fbb67eb43.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerClickBenefitsTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/application-38d25a6b2b7bf04733b0410eed4e445b.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerClickBenefitsTab.c(6): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerClickBenefitsTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/logo-37b2d59fd0101e8781456ec388f3400a.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerClickBenefitsTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/icons/icon-business-owner-c8920868ad7a0186be46b4928575297b.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerClickBenefitsTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerClickBenefitsTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerClickBenefitsTab.c(6): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerClickBenefitsTab.c(6): web_link("Benefits") was successful, 11482 body bytes, 444 header bytes  	[MsgId: MMSG-26386]
-EmployerClickBenefitsTab.c(21): Notify: Transaction "INTEG_EMPLYR_0006_Click_Benefits_Tab" ended with a "Pass" status (Duration: 0.2587 Wasted Time: 0.0103).
-EmployerAddBenefits.c(3): web_reg_save_param started  	[MsgId: MMSG-26355]
-EmployerAddBenefits.c(3): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
-EmployerAddBenefits.c(7): Notify: Transaction "INTEG_EMPLYR_0007_Click_Add_Plan" started.
-EmployerAddBenefits.c(31): Notify: Transaction "INTEG_EMPLYR_0007_Click_Add_Plan" ended with a "Pass" status (Duration: 0.0001).
-EmployerAddBenefits.c(39): Notify: Next row for parameter TxName = 1 [table  = TxName].
-EmployerAddBenefits.c(39): Notify: Parameter Substitution: parameter "TxName" =  "UHC_ALL_Plans_HSA_3500"
-EmployerAddBenefits.c(39): Notify: Transaction "INTEG_EMPLYR_0008_1_Add_Plan_Year_UHC_ALL_Plans_HSA_3500" started.
-EmployerAddBenefits.c(41): web_submit_data("plan_years") started  	[MsgId: MMSG-26355]
-EmployerAddBenefits.c(41): Notify: Parameter Substitution: parameter "HTTP" =  "http"
-EmployerAddBenefits.c(41): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerAddBenefits.c(41): Notify: Parameter Substitution: parameter "EMPLOYER_ID" =  "564384e169702d2088120000"
-EmployerAddBenefits.c(41): Notify: Parameter Substitution: parameter "HTTP" =  "http"
-EmployerAddBenefits.c(41): Notify: Parameter Substitution: parameter "EnrollAppLandingPage" =  "enroll-preprod.dchbx.org"
-EmployerAddBenefits.c(41): Notify: Parameter Substitution: parameter "EMPLOYER_ID" =  "564384e169702d2088120000"
-EmployerAddBenefits.c(41): Notify: Parameter Substitution: parameter "AUTH_TOKEN_4" =  "U5YdJS/4b9NvTtEiE0C8Qwja1+usLjHMElEDI2DFd98Q9hU4efbV66XHFEqVXdXrFF1YCxAptg5gnZ+W1Rs4vw=="
-EmployerAddBenefits.c(41): Notify: Parameter Substitution: parameter "pEMPLOYEECOUNT" =  "7"
-EmployerAddBenefits.c(41): Notify: Next row for parameter PlanOption = 1 [table  = PlanOption].
-EmployerAddBenefits.c(41): Notify: Parameter Substitution: parameter "PlanOption" =  "single_carrier"
-EmployerAddBenefits.c(41): Notify: Next row for parameter Carrier_ID = 1 [table  = Carrier_ID].
-EmployerAddBenefits.c(41): Notify: Parameter Substitution: parameter "Carrier_ID" =  "53e67210eb899a460300000a"
-EmployerAddBenefits.c(41): Notify: Next row for parameter Metal_Level = 1 [table  = Metal_Level].
-EmployerAddBenefits.c(41): Notify: Parameter Substitution: parameter "Metal_Level" =  ""
-EmployerAddBenefits.c(41): Notify: Parameter Substitution: parameter "ReferencePlan" =  "5453a544791e4bcd330000e5"
-EmployerAddBenefits.c(41): Notify: Parameter Substitution: parameter "ReferencePlan" =  "5453a544791e4bcd330000e5"
-EmployerAddBenefits.c(41): Redirecting "http://enroll-preprod.dchbx.org/employers/employer_profiles/564384e169702d2088120000/plan_years" (redirection depth is 0)  	[MsgId: MMSG-26694]
-EmployerAddBenefits.c(41): To location "http://enroll-preprod.dchbx.org/employers/employer_profiles/564384e169702d2088120000?tab=benefits"  	[MsgId: MMSG-26693]
-EmployerAddBenefits.c(41): Notify: Saving Parameter "AUTH_TOKEN_3 = mCmqenH/R8nx29jabgyyoiQKWSEz1pSAsLtt464ordHbSaJnJ/H98TtSHbLoEdsKOI3WwY/RE0LCd/FWG/bisQ==".
-EmployerAddBenefits.c(41): Resource "http://enroll-preprod.dchbx.org/assets/application-108e129c408366f93cd4fb3fbb67eb43.css" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerAddBenefits.c(41): Resource "http://enroll-preprod.dchbx.org/assets/application-38d25a6b2b7bf04733b0410eed4e445b.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerAddBenefits.c(41): Resource "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerAddBenefits.c(41): Resource "http://enroll-preprod.dchbx.org/assets/logo-37b2d59fd0101e8781456ec388f3400a.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerAddBenefits.c(41): Resource "http://enroll-preprod.dchbx.org/assets/icons/icon-business-owner-c8920868ad7a0186be46b4928575297b.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerAddBenefits.c(41): Resource "http://enroll-preprod.dchbx.org/assets/icons/phone-b3ad531e1c8368729f17ce45eb54bbf1.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerAddBenefits.c(41): Resource "http://enroll-preprod.dchbx.org/assets/icons/mail-30cd69f38c85fd121d2468b88f4dec71.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerAddBenefits.c(41): Resource "http://enroll-preprod.dchbx.org/assets/icons/message-e6d0f4f5f538fe315e1cb2eb96c57bec.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-EmployerAddBenefits.c(41): web_submit_data("plan_years") was successful, 18625 body bytes, 1060 header bytes  	[MsgId: MMSG-26386]
-EmployerAddBenefits.c(94): Notify: Next row for parameter TxName = 1 [table  = TxName].
-EmployerAddBenefits.c(94): Notify: Parameter Substitution: parameter "TxName" =  "UHC_ALL_Plans_HSA_3500"
-EmployerAddBenefits.c(94): Notify: Transaction "INTEG_EMPLYR_0008_1_Add_Plan_Year_UHC_ALL_Plans_HSA_3500" ended with a "Pass" status (Duration: 1.6847 Wasted Time: 0.0179).
-Logout.c(3): Notify: Transaction "INTEG_EMPLYR_1000_Logout" started.
-Logout.c(18): web_url("logout") started  	[MsgId: MMSG-26355]
-Logout.c(18): Error -27794: Failed to connect to server "webpp.dchealthlink.com:443": [10060] Connection timed out  	[MsgId: MERR-27794]
-Logout.c(18): web_url("logout") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
-Logout.c(18): Notify: Transaction "INTEG_EMPLYR_1000_Logout" ended with a "Fail" status (Duration: 21.0740 Wasted Time: 0.0050).
-Logout.c(18): Notify: Transaction "INTEG_EMPLYR_1000_Logout" has 1 error message(s).
-Logout.c(18): Notify: The 1st error message associated with transaction "INTEG_EMPLYR_1000_Logout" is "Error -27794: Failed to connect to server "webpp.dchealthlink.com:443": [10060] Connection timed out"
+EnrollAppLandingPage.c(21): Error -26610: HTTP Status-Code=502 (Bad Gateway) for "http://enroll-preprod.dchbx.org/"  	[MsgId: MERR-26610]
+EnrollAppLandingPage.c(21): web_url("Enroll App Landing Page") highest severity level was "ERROR", 172 body bytes, 373 header bytes  	[MsgId: MMSG-26388]
+EnrollAppLandingPage.c(21): Notify: Transaction "INTEG_EMPLYR_0000_4_Landing_Page" ended with a "Fail" status (Duration: 0.2853 Wasted Time: 0.1290).
+EnrollAppLandingPage.c(21): Notify: Transaction "INTEG_EMPLYR_0000_4_Landing_Page" has 1 error message(s).
+EnrollAppLandingPage.c(21): Notify: The 1st error message associated with transaction "INTEG_EMPLYR_0000_4_Landing_Page" is "Error -26610: HTTP Status-Code=502 (Bad Gateway) for "http://enroll-preprod.dchbx.org/""
 Ending action ScriptFlow.
 Ending iteration 1.
 Ending Vuser...
